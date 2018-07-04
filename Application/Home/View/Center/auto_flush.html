@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<!-- saved from url=(0069)http://www.sujin1688.com/e/template/member/msgxh_dsst.php?userid=4616 -->
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>
+			定时刷新页面
+		</title>
+
+		<style type="text/css">
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			
+			ul {
+				margin: 20px 10px;
+				list-style: none;
+			}
+			
+			ul li {
+				padding: 15px 10px;
+				white-space: nowrap;
+				 overflow: hidden;
+				 text-overflow: ellipsis;
+			}
+			
+			ul li:first-child {
+				border-radius: 5px 5px 0 0;
+			}
+			
+			ul li:last-child {
+				border-radius: 0 0 5px 5px;
+			}
+			
+			ul li:nth-child(odd) {
+				background: #f8f8f8;
+			}
+			
+			ul li:nth-child(even) {
+				background: #f4f4f4;
+			}
+			
+			#list_data_til {
+				margin: 20px 10px;
+				padding: 10px;
+				line-height: 30px;
+				text-align: center;
+				color: orangered;
+				background: #f8f8f8;
+				border-radius: 5px;
+				overflow: hidden;
+			}
+			
+
+		</style>
+	</head>
+
+	<body>
+		<header>
+
+			<div id="list_data_til">
+				正在刷新中，请耐心等待！<br> 50分钟刷新一次！
+				<br>
+
+			</div >
+
+			<ul id="list_data">
+				<li></li>
+
+				
+			</ul>	
+
+<script type="text/javascript" src="/skin/sjzx/js/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript">
+var url = '/weixin/index.php/Home/Baojialistuser/baojia_list_save_ds_st/userid/'+<?php echo $_GET['userid'] ?> ;
+window.setInterval(datasx, 50000*60); 
+
+function datasx(){
+	 $.get(url,function(data){ 
+      $("#list_data").append('<li>'+data+'</li>'); 
+    }).error(function(){ 
+      $("#list_data").append('<li>数据异常</br></li>') 
+    })
+
+
+}
+
+
+</script>
+
+
+
+</header>
+
+</body>
+
+</html> 

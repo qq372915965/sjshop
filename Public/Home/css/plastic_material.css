@@ -1,0 +1,97 @@
+.neir_xuanztup{margin-top: 0px;}
+.nav_choose_dz{ 
+    width: 55%;
+    height: 36px;
+    float: right;
+    margin-top: 0px;
+    margin-right: 26%;
+    position: relative;
+}
+.nav_choose_dz .select{margin-left: 20px;}
+.input_jiaoyigs input{display: block; float: left;}
+.input_jiaoyigs span{display: block; float: left;}
+#cktext,#cktext2,#cktext3,#cktext4,#cktext5,#cktext6,#cktext7{width: 22%; height: 36px; display: block;}
+.input_jiaoyigs .icon{ width: 25px; height: 25px; background-image: url(../../../../skin/sjzx/image/icon.jpg); background-position: -1px -23.5px; margin-top: 5px;}
+.input_jiaoyigs .icon2{ width: 25px; height: 25px; background-image: url(../../../../skin/sjzx/image/icon.jpg); background-position: -33px -23.5px; margin-top: 5px; float: left;}
+.input_jiaoyigs .font{ color: red; font-size: 13px; float: left; line-height: 36px; margin-left: 2px;}
+.touch{background-color: #ddd;}
+.img-list{margin: 10px 5px;}
+.img-list li{position: relative;display: inline-block;width: 100px;height: 100px;margin: 5px 5px 20px 5px;border: 1px solid rgb(100,149,198);background: #fff no-repeat center;background-size: cover;}
+.progress{position: absolute;width: 100%;height: 20px;line-height: 20px;bottom: 0;left: 0;background-color:rgba(100,149,198,.5);}
+.progress span{display: block;width: 0;height: 100%;background-color:rgb(100,149,198);text-align: center;color: #FFF;font-size: 13px;}
+.size{position: absolute;width: 100%;height: 15px;line-height: 15px;bottom: -18px;text-align: center;font-size: 13px;color: #666;}
+.tips{display: block;text-align:center;font-size: 13px;margin: 10px;color: #999;}
+.pic-list{width: 100%; margin: 10px;line-height: 18px;font-size: 13px;}
+.pic-list a{display: block;margin: 10px 0;}
+.pic-list a img{vertical-align: middle;max-width: 30px;max-height: 30px;margin: -4px 0 0 10px;}
+.scimg{margin-left: 20px;}
+.gszz{float: right; margin-right: 7%;}
+.tpindex{width: 85%; height: 180px;  margin-top: 12px; float: left; }
+.shangchuangtupian{width: 24%; float: left; }
+.shangchuangtupian img{margin-left: 20px; }
+.shangchuangtupian .deefeel{width: 100%;height: 25px;margin-top: 10px;}
+/* 下拉框样式 */
+.sl_style{width: auto; height: 28px; float: left;margin-top: 3px;}
+.sl_style option{color: #444;}
+#cktext2 a:hover{color: red;}
+.fabu_sj {
+    width: 100px;
+    height: 36px;
+    float: left;
+    margin-left: 225px;
+    margin-top: 30px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    background-color: #ff6600;
+    border-radius: 6px;
+    border: 0px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+}
+.autocomplete-big {
+    float:left;
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+}
+.autocomplete {
+    width: 100%;
+    height:28px;
+    padding-left:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.autocomplete-content {
+    position: absolute;
+    z-index: 9;
+    top:100%;
+    display: none;
+    width: 100%;
+    max-height: 200px;
+    background: #fff;
+    overflow: auto;
+    overflow-x: hidden;
+    border: 1px solid #d8dcdf;
+    box-shadow: 2px 2px 5px #ddd;
+}
+.autocomplete-content li {
+    padding: 0 5px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+}
+.autocomplete-content li:hover {
+    font-weight: 400;
+    color: rgb(207, 0, 0);
+    border-top: 1px solid #d8dcdf;
+    border-bottom: 1px solid #d8dcdf;
+    cursor: pointer;
+}
+.autocomplete-content li.active {
+    font-weight: 600;
+    color: rgb(207, 0, 0);
+    border-top: 1px solid #d8dcdf;
+    border-bottom: 1px solid #d8dcdf;
+    cursor: pointer;
+}
+.autocomplete-content li+li {}

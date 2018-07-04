@@ -1,0 +1,320 @@
+<include file="Default:header" />
+<title>塑料助剂</title>
+<link href="/e/space/template/commonty/css/ceter.min.css" rel="stylesheet" media="screen">
+<link href="__PUBLIC__/Home/css/plastic_additives.css" rel="stylesheet" media="screen">
+
+<div class="neir_index">
+ <div class="left_wel">
+   <div class="feel_weel">
+    <div class="feel_jing">
+      <ul>
+        <li id="a">
+          <a href="plastic_material">塑胶原料</a>
+        </li>
+        <li id="b">
+          <a href="modified_plastic">改性塑胶</a>
+        </li>
+        <li id="c">
+          <a href="environmental_regeneration">环保再生</a>
+        </li>
+        <li id="d" style="background-color:#00A0E8;">
+          <a href="plastic_additives" style="color:#ffffff;">塑料助剂</a>
+        </li>
+        <li id="e">
+          <a href="counter_price">柜货报价</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="input_xianhuo">
+      <div  class="input_xianhuo_kuang" style="height:592px;">  
+        <div class="input_jiaoyigs">  
+         <b>*</b> <span>交易公司：</span>
+         <input type="text" style="color:#666666;border:0" value="{$user_info.companyname}" class="nav_choose2" readonly/>
+         <span id="cktext"></span>  
+       </div>  
+
+       <div class="input_jiaoyigs">  
+         <b>*</b><span>品类：</span>
+         <span style="width:200px;height30px;line-height:30px; margin-top:5px;"><a href='#' onclick="window.open('/e/member/IndexAdd/add_std/index3.php','newindex','height=500, width=600,top=100,left=200,toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no');">如没有所需类别，请申请>></a></span>
+       </div>  
+
+       <div class="input_jiaoyigs">  
+         <b>*</b><span>生产商：</span>
+         <input type="radio" name="vendor2" class="cert" checked="checked" value="0" onclick="change_1()" id="vendor_1" /><div class="cert2">自产</div>
+         <input type="radio" name="vendor2" class="cert" value="1" style="margin-left:12px;" onclick="change_2()" id="vendor_2"/><div class="cert2">其他生产企业</div>
+         <div id="con_1" style="display:none;">
+          <div id="vendor"></div>
+        </div>
+      </div>   
+      <!-- 自产跟其他生产商 -->
+      <div class="input_jiaoyigs" id="seach_u10">  
+        <b>*</b><span> 牌号：</span>  
+        <select class='sl_style' name='cInvStd' id='cInvStd' style='margin-top:3px;'>
+          <option value="0">请选择</option>
+        </select>
+        <span><a href='#' onclick="window.open('/e/member/IndexAdd/add_std/index2.php','newindex','height=500, width=600,top=100,left=200,toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no');">添加新牌号</a></span> 
+      </div>
+
+      <div class="input_jiaoyigs" style="height:200px;">
+       <b>&nbsp;</b><span>样品图片：</span>
+       <div style="width:60%;float:left; height:200px;">
+         <div style="width:180px;height:240px;float:left;">
+           <span style="float:none;margin-left:0px;">图片1：</span>
+           <div style="width:100%;height:30px;display:none;"><input type="text" name="textfield" value="" style="height:24px; width:156px;margin-left:10px;" id="textfield" readonly></div>
+           <div style="width:100%;height:30px;margin-top:5px;margin-bottom:5px;" id="up_btn">
+             <input class="sl_style" type="file" name="file" id="file" style="width:110px;" onchange="document.getElementById('textfield').value=this.value">
+             <input class="file-btn" type="button" name="button" value="上传" style="width:40px;height:28px;background:#ff6600;margin-left:10px;border:none;color:#fff;float:left;" onclick="UpladFile()">
+           </div>
+           <div id="preview" style="width:160px;height:100px;">
+             <img src="/skin/pouer/nopic.jpg" width="160" height="100">
+           </div>
+           <div style="width:100%;height:30px;position: relative;float:left;">
+             <div style="float:left;width:50px;text-align:center;"><a href="#" onclick="open_1();">查看</a></div>
+             <div style="float:left;width:50px;text-align:center;"><a href="#" onclick="del_1();">删除</a></div>
+           </div>
+         </div>
+
+         <div style="width:180px;height:240px;float:left;">
+           <span style="float:none;margin-left:0px;">图片2：</span>
+           <div style="width:100%;height:30px;display:none;"><input type="text" name="textfield" value="" style="height:24px; width:156px;margin-left:10px;" id="textfield2" readonly></div>
+           <div style="width:100%;height:30px;margin-top:5px;margin-bottom:5px;" id="up_btn">
+             <input class="sl_style" type="file" name="file2" id="file2" style="width:110px;" onchange="document.getElementById('textfield2').value=this.value">
+             <input class="file-btn" type="button" name="button" value="上传" style="width:40px;height:28px;background:#ff6600;margin-left:10px;border:none;color:#fff;float:left;" onclick="UpladFile2()">
+           </div>
+           <div id="preview2" style="width:160px;height:100px;">
+             <img src="/skin/pouer/nopic.jpg" width="160" height="100">
+           </div>
+           <div style="width:100%;height:30px;position: relative;float:left;">
+             <div style="float:left;width:50px;text-align:center;"><a href="#" onclick="open_2();">查看</a></div>
+             <div style="float:left;width:50px;text-align:center;"><a href="#" onclick="del_2();">删除</a></div>
+           </div>
+         </div>
+
+         <div style="height:240px;float:left;">
+           <span style="float:none;margin-left:0px;">图片3：</span>
+           <div style="width:100%;height:30px;display:none;"><input type="text" name="textfield" value="" style="height:24px; width:156px;margin-left:10px;" id="textfield3" readonly></div>
+           <div style="width:100%;height:30px;margin-top:5px;margin-bottom:5px;" id="up_btn">
+             <input class="sl_style" type="file" name="file3" id="file3" style="width:110px;" onchange="document.getElementById('textfield3').value=this.value">
+             <input class="file-btn" type="button" name="button" value="上传" style="width:40px;height:28px;background:#ff6600;margin-left:10px;border:none;color:#fff;float:left;" onclick="UpladFile3()">
+           </div>
+           <div id="preview3" style="width:160px;height:100px;">
+             <img src="/skin/pouer/nopic.jpg" width="160" height="100">
+           </div>
+           <div style="width:100%;height:30px;position: relative;float:left;">
+             <div style="float:left;width:50px;text-align:center;"><a href="#" onclick="open_3();">查看</a></div>
+             <div style="float:left;width:50px;text-align:center;"><a href="#" onclick="del_3();">删除</a></div>
+           </div>
+         </div>
+
+       </div>
+     </div>
+
+     <div class="input_jiaoyigs">  
+      <b>*</b><span> 技术指标：</span>
+      <span><a href="#" onclick="open_wx()">技术指标等内容</a></span>
+    </div>
+
+    <div class="input_jiaoyigs">
+      <b>*</b><span>允许试用数量：</span>
+      <input type="text" name="trial"  placeholder="请输入数量"  class="nav_choose fl" value="0" maxlength="5" />
+      <span style="width:260px;">(单位：公斤，不允许试用，请填0)</span>
+      <span id="cktext6"></span> 
+    </div>
+
+    <div  class="input_jiaoyigs">   
+      <b>*</b><span> 交货地：</span>
+      <select class="select" style="height:28px;">
+        <option>中国大陆</option>
+      </select>&nbsp;&nbsp;
+      <select class="select" name="province" id="s1" style="height:28px;">
+        <option></option>
+      </select>
+      <select class="select" name="city" id="s2" style="height:28px;">
+        <option></option>
+      </select> 
+    </div>  
+
+    <div  class="input_jiaoyigs">   
+      <b>*</b><span>商业票据：</span>
+      <input type="radio" name="piaoju" class="cert" checked="checked" value="0" /><div class="cert2">17%增值税发票</div>
+      <input type="radio" name="piaoju" class="cert" value="1" style="margin-left:12px;" /><div class="cert2">其他商业票据(供应方确定)</div>
+    </div>
+
+    <div class="input_jiaoyigs">
+      <b>*</b><span>单价：</span>
+      <input type="text" name="fPrice"  placeholder="请输入单价"  class="nav_choose fl" maxlength="15" id="grade_input" onblur="ckfPrice()" />
+      <span style="width:60px;">(元/公斤)</span>
+      <span id="cktext5"></span> 
+    </div>
+
+    <div  class="input_jiaoyigs">   
+      <b>*</b><span> 有效期：</span>
+      <input name="yxq" onclick="laydate()" id="class_input" onblur="ckdValidDate()"  class="nav_choose" readonly="readonly"> 
+    </div>
+  </div>  
+  <input type="button" value="发  布" class="fabu_sj" onclick="zj_click()"/>
+</div>
+</div>
+</div>
+</div>
+
+<script type="text/javascript" src="/skin/sjzx/js/posted.js"></script>
+<script type="text/javascript" src="/skin/sjzx/js/ajaxupload_zj.js"></script>
+<script>
+  function change_2(){
+    document.getElementById("con_1").style.display = 'block' ;
+    var xmlhttp;
+    if (window.XMLHttpRequest){
+      xmlhttp=new XMLHttpRequest();
+    }else{
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function(){
+      if (xmlhttp.readyState==4 && xmlhttp.status==200){
+        document.getElementById("vendor").innerHTML=xmlhttp.responseText;
+      }
+    }
+    var bb=encodeURI(form1.cInvName.value);
+    xmlhttp.open("get","result_zj.php?cInvName="+bb,true);
+    xmlhttp.send();
+  }
+
+  function change_1(){
+    document.getElementById("con_1").style.display = 'none' ;  
+    var xmlhttp;
+    if (window.XMLHttpRequest){
+      xmlhttp=new XMLHttpRequest();
+    }else{
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function(){
+      if (xmlhttp.readyState==4 && xmlhttp.status==200){
+        document.getElementById("seach_u10").innerHTML=xmlhttp.responseText;
+      }
+    }
+    var bb=encodeURI(form1.cInvName.value);
+    xmlhttp.open("get","result.php?cInvName="+bb,true);
+    xmlhttp.send();
+  }
+
+  function on_change(){ 
+    var xmlhttp;
+    if (window.XMLHttpRequest){
+      xmlhttp=new XMLHttpRequest();
+    }else{
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function(){
+      if (xmlhttp.readyState==4 && xmlhttp.status==200){
+        document.getElementById("seach_u10").innerHTML=xmlhttp.responseText;
+      }
+    }
+    var bb=encodeURI(form1.cInvName.value);
+    xmlhttp.open("get","result.php?cInvName="+bb,true);
+    xmlhttp.send();
+  }
+
+  function vendor_change(){ 
+    var xmlhttp;
+    if (window.XMLHttpRequest){
+      xmlhttp=new XMLHttpRequest();
+    }else{
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function(){
+      if (xmlhttp.readyState==4 && xmlhttp.status==200){
+        document.getElementById("seach_u10").innerHTML=xmlhttp.responseText;
+      }
+    }
+    var aa=encodeURI(form1.cInvName.value);
+    var bb=encodeURI(form1.vendor.value);
+    xmlhttp.open("get","result2.php?cInvName="+aa+"&companyname="+bb,true);
+    xmlhttp.send();
+  }
+
+  function open_wx(){
+    var aa=form1.cInvName.value;
+    var bb=form1.vendor2.value;
+    var cc=form1.vendor.value;
+    var dd=form1.cInvStd.value;
+    if(aa==0){
+      alert("请选择品名");
+      return;
+    }
+    if(bb==1){
+      if(cc==0){
+        alert("请选择生产商");
+        return;
+      }
+    }
+    if(dd==0){
+      alert("请选择牌号");
+      return;
+    }
+    if(bb==0){
+      window.open("/e/member/IndexAdd/add_std/index2.php?cInvName="+aa+"&vendor="+bb+"&cInvStd="+dd,'newindex','height=500, width=600,top=100,left=200,toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no');
+    }else{
+      window.open("/e/member/IndexAdd/add_std/index2.php?cInvName="+aa+"&vendor="+cc+"&cInvStd="+dd,'newindex','height=500, width=600,top=100,left=200,toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no');
+    }
+  }
+
+  //检验交易公司
+  function ckcompany(){
+    var v1=document.getElementById("studentNum_input").value;
+    if (v1==""||v1==null) {
+      document.getElementById("cktext").innerHTML="<div class='icon2'></div><div class='font'>交易公司不能为空</div>";
+      return false;
+    }else{
+      document.getElementById("cktext").innerHTML="<div class='icon'></div>";
+      return true;
+    }
+  }
+
+  //检验品名
+  function ckcivname(){
+    var v2=document.getElementById("name_input").value;
+    if (v2==""||v2==null) {
+      document.getElementById("cktext2").innerHTML="<div class='icon2'></div><div class='font'>品名不能为空</div>";
+    }else{
+      document.getElementById("cktext2").innerHTML="<div class='icon'></div>";
+    }
+  }
+
+  //检验厂商
+  function ckvendor(){
+    var v7=document.getElementById("vendor_rigester_input").value;
+    if (v7==""||v7==null) {
+      document.getElementById("cktext8").innerHTML="<div class='icon2'></div><div class='font'>厂商不能为空</div>";
+    }else{
+      document.getElementById("cktext8").innerHTML="<div class='icon'></div>";
+    }
+  }
+
+  //检验牌号
+  function ckcInvStd(){
+    var v4=document.getElementById("confirmPasswd_input").value;
+    if (v4==""||v4==null) {
+      document.getElementById("cktext4").innerHTML="<div class='icon2'></div><div class='font'>型号不能为空</div>";
+    }else{
+      document.getElementById("cktext4").innerHTML="<div class='icon'></div>";
+    }
+  }
+
+  //检验价格
+  function ckfPrice(){
+    var v5=document.getElementById("grade_input").value;
+    if (v5==""||v5==null) {
+      document.getElementById("cktext5").innerHTML="<div class='icon2'></div><div class='font'>价格不能为空</div>";
+    }else if(v5==0){
+      document.getElementById("cktext5").innerHTML="<div class='icon2'></div><div class='font'>价格不能0</div>";
+    }else if (v5!=0) {
+      var pass=/^[1-9][0-9]{0,}(\.[0-9]{0,2})*$|[0](\.[0-9]{0,2})$/;
+      if (pass.exec(v5)) {
+        document.getElementById("cktext5").innerHTML="<div class='icon'></div>";
+      }else{
+        document.getElementById("cktext5").innerHTML="<div class='icon2'></div><div class='font'>价格填写有误</div>";
+      }
+    }
+  }
+</script>

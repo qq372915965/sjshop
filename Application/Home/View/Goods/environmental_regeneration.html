@@ -1,0 +1,328 @@
+<include file="Default:header" />
+<title>环保再生</title>
+<link href="/e/space/template/commonty/css/ceter.min.css" rel="stylesheet" media="screen">
+<link href="__PUBLIC__/Home/css/environmental_regeneration.css" rel="stylesheet" media="screen">
+<div class="neir_index">
+  <div class="left_wel">
+    <div class="feel_weel">
+      <div class="feel_jing">
+        <ul>
+          <li id="a">
+            <a href="plastic_material">塑胶原料</a>
+          </li>
+          <li id="b">
+            <a href="modified_plastic">改性塑胶</a>
+          </li>
+          <li id="c" style="background-color:#00A0E8;">
+            <a href="environmental_regeneration" style="color:#ffffff;">环保再生</a>
+          </li>
+          <li id="d">
+            <a href="plastic_additives">塑料助剂</a>
+          </li>
+          <li id="e">
+            <a href="counter_price">柜货报价</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="input_xianhuo" id="gsgs">
+       <div class="input_xianhuo_kuang">
+
+         <div class="input_jiaoyigs">
+          <b>*</b><span>交易公司：</span>
+          <input type="text" style="border:0px; color:#666666;" class="nav_choose2" value="{$user_info.companyname}" readonly id='companyname' />
+          <span id="cktext"></span> 
+        </div>
+
+        <div class="input_jiaoyigs">  
+         <b>*</b><span>品名：</span>
+
+         <span id="cktext2"></span> 
+       </div>  
+
+       <div class="input_jiaoyigs">  
+         <b>*</b><span>生产商：</span>
+         <input type="radio" name="vendor2" class="cert" checked="checked" value="0" onclick="change_1()" id="vendor_1" /><div class="cert2">自产</div>
+         <input type="radio" name="vendor2" class="cert" value="1" style="margin-left:12px;" onclick="change_2()" id="vendor_2"/><div class="cert2">其他生产企业</div>
+         <div id="con_1" style="display:none;">
+          <select name="vendor" style="margin-left:20px;" class="sl_style" id="vendor">
+            <option value="0">请选择生产商</option> 
+          </select>
+        </div>
+      </div>  
+      <!-- 自产跟其他生产商 -->
+      <div class="input_jiaoyigs" id="seach_u10">  
+        <b>*</b><span> 牌号：</span>  
+        <select class='sl_style' name='cInvStd' id='cInvStd' style='margin-top:3px;'>
+          <option value="0">请选择</option>
+        </select>
+        <span><a href='#' onclick="window.open('/e/member/IndexAdd/add_std/','newindex','height=500, width=600,top=100,left=200,toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no');">申请添加新牌号</a></span> 
+      </div>  
+
+      <div class="input_jiaoyigs">  
+        <b>*</b><span> 等级：</span>  
+        <input type="text" name="level" value="注塑级" class="nav_choose fl" maxlength="6">
+        <span id="cktext7"></span>   
+      </div>
+      
+      <div class="input_jiaoyigs">  
+        <b>*</b><span> 物性关键指标：</span>
+        <span><a href="javascript:;" onclick="open_wx()">物性指标</a></span>
+      </div>
+
+      <div class="input_jiaoyigs" style="height:200px;">
+       <b>&nbsp;</b><span>样品图片：</span>
+       <div style="width:60%;float:left; height:200px;">
+         <div style="width:180px;height:240px;float:left;">
+           <span style="float:none;margin-left: 0px;">图片1：</span>
+           <div style="width:100%;height:30px;display:none;"><input type="text" name="textfield" value="" style="height:24px; width:156px;margin-left:10px;" id="textfield" readonly></div>
+           <div style="width:100%;height:30px;margin-top:5px;margin-bottom:5px;" id="up_btn">
+             <input class="sl_style" type="file" name="file" id="file" style="width:110px;" onchange="document.getElementById('textfield').value=this.value">
+             <input class="file-btn" type="button" name="button" value="上传" style="width:40px;height:28px;background:#ff6600;margin-left:10px;border:none;color:#fff;float:left;" onclick="UpladFile()">
+           </div>
+           <div id="preview" style="width:160px;height:100px;">
+             <img src="/skin/pouer/nopic.jpg" width="160" height="100">
+           </div>
+           <div style="width:100%;height:30px;position: relative;float:left;">
+             <div style="float:left;width:50px;text-align:center;"><a href="#" onclick="open_1();">查看</a></div>
+             <div style="float:left;width:50px;text-align:center;"><a href="#" onclick="del_1();">删除</a></div>
+           </div>
+         </div>
+
+         <div style="width:180px;height:240px;float:left;">
+           <span style="float:none;margin-left: 0px;">图片2：</span>
+           <div style="width:100%;height:30px;display:none;"><input type="text" name="textfield" value="" style="height:24px; width:156px;margin-left:10px;" id="textfield2" readonly></div>
+           <div style="width:100%;height:30px;margin-top:5px;margin-bottom:5px;" id="up_btn">
+             <input class="sl_style" type="file" name="file2" id="file2" style="width:110px;" onchange="document.getElementById('textfield2').value=this.value">
+             <input class="file-btn" type="button" name="button" value="上传" style="width:40px;height:28px;background:#ff6600;margin-left:10px;border:none;color:#fff;float:left;" onclick="UpladFile2()">
+           </div>
+           <div id="preview2" style="width:160px;height:100px;">
+             <img src="/skin/pouer/nopic.jpg" width="160" height="100">
+           </div>
+           <div style="width:100%;height:30px;position: relative;float:left;">
+             <div style="float:left;width:50px;text-align:center;"><a href="#" onclick="open_2();">查看</a></div>
+             <div style="float:left;width:50px;text-align:center;"><a href="#" onclick="del_2();">删除</a></div>
+           </div>
+         </div>
+
+
+         <div style="height:240px;float:left;">
+           <span style="float:none;margin-left: 0px;">图片3：</span>
+           <div style="width:100%;height:30px;display:none;"><input type="text" name="textfield" value="" style="height:24px; width:156px;margin-left:10px;" id="textfield3" readonly></div>
+           <div style="width:100%;height:30px;margin-top:5px;margin-bottom:5px;" id="up_btn">
+             <input class="sl_style" type="file" name="file3" id="file3" style="width:110px;" onchange="document.getElementById('textfield3').value=this.value">
+             <input class="file-btn" type="button" name="button" value="上传" style="width:40px;height:28px;background:#ff6600;margin-left:10px;border:none;color:#fff;float:left;" onclick="UpladFile3()">
+           </div>
+           <div id="preview3" style="width:160px;height:100px;">
+             <img src="/skin/pouer/nopic.jpg" width="160" height="100">
+           </div>
+           <div style="width:100%;height:30px;position: relative;float:left;">
+             <div style="float:left;width:50px;text-align:center;"><a href="#" onclick="open_3();">查看</a></div>
+             <div style="float:left;width:50px;text-align:center;"><a href="#" onclick="del_3();">删除</a></div>
+           </div>
+         </div>
+
+       </div>
+     </div>
+
+     <div class="input_jiaoyigs">
+      <b>*</b><span>允许试用数量：</span>
+      <input type="text" name="trial"  placeholder="请输入数量"  class="nav_choose fl" value="5" maxlength="3" style="margin-top:3px;" />
+      <span style="width:260px;">(单位：公斤，不允许试用，请填0)</span>
+      <span id="cktext6"></span> 
+    </div>
+
+    <div  class="input_jiaoyigs">   
+      <b>*</b><span> 贸易方式：</span>
+      <select name="trade" class="nav_ps">
+        <option>国内贸易</option>
+        <option>保税贸易</option>
+        <option>国际贸易</option>
+      </select>
+    </div>
+
+    <div  class="input_jiaoyigs">   
+      <b>*</b><span> 交货地：</span>
+      中国&nbsp;&nbsp;
+      <select class="select" name="province" id="s1" style="height:28px;">
+        <option></option>
+      </select>
+      <select class="select" name="city" id="s2" style="height:28px;">
+        <option></option>
+      </select> 
+    </div>
+
+    <div class="input_jiaoyigs">
+     <b>*</b><span>参考报价：</span>
+     <input type="text" name="fPrice" id="fPrice"  placeholder="请输入价格" onblur="ckfPrice()" class="nav_choose fl" maxlength="15" />
+     <span style="width:50px;">元/吨</span> 
+     <span id="cktext5"></span> 
+   </div>
+
+ </div>
+
+ <input type="button" value="发  布" class="fabu_sj" onclick="zs_click()" />  
+
+</div>
+
+</div>
+</div>
+</div>
+           
+<script type="text/javascript" src="/skin/sjzx/js/posted.js"></script>
+<script type="text/javascript" src="/skin/sjzx/js/ajaxupload_zs.js"></script>
+<script type="text/javascript">
+  function change_2(){
+    document.getElementById("con_1").style.display = 'block' ; 
+    var xmlhttp;
+    if (window.XMLHttpRequest){
+      xmlhttp=new XMLHttpRequest();
+    }else{
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function(){
+      if (xmlhttp.readyState==4 && xmlhttp.status==200){
+        document.getElementById("seach_u10").innerHTML=xmlhttp.responseText;
+      }
+    }
+    var bb=sendmsg.cInvName.value;
+    xmlhttp.open("get","result2.php?cInvName="+bb,true);
+    xmlhttp.send();
+  }
+        
+  function change_3(){
+    var xmlhttp;
+    if (window.XMLHttpRequest){
+      xmlhttp=new XMLHttpRequest();
+    }else{
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function(){
+      if (xmlhttp.readyState==4 && xmlhttp.status==200){
+        document.getElementById("seach_u10").innerHTML=xmlhttp.responseText;
+      }
+    }
+    var bb=sendmsg.cInvName.value;
+    var cc=encodeURI(sendmsg.vendor.value);
+    xmlhttp.open("get","result2.php?cInvName="+bb+"&vendor="+cc,true);
+    xmlhttp.send();
+  }
+
+  function change_1(){
+    document.getElementById("con_1").style.display = 'none' ;  
+    var xmlhttp;
+    if (window.XMLHttpRequest){
+      xmlhttp=new XMLHttpRequest();
+    }else{
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function(){
+      if (xmlhttp.readyState==4 && xmlhttp.status==200){
+        document.getElementById("seach_u10").innerHTML=xmlhttp.responseText;
+      }
+    }
+    var bb=sendmsg.cInvName.value;
+    xmlhttp.open("get","result.php?cInvName="+bb,true);
+    xmlhttp.send();
+  }
+
+  function on_change(){ 
+    var xmlhttp;
+    if (window.XMLHttpRequest){
+      xmlhttp=new XMLHttpRequest();
+    }else{
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function(){
+      if (xmlhttp.readyState==4 && xmlhttp.status==200){
+        document.getElementById("con_1").innerHTML=xmlhttp.responseText;
+      }
+    }
+    var bb=sendmsg.cInvName.value;
+    xmlhttp.open("get","result3.php?cInvName="+bb,true);
+    xmlhttp.send();
+  }
+
+  function open_wx(){
+    var aa=sendmsg.cInvName.value;
+    var bb=sendmsg.vendor2.value;
+    var cc=sendmsg.vendor.value;
+    var dd=sendmsg.cInvStd.value;
+    if(aa==0){
+      alert("请选择品名");
+      return;
+    }
+    if(bb==1){
+      if(cc==0){
+        alert("请选择生产商");
+        return;
+      }
+    }
+    if(dd==0){
+      alert("请选择牌号");
+      return;
+    }
+    if(bb==0){
+      window.open("/e/member/IndexAdd/up_wuxing/?cInvName="+aa+"&vendor="+bb+"&cInvStd="+dd,'newindex','height=500, width=600,top=100,left=200,toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no');
+    }else{
+      window.open("/e/member/IndexAdd/up_wuxing/?cInvName="+aa+"&vendor="+cc+"&cInvStd="+dd,'newindex','height=500, width=600,top=100,left=200,toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no');
+    }
+  }
+
+  //检验交易公司
+  function ckcompany(){
+    var ckcp=document.getElementById("cPartnerCode").value;
+    if (ckcp==""||ckcp==null) {
+      document.getElementById("cktext").innerHTML="<div class='icon2'></div><div class='font'>交易公司不能为空</div>";
+    }else{
+      document.getElementById("cktext").innerHTML="<div class='icon'></div>";
+    }
+  }
+  
+  //检验品名
+  function ckcivname(){
+    var ckcp=document.getElementById("cInvName").value;
+    if (ckcp==""||ckcp==null) {
+      document.getElementById("cktext2").innerHTML="<div class='icon2'></div><div class='font'>品名不能为空</div>";
+    }else{
+      document.getElementById("cktext2").innerHTML="<div class='icon'></div>";
+    }
+  }
+
+  //检验厂商
+  function ckvendor(){
+    var v7=document.getElementById("vendor_rigester_input").value;
+    if (v7==""||v7==null) {
+      document.getElementById("cktext8").innerHTML="<div class='icon2'></div><div class='font'>厂商不能为空</div>";
+    }else{
+      document.getElementById("cktext8").innerHTML="<div class='icon'></div>";
+    }
+  }
+
+  //检验牌号
+  function ckcInvStd(){
+    var ckcp=document.getElementById("cInvStd").value;
+    if (ckcp==""||ckcp==null) {
+      document.getElementById("cktext4").innerHTML="<div class='icon2'></div><div class='font'>牌号不能为空</div>";
+    }else{
+      document.getElementById("cktext4").innerHTML="<div class='icon'></div>";
+    }
+  }
+
+  //检验参考报价
+  function ckfPrice(){
+    var ckcp=document.getElementById("fPrice").value;
+    if (ckcp==""||ckcp==null) {
+      document.getElementById("cktext5").innerHTML="<div class='icon2'></div><div class='font'>价格不能为空</div>";
+    }else if(ckcp==0){
+      document.getElementById("cktext5").innerHTML="<div class='icon2'></div><div class='font'>价格不能0</div>";
+    }else if (ckcp!=0) {
+      var pass=/^[1-9][0-9]{0,}(\.[0-9]{0,2})*$|[0](\.[0-9]{0,2})$/;
+      if (pass.exec(ckcp)) {
+        document.getElementById("cktext5").innerHTML="<div class='icon'></div>";
+      }else{
+        document.getElementById("cktext5").innerHTML="<div class='icon2'></div><div class='font'>价格只能为数字</div>";
+      }
+    }
+  }
+</script> 

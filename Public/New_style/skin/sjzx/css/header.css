@@ -1,0 +1,119 @@
+/* 头部样式 */
+*{margin: 0px; padding: 0px;}
+a{text-decoration: none; }
+img{margin: 0px; padding: 0px;}
+ul li,ol li{list-style: none;}
+body{font-size: 14px; font-family: "微软雅黑"; font-weight: normal;background: #f8f8f8;}
+.fr{float: right;}
+.fl{float: left;}
+.clear{clear: both;}
+.clearfix {display: block;}
+.clearfix:before {display: none!important;}
+.clearfix:after {clear: both;}
+.clearfix:before, .clearfix:after {content: "";display: table;}
+
+.head {
+    width: 100%;
+    height: 32px;
+    min-width: 1300px;
+    background: #232428;
+    font-size: 12px;
+}
+.nav_scan{
+    width: 82px;
+    height: 82px;
+    margin-top: 12px;
+}
+.nav_scan p {
+    letter-spacing: 4px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.storage_head{width: 100%;height: 32px;min-width: 1300px;background: #232428; font-size: 12px;}
+.storage_head_main{width: 1100px;height: 32px;margin: 0px auto;color: #fff;font-size: 12px;}
+.storage_head_main_left{width: 50%;height: 32px;line-height: 32px;float: left;}
+.storage_head_icon{display: inline-block;background: url(/skin/sjzx/img/icons.png);width: 17px;height: 18px;margin-right: 6px;color: #fff;float: left;margin-top: 6px;}
+.storage_head_a{color: #fff;margin-right: 10px; float: left;}
+.storage_head_log{margin-left: 10px;color: #666;}
+.storage_head_reg,.storage_head_member{color: #666;}
+.storage_head_main_right{width: 45%;height: 30px;line-height: 30px; min-width: 442px;float: right; text-align: right;}
+.storage_head_main_right a:hover{color: #ff6600;}
+.storage_head_member{color: #fff;}
+.white{color: #fff;}
+
+.search {
+    width: 100%;
+    height: 120px;
+    min-width: 1300px;
+    background: #fff;
+}
+.nav_cat {
+    width: 1100px;
+    height: 120px;
+    margin: 0px auto;
+}
+
+.nav_left{width: 30%;height: 120px;float: left;}
+.nav_left .logo{width: 80px; height: 80px; float: left;margin-top: 20px;background: url(/skin/sjzx/img/index_logo.png);}
+.logo_text{width: 200px;height: 68px;float: left;margin-top: 27px;margin-left: 5px; border-left: 1px solid #eaeaea; padding-left: 5px;}
+.logo_text_s1{font-size: 24px;margin-top: 4px;color: #333333;}
+.logo_text_s2{color: #444444;margin-top: 14px;}
+
+.nav_right{width: 60%;height: 120px;float: left;}
+.nav_search{width: 90%;height:40px;border: 2px solid #09A2E8;/*margin-top: 2px;*/}
+.nav_input{width: 100%;height: 40px;margin: 0px auto;}
+/* #sel{width: 15%; height: 40px;line-height:40px;float: left;border-width: 0px;padding: 6px 5px;color: #333333; font-size: 14px;font-family: '微软雅黑';} */
+#sousuo{width: 72%;height: 40px;line-height:27px;font-family: '微软雅黑';color: #5e5e5e; float: left;border-width: 0px;padding-left: 5px;}
+.hqbutton{width:12.2%;height: 40px;border: none;float: right;background: url(/skin/sjzx/img/search.png) no-repeat center #09A2E8;}
+.seach_hot{width: 80%; height: 15px;margin-top: 3px;font-family: 'Arial Normal', 'Arial';font-weight: normal;color: #09A2E8;}
+.seach_hot_info a{color: #09A2E8;font-size: 12px;}
+.seach_hot_info1{margin-left: 13px;margin-right: 20px;}
+
+.banner{height: 44px;line-height: 35px;background: #09A2E8;min-width: 1300px;}
+.banner_list{width: 1200px;height: 44px;line-height: 44px;margin:0px auto;}
+.banner_list ul li {float: left;width: 150px;height: 44px;line-height: 44px;text-align: center;}
+.banner_list ul li:hover{background: #00b7ee;}
+.banner_list ul li a {font-family: 微软雅黑;font-weight: normal;font-style: normal;font-size: 16px;color: #fff; display: block;text-decoration: none;} 
+.banner_img{height: 360px; min-width: 1300px; width: 100%;margin-top: -1px;}
+.li_on{background: #00b7ee;}
+
+.select_diy select{-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance:none;
+    background:none;
+    background:url(/skin/sjzx/img/icons2.png) right center no-repeat;
+    width:100%;
+    border:1px solid #09A2E8;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    height:40px;
+    cursor:pointer;
+    padding:10px 0px 10px 15px;
+}
+.select_diy select::-ms-expand{
+    color: #fff;
+    font-size:20px;
+    padding:5px 9px;
+    background: #0054a7;
+}
+.select_diy{
+    position:relative;
+    width: 15%;
+    float: left;
+}
+.select_diy_select{
+    position:absolute;
+    top:2px;
+    right:2px;
+    width:20px;
+    height:36px;
+    background:url(/skin/sjzx/img/icons2.png) center center;
+}
+.select_diy option{}
+/*关键字*/
+.nav_input form span{
+   border: none;
+    border-right:1px solid #09A2E8;
+   color:#666;
+}

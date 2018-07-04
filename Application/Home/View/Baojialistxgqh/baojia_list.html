@@ -1,0 +1,82 @@
+						<?php
+ 						$i = 0;
+						?>
+						<foreach name="data_list" item="value">
+									<!--每一项-->
+									<tr class="item">
+										<td class="l1-box" colspan="3">
+											<input class="l1 a" type="checkbox" name="" id=""  data-id={$value.id} />
+											<div class="ttl l1">
+												<a href="javascript:;">
+												 <?php
+												 $i++;
+												 if($value['status'] == 1){
+													echo '<span class="text-danger">已下架</span>';
+												 }
+                                                 ?>												 
+													
+													{$value.cinvname}/
+													{$value.vendor}/
+													{$value.cinvstd}
+
+												</a>
+
+											</div>
+
+											<input class="l1 b dtl-btn" type="button" name="" id="" value="详情" />
+										</td>
+										<td class="overflow">
+											<input class="txt  fprice" type="text" name="" id="" value="{$value.fprice}" />
+										</td>
+										<td class="overflow">
+											<input class="txt  fweight" type="text" name="" id="" value="{$value.fweight}" />
+										</td>
+                                        <td class="overflow">
+											{$value.address}
+										</td>
+										<td class="overflow">
+												<input class="txt date2 dvaliddate"   onclick="laydate()"  onblur="ckdValidDate()"  readonly="readonly" value="{$value.dvaliddate}" />
+										</td>
+										<td class="overflow">
+											<input class="txt date2 valid_day" type="text"   onclick="laydate()"  onblur="ckdValidDate()"  readonly="readonly" value="{$value.valid_day}"/>
+										</td>
+										<td class="overflow">
+										    {$value.delivery}
+											<!-- <span class="text-danger">0</span> 单 -->
+										</td>									
+
+										<td class="op" colspan="3">
+											<a class="save" href="javascript:;">保存</a>
+											<?php
+												 $i++;
+												 if($value['status'] == 0){
+													echo '<a class="sapan" href="javascript:;">下架</a>';
+												 }else{
+												 	echo '<a class="up" href="javascript:;">上架</a>';
+												 }
+                                            ?>
+											<a class="edit" href="/e/member/Index/AddMsg/modify3.php?action=edit&id={$value.id}">修改</a>
+											<a class="del" href="javascript:;">删除</a>
+										</td>
+									</tr>
+									<!--详情-->
+									<tr class="dtl">
+										<td colspan="12">
+											<p>
+                                                发盘信息：{$value.cinvname}/{$value.vendor}/{$value.cinvstd}；
+												交易类别：<?php if($value['userfen']==3){echo "香港期货";}?>； 
+												原厂包装标准：{$value.pack}；
+												包装袋材质：{$value.pack2}；
+												装运描述：{$value.g_type}； 原厂质量检验证书(COA)：<?php if($value['cert']==0){echo "不提供";}else{echo "提供";}?>； 
+												最低交易量： <?php if($value['sl_low']==0){echo "不限";}else{echo $value['sl_low'];}?> ；
+												票据类别：{$value.piaoju}；
+
+											</p>
+										</td>
+
+									</tr>									
+																		
+                     </foreach>
+
+
+	

@@ -1,0 +1,79 @@
+<include file="Public/header" />
+	<body>
+		<section class="sellinfo">
+			<!--标题-->
+			<!-- <h4 class="buyinfo-ttl">卖家中心</h4> -->
+
+			<!--搜索-->
+			<div class="buyinfo-tab-content ">
+				<div class="searchbox">
+					<label for="searchbox">订单关键单词：</label>
+					<input class="txt search-input" type="text" param-name="order_sn" placeholder="输入关键词" />
+					<input class="submit search-btn" type="button" value="搜索" />
+				</div>
+			</div>
+
+			<!--订单的状态-->
+			<div class="sellinfo-status">
+
+				<ul class="list clearfix">
+					<li class="active">
+						<a href="javascript:;" class="tab-menu" sign="all">全部订单</a>
+					</li>
+					<li >
+						<a href="javascript:;" class="tab-menu" sign="0">待付款 <span class="text-primary">1</span></a>
+					</li>
+					<li>
+						<a href="javascript:;" class="tab-menu" sign="101">待发货</a>
+					</li>
+					<li >
+						<a href="javascript:;" class="tab-menu" sign="102">已发货</a>
+					</li>
+					<!--<li>
+						<a href="sellinfo-regoods.html">待收货</a>
+					</li>-->
+					<li >
+						<a href="javascript:;" class="tab-menu" sign="1">已收货</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="tab-menu" sign="-1">取消订单</a>
+					</li>
+					<li >
+						<a href="javascript:;" class="tab-menu" sign="-2">取消交易</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="tab-menu" sign="1">完成订单</a>
+					</li>
+					<!--<li >
+						<a href="javascript:;">三个月前的订单</a>
+					</li>-->
+				</ul>
+			</div>
+
+			<div class="order-list"></div>
+
+			<include file="Public/footer" />
+
+			<script>
+				var data = {};
+				$('.order-list').load("{:U('order_list')}");
+
+				$('.tab-menu').on('click', function(){
+					$('.tab-menu').parent().removeClass('active');
+					$(this).parent().addClass('active');
+
+					var sign = $(this).attr('sign');
+					var opt = {order_status: sign};
+
+					$('.order-list').load("{:U('order_list')}", opt);
+				});
+
+				$('.search-input').on('change', function(){
+					var param_name = $(this).attr('param-name');
+					data[param_name] = $(this).val();
+				});
+
+				$('.search-btn').on('click', function(){
+					$('.order-list').load("{:U('order_list')}", data);
+				});
+			</script>

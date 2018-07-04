@@ -1,0 +1,243 @@
+<include file="Default:header" />
+	<title>订单详情</title>
+		<section class="order-status  container-12">
+
+			<!--标题-->
+			<h4 class="order-satus-ttl">卖家中心</h4>
+
+			<!--状态图-->
+			<div class="order-satus-map">
+				
+				<!--等待生成合同-->
+				<div class="item">
+					<h4 class="item-ttl">{$orderInfo.status}</h4>
+					<switch name="orderInfo.order_status">
+						<case value="-1|-2">
+							<img class="item-img" src="__PUBLIC__/Home/img/-1.jpg">
+						</case>
+						<default/><img class="item-img" src="__PUBLIC__/Home/img/{$orderInfo.order_status}.jpg" alt="订单状态图" />
+					</switch>
+					<switch name="orderInfo.order_status">
+						<case value="-1|-2">
+							<ul class="item-bar item-cancel clearfix">
+								<li class="item-cancel-1">
+									<p>提交申请</p>
+								</li>
+								<li class="item-cancel-2">
+									<p>审核处理</p>
+								</li>
+								<li class="item-cancel-3">
+									<p>完成</p>
+								</li>
+							</ul>
+						</case>
+						<default/>
+							<ul class="item-bar clearfix">
+								<li class="active">
+									<p>提交订单</p>
+									<span>{$orderInfo.addtime|date="Y-m-d H:i:s", ###}</span>
+								</li>
+								<li >
+									<p>生成合同</p>
+									<span>{$orderInfo.addtime|date="Y-m-d H:i:s", ###}</span>
+								</li>
+								<li >
+									<p>付款成功</p>
+									<span>{$orderInfo.addtime|date="Y-m-d H:i:s", ###}</span>
+								</li>
+								<li >
+									<p>商品出库</p>
+									<span>{$orderInfo.addtime|date="Y-m-d H:i:s", ###}</span>
+								</li>
+								<li>
+									<p>等待收货</p>
+									<span>{$orderInfo.addtime|date="Y-m-d H:i:s", ###}</span>
+								</li>
+								<li class="fapiao">
+									<p>发票</p>
+									<span>{$orderInfo.addtime|date="Y-m-d H:i:s", ###}</span>
+								</li>
+								<li>
+									<p>完成</p>
+									<span>{$orderInfo.addtime|date="Y-m-d H:i:s", ###}</span>
+								</li>
+							</ul>
+					</switch>
+
+				</div>
+					
+				
+
+			</div>
+
+			<!--订单信息-->
+			<div class="order-stauts-info">
+				<h4 class="status-ttl">订单详情</h4>
+				<div class="status-addr clearfix">
+					<ul class="pull-left status-addr-l">
+						<li>
+							<h4>收货信息</h4>
+						</li>
+						<li>
+							<span>订单编号:</span>
+							<span>{$orderInfo.order_sn}</span>
+						</li>
+						<li>
+							<span>支付方式:</span>
+							<eq name="orderInfo.pay_code" value="0">
+							<span>线下</span>
+							</eq>
+							<eq name="orderInfo.pay_code" value="1">
+							<span>银行卡</span>
+							</eq>
+						</li>
+						<li>
+							<span>收货人:</span>
+							<span>{$orderInfo.address.consignee}</span>
+						</li>
+						<li>
+							<span>收货地址:</span>
+							<span>{$orderInfo.address.province}{$orderInfo.address.city}{$orderInfo.address.district}{$orderInfo.address.address}</span>
+						</li>
+						<li>
+							<span>手机号:</span>
+							<span>{$orderInfo.address.mobile}</span>
+						</li>
+						<li class="ellipsis">
+							<span class="text-primary">卖家留言:</span>
+							<span>{$orderInfo.message}</span>
+						</li>
+					</ul>
+					
+					<div class="status-addr-r pull-left clearfix">
+						<label for="">订单状态：</label>
+						<div>
+							<span class="text-success">
+								{$orderInfo.status}
+							</span>
+							<!--<a class="text-primary" href="javascript:;">取消订单</a>-->
+						</div>
+					</div>
+				</div>
+				<div class="status-list sellinfo-state-form">
+					<div class="ttl clearfix text-center">
+						<div class="width-3">
+							货品
+						</div>
+						<div class="width-2">
+							单价(元)
+						</div>
+						<div class="width-1">
+							数量
+						</div>
+						<div class="width-1">
+							运费
+						</div>
+						<div class="width-1">
+							操作
+						</div>
+						<div class="width-2">
+							货品总价
+						</div>
+					</div>
+					<!--内容-->
+					<volist name="orderInfo.goods" id="v">
+					<div class="cont text-center clearfix ">
+						<div class="width-3">
+							<eq name="v.img.img_url" value="">
+								<img src="__PUBLIC__/Home/img/index_logo.png">
+							<else/>
+								<img src="{$v.img.img_url}" alt="order  image" />
+							</eq>
+							<h5>{$v.goods_name}</h5>
+						</div>
+						<div class="width-2 text-center">
+							<switch name="orderInfo.order_status">
+								<case value="104">
+									<input class="form-control input-xs-x rd-no edit-input-val" type="text"  value="{$v.goods_price}" param-name="goods_price" />
+								</case>
+								<default/><span class="">{$v.goods_price}</span>
+							</switch>
+						</div>
+						<div class="width-1 text-center">
+							<switch name="orderInfo.order_status">
+								<case value="104">
+									<input class="form-control input-xs-x rd-no edit-input-val" type="text" value="{$v.goods_num}" param-name="goods_num" />
+								</case>
+								<default/><span class="">{$v.goods_num}</span>
+							</switch>
+						</div>
+						<div class="width-1 text-center">
+							<switch name="orderInfo.order_status">
+								<case value="104">
+									<input class="form-control input-xs-x rd-no edit-input-val" type="text" value="{$v.total_freight}" param-name="total_freight" />
+								</case>
+								<default/><span class="">{$v.total_freight}</span>
+							</switch>
+						</div>
+						<div class="width-1 text-center">
+							<eq name="orderInfo.order_status" value="104">
+								<button class="btn btn-primary rd-no save-price-btn" style="margin-top: 21px"; type="button" goods-id="{$v.goods_id}">修改</button>
+							</eq>
+						</div>
+						<div class="width-2 text-center">
+							<span class="">{$v.total_price}</span>
+						</div>
+					</div>
+					</volist>
+					
+					<div class="ft">
+						<p>
+							<span>商品总价：</span>
+							<span class="">{$orderInfo.goods.0.total_price}</span>
+						</p>
+						<p>
+							<span>运费：</span>
+							<span class="">{$orderInfo.order_freight}</span>
+						</p>
+						<p>
+							<span>订单总价：</span>
+							<strong class="text-danger">{$orderInfo.total_price}</strong>
+							
+						</p>
+						<!-- <a class="pull-right" href="javascript:;">查看付款凭证</a> -->
+					</div>
+				</div>
+				<div class="stauts-prinit">
+					<!-- <button class="btn  btn-primary  rd-no save-price-btn" type="button">确认订单</button> -->
+				</div>
+				<!--<div class="stauts-prinit clearfix">
+					<button class="btn  btn-primary  rd-no" type="button">打印订单详情</button>
+				</div>-->
+			</div>
+
+		</section>
+
+		<include file="Default:footer" />
+
+		<script type="text/javascript">
+			var opt = {};
+			opt['order_id'] = "{$orderInfo.id}";
+
+			$('.edit-input-val').on('change', function(){
+				var param_name = $(this).attr('param-name');
+				opt[param_name] = $(this).val();
+			});
+
+			$('.save-price-btn').on('click', function(){
+				var goods_id = $(this).attr('goods-id');
+				opt['goods_id'] = goods_id;
+				
+				$.post("{:U('edit_order_info')}", opt, function(data){
+					if(data.status == 1){
+						alert(data.message);
+						window.location.reload();
+					}else{
+						alert(data.message);
+					}
+				});
+			});
+		</script>
+	</body>
+
+</html>

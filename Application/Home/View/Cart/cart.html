@@ -1,0 +1,110 @@
+<title>购物车</title>
+<include file="Default:header" />		
+		<!-- content start-->
+		<section class="shop">
+			<div class="container-12">
+				<div class="row">
+					<!--title-->
+					<div class="shop-ttl clearfix">
+						<div class="width-4">商品</div>
+						<div class="width-1-5">单价</div>
+						<div class="width-1-5">数量(吨)</div>
+						<div class="width-1">运费</div>
+						<div class="width-1">金额(元)</div>
+						<div class="width-1">操作</div>
+					</div>
+
+					<!--item-->
+					<foreach name="select" item="v">
+					<div class="shop-item">
+						<div class="shop-item-ttl">
+							<label>
+								<input type="checkbox" name="" id="" value="" />
+								{$v.companyname}
+							</label>
+
+						</div>
+
+						<div class="shop-item-box">
+                            <?php
+                            include "/public/Home/php/connt.php";
+                             $sql=$mysqli->query("select * from shop_cart_goods where companyname='".$v['companyname']."' and user_id='".$v['user_id']."' and status=0");
+                             //$result=$sql->fetch_assoc();
+                             while($r=$sql->fetch_assoc()){
+                            ?>
+							<div class="item clearfix" data-id="<?=$r[goods_id]?>">
+								<div class="width-4 clearfix ">
+
+									<input type="checkbox" name="goods_id" id="" value="<?=$r[goods_id]?>" />
+									<img src="<?= $r['goods_picture']?>" alt="商品图片" />
+									<h5><p><?=$r[goods_name]?></p><p style="margin-top:10px;">交货地：<?=$r[address]?></p></h5>
+									
+								</div>
+
+								<div class="width-1-5">
+									<span class="iconfont icon-rmb1 text-danger"></span>
+									<span class="rmb-txt price"><?=$r[goods_price]?></span>
+								</div>
+
+								<div class="width-1-5">
+									<div class="number">
+										<button class="minus btn" type="button">-</button>
+										<input class="num" type="text" value="<?=$r[goods_number]?>" data-min="1" data-max="9999" data-step="1" />
+										<button class="plus btn" type="button">+</button>
+
+									</div>
+
+								</div>
+
+								<div class="width-1">
+									<span class="freight ">0</span>
+								</div>
+
+								<div class="width-1">
+									<span class="total"></span>
+
+								</div>
+
+								<div class="width-1">
+									<a class="text-danger delete" href="javascript:;">删除</a>
+
+								</div>
+
+							</div>
+                            <?php } ?>
+							<!--结算-->
+							<div class="bottom  clearfix">
+								<a class="pull-left text-danger all-delete" href="javascript:;">删除</a>
+								<div class="pull-right ">
+									<div class="pull-left">
+										<span>
+										已选
+										<span class="text-danger shop-count">0</span> 件商品
+										</span>
+										<span>货品金额总价:</span>
+										<strong class="text-danger shop-total">0.00</strong>
+										<span class="">元(含运费)</span>
+									</div>
+
+									<a class="btn-js  br-no2 rd-no pull-right jiesuan">结算</a>
+
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+                    </foreach>
+				</div>
+
+			</div>
+
+		</section>
+		<!-- content end-->
+
+<include file="Default:footer" />
+<script type="text/javascript">
+			var user_id = '<?php echo $user_id?>';// 用户sj_id;
+			var cont = "__CONTROLLER__";
+</script>
+<script src="__PUBLIC__/Home/js/cart.js" type="text/javascript" charset="utf-8"></script>

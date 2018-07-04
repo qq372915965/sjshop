@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+		<meta name="Keywords" content="" />
+		<meta name="Description" content="" />
+		<title>买家中心</title>
+
+		<!--check css-->
+		<script src="__PUBLIC__/Home/js/modernizr-2.6.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--css3 prefix-->
+		<script src="__PUBLIC__/Home/js/prefix-css3.min.js" type="text/javascript" charset="utf-8"></script>
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lte IE 8]>
+			<script src="js/html5shiv.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/respond.min.js" type="text/javascript" charset="utf-8"></script>
+		<![endif]-->
+
+		<!--css-->
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/cstfont/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/all.css" />
+	</head>
+	<h4 class="buyinfo-ttl">买家中心</h4>
+
+			<!--搜索-->
+			<div class="sellinfo-search ">
+				<div class=" form-horizontal clearfix">
+					
+
+					<div class="form-group">
+						<div class="col-xs-6">
+							<label class="control-label col-xs-3" for="word">合同关键词:</label>
+							<div class="col-xs-6  padding-l-no padding-r-no">
+								<input class="form-control rd-no search-input" type="text" id="word" placeholder="输入关键词" />
+							</div>
+
+						</div>
+
+						<div class="col-xs-6  margin-l">
+							<div class="col-xs-3 text-center ">
+								<input class="btn btn-primary btn-block search-btn " type="button" value="搜索" />
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<!--订单的状态-->
+			<div class="sellinfo-status">
+
+				<ul class="list clearfix">
+					<li class="active">
+						<a href="javascript:;" class="tab-menu" sign="all-contract">全部合同</a>
+					</li>
+					<li >
+						<a href="javascript:;" class="tab-menu" sign="0">未生成合同 </a>
+					</li>
+					<li>
+						<a href="javascript:;" class="tab-menu" sign="1">已生成合同</a>
+					</li>
+					
+				</ul>
+			</div>
+
+			<!--列表-->
+			<div class="contract-list"></div>
+
+<script src="__PUBLIC__/Home/js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="__PUBLIC__/Home/js/all.js" type="text/javascript" charset="utf-8"></script>
+
+<script>
+	$(function() {
+
+				//  买卖家中心 设置模板页iframe的高度
+				iframe.setHeight();
+				
+			});
+</script>
+
+<script>
+	var opt = {};
+	opt['user_id'] = {$user_id};
+
+	$('.contract-list').load("{:U('contract_list')}", opt);
+
+	$('.tab-menu').on('click', function(){
+		$('.tab-menu').parent().removeClass('active');
+		$(this).parent().addClass('active');
+
+		if($(this).attr('sign')){
+			opt['contract_type'] = $(this).attr('sign');
+		}
+
+		$('.contract-list').load("{:U('contract_list')}", opt);
+	});
+
+	//搜索合同
+	$('.search-btn').on('click', function(){
+		opt['order_sn'] = $('.search-input').val();
+
+		$('.contract-list').load("{:U('contract_list')}", opt);
+	});
+</script>

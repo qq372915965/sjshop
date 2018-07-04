@@ -1,0 +1,79 @@
+特性
+
+TCPDF具有以下特性：
+
+1、支持页面页脚；
+
+2、支持HTML标签代码；
+
+3、支持jpg/png/gif/svg图形图像；
+
+4、支持表格；
+
+5、支持中文字符；（有些PDF类不支持中文或者处理中文相当麻烦）
+
+6、自动分页，自动页码，等等。
+
+ 
+
+可以从TCPDF官网获取最新版本：http://www.tcpdf.org。官网提供了几十个示例以及说明文档，下载解压后一定要注意文件路径，如何使用TCPDF，可以从以下5个步骤完成：
+
+1、require_once导入tcpdf.php文件及相关配置信息；
+
+2、实例化TCPDF；
+
+3、设置PDF文档的格式，包括文档信息、页眉、页尾、字体、外间距、图片边框、分页等；
+
+4、导入PDF文档的内容，可以是单行或多行简单字符串，也可以HTML格式的字符串等；
+
+5、输出PDF文档。
+
+[php] view plain copy
+require_once('tcpdf.php');   
+//实例化   
+$pdf = new TCPDF('P', 'mm', 'A4', true, 'UTF-8', false);   
+   
+// 设置文档信息   
+$pdf->SetCreator('Helloweba');   
+$pdf->SetAuthor('yueguangguang');   
+$pdf->SetTitle('Welcome to helloweba.com!');   
+$pdf->SetSubject('TCPDF Tutorial');   
+$pdf->SetKeywords('TCPDF, PDF, PHP');   
+   
+// 设置页眉和页脚信息   
+$pdf->SetHeaderData('logo.png', 30, 'Helloweba.com', '致力于WEB前端技术在中国的应用',    
+      array(0,64,255), array(0,64,128));   
+$pdf->setFooterData(array(0,64,0), array(0,64,128));   
+   
+// 设置页眉和页脚字体   
+$pdf->setHeaderFont(Array('stsongstdlight', '', '10'));   
+$pdf->setFooterFont(Array('helvetica', '', '8'));   
+   
+// 设置默认等宽字体   
+$pdf->SetDefaultMonospacedFont('courier');   
+   
+// 设置间距   
+$pdf->SetMargins(15, 27, 15);   
+$pdf->SetHeaderMargin(5);   
+$pdf->SetFooterMargin(10);   
+   
+// 设置分页   
+$pdf->SetAutoPageBreak(TRUE, 25);   
+   
+// set image scale factor   
+$pdf->setImageScale(1.25);   
+   
+// set default font subsetting mode   
+$pdf->setFontSubsetting(true);   
+   
+//设置字体   
+$pdf->SetFont('stsongstdlight', '', 14);   
+   
+$pdf->AddPage();   
+   
+$str1 = '欢迎来到Helloweba.com';   
+   
+$pdf->Write(0,$str1,'', 0, 'L', true, 0, false, false, 0);   
+   
+//输出PDF   
+$pdf->Output('t.pdf', 'I');   

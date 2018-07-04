@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<link rel="shortcut icon" href="" type="image/x-icon">
+<link href="__PUBLIC__/New_style/seller/css/header.css" rel="stylesheet" type="text/css">
+<link href="__PUBLIC__/New_style/seller/css/shop1.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="__PUBLIC__/New_style/skin/sjzx/css/style1.css">
+<link href="__PUBLIC__/New_style/skin/chat/css/form.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/New_style/skin/sjzx/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="__PUBLIC__/New_style/skin/sjzx/js/tab4.js"></script>
+<style type="text/css">
+.bj_title{height: 35px;background: #e6e6e6;font-size: 14px;color: #666;line-height: 35px;padding-left: 10px;font-weight: bold;}
+.bj_list{padding:10px;}
+.bj_list_one,.bj_list_two{line-height: 30px;color: #666;margin-bottom: 10px;}
+.bj_list_two span{color: #ff6600;}
+.bj_list_three input{border: 1px solid #ddd;line-height: 22px;width: 90px;padding: 5px;}
+.bj_list_four textarea{resize:none;border: 1px solid #dedede;width: 405px;height: 80px;padding: 5px;margin-top: 20px;}
+.bj_buy_btn{padding-top: 20px;}
+.bj_gray{color: #aaa;}
+.bj_buy_btn_save{border: 0 none;background: #1caaeb;color: #fff;width: 220px;height: 30px;cursor: pointer;float: left; margin-left: 162px; margin-top: 16px;}
+.close{float:right;margin-right:10px;}
+.closele{float:right;margin-right:10px;}
+</style>
+<body>
+	 <div class="shop_cpinfo">
+	 	<?= $companyname;?>
+	 </div>
+
+	<div class="shop_logo_list_rt" id="navi" style="margin-right: 370px;">
+
+            <ul>
+              <li><a href="seller_index?user_id={$user_id}">店铺首页</a></li>
+              <li><a href="seller_spot?user_id={$user_id}">大陆现货</a></li>
+              <li><a href="hongkong_spot?user_id={$user_id}">香港现货</a></li>
+              <li><a href="hongkong_cargo?user_id={$user_id}">香港船货</a></li>
+              <li><a href="modified_plastic?user_id={$user_id}">改性塑胶</a></li>
+              <li><a href="environmental_recycle?user_id={$user_id}">环保再生</a></li>
+              <li><a href="plastic_aids?user_id={$user_id}">塑料助剂</a></li>
+              <li><a href="pbt_deal?user_id={$user_id}">柜货交易</a></li>
+              <li><a href="about_we?user_id={$user_id}">关于我们</a></li>
+              <li><a href="contact_way?user_id={$user_id}">联系方式</a></li>
+            </ul>
+    </div>
+
+</body>
+<script type="text/javascript">
+	// 点击选中变颜色
+	var type = '<?php echo $type?>';
+	$('.shop_logo_list_rt ul li a').eq(type).css('color','red');
+	
+</script>
+</html>

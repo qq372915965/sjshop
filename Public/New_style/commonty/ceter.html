@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>个人中心</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="http://code.jquery.com/jquery.js"></script>
+     <script src="js/notRefreshFilesUpload.js"></script> 
+    <link href="css/ceter.min.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/froala_editor.min.css" rel="stylesheet" type="text/css">
+        <script>  
+        $(function () {  
+  
+            var btn = $("#Button1");  
+  
+            btn.uploadFile({  
+                url: "WebForm1.aspx",  
+                fileSuffixs: ["jpg", "png", "gif"],  
+                buttonFeature: true,  
+                errorText: "{0}",  
+                maximumFilesUpload: 5,//最大文件上传数  
+                onComplete: function (msg) {  
+                    $("#testdiv").html(msg);  
+                },  
+                perviewImageElementId: "fileList", //设置预览图片的元素id  
+                perviewImgStyle: { width: '100px', height: '100px', border: '1px solid #ebebeb' }//设置预览图片的样式  
+            });  
+  
+            var upload = btn.data("uploadFileData");  
+  
+            $("#files").click(function () {  
+                upload.submitUpload();  
+            });  
+        });  
+    </script>  
+
+
+<style type="text/css">
+
+    #gsywly { display:none;}
+
+    li{list-style: none;}
+</style>
+
+  </head>
+
+  <body>
+  <div class="head">
+    <div class="top">
+      <div class="dh">
+        <ul>
+            <li><a href="###"><span>钱歆 欢迎来到塑金在线&nbsp;&nbsp;</span><img src="./images/u3706.png" style="vertical-align:middle;" width="16" height="16"/><span>消息&nbsp;122</span></a></li>
+        </ul>
+        <ul class="rg fr">
+            <li><a href="###">交易中心</a></li>
+            <li><a href="###">购物车</a></li>
+            <li><a href="###">帮助中心</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+
+  <div class="logo">
+   <div class="logo_img"> <img src="./images/logo.png"></div>
+   <div class="head_huiyuan"><h2>会员中心</h2></div>
+  </div>
+  
+  
+  
+
+<div class="neir_index">
+   <div class="left_wel">
+      <div class="left_wel_good"><!--左边栏目开始-->
+           <div class="left_neir">
+              <p><b>报价管理</b></p>
+              <div class="line_1"></div>
+               <ul>
+                 <li><a href=""><b>></b>&nbsp;&nbsp;发布报价</a></li>
+                 <li><a href="./liebiao.html"><b>></b>&nbsp;&nbsp;报价列表</a></li>
+               </ul>
+
+                <p><b>交易管理</b></p>
+              <div class="line_1"></div>
+               <ul>
+                 <li><a href=""><b>></b>&nbsp;&nbsp;我的采购</a></li>
+                 <li><a href=""><b>></b>&nbsp;&nbsp;我的供应</a></li>
+               </ul>
+
+               <p><b>店铺管理</b></p>
+              <div class="line_1"></div>
+               <ul>
+                 <li><a href=""><b>></b>&nbsp;&nbsp;店铺装修</a></li>
+                 <li><a href=""><b>></b>&nbsp;&nbsp;我的关注</a></li>
+               </ul>
+
+                <p><b>站内消息</b></p>
+              <div class="line_1"></div>
+               <ul>
+                 <li><a href=""><b>></b>&nbsp;&nbsp;收件箱</a></li>
+                 <li><a href=""><b>></b>&nbsp;&nbsp;发件箱</a></li>
+               </ul>
+
+                <p><b>账号管理</b></p>
+              <div class="line_1"></div>
+               <ul>
+                 <li><a href=""><b>></b>&nbsp;&nbsp;用户信息</a></li>
+                 <li><a href=""><b>></b>&nbsp;&nbsp;公司信息</a></li>
+                 <li><a href=""><b>></b>&nbsp;&nbsp;收货地址</a></li>
+                 <li><a href=""><b>></b>&nbsp;&nbsp;重置密码</a></li>
+                 <li><a href=""><b>></b>&nbsp;&nbsp;账号绑定</a></li>
+               </ul>
+           </div>
+         </div>
+         
+         
+         
+      <div class="feel_weel">
+          <div class="feel_jing">
+            <ul>
+            <li id="a"><a href="#" onclick="change_div('gsgs')">发布现货</li>
+            <li id="b"><a href="#" onclick="change_div('gsywly')">发布船货</li>
+            <li id="c"><a href="#" onclick="change_div('gsywlypot')">发布竞价</li>
+            </ul>
+          </div>
+          <div class="lineadd_feel"></div>
+
+   <form style="margin: 0px" action="" method="post" >
+
+                                                 <!--////////发布现货////////-->
+          <div class="input_xianhuo" id="gsgs">
+             <div class="input_xianhuo_kuang">
+
+                 <div class="input_jiaoyigs">
+                  <i>*</i> <span>交易公司：</span>
+                  <select class="nav_choose">
+                    <option>22222</option>
+                    <option>111111</option>
+                    <option>333333</option>
+                    <option>444444</option>
+                    <option>555555</option>
+                    <option>666666</option>
+                    <option>77777</option>
+                 </select>
+                </div>
+                
+                <div class="input_jiaoyigs">
+                   <i>*</i><span>品名：</span> <input type="text" name="text" placeholder="请选择品名" class="nav_choose fl"/>
+                </div>
+
+                <div class="input_jiaoyigs">
+                 <i>*</i><span>产地：</span>
+                    <input type="text" name="text" placeholder="请选择产地" class="nav_choose fl"/>
+               </div>
+
+               <div class="input_jiaoyigs">
+                <i>*</i><span> 型号：</span>
+                    <input type="text" name="text" placeholder="请选择型号" class="nav_choose fl"/>
+                </div>
+
+                <div class="input_jiaoyigs">
+                 <i>*</i><span>价格：</span>
+                    <input type="text" name="text" placeholder="请选择价格" class="nav_choose fl"/>
+               </div>
+
+               <div class="input_jiaoyigs">
+                <i>*</i><span>重量规格：</span>
+                    <input type="text" name="text" placeholder="请选择重量规格" class="nav_choose fl"/>
+                </div>
+                <div class="input_jiaoyigs">
+                 <i>*</i><span>提单有效期：</span>
+                    <input type="text" name="text" placeholder="请选择提单有效期" class="nav_choose fl"/>
+               </div>
+            </div>
+         
+
+         <div class="neir_xuanztup"><!--上传图片-->
+            <b>商品图片：</b>
+           <div class="shnagchuangtupian">
+            <div id="fileList" class="tup" > <b>暂无图片</b></div> 
+            <input id="Button1" type="button" value="选择文件" />  
+            <input id="files" type="button" value="上传" /> </div>
+         
+         <div class="shnagchuangtupian">
+            <div id="fileList" class="tup" > <b>暂无图片</b></div>  
+            <input id="Button1" type="button" value="选择文件" />  
+            <input id="files" type="button" value="上传" /></div>
+         <div class="shnagchuangtupian">
+            <div id="fileList" class="tup" > <b>暂无图片</b></div>  
+            <input id="Button1" type="button" value="选择文件" />  
+            <input id="files" type="button" value="上传" /></div>
+         <div class="shnagchuangtupian">
+            <div id="fileList" class="tup" > <b>暂无图片</b></div>  
+            <input id="Button1" type="button" value="选择文件" />  
+            <input id="files" type="button" value="上传" /> </div> 
+            <div id="testdiv"></div> 
+
+            <span>图片应小于120k，支持jpg、gif、jpeg、png、或bmp格式。建议为500x500像素</span>
+         </div><!--上传图片结束-->
+
+
+         <div class="shangping_jies"><!--商品介绍-->
+            <b>商品简介：</b>
+             
+              <textarea  name="textarea" id="textarea" cols="45" rows="5"></textarea>
+         </div><!--商品介绍结束-->
+        
+         <div class="spmiaoshu_wenban"><!--商品描述-->
+           <b>商品描述：</b>
+
+
+   <section id="editor">
+      <div id='edit' style="margin-top: 30px;background-color: #ffffff;">
+         
+
+          <h1>Click and edit</h1>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis diam in odio iaculis blandit. Nunc eu mauris sit amet purus viverra gravida ut a dui. Vivamus nec rutrum augue, pharetra faucibus purus. Maecenas non orci sagittis, vehicula lorem et, dignissim nunc. Suspendisse suscipit, diam non varius facilisis, enim libero tincidunt magna, sit amet iaculis eros libero sit amet eros. Vestibulum a rhoncus felis. Nam lacus nulla, consequat ac lacus sit amet, accumsan pellentesque risus. Aenean viverra mi at urna mattis fermentum. Curabitur porta metus in tortor elementum, in semper nulla ullamcorper. Vestibulum mattis tempor tortor quis gravida. In rhoncus risus nibh. Nullam condimentum dapibus massa vel fringilla. Sed hendrerit sed est quis facilisis. Ut sit amet nibh sem. Pellentesque imperdiet mollis libero.</p>
+
+          <p><a href="http://google.com" title="Aenean sed hendrerit">Aenean sed hendrerit</a> velit. Nullam eu mi dolor. Maecenas et erat risus. Nulla ac auctor diam, non aliquet ante. Fusce ullamcorper, ipsum id tempor lacinia, sem tellus malesuada libero, quis ornare sem massa in orci. Sed dictum dictum tristique. Proin eros turpis, ultricies eu sapien eget, ornare rutrum ipsum. Pellentesque eros nisl, ornare nec ipsum sed, aliquet sollicitudin erat. Nulla tincidunt porta vehicula.</p>
+
+      </div>
+  </section>
+           
+         </div><!--商品描述结束-->
+            <input type="submit" value="发  布" class="fabu_sj"/>  
+         </div>
+
+
+
+
+                             <!--////////发布船货////////-->
+<!-- 
+   <div class="input_xianhuo" id="gsywly">
+             <div class="input_xianhuo_kuang">
+
+                 <div class="input_jiaoyigs">
+                  <i>*</i> <span>交易公司：</span>
+                  <select class="nav_choose">
+                    <option>22222</option>
+                    <option>111111</option>
+                    <option>333333</option>
+                    <option>444444</option>
+                    <option>555555</option>
+                    <option>666666</option>
+                    <option>77777</option>
+                 </select>
+                </div>
+                
+                <div class="input_jiaoyigs">
+                   <i>*</i><span>品名：</span> <input type="text" name="text" placeholder="请选择品名" class="nav_choose fl"/>
+                </div>
+
+                <div class="input_jiaoyigs">
+                 <i>*</i><span>产地：</span>
+                    <input type="text" name="text" placeholder="请选择产地" class="nav_choose fl"/>
+               </div>
+
+               <div class="input_jiaoyigs">
+                <i>*</i><span> 型号：</span>
+                    <input type="text" name="text" placeholder="请选择型号" class="nav_choose fl"/>
+                </div>
+
+                <div class="input_jiaoyigs">
+                 <i>*</i><span>价格：</span>
+                    <input type="text" name="text" placeholder="请选择价格" class="nav_choose fl"/>
+               </div>
+
+               <div class="input_jiaoyigs">
+                <i>*</i><span>重量规格：</span>
+                    <input type="text" name="text" placeholder="请选择重量规格" class="nav_choose fl"/>
+                </div>
+                <div class="input_jiaoyigs">
+                 <i>*</i><span>柜数：</span>
+                    <input type="text" name="text" placeholder="请选择柜数" class="nav_choose fl"/>
+               </div>
+
+            <div class="input_jiaoyigs">
+                <i>*</i><span>合计吨数：</span>
+                    <input type="text" name="text" placeholder="请选择合计吨数" class="nav_choose fl"/>
+                </div>
+
+                <div class="input_jiaoyigs">
+                 <i>*</i><span>提单有效期：</span>
+                    <input type="text" name="text" placeholder="请选择提单有效期" class="nav_choose fl"/>
+               </div>
+            </div>
+         
+
+         <div class="neir_xuanztup"> --><!--上传图片-->
+           <!--  <b>商品图片：</b>
+           <div class="shnagchuangtupian">
+            <div id="fileList" class="tup" > <b>暂无图片</b></div> 
+            <input id="Button1" type="button" value="选择文件" />  
+            <input id="files" type="button" value="上传" /> </div>
+         
+         <div class="shnagchuangtupian">
+            <div id="fileList" class="tup" > <b>暂无图片</b></div>  
+            <input id="Button1" type="button" value="选择文件" />  
+            <input id="files" type="button" value="上传" /></div>
+         <div class="shnagchuangtupian">
+            <div id="fileList" class="tup" > <b>暂无图片</b></div>  
+            <input id="Button1" type="button" value="选择文件" />  
+            <input id="files" type="button" value="上传" /></div>
+         <div class="shnagchuangtupian">
+            <div id="fileList" class="tup" > <b>暂无图片</b></div>  
+            <input id="Button1" type="button" value="选择文件" />  
+            <input id="files" type="button" value="上传" /> </div> 
+            <div id="testdiv"></div> 
+
+            <span>图片应小于120k，支持jpg、gif、jpeg、png、或bmp格式。建议为500x500像素</span>
+         </div> --><!--上传图片结束-->
+
+
+         <!-- <div class="shangping_jies"> --><!--商品介绍-->
+           <!--  <b>商品简介：</b>
+             
+              <textarea  name="textarea" id="textarea" cols="45" rows="5"></textarea>
+         </div> --><!--商品介绍结束-->
+        
+        <!--  <div class="spmiaoshu_wenban"> --><!--商品描述-->
+         <!--   <b>商品描述：</b>
+
+
+   <section id="editor">
+      <div id='edit' style="margin-top: 30px;background-color: #ffffff;">
+         
+
+          <h1>Click and edit</h1>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis diam in odio iaculis blandit. Nunc eu mauris sit amet purus viverra gravida ut a dui. Vivamus nec rutrum augue, pharetra faucibus purus. Maecenas non orci sagittis, vehicula lorem et, dignissim nunc. Suspendisse suscipit, diam non varius facilisis, enim libero tincidunt magna, sit amet iaculis eros libero sit amet eros. Vestibulum a rhoncus felis. Nam lacus nulla, consequat ac lacus sit amet, accumsan pellentesque risus. Aenean viverra mi at urna mattis fermentum. Curabitur porta metus in tortor elementum, in semper nulla ullamcorper. Vestibulum mattis tempor tortor quis gravida. In rhoncus risus nibh. Nullam condimentum dapibus massa vel fringilla. Sed hendrerit sed est quis facilisis. Ut sit amet nibh sem. Pellentesque imperdiet mollis libero.</p>
+
+          <p><a href="http://google.com" title="Aenean sed hendrerit">Aenean sed hendrerit</a> velit. Nullam eu mi dolor. Maecenas et erat risus. Nulla ac auctor diam, non aliquet ante. Fusce ullamcorper, ipsum id tempor lacinia, sem tellus malesuada libero, quis ornare sem massa in orci. Sed dictum dictum tristique. Proin eros turpis, ultricies eu sapien eget, ornare rutrum ipsum. Pellentesque eros nisl, ornare nec ipsum sed, aliquet sollicitudin erat. Nulla tincidunt porta vehicula.</p>
+
+      </div>
+  </section>
+           
+         </div> --><!--商品描述结束-->
+           <!--  <input type="submit" value="发  布" class="fabu_sj"/>  
+         </div> -->
+
+
+                                 <!--////////发布进价////////-->
+<!-- 
+   <div class="input_xianhuo" id="gsywlypot">
+             <div class="input_xianhuo_kuang">
+
+                 <div class="input_jiaoyigs">
+                  <i>*</i> <span>交易公司：</span>
+                  <select class="nav_choose">
+                    <option>22222</option>
+                    <option>111111</option>
+                    <option>333333</option>
+                    <option>444444</option>
+                    <option>555555</option>
+                    <option>666666</option>
+                    <option>77777</option>
+                 </select>
+                </div>
+                
+                <div class="input_jiaoyigs">
+                   <i>*</i><span>品名：</span> <input type="text" name="text" placeholder="请选择品名" class="nav_choose fl"/>
+                </div>
+
+                <div class="input_jiaoyigs">
+                 <i>*</i><span>产地：</span>
+                    <input type="text" name="text" placeholder="请选择产地" class="nav_choose fl"/>
+               </div>
+
+               <div class="input_jiaoyigs">
+                <i>*</i><span> 型号：</span>
+                    <input type="text" name="text" placeholder="请选择型号" class="nav_choose fl"/>
+                </div>
+
+                <div class="input_jiaoyigs">
+                 <i>*</i><span>价格：</span>
+                    <input type="text" name="text" placeholder="请选择价格" class="nav_choose fl"/>
+               </div>
+
+               <div class="input_jiaoyigs">
+                <i>*</i><span>重量规格：</span>
+                    <input type="text" name="text" placeholder="请选择重量规格" class="nav_choose fl"/>
+                </div>
+                <div class="input_jiaoyigs">
+                 <i>*</i><span>提单有效期：</span>
+                    <input type="text" name="text" placeholder="请选择提单有效期" class="nav_choose fl"/>
+               </div>
+            </div> -->
+         
+
+        <!--  <div class="neir_xuanztup"> --><!--上传图片-->
+          <!--   <b>商品图片：</b>
+           <div class="shnagchuangtupian">
+            <div id="fileList" class="tup" > <b>暂无图片</b></div> 
+            <input id="Button1" type="button" value="选择文件" />  
+            <input id="files" type="button" value="上传" /> </div>
+         
+         <div class="shnagchuangtupian">
+            <div id="fileList" class="tup" > <b>暂无图片</b></div>  
+            <input id="Button1" type="button" value="选择文件" />  
+            <input id="files" type="button" value="上传" /></div>
+         <div class="shnagchuangtupian">
+            <div id="fileList" class="tup" > <b>暂无图片</b></div>  
+            <input id="Button1" type="button" value="选择文件" />  
+            <input id="files" type="button" value="上传" /></div>
+         <div class="shnagchuangtupian">
+            <div id="fileList" class="tup" > <b>暂无图片</b></div>  
+            <input id="Button1" type="button" value="选择文件" />  
+            <input id="files" type="button" value="上传" /> </div> 
+            <div id="testdiv"></div> 
+
+            <span>图片应小于120k，支持jpg、gif、jpeg、png、或bmp格式。建议为500x500像素</span>
+         </div> --><!--上传图片结束-->
+
+
+       <!--   <div class="shangping_jies"> --><!--商品介绍-->
+          <!--   <b>商品简介：</b>
+             
+              <textarea  name="textarea" id="textarea" cols="45" rows="5"></textarea>
+         </div> --><!--商品介绍结束-->
+        
+         <!-- <div class="spmiaoshu_wenban"> --><!--商品描述-->
+          <!--  <b>商品描述：</b>
+
+
+   <section id="editor">
+      <div id='edit' style="margin-top: 30px;background-color: #ffffff;">
+         
+
+          <h1>Click and edit</h1>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis diam in odio iaculis blandit. Nunc eu mauris sit amet purus viverra gravida ut a dui. Vivamus nec rutrum augue, pharetra faucibus purus. Maecenas non orci sagittis, vehicula lorem et, dignissim nunc. Suspendisse suscipit, diam non varius facilisis, enim libero tincidunt magna, sit amet iaculis eros libero sit amet eros. Vestibulum a rhoncus felis. Nam lacus nulla, consequat ac lacus sit amet, accumsan pellentesque risus. Aenean viverra mi at urna mattis fermentum. Curabitur porta metus in tortor elementum, in semper nulla ullamcorper. Vestibulum mattis tempor tortor quis gravida. In rhoncus risus nibh. Nullam condimentum dapibus massa vel fringilla. Sed hendrerit sed est quis facilisis. Ut sit amet nibh sem. Pellentesque imperdiet mollis libero.</p>
+
+          <p><a href="http://google.com" title="Aenean sed hendrerit">Aenean sed hendrerit</a> velit. Nullam eu mi dolor. Maecenas et erat risus. Nulla ac auctor diam, non aliquet ante. Fusce ullamcorper, ipsum id tempor lacinia, sem tellus malesuada libero, quis ornare sem massa in orci. Sed dictum dictum tristique. Proin eros turpis, ultricies eu sapien eget, ornare rutrum ipsum. Pellentesque eros nisl, ornare nec ipsum sed, aliquet sollicitudin erat. Nulla tincidunt porta vehicula.</p>
+
+      </div>
+  </section>
+           
+         </div> --><!--商品描述结束-->
+           <!--  <input type="submit" value="发  布" class="fabu_sj"/>  
+         </div> -->
+     
+
+
+   </form>
+
+
+
+       </div>
+     </div>
+  </div>
+
+<div class="footer">
+    <div class="footer_tou">
+      
+
+
+    </div>
+
+
+    <div class="footer_bg">
+      <div class="help">
+        <ul>
+          <li><h2 class="h2">买方指南</h2></li>
+          <li><a href="">-购买流程</a></li>
+          <li><a href="">-买家攻略</a></li>
+          <li><a href="">-如何贷款还贷</a></li>
+          <li><a href="">-如何在线付款</a></li>
+        </ul>
+      </div>
+      <div class="help">
+        <ul>
+          <li><h2 class="h2">卖方指南</h2></li>
+          <li><a href="">-发布资源</a></li>
+          <li><a href="">-开通专场</a></li>
+          <li><a href="">-商家入驻</a></li>
+          <li><a href="">-物流保障</a></li>
+          <li><a href="">-金融服务</a></li>
+        </ul>
+      </div>
+      <div class="help">
+        <ul>
+          <li><h2 class="h2">文件下载</h2></li>
+          <li><a href="">-管理员授权委托书</a></li>
+          <li><a href="">-密码恢复申请函</a></li>
+          <li><a href="">-SHECA单位数字证书</a></li>
+          <li><a href="">-SHECA证书助手</a></li>
+          <li><a href="">-挂牌标准表格</a></li>
+          <li><a href="">-标准表格</a></li>
+        </ul>
+      </div>
+      <div class="help">
+        <ul>
+          <li><h2 class="h2">帮助中心</h2></li>
+          <li><a href="">-交易规则</a></li>
+          <li><a href="">-注册会员</a></li>
+          <li><a href="">-注册所需材料</a></li>
+          <li><a href=""><span class="click">>>点击进入帮助中心</span></a></li>
+        </ul>
+      </div>
+      <div class="help">
+        <img src="./images/u342.png" width="110" height="110" />
+        <div class="scan">扫一扫&nbsp;&nbsp;好货在手</div>
+      </div>
+      <div class="clear"></div>
+      <div class="end">
+        Copyright© 塑金国际 粤ICP备xxxxxx号
+      </div>
+    </div>
+  
+
+
+</div>
+
+   <script src="js/libs/jquery-1.11.1.min.js"></script>
+  <script src="js/froala_editor.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="../js/froala_editor_ie8.min.js"></script>
+  <![endif]-->
+  <script src="js/plugins/tables.min.js"></script>
+  <script src="js/plugins/lists.min.js"></script>
+  <script src="js/plugins/colors.min.js"></script>
+  <script src="js/plugins/media_manager.min.js"></script>
+  <script src="js/plugins/font_family.min.js"></script>
+  <script src="js/plugins/font_size.min.js"></script>
+  <script src="js/plugins/block_styles.min.js"></script>
+  <script src="js/plugins/video.min.js"></script>
+
+  <script>
+      $(function(){
+          $('#edit').editable({inlineMode: false, alwaysBlank: true})
+      });
+  </script>
+</body>
+</html>

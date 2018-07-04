@@ -1,0 +1,149 @@
+{:W('Default/webheader')} 
+<script type="text/javascript" src="__PUBLIC__/New_style/skin/sjzx/js/search.js"></script>
+
+
+<style type="text/css">
+.wuxing_content{width: 100%; height: auto; margin-top: 10px;min-width: 1300px;}
+.wuxing_table{background: #E9F2FB url(__PUBLIC__/New_style/skin/sjzx/image/title_bg.gif) repeat-x left top;border: 1px solid #AACCEE;  border-bottom:none;margin-bottom: 2px;width: 1100px; margin: 0px auto;}
+.wuxing_table table{width: 1100px;margin: 0px auto;}
+.wuxing_table table tr td a{color: #07519A; }
+.wuxing_table table tr td{line-height: 26px;padding: 0px 10px;font-family: "宋体";font-size: 13px;color: #333;}
+.property_list{width: 1100px;margin: 20px auto;overflow: hidden;}
+.property_list_l{width: 72%;border: 1px solid #e8e8e8;margin-bottom: 20px;padding: 0 20px;}
+.property_list_l dt {border-bottom: solid 1px #ddd;height: 45px;}
+.property_list_l dt .title {float: left;width: 120px;line-height: 45px;text-align: center;color: #3399ee;font-size: 16px;padding-left: 7px;position: relative;}
+.title_bottom_line {position: absolute;border-bottom: 1px solid #3399ee;left: 0;bottom: -1px;width: 130px;}
+.property_list_l dt .count {float: right;font-size: 14px;line-height: 45px; color: #333;}
+.property_list_l dt .count .n {color: #fd7d26;}
+.property_list_l dd ul li {line-height: 24px;border-bottom: 1px dotted #ccc;padding: 20px 20px;}
+.property_list_l dd ul li .t a {color: #000;font-size: 16px;}
+.property_list_l dd ul li em {color: #fd7d26; font-style: inherit;}
+.property_list_l dd ul li .info {color: #7a7a7a; font-size: 12px; font-weight: 400;}
+.mar_r30 {margin-right: 30px;}
+.property_list_r {width: 230px;}
+
+.no_result {margin: 0px auto;height: 303px;margin: 0 auto;margin-bottom: 20px;}
+.result_content {width: 836px;height: 303px;margin: 0 auto;background: url(/resources/fore/image/common/no_result.jpg) no-repeat;position: relative;}
+.result_text {width: 375px;height: 110px;position: absolute;top: 106px;left: 350px;}
+.t {margin: 20px 0px 0px;}
+.result_text p {margin: 5px 0;padding: 0;font-size: 16px;text-indent: 20px;}
+
+/* 物性表搜索样式 */
+.searchbox {width: 1100px;border: 1px solid #ddd;background: #F5F5F5;height: 200px;margin: 0 auto;margin-top: 20px;}
+.searchbox_inp {margin-top: 60px;height: 50px;margin-left: 155px;}
+.searchbox_inp_text {float: left;height: 47px;line-height: 47px;font-size: 34px;color: #3399EE;margin-right: 20px;}
+.searchbox_inp_input {height: 47px;width: 688px;float: left;}
+.input_left_radius {width: 4px;height: 47px;background: url(__PUBLIC__/New_style/skin/sjzx/img/icon1.png) no-repeat;float: left;}
+.input_mid_radius {width: 680px;height: 43px;float: left;border-top: 2px solid #3399EE;border-bottom: 2px solid #3399EE;background: #fff;}
+.input_right_radius {width: 4px;height: 47px;background: url(__PUBLIC__/New_style/skin/sjzx/img/icon2.png) no-repeat;float: right;}
+.wxb_search {width: 550px;height: 17px;padding: 13px 0 13px 20px;display: block;float: left;font-size: 14px;float: left;color: #999; border: 0;}
+.wxb_btn {width: 110px;display: block;float: left;height: 43px;background: #3399EE;float: left;color: #fff;font-size: 24px;font-family: "微软雅黑";cursor: pointer; border: none;}
+.search_hot {height: 25px;margin-top: 15px;line-height: 25px;margin-left: 276px;font-size: 14px;}
+
+
+.com-paging {
+	margin-top: 10px
+}
+
+.com-paging a,.com-paging span {
+	display: inline-block;
+	margin-left: 5px;
+	padding: 5px 8px;
+	background: #fff;
+	color: #777;
+	border: 1px solid #ddd;
+	border-radius: 4px
+}
+
+.com-paging a:hover {
+	background: #fff;
+	color: #2d80f6;
+	border: 1px solid #2d80f6
+}
+
+.com-paging span.current {
+	background: #2d80f6;
+	color: #fff;
+	border: 1px solid #2d80f6
+}
+</style>
+<div class="wuxing_content">
+    <div class="wuxing_table">
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>现在的位置：<a href='baojialist_dlxh'>市场报价</a>&nbsp;>&nbsp;<a href="baojialist_wxb">物性表</a>&nbsp;>&nbsp;{$_GET['keyword']}</td>
+            </tr>
+        </table>
+    </div>
+    <div class="clear"></div>
+    <div class="searchbox">
+        <div class="searchbox_inp">
+            <a class="searchbox_inp_text" href="baojialist_wxb">物性表</a>
+            <div class="searchbox_inp_input">
+                <div class="input_left_radius"></div>
+                <div class="input_mid_radius">
+                <form action="baojialist_wxb_search" method="get">
+                    <input type="text" name="keyword" id="word" class="wxb_search" style="color: rgb(0, 0, 0);" placeholder="请输入品名、牌号" value="{$_GET['keyword']}">
+                    <input type="submit" class="wxb_btn" value="搜 索" id="search">
+                </form>
+                </div>
+                <div class="input_right_radius"></div>
+            </div>
+        </div>
+      
+        <div class="search_hot">
+        <span>已收录可查物性表牌号<a href="baojialist_wxb" style="margin-right: 0; color: #FF7300;">{$count}</a>个</span>
+        </div>
+    </div>
+
+        <div class="property_list">
+        <dl class="property_list_l fl">
+            <dt>
+                <p class="title">搜索结果列表
+                 <span class="title_bottom_line"></span>
+                </p>
+                <p class="count">共搜索到 <span class="n">{$count}</span> 条结果</p>
+            </dt>
+            <dd>
+                <ul>
+           			<foreach name="list" item="value">
+                    <li>
+                        <p class="t">
+                            <!-- <a target="_blank" href="Show.php?id=<?php echo $value['id']; ?>" class="info"> -->
+                            <a target="_blank" href="baojialist_wxb_details?id={$value['id']}" class="info">
+                                <em><em><?= $value['cinvname'];?></em></em> | <?= $value['vendor']?> | <?= $value['cinvstd']?>
+                            </a>
+                        </p>
+                        <p class="info">用途：<?= $value['useto']?>
+                        </p>
+                        <p class="info">
+                             <span class="mar_r30">特性备注:<?= $value['features']?></span><span>生产厂商：<?= $value['vendor']?></span>
+                        </p>
+                    </li>
+                </foreach>
+
+      <eq name="count" value="0">
+      <div class="no_result">
+         <div class="result_content">
+            <div class="result_text">
+               <p style="margin-top:15px;" class="t">抱歉，暂时没有找到与搜索条件匹配的物性表！</p>
+               <p>您可以：检查输入的关键字是否有误</p>
+               <p>我们会尽量尝试供应与您输入的条件匹配的物性表</p>
+            </div> 
+         </div>
+      </div>
+  	</eq>
+                  
+                </ul>
+            </dd>
+            <div class="com-paging">
+                {$page}
+            </div>
+        </dl>
+        <div class="property_list_r fr">
+            <a href="#"><img src="__PUBLIC__/New_style/skin/sjzx/image/u848.png" width="230"></a>
+        </div>
+    </div>
+
+</div>
+{:W('Default/webfooter')}

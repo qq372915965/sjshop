@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+        <meta name="Keywords" content="" />
+        <meta name="Description" content="" />
+
+        <!--check css-->
+        <script src="__PUBLIC__/Home/js/modernizr-2.6.2.min.js" type="text/javascript" charset="utf-8"></script>
+        <!--css3 prefix-->
+        <script src="__PUBLIC__/Home/js/prefix-css3.min.js" type="text/javascript" charset="utf-8"></script>
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lte IE 8]>
+            <script src="js/html5shiv.js" type="text/javascript" charset="utf-8"></script>
+            <script src="js/respond.min.js" type="text/javascript" charset="utf-8"></script>
+        <![endif]-->
+
+        <!--css-->
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/cstfont/iconfont.css" />
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/all.css" />
+    </head>
+
+
+<body>
+
+        <div class="invoice">
+
+            <h4 class="invoice-ttl">开票管理</h4>
+            <span class="invoice-icon">发票信息</span>
+
+            <!--开票表单-->
+            <div class="invoice-form">
+                <form class=" form-horizontal " novalidate="novalidate">
+
+                    <div class="form-group  vd-box">
+                        <label class="col-xs-3 control-label" for="invoice-name">发票类型:</label>
+                        <div class="col-xs-8 padding-l-no radio ">
+                            <label class="rd-label">
+                                <input class="vd-item" type="radio" name="invoice_type" id="" checked value="1" 
+                                req vd-rd vd-rd-ok vd-rd-msg="发票类型不能为空！"  />增值税普通发票
+                                
+                            </label>
+                            <label class="rd-label">
+                                <input class="vd-item" vd-rd type="radio" {$checked} name="invoice_type" id="" value="2" />
+                                增值税专用发票
+                            </label>
+                            <span class="vd-req"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group vd-box">
+                        <label class="col-xs-3 control-label" for="invoice-name">单位名称:</label>
+                        <div class="col-xs-8 padding-l-no">
+                            <input class=" form-control rd-no vd-item" vd-req vd-req-msg="内容不能为空" name="units_name" type="text" id="invoice-name" placeholder="单位名称" value="{$invoice['units_name']}" />
+                            <input type="hidden" name="order_sn" value="{$order_sn}">
+                            <input type="hidden" name="user_id" value="{$user_id}">
+                            <span class="vd-req "></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group vd-box">
+                        <label class="col-xs-3 control-label" for="invoice-ttl">发票抬头:</label>
+                        <div class="col-xs-8 padding-l-no">
+                            <input class=" form-control rd-no vd-item" vd-req vd-req-msg="内容不能为空" name="invoice_rise"  type="text" id="invoice-ttl" placeholder="填写发票抬头" value="{$invoice['invoice_rise']}"/>
+                            <span class="vd-req "></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group vd-box">
+                        <label class="col-xs-3 control-label" for="invoice-num">纳税人识别号:</label>
+                        <div class="col-xs-8 padding-l-no">
+                            <input class=" form-control rd-no vd-item" vd-pattern="^\S{15,20}$" vd-req vd-req-msg="纳税人识别号长度15到20位" name="taxpayer_number" type="number" id="invoice-num" placeholder="15，17，18或20位纳税人识别号" value="{$invoice['taxpayer_number']}"/>
+                            <span class="vd-req "></span>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group vd-box">
+                        <label class="col-xs-3 control-label" for="invoice-reg">注册地址:</label>
+                        <div class="col-xs-8 padding-l-no">
+                            <textarea class=" form-control rd-no vd-item" vd-req vd-req-msg="内容不能为空" name="register_address" id="invoice-reg" placeholder="请如实填写公司注册地址信息，如省区街道名称，门牌号码，楼层等信息。">{$invoice['register_address']}</textarea>
+                            <span class="vd-req "></span>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group vd-box">
+                        <label class="col-xs-3 control-label" for="invoice-tel">注册电话:</label>
+                        <div class="col-xs-2 padding-lr-no">
+                            <input class=" form-control rd-no vd-item" vd-pattern="^\S{4}$" vd-req vd-req-msg="合理填写区号" name="code" type="number" id="invoice-tel" placeholder="区号" value="{$invoice['code']}"/>
+                            <span class="vd-req "></span>
+
+                        </div>
+                        <label class="width-0-5 invoice-tel control-label">
+                                                <span></span>
+                                             </label>
+                        <div class="col-xs-5 ">
+                            <input class=" form-control rd-no vd-item" vd-pattern="^\S{6,8}$" vd-req vd-req-msg="合理填写号码" name="phone" type="number" id="invoice-tel" placeholder="电话号码" value="{$invoice['phone']}"></input>
+                            <span class="vd-req "></span>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group vd-box">
+                        <label class="col-xs-3 control-label" for="invoice-bank">开户银行:</label>
+                        <div class="col-xs-8 padding-l-no">
+                            <input class=" form-control rd-no vd-item" vd-req vd-req-msg="内容不能为空" name="open_bank" type="text" id="invoice-bank" placeholder="中国邮政" value="{$invoice['open_bank']}"/>
+                            <span class="vd-req "></span>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group vd-box">
+                        <label class="col-xs-3 control-label" for="invoice-bank2">银行账号:</label>
+                        <div class="col-xs-8 padding-l-no">
+                            <input class=" form-control rd-no vd-item" vd-pattern="^\S{16,30}$" vd-req vd-req-msg="合理填写银行卡号" name="bank_number" type="number" id="invoice-bank2" placeholder="6221 8888 8888 8888" value="{$invoice['bank_number']}"3/>
+                            <span class="vd-req "></span>
+
+                        </div>
+                    </div>
+
+                    <h4 class="invoice-box-line clearfix" style="margin-left: 67px;">寄票地址<small class="text-ash">(非必填)</small></h4>
+
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label" for="invoice-goods-rel">收货人:</label>
+                        <div class="col-xs-8 padding-l-no">
+                            <input class=" form-control rd-no vd-item" name="take_name" type="text" id="invoice-goods-rel" placeholder="收货人" value="{$invoice['take_name']}" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label" for="invoice-addr">所在地区:</label>
+                        <div class="col-xs-8 padding-l-no tree-address-big">
+                            <input class=" form-control rd-no tree-address-btn vd-item" name="loca_area" type="text" id="invoice-addr" placeholder="所在地区" value="{$invoice['loca_area']}" />
+                            <div class="tree-address tab-big">
+                                <ul class="tree-address-ttl tab-ttl clearfix">
+                                    <li class="tab-item active" data-target=".address1">省</li>
+                                    <li class="tab-item" data-target=".address2">市</li>
+                                    <li class="tab-item" data-target=".address3">区</li>
+                                </ul>
+                                <div class="tab-content">
+                                    <ul class="tree-address-1 tab-content-item active clearfix address1">
+
+                                    </ul>
+                                    <ul class="tree-address-2 tab-content-item clearfix address2">
+
+                                    </ul>
+
+                                    <ul class="tree-address-3 tab-content-item clearfix address3">
+
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label" for="invoice-addrdtl">详细地址:</label>
+                        <div class="col-xs-8 padding-l-no">
+                            <textarea class=" form-control rd-no vd-item" name="address" id="invoice-addrdtl" placeholder="详细地址">{$invoice['address']}</textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label" for="invoice-email">邮箱:</label>
+                        <div class="col-xs-8 padding-l-no">
+                            <input class=" form-control rd-no vd-item" name="email" type="text" id="invoice-email" placeholder="邮箱" value="{$invoice['email']}" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label" for="invoice-phone">手机:</label>
+                        <div class="col-xs-8 padding-l-no">
+                            <input class=" form-control rd-no vd-item" name="cellphone" type="number" id="invoice-phone" placeholder="手机" value="{$invoice['cellphone']}" />
+                        </div>
+                    </div>
+
+                
+            </div>
+
+            <!--提交按钮-->
+            <div class="invoice-submit">
+                <div class="form-group text-center">
+
+                    <input class="btn btn-danger rd-no  invoice-btn vd-btn" type="button" value="保存" />
+
+                </div>
+            </div>
+            </form>
+        </div>
+
+<script src="__PUBLIC__/Home/js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="__PUBLIC__/Home/js/all.js" type="text/javascript" charset="utf-8"></script>
+<script src="__PUBLIC__/Home/js/config.js" type="text/javascript" charset="utf-8"></script>
+<script src="__PUBLIC__/Home/js/city.data-3.js" type="text/javascript" charset="utf-8"></script>
+
+        <script type="text/javascript">
+
+            //  买卖家中心 设置模板页iframe的高度
+                iframe.setHeight();
+                // 三联地址
+                treeSelectAddress.init();
+
+                var vd1=vd.create(".form-horizontal");
+                vd1.init();
+                $(".vd-btn").on("click", function() {
+                    // 是否验证成功
+                    vd1.isSuccess(function(obj) {   
+                    obj['user_id'] = $("input[name='user_id']").val();
+                        $.ajax({
+                         url:"__CONTROLLER__/add_info",
+                         dataType:"JSON",
+                         type:'POST',
+                         data:obj,
+                        success:function(data){
+                            if(data > 0){
+                            window.location.assign("invoice_info.html?user_id="+$("input[name='user_id']").val());
+                        
+                            }
+                        }
+                    })
+                                        
+                    },function(obj) {
+                    obj.el.focus();             
+                    
+                    }); 
+            });
+
+
+
+        </script>
+    </body>
+</html>
+
+

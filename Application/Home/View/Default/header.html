@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+		<meta name="Keywords" content="" />
+		<meta name="Description" content="" />
+
+		<!--check css-->
+		<script src="__PUBLIC__/Home/js/modernizr-2.6.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--css3 prefix-->
+		<script src="__PUBLIC__/Home/js/prefix-css3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/Home/js/handlebars-v4.0.8.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/Home/js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lte IE 8]>
+			<script src="__PUBLIC__/Home/js/html5shiv.js" type="text/javascript" charset="utf-8"></script>
+			<script src="__PUBLIC__/Home/js/respond.min.js" type="text/javascript" charset="utf-8"></script>
+		<![endif]-->
+
+		<!--css-->
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/cstfont/iconfont.css" />
+
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/all.css" />
+	</head>
+
+	<body>
+
+		<!-- head start-->
+		<header class="com-head">
+
+			<!--head-top start-->
+			<div class="com-head-top">
+				<div class="container-12">
+					<div class="row clearfix">
+						<div class="com-head-top-l pull-left">
+							<span class="glyphicon glyphicon-home  item"></span>
+							<a class="item" href="/">返回首页</a>
+							<span class="item shops_name"></span>
+							<span class="item hy">企业会员</span>
+							<a class="item my_seller" href="#" target="_blank">我的店铺</a>
+							<a class="item  logout" href="/e/member/doaction.php?enews=exit&ecmsfrom=9">退出</a>
+
+						</div>
+						<div class="com-head-top-r pull-right">
+							<a class="item user_center" href="#">会员中心</a>
+							<a class="item order_manage" href="#">订单管理</a>
+							<a class="item" href="javascript:;">关于我们</a>
+							<span class="item">客户热线:0769-87139333</span>
+							<a class="item info click_line" href="javascript:;">消息 0</a>
+
+							<!--聊天记录-->
+                        <ul class="chat-top-list">
+                         
+                        </ul>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!--head-top end-->
+
+			<!-- head-logo start-->
+			<div class="com-head-logo">
+				<div class="container-12">
+					<div class="row clearfix">
+						<a href="javascript:;">
+							<img class="head-logo-img" src="__PUBLIC__/Home/img/index_logo.png" alt="logo" />
+							<div class="head-logo-text">
+								<h4>塑金在线</h4>
+								<span>樟木头国际塑胶电商交易中心</span>
+							</div>
+						</a>
+
+						<ul class="clearfix account_nom">
+                            <li class="dropdown">
+                                <a href="JavaScript:;" data-toggle="dropdown" data-target="">账户设置 <span class="glyphicon glyphicon-menu-down"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="account_setting" href="#" target="_self"  >账户设置</a></li>
+                                    <li><a class="seller_centre" href="#" target="_self">买卖家中心</a></li>
+
+                                </ul>
+
+                            </li>
+                        </ul>
+
+					</div>
+
+				</div>
+
+			</div>
+			<!--head-logo end-->
+
+		</header>
+		<!-- head end-->
+<script type="text/javascript">
+	$(function(){
+	
+		var cont = '__CONTROLLER__';
+		var coll_name = cont.split('/');
+		if(coll_name[coll_name.length-1] == 'Cart' || coll_name[coll_name.length-1] == 'Chat' || coll_name[coll_name.length-1] =='Myseller'){
+			$('.account_nom').hide();
+
+		}
+
+		if(coll_name[coll_name.length-1] == 'Order'){
+			$('.dropdown a').first().text('买卖家中心');
+		}
+		// 查出用户名
+		$.ajax({
+			url:'__MODULE__/Loginsso/ajax_name',
+			type:'post',
+			data:{'username':'username'},
+			success:function(data){
+			$('.shops_name').text(data+' 你好！欢迎回来');
+			}
+		})
+
+
+        // 查出消息列表
+        var user_id = "<?php echo $_GET['user_id'] ? $_GET['user_id'] :$_GET['user_ida'];?>";
+        $('.click_line').click(function(){
+        	$('.news_remove').remove();
+			click_line();
+		})
+		click_line();
+        function click_line(){
+        	$.ajax({
+	            url:'__MODULE__/Chat/news_lists',
+	            dataType:'json',
+	            type:'post',
+	            data:{'user_id':user_id},
+	            success:function(data){
+	            	if(data != 'NULL'){
+	            		var num  = 0;
+	                for(var i  in data ){
+	                var html = '';
+	                html +=         '<li class="clearfix news_remove">';
+	                html +=         '<a href="'+data[i]['url']+'">';
+	                html +=                    '<img src="/sjshop/Public/Home/img/service.png" alt="头像图片" />';
+	                html +=                    '<div class="contlist">';
+	                html +=                        '<h4 class="ellipsis">'+data[i]['username']+'</h4>';
+	                html +=                        '<div class="contlist-box">';
+	                html +=                            '<span class="text--777 record">聊天记录</span>';
+	                html +=                            '<span class="text-777 date text-right">'+data[i]['time']+'</span>';
+	                if(data[i]['status'] ==1){
+	                	var num = 1 + num;
+	                	html += 							'<div class="text-right">';
+	                	html +=                              	'<span class="badge">'+data[i]['status']+'</span>';
+	                	html +=                            '</div>';
+	                }
+	                
+	                html +=                       ' </div>';
+	                html +=                    '</div>';
+	                html +=                '</a>';
+	                html +=            '</li>';
+	                $('.chat-top-list').append(html);
+	             }
+	             	$('.click_line').text('消息 '+num);
+	             }
+	            }
+        	})
+        }
+        
+	})
+	
+	$.ajax({
+			url:'__MODULE__/Writeoff/seek_user_id',
+			type:'post',
+			success:function(data){
+				$('.order_manage').attr('href','__MODULE__/order?user_id='+data);
+				$('.my_seller').attr('href','__MODULE__/Myseller/seller_index?user_id='+data);
+				$('.account_setting').attr('href','__MODULE__/Account/index?user_id='+data);
+				$('.seller_centre').attr('href','__MODULE__/order?user_id='+data);
+				$('.user_center').attr('href','__MODULE__/Center/goods_list?user_id='+data);
+			}
+		})
+
+</script>

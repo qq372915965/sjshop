@@ -1,0 +1,292 @@
+<include file="Default:header" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/bs-date/css/bootstrap-datetimepicker.min.css" />
+	<title>修改合同</title>
+		<div class="contract container-12">
+
+			<form class="contract-content" novalidate="novalidate">
+				
+				<!--标题-->
+				<h4 class="contract-content-ttl">修改合同</h4>
+				
+				<!--供方-->
+			
+				<div class="item">
+					<strong>提供方</strong><label for="a1">(以下成为甲方)：</label>
+					<input type="text" style="width: 300px;" id="a1" placeholder="" value="{$contractInfo.a_company}" class="add-input" param-name="a_company"/>
+				</div>
+
+				<div class="item">
+					<label>地址：</label>
+					<input type="text" style="width: 300px;" class="add-input" value="{$contractInfo.a_address}" param-name="a_address"/>
+				</div>
+
+				<div class="item">
+					<label>法定的代表人：</label>
+					<input type="text" style="width: 150px;" class="add-input" value="{$contractInfo.a_legal_representative}" param-name="a_legal_representative"/>
+					<label>联系电话：</label>
+					<input type="text" style="width: 180px;" class="add-input" value="{$contractInfo.a_contact_number}" param-name="a_contact_number"/>
+					<label>电子邮箱：</label>
+					<input type="text" style="width: 180px;" class="add-input" value="{$contractInfo.a_email}" param-name="a_email"/>
+				</div>
+
+				<!--需方-->
+
+				<div class="item itemtop">
+					<strong>提供方</strong><label for="a2">(以下成为乙方)：</label>
+					<input type="text" style="width: 300px;" id="a2" placeholder="" class="add-input" value="{$contractInfo.b_company}" param-name="b_company"/>
+				</div>
+
+				<div class="item">
+					<label>地址：</label>
+					<input type="text" style="width: 300px;" class="add-input" value="{$contractInfo.b_address}" param-name="b_address"/>
+				</div>
+
+				<div class="item">
+					<label>法定的代表人：</label>
+					<input type="text" style="width: 150px;" class="add-input" value="{$contractInfo.b_legal_representative}" param-name="b_legal_representative"/>
+					<label>联系电话：</label>
+					<input type="text" style="width: 180px;" class="add-input" value="{$contractInfo.b_contact_number}" param-name="b_contact_number"/>
+					<label>电子邮箱：</label>
+					<input type="text" style="width: 180px;" class="add-input" value="{$contractInfo.b_email}" param-name="b_email" />
+				</div>
+
+				<!--表格-->
+				<table class="table table-fixed table-bordered table-hover" cellspacing="" cellpadding="">
+					<tbody>
+						<!--头部-->
+						<tr>
+							<th>商品名称</th>
+							<th>产地</th>
+							<th>规格型号</th>
+							<th>单价(元)</th>
+							<th>数量(吨)</th>
+							<th>货款金额</th>
+							<th>备注(是否含税)</th>
+						</tr>
+
+						<!--内容-->
+						<volist name="orderInfo.goods" id="g">
+						<tr>
+							<td>{$g.goods.0}</td>
+							<td>{$g.goods.1}</td>
+							<td>{$g.goods.2}</td>
+							<td>{$g.goods_price}</td>
+							<td>{$g.goods_num}</td>
+							<td>{$g.total_price}</td>
+							<td>含税</td>
+						</tr>
+						</volist>
+					</tbody>
+
+					<tfoot>
+						<tr>
+							<td class="text-right" colspan="1">
+								<strong>货款总价（含运费）：</strong>
+							</td>
+							<td class="text-left" style="text-align: left;" colspan="6">
+								<span>{$orderInfo.total_price}</span>
+							</td>
+						</tr>
+					</tfoot>
+
+				</table>
+
+				<!--1-->
+				<div class="item one">
+					<strong>一. 甲乙双方约定的交货时间为：</strong>
+					<input type="text" style="width: 200px;" class="add-input datetimepicker" value="{$contractInfo.delivery_time|date='Y-m-d', ###}" param-name="delivery_time"/>
+				</div>
+
+				<!--2-->
+				<div class="item two ">
+					<strong>二. 甲乙双方约定的交货方式为以下：</strong>
+					<div class="radio">
+						<label>
+							<input type="radio" id="" value="0" name="rd-1" class="add-input" param-name="delivery"/>
+							<span>自提货，双方约定的自提货的地点为</span>
+							<input type="text"  style="width: 300px;" class="add-input" value="{$contractInfo.delivery_address}" param-name="delivery_address"/>
+							
+						</label>
+
+					</div>
+					<div class="radio">
+						<label>
+							<input type="radio"  id="" value="1" name="rd-1" class="add-input" param-name="delivery"/>
+							<span>甲方送货到乙方约定的地点</span>
+							<input type="text"  style="width: 300px;" class="add-input" value="{$contractInfo.delivery_address_1}" param-name="delivery_address"/>
+							自货物送至指定地点前或虽送货至乙方指定 地点但乙方与甲方尚未验收完毕前的货物损毁、灭失的风险由甲方承担，货物经甲乙双方验收后，货物损毁 、的风险由乙方承担，但甲方按约定送货至乙方指定地点，乙方以各种借口或以各种形式拒绝验收或拖延验收的，甲方可以将货物提存或自行保管，由此产生的一切费用及风险由乙方承担，甲方可以追究乙方的违约责任或要求乙方赔偿一切经济损失。       
+						</label>
+
+					</div>
+					<div class="radio">
+						<label>
+							<input type="radio"  id="" value="2" name="rd-1" class="add-input" param-name="delivery"/>
+							乙方应在收到甲方的货物时,与甲方共同对货物的包装、规格、型号、数量等进行验收，如发现有与协议约定不一致，或发现货物表面质量问题，应在验收之日或在验收之日起次日以书面形式向甲方提出，也可以拒绝收取相应货物并拒绝支付相应货款，由此产生一切法律责任由甲方承担。货物的隐蔽质量瑕疵在验收时未能发现，乙方在质量保证期间内发现该货物有质量瑕疵的，乙方有权要求甲方退回相应货款或者更换相应货物，同时还可以追究甲方违约责任。
+						
+						</label>
+
+					</div>
+
+				</div>
+
+				<!--3-->
+				<div class="item  three">
+					<strong>三. 甲乙双方可以选择一下其中一种方式结算贷款：</strong>
+					<div class="radio">
+						<label>
+							<input type="radio" id="" value="0" name="rd-2" class="add-input" param-name="payment"/>
+							先交货款后交货  乙方在签署本协议时即应向甲方预付全部货款，甲方时候到货款后按本协议约定验收货物，验收完毕后与甲方结算，多退少补，一次结清。
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+							<input type="radio" id="" value="1" name="rd-2" class="add-input" param-name="payment"/>
+							先付保证金，货到付款  甲乙双方约定，在签订本协议后向甲方支付 
+							<input type="text"  style="width: 100px; text-align: center;" class="add-input" value="{$contractInfo.security_deposit}" param-name="security_deposit"/> 
+							元作为购买甲方货物以及履行本协议的保证金，如乙方在签署本协议后不履行本协议约定的义务，包括但不限于支付货款义务，甲方可以没收该保证金作为违约金，还可以要求乙方继续履行协议；如甲方在收取保证金后不予履行本协议，乙方可以要求甲方按照保证金金额的2倍向乙方承担违约或赔偿责任，还可以要求甲方继续履行协议。
+						<br>
+						甲乙双方按本协议约定履行的，乙方收取甲方货物时，本保证金自动转化为货款或充抵相应货款，甲方不退回该保证金。
+						其余货款在乙方收取货物时支付或在收取货物后 
+						<input type="text"  style="width: 50px; text-align: center;" class="add-input" value="{$contractInfo.last_days}" param-name="last_days"/>
+						个工作日内支付。
+						
+						</label>
+					</div>
+
+					<div class="radio">
+						<label>
+							<input type="radio" id="" value="2" name="rd-2" class="add-input" param-name="payment"/>
+							先交货，验收完毕后付款 乙方在收取相应货物并验收完毕后即一次性向甲方支付相应货款。
+						</label>
+					</div>
+
+				</div>
+
+				<!--4-->
+				<div class="item four">
+					<strong>四. 甲乙指定收取保证金或贷款银行账户为：</strong>
+					<div class="form-ground">
+						<label>开户行：
+							<input type="text" style="width: 300px;" class="add-input" value="{$contractInfo.account_bank}" param-name="account_bank"/>
+						</label>
+
+					</div>
+					<div class="form-ground">
+						<label>户名：
+							<input type="text" style="width: 300px;" class="add-input" value="{$contractInfo.account_name}" param-name="account_name"/>
+						</label>
+					</div>
+					<div class="form-ground">
+						<label>银行账户：
+							<input type="text" style="width: 300px;" class="add-input" value="{$contractInfo.account_number}" param-name="account_number"/>
+						</label>
+					</div>
+
+					<div class="form-ground">
+						<label>本协议有效期自：</label>
+						<input type="text" class="add-input datetimepicker" value="{$contractInfo.start_time|date='Y-m-d', ###}" param-name="start_time"/> 
+						<!-- <input type="text" style="width: 60px;" class="add-input" value="{$contractInfo.start_time|date='m', ###}" param-name="start_month"/> 月
+						<input type="text" style="width: 60px;" class="add-input" value="{$contractInfo.start_time|date='d', ###}" param-name="start_day"/> 日 --> 
+						起至
+						<input type="text" class="add-input datetimepicker" value="{$contractInfo.end_time|date='Y-m-d', ###}" param-name="end_time"/> 
+						<!-- <input type="text" style="width: 60px;" class="add-input" value="{$contractInfo.end_time|date='m', ###}" param-name="end_month"/> 月
+						<input type="text" style="width: 60px;" class="add-input" value="{$contractInfo.end_time|date='d', ###}" param-name="end_day"/> 日  -->
+						止, 共
+						<input type="text" style="width: 60px;" class="add-input" value="{$contractInfo.contract_month}" param-name="contract_month"/> 个月。
+					</div>
+
+					<div class="form-ground">
+						<label>补充条款：</label>
+						<div class="clearfix"></div>
+						<textarea class="tk add-input" name="" rows="" cols="" param-name="additional_clause">{$contractInfo.additional_clause}</textarea>
+					</div>
+
+				</div>
+
+				<!--5-->
+				<div class="item five">
+
+					<div class="form-ground">
+						<label>甲方盖章：
+							<input type="text" style="width: 200px;" />
+						</label>
+						<label>乙方盖章：
+							<input type="text" style="width: 200px;" />
+						</label>
+					</div>
+
+					<div class="form-ground">
+						<label>签约代表：
+							<input type="text" style="width: 200px;" class="add-input" value="{$contractInfo.a_deputation}" param-name="a_deputation"/>
+						</label>
+						<label>签约代表：
+							<input type="text" style="width: 200px;" class="add-input" value="{$contractInfo.b_deputation}" param-name="b_deputation"/>
+						</label>
+					</div>
+
+					<div class="form-ground clearfix">
+						<div class="qianyue-date">签约时间：
+							<input type="text" style="text-align: center;" class="add-input datetimepicker" value="{$contractInfo.a_contract_time|date='Y-m-d', ###}" param-name="a_contract_time"/>
+							<!-- <input type="text" style="width: 60px;" class="add-input" value="{$contractInfo.a_contract_time|date='m', ###}" param-name="a_contract_month"/>月
+							<input type="text" style="width: 60px;" class="add-input" value="{$contractInfo.a_contract_time|date='d', ###}" param-name="a_contract_day"/>日 -->
+						</div>
+
+						<div class="qianyue-date">签约时间：
+							<input type="text" style="text-align: center;" class="add-input datetimepicker" value="{$contractInfo.b_contract_time|date='Y-m-d', ###}" param-name="b_contract_time"/>
+							<!-- <input type="text" style="width: 60px; text-align: center;" class="add-input" value="{$contractInfo.b_contract_time|date='m', ###}" param-name="b_contract_month"/>月
+							<input type="text" style="width: 60px;text-align: center;" class="add-input" value="{$contractInfo.b_contract_time|date='d', ###}" param-name="b_contract_day"/>日 -->
+						</div>
+
+					</div>
+				</div>
+			
+				<div class=" contract-content-submit text-center">
+					<input class="btn btn-primary add-contract-btn rd-no" type="button" name="" id="" value="修改合同" />
+				</div>
+
+			</form>
+
+		</div>
+
+		</div>
+		<include file="Default:footer" />
+
+		<script src="__PUBLIC__/Home/css/bs-date/js/bootstrap-datetimepicker-ch.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var opt = {};
+			var shop_id = "{$orderInfo.shop_id}";
+			var contract_delivery = "{$contractInfo.delivery}";
+			var contract_payment = "{$contractInfo.payment}";
+
+			opt['order_sn'] = "{$orderInfo.order_sn}";
+
+			$('.add-input').on('change', function(){
+				var param_name = $(this).attr('param-name');
+				opt[param_name] = $(this).val();
+			});
+
+			$('.add-contract-btn').on('click', function(){
+				$.post("save_edit_contract", opt, function(data){
+					if(data.status == 1){
+						alert(data.message);
+						window.location.href = "__MODULE__/Order?user_id="+shop_id+"&contract=1";
+					}else{
+						alert(data.message);
+					}
+				});
+			});
+
+			var delivery = contract_delivery - 1;
+			var payment = contract_payment - 1;
+
+			$("input[name='rd-1'][value="+delivery+"]").attr('checked', true);
+			$("input[name='rd-2'][value="+payment+"]").attr('checked', true);
+
+			$('.datetimepicker').datetimepicker({
+				format: "yyyy-mm-dd",
+				showMeridian: true,
+				autoclose: true,
+				todayBtn: true
+			});
+
+		</script>

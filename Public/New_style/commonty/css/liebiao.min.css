@@ -1,0 +1,66 @@
+.box {width: 94%;  float: left; margin-top: 16px; margin-left: 3%;background: #F2F2F2;}
+.xh{width: 100%;}
+.box table{
+	width: 100%;
+	/*table-layout: fixed; */
+	font-size:12px;
+	text-align: center;
+}
+table{
+	/*table-layout:fixed;*/
+	empty-cells:show;
+	border-collapse: collapse;
+	margin:0 auto;
+}
+td{
+	height:40px;
+}
+.table{
+	border:1px solid #D7D7D7;
+	color:#666;
+}
+.table input{
+	margin: 10px;
+}
+.table th {
+	background-repeat:repeat-x;
+	height:40px;
+}
+.table td,.table th{
+	border:1px solid #D7D7D7;
+	/*padding:0 1em 0;*/
+}
+/*.table tr.alter{
+	background-color:#F2F2F2;
+} */
+.button{
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.button input{
+	border: 0px solid #ffffff;
+	width: 65px;
+	height: 30px;
+	background: #FF6600;
+	color: #fff;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	cursor: pointer;
+	font-size: 13px;
+	font-family: "微软雅黑";
+}
+.button2 a{
+	border: 0px solid #ffffff;
+	width: 72px;
+	height: 30px;
+	background: #FF6600;
+	color: #fff;
+	display: block;
+	float: left;
+	margin-left: 10px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 13px;
+	font-family: "微软雅黑";
+}

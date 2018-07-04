@@ -1,0 +1,68 @@
+*{margin: 0px; padding: 0px;}
+a{text-decoration: none;}
+img{margin: 0px; padding: 0px;}
+ul li,ol li{list-style: none;}
+body{font-size: 14px; font-family: "微软雅黑"; font-weight: normal;background: #fff;}
+.fr{float: right;}
+.fl{float: left;}
+i{font-style: normal;}
+.clear{clear: both;}
+.clearfix:before, .clearfix:after {content: "";display: table;}
+.clearfix:before {display: none!important;}
+.clearfix:after {clear: both;}
+
+/*塑料助剂*/
+.zj_content{width: 1200px;border: 1px solid #D9E0EE;margin:10px auto;background:#fff;}
+.zj_left{width: 900px;float: left;}
+.zj_product_info{height: 36px;line-height: 36px;text-align: center;background: #EEF8FF; }
+.zj_product_menu{padding: 10px;border-bottom: 1px solid #CCCCCC;}
+.zj_product_menu:hover{background: #FFFBE8;}
+.zj_product_li{height: 100px;}
+.zj_product_list{line-height: 30px;color: #666666;font-size: 12px;}
+.zj_product_list a{color: #333333;font-size: 15px;font-weight: bold;}
+.zj_product_list a:hover{color: #f00;text-decoration: underline;}
+.zj_black{color: #000000;}
+.zj_right{width:300px;float: right;height: 500px;}
+.zj_red{color: #f00;font-size: 22px;}
+
+/*环保再生*/
+.hb_content{width: 1200px;border: 1px solid #D9E0EE;margin:10px auto;background-color: #fff;}
+.hb_menu{background: #EEF8FF;height: 36px;line-height: 36px;color: #666;}
+.hb_menu_first{float: left;width: 200px;text-align: center;}
+.hb_menu_two{float: left;width: 500px;text-align: center;}
+.hb_menu_three{float: left;width: 500px;text-align: center;}
+.hb_list{padding: 10px 50px;border-bottom: 1px solid #cccccc;}
+.hb_list:hover{background: #FFFBE8;}
+.hb_list_left{height: 100px;width: 100px;float: left;}
+.hb_list_middle{width: 600px;float: left;height: 100px;padding: 0px 30px;}
+.hb_list_left img{border:1px solid #ccc;padding: 10px;float: left;}
+.hb_middle{float: left;padding-bottom: 10px;width: 600px;color: #666;}
+.hb_middlea{float: left;padding-bottom: 10px;width: 600px;color: #666;font-size: 12px;}
+.hb_black{color: #333333;font-size: 15px;font-weight: bold;}
+.hb_black:hover{color: #f00;text-decoration: underline;}
+.hb_red{color: #f00;}
+.tousu{color: #036;}
+.tousu:hover{color: #f00;}
+.hb_common{color: #000000;}
+.hb_gxay{color: #666666;}
+.hb_right{width: 240px;float: left;height: 100px;padding-left:90px;font-size: 12px;color: #666;}
+.hb_right_a{width: 290px;padding-top: 20px;}
+.hb_right_b{padding-top: 85px;}
+
+
+/*改性塑料*/
+.gx_content{width: 1200px;border: 1px solid #D9E0EE;margin:10px auto;}
+.gx_table{width: 100%;text-align: center;empty-cells: show;border-collapse: collapse;margin: 0 auto;table-layout: fixed;}
+.gx_table th{font-weight: normal;color: #333;line-height: 35px;text-align: left;padding-left: 30px;}
+.gx_tr{height: 35px;border-bottom: 1px solid #D9E0EE;font-size: 14px;}
+.gx_table td{height: 35px;line-height: 35px;padding-left: 30px;text-align: left;text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;}
+.gx_common{height: 35px;font-size: 15px;}
+.gx_info{height: 35px;line-height: 35px;padding-left: 20px;color: #00a1e9;font-size: 16px;}
+.pm{background: #4d8edb;color: #fff;padding: 2px 6px;}
+.pm:hover{text-decoration: underline;}
+.gx_gray{color: #666;}
+.gx_gray:hover{color: #f00;text-decoration: underline;}
+.gx_red{color: #f00;}
+.gx_red:hover{text-decoration: underline;}

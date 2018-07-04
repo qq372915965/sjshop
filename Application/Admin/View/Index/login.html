@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<META HTTP-EQUIV="pragma" CONTENT="no-cache"> 
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate"> 
+<META HTTP-EQUIV="expires" CONTENT="0">
+<link rel="stylesheet" type="text/css" href="/skin/sjzx/css/index2.css">
+<link rel="stylesheet" type="text/css" href="/skin/sjzx/css/base.css">
+<script type="text/javascript" src="/skin/sjzx/js/jquery.js"></script>
+<style type="text/css">
+body{font-size: 14px;}
+.nav_left {
+    width: 30%;
+    height: 120px;
+    float: left;
+}
+.nav_left .logo {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-top: 20px;
+    background: url(/skin/sjzx/img/index_logo.png);
+}
+.logo_text {
+    width: 200px;
+    height: 68px;
+    float: left;
+    margin-top: 27px;
+    margin-left: 5px;
+    border-left: 1px solid #eaeaea;
+    padding-left: 5px;
+}
+.logo_text_s1 {
+    font-size: 24px;
+    margin-top: 4px;
+    color: #333333;
+}
+.logo_text_s2 {
+    color: #444444;
+    margin-top: 14px;
+}
+.qh_login a{
+    color: #666;
+}
+</style>
+<title>登录塑金</title>
+</head>
+<body>
+<div class="login_header">
+	<div class="head_warp">
+		<div class="nav_left">
+            <a href="/"><div class="logo">
+            </div></a>
+            <div class="logo_text">
+                <p class="logo_text_s1">塑金在线</p>
+                <p class="logo_text_s2">樟木头国际塑胶电商交易中心</p>
+            </div>
+        </div>
+	</div>
+</div>
+<div class="login_content_wrap">
+    <div class="login_content clearfix">
+        <div class="logintips">
+            <p class="p1">塑金后台登录
+            </p>
+            <div class="qh_login">
+                <ul>
+                    <li style="float:left"><a href="#" class="current">帐号密码登录</a></li>
+                </ul>
+            </div>
+           
+            <div class="p2" id="p2">
+            	<ul>
+                    <li class="login_ul1">
+                        <span style="float:left;padding-top:4px;padding-left:10px;"><img src="/skin/sjzx/img/user.png" width="30" height="30"></span>
+                        <input placeholder="请输入用户名" type="text" class="text input-val" value="" param-name="username">
+                    </li>
+                    <li class="login_ul2">
+                        <span style="float:left;padding-top:4px;padding-left:10px;"><img src="/skin/sjzx/img/pwd.png" width="30" height="30"></span>
+                        <input placeholder="请输入密码" type="password" class="text input-val" value="" maxlength="16" param-name="password">
+                    </li>
+                </ul>
+                <div class="b">
+                    <p class="login_pwd">
+                        <a href="#" class="a">忘记密码？</a>
+                    </p>
+                    <p>
+                        <input type="button" value="登录" class="button login-btn">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer_wrap">
+	<div class="in_box">
+		<ul class="box1">
+            <li class="one">
+                <p class="p1">海量客户资源</p>
+                <p>连通上下游</p>
+            </li>
+            <li class="two">
+                <p class="p1">行情、交易、物流、金融</p>
+                <p>一站式服务</p>
+            </li>
+            <li class="three">
+                <p class="p1">资深交易员</p>
+                <p>免费服务一对一</p>
+            </li>
+            <li class="four">
+                <p class="p1">高效IT系统</p>
+                <p>实现供需精准匹配</p>
+            </li>
+        </ul>
+        <div class="box5">
+            <p>
+                COPYRIGHT © 塑金在线 www.sujin1688.com <a href="http://www.miitbeian.gov.cn" rel="nofollow">粤ICP备17088510号</a>&nbsp;
+            </p>
+        </div>
+	</div>
+</div>
+
+<script>
+    var opt = {};
+
+    $('.input-val').on('change', function(){
+        var param_name = $(this).attr('param-name');
+        opt[param_name] = $(this).val();
+    });
+
+    $('.login-btn').on('click', function(){
+        
+        if(!opt['username'] || !opt['password']){
+            alert('不允许为空');
+            return false;
+        }
+
+        $.post("{:U('login')}", opt, function(data){
+            if(data.code == 1){
+                window.location.href = "Admin/Index?userId="+data.userId+"";
+            }else{
+                alert(data.zh);
+                window.location.reload();
+            }
+        });
+    });
+
+</script>
+</body>
+</html>

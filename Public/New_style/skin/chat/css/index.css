@@ -1,0 +1,59 @@
+/*  css样式重置 */
+*{margin: 0px; padding: 0px; font-size: 12px;}
+input,select{margin: 0px; padding: 0px; /*display: block;*/}
+div h5{display: block;}
+a{text-decoration: none; color: black;}
+ul li,ol li{list-style: none;}
+body{background:#EEEEEE;}
+.clear{clear: both;}
+
+
+.chat_main{width: 100%;height: 700px;}
+.chat_main_left{width: 20%;height: 700px;background: #282C31;float: left;}
+.chat_main_left_seller{width: 80%;height: 30px;margin: 0px auto;margin-top: 10px;}
+.chat_main_left_seller p{width: 100%;height:25px;color: #FFFFFF;}
+.chat_main_left_member ul{width: 100%;color: #FFFFFF;}
+.chat_main_left_member ul li{width: 100%;height: 25px;line-height: 25px;margin-top: 20px; margin-left: 20px;}
+.chat_main_right{width: 79%;height: 700px;border: 1px solid #999999;float: right;background: #EEEEEE;}
+.chat_main_right_member{width: 100%;height: 50px;line-height:50px;border: 1px solid #999999;text-indent:20px;color: #333333;}
+.chat_main_right_left{width: 50%;height: 647px;border: 1px solid #999999;float: left;}
+.chat_content{width: 95%;height: 446px;margin: 0px auto;}
+.chat_time{width: 100%;height: 30px;line-height:30px;text-align: center;color: #333333;}
+.chat_service{width: 100%;height: 20px;color: #333333;text-align: right;}
+.chat_yes{width: 100%;height: 30px;margin-top: 5px;}
+.chat_blue{width: 10%;height: 30px;line-height:30px;border: 1px solid #169BD5;color: red;border-radius: 5px;background: #169BD5;color: #fff;float: right;}
+.chat_member{width: 100%;height: 20px;color: #333333;}
+.chat_red{width: 40%;height: 30px;line-height:30px;border: 1px solid #FF6633;color: red;border-radius: 5px;background: #FF6633;color: #fff;}
+.chat_blue1{width: 40%;height: 30px;line-height:30px;border: 1px solid #169BD5;color: red;border-radius: 5px;background: #169BD5;color: #fff;float: right;}
+.chat_red1{width: 30%;height: 30px;line-height:30px;border: 1px solid #FF6633;color: red;border-radius: 5px;background: #FF6633;color: #fff;}
+.chat_blue2{width: 30%;height: 30px;line-height:30px;border: 1px solid #169BD5;color: red;border-radius: 5px;background: #169BD5;color: #fff;float: right;}
+.chat_red2{width: 30%;height: 30px;line-height:30px;border: 1px solid #FF6633;color: red;border-radius: 5px;background: #FF6633;color: #fff;}
+.chat_text textarea{width: 99%;height: 140px;border-width:1px;background: #EEEEEE;}
+.chat_enter{width: 100%;height: 57px;}
+.chat_enter_end{width: 35%;height: 57px;float: right;}
+.chat_ctrl{line-height:70px;color: #333333;}
+.chat_button{width: 30%;height: 30px;border: 1px solid #C74646;background:#C74646;border-radius: 5px;float: right; margin-right: 5%;margin-top: 20px;font-size: 16px;color: #fff;}
+.chat_main_right_rt{width: 48%;height: 647px;float: right;background: #EEEEEE;}
+.chat_tab{width: 100%;height: 35px;border-bottom: 1px solid #3399CC;background: #eeeeee;}
+.chat_tab li{float: left;width: 20%;height: 35px;line-height:35px;text-align: center;}
+.chat_tab li a{font-size: 15px;}
+.chat_goods{width: 95%;height: 550px;margin: 0px auto;}
+.chat_goods_detail{width: 100%;height: 80px;border-bottom: 2px solid #CCCCCC;}
+.chat_goods_detail_ul{width:100%;height:50px;margin-top: 10px;}
+.chat_goods_detail_ul li{float: left;height: 25px;}
+.chat_goods_detail_blue{color: #169BD5;}
+.chat_goods_detail_time{width: 100%;height: 28px;}
+.chat_tm{float: left;}
+.chat_cal{width: 30%;height: 20px;border: 1px solid #C9C9C9;float: left;margin-left: 10%;}
+.chat_sub{display: block;width:17%;height:20px;line-height: 20px;border-right: 1px solid #C9C9C9;text-align: center;float: left;}
+.chat_add{display: block;width:17%;height:20px;line-height: 20px;border-left: 1px solid #C9C9C9;text-align: center;float: left;}
+.chat_num{display: block;width: 60%;height: 20px;line-height: 20px;text-align: center;float: left;color:#169BD5;border: 0px solid;background: #EEEEEE;}
+.chat_total{float: left;margin-left: 10px;}
+.xiaoji{color: #FF0000;}
+.chat_change{float: right;margin-right: 10px;color:#169BD5;}
+.chat_accounts{display:block;width: 20%;height: 30px;line-height:30px;border-width: 1px;background:#C74646;border-radius: 5px;float: right; margin-right: 5%;margin-top: 16px;font-size: 16px;color: #fff;text-align: center;}
+.box{width: 100%;height: auto;font-size:14px;}
+.box_table{margin-top: 20px;text-align: center;table-layout:fixed;empty-cells:show;border-collapse: collapse;margin:0 auto;border:1px solid #D7D7D7;color:#666;}
+.box_table td,.box_table th{border:1px solid #D7D7D7;height: 30px;}
+
+

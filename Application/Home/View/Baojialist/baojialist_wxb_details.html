@@ -1,0 +1,721 @@
+{:W('Default/webheader')}
+<link href="__PUBLIC__/New_style/skin/sjzx/css/detail.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/New_style/skin/sjzx/js/search.js"></script>
+<script type="text/javascript" src="__PUBLIC__/New_style/skin/sjzx/js/jquery.SuperSlide.2.1.1.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/New_style/skin/sjzx/js/jquery.imagezoom.min.js"></script>
+
+<style type="text/css">
+.wuxing_content{width: 100%; height: auto; margin-top: 10px;min-width: 1300px;}
+.wuxing_table{background: #E9F2FB url(__PUBLIC__/New_style/skin/sjzx/image/title_bg.gif) repeat-x left top;border: 1px solid #AACCEE; border-bottom: none; margin-bottom: 2px;height: 26px;width: 1100px;margin: 0px auto;}
+.wuxing_table table{width: 1100px;margin: 0px auto;}
+.wuxing_table table tr td a{color: #07519A; }
+.wuxing_table table tr td{line-height: 26px;padding: 0px 10px;font-family: "宋体";font-size: 13px;color: #333;}
+.property_show{width: 1100px;margin: 20px auto;overflow: hidden;}
+.property_show_l{width: 72%;border: 1px solid #e8e8e8;margin-bottom: 20px;padding:20px;}
+.property_show_l .title {margin-bottom: 20px;border-bottom: solid 1px #0088de;height: 30px;line-height: 30px;padding: 10px 0;}
+.property_show_l .title .baidu {overflow: hidden;font-size: 14px;text-align: center;}
+.property_show_l .title .info {width: 90%;text-align: center;font-size: 24px;font-weight: bold;color: #393939;}
+.property_show_l .title .info a{color: #393939;}
+.property_show_l .title .share {font-size: 14px;}
+.property_show_l .title .share .sl {line-height: 30px;font-size: 14px;}
+.property_show_l .title .share .sr {margin-top: 6px;}
+.property_show_l .show_ct {width: 68%;}
+.show_ct .spec {margin-bottom: 30px;}
+.show_ct dl {clear: left;}
+.show_ct .spec dt {background: url(__PUBLIC__/New_style/skin/sjzx/img/property.png) no-repeat 0 -100px;}
+.show_ct .para dt {background: url(__PUBLIC__/New_style/skin/sjzx/img/property.png) no-repeat 0 -145px;}
+.show_ct dl dt {margin: 10px 3px;padding-left: 30px;height: 20px;line-height: 20px;font-size: 16px;font-weight: bold;color: #0088e0;}
+.show_ct .para dd{margin-bottom: 10px;}
+.property_show_l .bottom {margin: 30px auto;text-align: center;}
+.property_show_l .bottom .i2 {display: inline-block;height: 30px;width: 30px;padding-left: 36px;background: url(__PUBLIC__/New_style/skin/sjzx/img/property.png) no-repeat 0 -248px;line-height: 30px;color: #fe7e25;text-decoration: none; font-size: 12px;}
+.property_show_l .disclaimer {padding: 15px 20px;border: 1px dashed #e0e0e0;}
+.property_show_l .disclaimer .p1 {color: #666;font-weight: bold; font-size: 12px;}
+.property_show_l .disclaimer p {color: #999;line-height: 22px; font-size: 12px;}
+.mar_r30 {margin-right: 30px;}
+.property_list_r {width: 230px;}
+
+.ball1{background: #cccccc;position: absolute;opacity: 0.8;top: 0px; }
+#ball-1{width:850px;height:auto; border:1px solid #cccccc; margin-left: 20px; background:#ffffff;z-index: 10; float: left; padding-bottom: 20px;}
+.wuxing_h{text-align: center; width: 100%; line-height: 40px;border-bottom: solid 1px #0088de;}
+.wuxing_h h4{font-size: 18px; color: #666;}
+.wux_x_c{ height: auto; padding: 0px 10px;}
+.wux_x_c table{width: 100%; font-size: 12px;}
+	
+</style>
+
+<div class="wuxing_content">
+    <div class="wuxing_table">
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>现在的位置：<a href=''>市场报价</a>&nbsp;>&nbsp;<a href="">物性表</a>&nbsp;>&nbsp;<a href=""><?php echo $date['cinvname'];?></a>&nbsp;>&nbsp;<?php echo $date['vendor'];?>|<?php echo $date['cinvstd'];?> 物性表</td>
+            </tr>
+        </table>
+    </div>
+    <div class="clear"></div>
+
+
+    <div class="property_show">
+        <div class="property_show_l fl">
+            <div class="title" id="title">
+                <div class="baidu">
+                    <h1 class="info fl"><a href="baojialist_dlxh"><?php echo $date['cinvname']; ?>/<?php echo $date['vendor']; ?>/<?php echo $date['cinvstd']; ?>&nbsp;</a>物性表</h1>     
+                    <div class="share fr">
+                        <p class="sl fl">分享到：</p>
+                        <div class="sr fl">
+                            <div class="bshare-custom">
+                                <div class="bsPromo bsPromo2"></div>
+                                <div class="bsPromo bsPromo2"></div>
+                                <a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a>
+                                
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="wux_x_c">
+                <table width="950" border="1" align="center" cellpadding="2" cellspacing="0" bordercolorlight="#dddddd" bordercolordark="white" class="ch_table_2" style=" font-size:12px;">
+                    <tbody>
+                      <tr class="td02" bgcolor="#eeeeee"> 
+                        <td align="center" width="10%">大类</td>
+                        <td align="center" width="20%">小类</td>
+                        <td align="center" width="15%">测试条件</td>
+                        <td align="center" width="20%">测试方法</td>
+                        <td align="center" width="10%">数值/描述</td>
+                        <td align="center" width="20%">单位</td>
+                                          </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="16">机械性能</td>
+                        <td align="center" rowspan="1">拉伸强度(引张强度)
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        ASTM D638/ISO 527
+                        </td>
+                        <td align="center">
+                        <?echo $date['strength']?>
+                        </td>
+                        <td align="center">
+                        kg/cm²(MPa)[Lb/in2]
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">断裂伸长率
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        ASTM D638/ISO 527
+                        </td>
+                        <td align="center">
+                        <?echo $date['elongation']?>
+                        </td>
+                        <td align="center">
+                        %
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">拉伸模量
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        ASTM D638/ISO 527
+                        </td>
+                        <td align="center">
+                        <?echo $date['modulus']?>
+                        </td>
+                        <td align="center">
+                        kg/cm²(MPa)[Lb/in2]
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">拉伸屈服伸长率(延伸率)
+                        </td>
+                        <td align="center">&nbsp;  </td>
+                        <td align="center">
+                        ASTM D638/ISO 527
+                        </td>
+                        <td align="center">
+                        <?echo $date['yield']?>
+                        </td>
+                        <td align="center">
+                        %
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">拉伸断裂伸长率(延伸率)
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        ASTM D638/ISO 527
+                        </td>
+                        <td align="center">
+                        <?echo $date['rupture']?>
+                        </td>
+                        <td align="center">
+                        %
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">弯曲模量(弯曲弹性率)
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        ASTM D790/ISO 178
+                        </td>
+                        <td align="center">
+                        <?echo $date['curve']?>
+                        </td>
+                        <td align="center">
+                        kg/cm²(MPa)[Lb/in2]
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">弯曲强度
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        ASTM D790/ISO 178
+                        </td>
+                        <td align="center">
+                        <?echo $date['curve_strength']?>
+                        </td>
+                        <td align="center">
+                        kg/cm²(MPa)[Lb/in2]
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">洛氏硬度
+                        </td>
+                        <td align="center">&nbsp;    </td>
+                        <td align="center">
+                        ASTM D785
+                        </td>
+                        <td align="center">
+                        <?echo $date['hardness']?>
+                        </td>
+                        <td align="center">&nbsp;</td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="4">IZOD 缺口冲击强度 
+                        </td>
+                        <td align="center">
+                        1/4" 23℃    
+                        </td>
+                        <td align="center">
+                        ASTM D256/ISO 179
+                        </td>
+                        <td align="center">
+                        <?echo $date['izod']?>
+                        </td>
+                        <td align="center">
+                        kg·cm/cm(J/M)ft·lb/in
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center">
+                        1/4" -30℃   
+                        </td>
+                        <td align="center">
+                        ASTM D256/ISO 179
+                        </td>
+                        <td align="center">
+                        <?echo $date['izod2']?>
+                        </td>
+                        <td align="center"> 
+                        kg·cm/cm(J/M)ft·lb/in
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center">
+                        1/8" 23℃   
+                        </td>
+                        <td align="center">
+                        ASTM D256/ISO 179
+                        </td>
+                        <td align="center">
+                        <?echo $date['izod3']?>
+                        </td>
+                        <td align="center">
+                        kg·cm/cm(J/M)ft·lb/in
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center">
+                        1/8" -30℃   
+                        </td>
+                        <td align="center">
+                        ASTM D256/ISO 179
+                        </td>
+                        <td align="center">
+                        <?echo $date['izod4']?>
+                        </td>
+                        <td align="center">
+                        kg·cm/cm(J/M)ft·lb/in
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="4">Charpy冲击强度
+                        </td>
+                        <td align="center">
+                        23℃ （缺口）   
+                        </td>
+                        <td align="center">
+                        ASTM D256/ISO 179
+                        </td>
+                        <td align="center">
+                        <?echo $date['charpy']?>
+                        </td>
+                        <td align="center">
+                        kg·cm/cm(J/M)ft·lb/in
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center">
+                        -30℃（缺口）  
+                        </td>
+                        <td align="center">
+                        ASTM D256/ISO 179
+                        </td>
+                        <td align="center">
+                        <?echo $date['charpy2']?>
+                        </td>
+                        <td align="center">
+                        kg·cm/cm(J/M)ft·lb/in
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center">
+                        23℃（无缺口）  
+                        </td>
+                        <td align="center">
+                        ASTM D256/ISO 179
+                        </td>
+                        <td align="center">
+                        <?echo $date['charpy3']?>
+                        </td>
+                        <td align="center">
+                        kg·cm/cm(J/M)ft·lb/in
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center"> 
+                        -30℃（无缺口）    
+                        </td>
+                        <td align="center">
+                        ASTM D256/ISO 179
+                        </td>
+                        <td align="center">
+                        <?echo $date['charpy4']?>
+                        </td>
+                        <td align="center">
+                        kg·cm/cm(J/M)ft·lb/in
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF">   
+                        <td align="center" rowspan="5">物性性能</td>
+                        <td align="center" rowspan="1">比重（密度）
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        ASTM D792/ISO 1183
+                        </td>
+                        <td align="center">
+                        <?echo $date['proportion']?>
+                        </td>
+                        <td align="center">&nbsp;</td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">成型收缩率
+                        </td>
+                        <td align="center">&nbsp;    </td>
+                        <td align="center">
+                        ASTM D955
+                        </td>
+                        <td align="center">
+                        <?echo $date['shrinkage']?>
+                        </td>
+                        <td align="center">
+                        %
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="2">熔融指数（流动系数）
+                        </td>
+                        <td align="center">
+                        200℃/5kg   
+                        </td>
+                        <td align="center">
+                        ASTM D1238/ISO 1133
+                        </td>
+                        <td align="center">
+                        <?echo $date['flow']?>
+                        </td>
+                        <td align="center">
+                        g/10min
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center">
+                        220℃/10kg    
+                        </td>
+                        <td align="center">
+                        ASTM D1238/ISO 1133
+                        </td>
+                        <td align="center">
+                        <?echo $date['flow2']?>
+                        </td>
+                        <td align="center">
+                        g/10min
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">吸水率 23℃/24H
+                        </td>
+                        <td align="center">&nbsp;    </td>
+                        <td align="center">
+                        ASTM D570/ISO 62
+                        </td>
+                        <td align="center">
+                        <?echo $date['water_absorption']?>
+                        </td>
+                        <td align="center">
+                        %
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="6">热性能</td>  
+                        <td align="center" rowspan="2">热变形温度
+                        </td>
+                        <td align="center">
+                        退火   
+                        </td>
+                        <td align="center">
+                        ASTM D648/ISO 75
+                        </td>
+                        <td align="center">
+                        <?echo $date['deformation']?>
+                        </td>
+                        <td align="center">
+                        ℃（℉）
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center">
+                        未退火    
+                        </td>
+                        <td align="center">
+                        ASTM D648/ISO 75
+                        </td>
+                        <td align="center">
+                        <?echo $date['deformation2']?>
+                        </td>
+                        <td align="center">
+                        ℃（℉）
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">维卡软化点
+                        </td>
+                        <td align="center">&nbsp;   </td>
+                        <td align="center">
+                        ASTM D1525/ISO R306
+                        </td>
+                        <td align="center">
+                        <?echo $date['wica']?>
+                        </td>
+                        <td align="center">
+                        ℃（℉）
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">熔点
+                        </td>
+                        <td align="center">&nbsp;    </td>
+                        <td align="center">
+                        -
+                        </td>
+                        <td align="center">
+                        <?echo $date['melting_point']?>
+                        </td>
+                        <td align="center">
+                        ℃（℉）
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">燃烧性（率）
+                        </td>
+                        <td align="center">&nbsp;    </td>
+                        <td align="center">
+                        UL94
+                        </td>
+                        <td align="center">
+                        <?echo $date['combustibility']?>
+                        </td>
+                        <td align="center">&nbsp;</td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">线性膨胀系数
+                        </td>
+                        <td align="center">&nbsp;    </td>
+                        <td align="center">
+                        ASTM D696/ISO 11359
+                        </td>
+                        <td align="center">
+                        <?echo $date['swell']?>
+                        </td>
+                        <td align="center">
+                        mm/mm.℃
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="11">加工条件</td>
+                        <td align="center" rowspan="1">干燥条件
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        <?echo $date['conditions']?>
+                        </td>
+                        <td align="center">&nbsp;</td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="4">加工温度
+                        </td>
+                        <td align="center">
+                        射嘴   
+                        </td>
+                        <td align="center">&nbsp; </td>
+                        <td align="center">
+                        <?echo $date['nozzle']?>
+                        </td>
+                        <td align="center">
+                        ℃
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center">
+                        料筒前段    
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        <?echo $date['befor']?>
+                        </td>
+                        <td align="center">
+                        ℃
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center">
+                        料筒中段   
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        <?echo $date['midpiece']?>
+                        </td>
+                        <td align="center">
+                        ℃
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center">
+                        料筒后段   
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        <?echo $date['after']?>
+                        </td>
+                        <td align="center">
+                        ℃
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">熔体温度
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        <?echo $date['melt']?>
+                        </td>
+                        <td align="center">
+                        ℃
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">模具温度
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        <?echo $date['mold']?>
+                        </td>
+                        <td align="center">
+                        ℃
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="3">压力
+                        </td>
+                        <td align="center">
+                        注塑压力   
+                        </td>
+                        <td align="center">&nbsp;
+                        </td>
+                        <td align="center">
+                        <?echo $date['injection']?>
+                        </td>
+                        <td align="center">
+                        Mpa
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center">
+                        保压压力   
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        <?echo $date['holding']?>
+                        </td>
+                        <td align="center">
+                        Mpa
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center">
+                        背压   
+                        </td>
+                        <td align="center">&nbsp; </td>
+                        <td align="center">
+                        <?echo $date['backpressure']?>
+                        </td>
+                        <td align="center">
+                        Mpa
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">螺杆转速
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        <?echo $date['speed']?>
+                        </td>
+                        <td align="center">
+                        rpm
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="4">其他</td>
+                        <td align="center" rowspan="1">备注
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        <?echo $date['note']?>
+                        </td>
+                        <td align="center">&nbsp;</td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">颜色
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        <?echo $date['color']?>
+                        </td>
+                        <td align="center">&nbsp; 
+                        </td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">特性
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        <?echo $date['features']?>
+                        </td>
+                        <td align="center">&nbsp;</td>
+                      </tr>
+
+                      <tr bgcolor="#FFFFFF"> 
+                        <td align="center" rowspan="1">用途
+                        </td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">
+                        <?echo $date['useto']?>  
+                        </td>
+                        <td align="center">&nbsp;</td>
+                      </tr>
+                    </tbody>
+                    </table>
+
+            </div>
+
+            <div class="bottom">
+                <a target="_blank" href="" class="i2" rel="nofollow" onclick="print()">打印</a>
+            </div>
+            <div class="disclaimer">
+                <p class="p1">【免责声明】</p>
+                <p>塑金在线发布此信息目的在于方便用户查阅，对于所有的数据及建议等给用户带来的不确定因素和后果概不负责。因此，用户与使用者在使用此产品之前，应向生产商或采购商索取或确认数据的可靠性。</p>
+            </div>
+        </div>
+        <div class="property_list_r fr">
+          <a href="/e/space/?userid=2"><img src="/skin/sjzx/image/u848.png" width="230"></a>
+        </div>
+    </div>
+
+</div>
+<!-- 打印开始 -->  
+<script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script>
+<script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+<script language="javascript"> 
+function printme()
+{
+document.body.innerHTML=document.getElementById('nav_left').innerHTML+'<br/>'+document.getElementById('title').innerHTML+'<br/>'+document.getElementById('show_ct').innerHTML;
+window.print();
+}
+</script> 
+
+{:W('Default/webfooter')}

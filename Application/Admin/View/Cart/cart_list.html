@@ -1,0 +1,96 @@
+<include file="Public/header"/>
+	<body>
+		<!-- content start-->
+		<section class="shop">
+			<div class="container-12">
+				<div class="row">
+					<!--title-->
+					<div class="shop-ttl clearfix">
+						<div class="width-4">商品</div>
+						<div class="width-1-5">单价</div>
+						<div class="width-1-5">数量</div>
+						<div class="width-1">运费</div>
+						<div class="width-1">金额(元)</div>
+					</div>
+
+					<!--item-->
+					<volist name="cartList" id="v">
+					<div class="shop-item">
+						<div class="shop-item-ttl">
+							<label>
+								卖家：{$v.companyname}
+							</label>
+						</div>
+
+						<div class="shop-item-box">
+
+							<div class="item clearfix" data-id="1">
+								<div class="width-4 clearfix ">
+									<img src="__PUBLIC__/Home/img/index_logo.png" alt="商品图片" />
+									<h5>
+										<p>{$v.goods_name}</p>
+										<p>{$v.address}</p>
+									</h5>
+
+								</div>
+
+								<div class="width-1-5">
+									<span class="">￥{$v.goods_price}</span>
+								</div>
+
+								<div class="width-1-5">
+										<span class="">{$v.goods_number}</span>
+								</div>
+
+								<div class="width-1">
+									<span class="">0</span>
+								</div>
+
+								<div class="width-1">
+									<span class="">￥{$v['goods_price'] * $v['goods_number']}.00</span>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+					</volist>
+				</div>
+
+			</div>
+
+		</section>
+		<!-- content end-->
+
+		<include file="Public/footer"/>
+
+		<script type="text/javascript">
+			$(function() {
+
+				// 单项删除
+				shop.deleteElm(function(id) {
+					//alert(id)
+					$.info("数据删除成功！", "success");
+
+				});
+
+				// 选择删除
+				shop.deleteSelectElm(function(items) {
+
+					//alert(items)
+					$.info("数据删除成功！", "success");
+				});
+
+				// 订单跳转
+				$(document).on("click", ".jiesuan", function() {
+					window.location.assign("order-xx.html");
+
+				});
+				
+			
+			});
+		</script>
+	</body>
+
+</html>

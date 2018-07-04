@@ -1,0 +1,88 @@
+        
+		<foreach name="data_list" item="value">
+               <tr class="item">
+                    <td class="l1-box" colspan="3">
+                      <input class="l1 a" type="checkbox" name="" id=""  data-id={$value.id} />
+                      <div class="ttl l1">
+                        <a href="javascript:;">
+                         <?php if($value['status']==1){?>
+                          <i style="color:red">已下架</i>
+                         <?php } ?> 
+                         {$value.goodsname}/{$value.outvendor}/{$value.outstd}/{$value.color}
+                        </a>
+
+                      </div>
+
+                    <input class="l1 b dtl-btn" type="button" name="" id="" value="详情" />
+                    </td>
+
+                    <!-- <td class="overflow">
+                      国内贸易
+                    </td>
+                    <td class="overflow">
+                      临川
+                    </td> -->
+                    <td class="overflow">
+                     {$value.thetrial}
+                    </td>
+
+                    <td class="overflow">
+                    {$value.exfactoryprice}
+                    </td>
+
+                    <td class="overflow">
+                      <?php echo $aa =date('Y-m-d', $value[gxtime]);?>
+                    </td>
+                    <td class="overflow">
+                      <?php 
+                      if ($value[status]==1) {
+                            echo "无效";
+                       }else{
+                            echo "有效";
+                        }
+                    ?>
+                    </td>
+
+                    <td class="overflow">
+                      0次
+                    </td>
+                    
+                    <td class="overflow">
+                      <a href="/e/member/company/uploadimgzs/{$value.pictureurl}" target="_blank">预览</a>
+                    </td>
+                    
+                    <td class="op" colspan="2">
+                      <a class="save" href="javascript:;">重发</a>
+                       <?php
+                         $i++;
+                         if($value['status'] == 0){
+                          echo '<a class="sapan" href="javascript:;">下架</a>';
+                         }else{
+                          echo '<a class="up" href="javascript:;">上架</a>';
+                         }
+                       ?>  
+                      <a class="edit" href="/e/member/IndexAdd/Msg_gx/up_gx.php?action=edit&id={$value.id}">修改</a>
+                      <a class="del" href="javascript:;">删除</a>
+                    
+                    </td>
+              </tr>
+              <!--详情-->
+                  <tr class="dtl">
+                    <td colspan="11">
+                      <p>
+                        发盘信息：{$value.goodsname}/{$value.outvendor}/{$value.outstd}/{$value.color}；
+                        可对比牌号：{$value.goodsname}/{$value.vendor}/{$value.model}/{$value.color}；
+                        等级：{$value.level}；
+                        基材：{$value.Basematerial}；
+                        主要辅料及比例：{$value.Supplementarymaterial}；
+                        认证：{$value.certification}；
+                        特性：{$value.features}；
+                        用户案例：{$value.gx_case}；
+                        产品关键字：{$value.keywords}；
+                      </p>
+                    </td>
+
+                  </tr> 
+            </foreach>
+    
+  

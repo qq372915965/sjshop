@@ -1,0 +1,339 @@
+.clearfix {
+	clear: both !important;
+}
+
+.nav-search {
+	position: relative;
+	width: 100%;
+	padding-top: 15px;
+}
+.nav-search-label-big,
+.nav-search-bar{position: relative;}
+
+.nav-search-label-big{
+	
+	display: block;
+	float: left;
+	outline: none !important;
+}
+.nav-search-label,
+.nav-search-txt,
+.nav-search-submit {
+	display: inline-block;
+	float: left;
+	height: 40px !important;
+	border: 2px solid #09A2E8;
+	outline: none !important;
+}
+.nav_right_img{position: absolute;top: 51px;left: 88px;}
+
+.nav-search-label{
+	width: 110px;
+	height: 40px !important;
+	line-height: 40px;
+	border-right: none;
+	text-align: center;
+	color:#777;
+	font-size: 14px;
+}
+.nav-search-label:hover {
+	cursor: pointer;
+}
+
+.nav-search-txt {
+	height: 40px ;
+	line-height: 40px;
+	width: 450px;
+	border: 2px solid #09A2E8;
+	border-left: 1px solid #09A2E8;
+	text-indent: 10px;
+	color:#666;
+}
+
+.nav-search-submit {
+	width: 82px;
+	height: 44px !important;
+	background: #09A2E8;
+	background-image: url(../img/search.png) ;
+	background-repeat:no-repeat ;
+	background-position: 20px 5px ;
+	outline: none !important;
+	border: none;
+}
+/*搜索按钮划过样式*/
+.nav-search-submit:hover{
+	cursor:pointer;
+}
+
+.nav-search-btn {
+	margin-bottom: 3px;
+}
+
+.nav-search-btn a{
+	color:#777;
+	padding: 3px 15px;
+}
+
+.nav-search-btn a.active2{
+	
+	background: #09A2E8;
+	 color:#fff;
+}
+
+.nav-search-btn-2{
+	margin-left: 5px;
+}
+
+.nav-dropdown{
+	position: absolute;
+	top:43px;
+	left: 0px;
+	padding: 0;
+	min-width: 111px;
+	min-height: 80px;
+	border: 1px solid #09A2E8;
+	background: #fff;
+	box-shadow: 2px 2px 5px #ddd;
+	z-index: 9999999999999999999999999;
+}
+
+        		
+ .nav_right ul.nav-dropdown li{
+	display:block !important;
+	float: none !important;
+	font-size: 14px;
+	min-width: 109px;
+	text-align: center !important;
+	color:#777;
+}
+.nav_right ul li {
+    float: left;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+}
+
+ul.nav-dropdown li:hover{
+	
+	background:#09A2E8;
+	color:#fff;
+}
+
+.hide{
+	display: none;
+}
+
+
+input::-webkit-input-placeholder {
+	color: #999;
+/*	height: 40px ;
+	line-height: 40px;*/
+}
+/*IE10+*/
+input:-ms-input-placeholder {
+	color: #999;
+}
+/*Firefox4-18*/
+input:-moz-placeholder {  
+	color: #999;
+}
+/*Firefox19+*/
+input::-moz-placeholder {
+	color: #999;
+}
+
+/*导航条列表图标*/
+.icon-icon-liebiao{
+	color:white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+/*列表*/
+.seach-table {
+	padding: 10px 0;
+}
+
+.seach-table table {
+	border-collapse: collapse;
+}
+
+.seach-table table thead th {
+	background: #e9e9e9;
+	font-size: 14px;
+	height: 44px;
+	line-height: 44px;
+	color: #777;
+}
+
+.seach-table table tbody tr {
+	border-bottom: 1px solid #f0f0f0;
+	text-align: center;
+}
+
+.seach-table table tbody tr:hover {
+	/*	background:#fafafa;*/
+	/*	color:#ff6600;*/
+	position: relative;
+}
+
+.seach-table table tr td input,
+.table-dropdowm a.xd {
+	display: block;
+	width: 70px;
+	height: 30px;
+	border: 1px solid #ff6600;
+	background: none;
+	border-radius: 4px;
+	color: #ff6600;
+	outline: none;
+	line-height: 30px;
+	margin: 0px auto;
+}
+table a.xd {
+	display: block;
+	width: 70px;
+	height: 30px;
+	border: 1px solid #ff6600;
+	background: none;
+	border-radius: 4px;
+	color: #ff6600;
+	outline: none;
+	line-height: 30px;
+	margin: 0px auto;
+}
+table a.xd2 {
+	display: block;
+	width: 70px;
+	height: 30px;
+	background: #f8a23d;
+	border: none;
+	color: #fff;
+	border-radius: 4px;
+	outline: none;
+	line-height: 30px;
+	margin: 0px auto;
+}
+
+.seach-table table tr td input:active {
+	outline: none;
+}
+
+.seach-table table tr td input:hover,
+.table-dropdowm a.xd:hover {
+	border: 1px solid #FF8000;
+	color: white;
+	cursor: pointer;
+	background: #FF8000;
+}
+table a.xd:hover {
+	border: 1px solid #FF8000;
+	color: white;
+	cursor: pointer;
+	background: #FF8000;
+}
+
+.seach-table table tr td {
+	border: none;
+	padding: 10px 0;
+	font-size: 14px;
+	height: 44px;
+	/*line-height: 44px;*/
+}
+
+.table>thead>tr>th {
+	/* vertical-align: bottom; */
+	/* border-bottom: 1px solid #ff6600;
+	border-bottom: 1px solid #ccc; */
+}
+
+.hide2 {
+	display: none;
+}
+
+
+/*下拉列表*/
+
+.dropdown-p {
+	position: relative;
+}
+
+.dropdown-p:hover
+{
+background-color:#F8FDFF;
+}
+
+.table-dropdowm {
+	width: 1198px;
+	position: absolute;
+	right: 0px;
+	top: 0;
+	border: 2px solid #00a0e8;
+	background: #fff;
+}
+
+.table-dropdowm .table thead th {
+	background: #f8fdff;
+	font-size: 14px;
+	height: 44px;
+	line-height: 44px;
+	color: #333;
+	font-weight: normal;
+}
+a.xd2{display: block;width: 70px;height: 30px;
+    border: 1px solid #09a2e8;
+    background: none;
+    border-radius: 4px;
+    color: #09a2e8;
+    outline: none;
+    line-height: 30px;
+    margin: 0px auto;
+}
+
+.table-dropdowm-ttl {
+	background: #D1F2F8;
+}
+
+.table-dropdowm-ttl td a.xd2 {
+	padding: 5px 15px;
+	border: 1px solid blue;
+	background: none;
+	border-radius: 4px;
+	color: blue;
+	outline: none;
+}
+
+.table-dropdowm td a.xd3 {
+	padding: 3px 13px;
+	border: 1px solid blue;
+	background: none;
+	border-radius: 4px;
+	color: blue;
+	outline: none;
+}
+
+.table-dropdowm td a.xd3:hover {
+	padding: 3px 13px;
+	border: 1px solid blue;
+	background: blue;
+	border-radius: 4px;
+	color: #fff;
+}
+
+
+/*
+ 查看更多*/
+
+.table-dropdowm-gd {
+	padding: 3px 15px;
+	border: 1px solid #FF8000;
+	color: white;
+	cursor: pointer;
+	background: #FF8000;
+	outline: none;
+	border-radius: 4px;
+	margin-bottom: 10px !important;
+}

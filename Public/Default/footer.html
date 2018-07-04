@@ -1,0 +1,131 @@
+	<!-- footer start-->
+		<footer class="com-footer">
+			<div class="com-footer-1">
+				<div class="container-12">
+					<div class="row">
+						<ul class=" clearfix">
+							<li class="clearfix">
+								<img src="__PUBLIC__/Home/img/z2.png" alt="" />
+								<div class="txt">
+									<p>正品 保障</p>
+									<p>正品 保障,提供发票</p>
+								</div>
+							</li>
+							<li class="clearfix">
+								<img src="__PUBLIC__/Home/img/z4.png" alt="" />
+								<div class="txt">
+									<p>便捷交易</p>
+									<p>订货零风险</p>
+								</div>
+							</li>
+							<li class="clearfix">
+								<img src="__PUBLIC__/Home/img/z3.png" alt="" />
+								<div class="txt">
+									<p>免责试样</p>
+									<p>质量有保障</p>
+								</div>
+							</li>
+							<li class="clearfix">
+								<img src="__PUBLIC__/Home/img/z1.png" alt="" />
+								<div class="txt">
+									<p>帮助中心</p>
+									<p>你的购物指南</p>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="com-footer-2">
+				<div class="container-12">
+					<div class="row">
+						<ul class="clearfix">
+							<li>
+								<h4>买方指南</h4>
+								<a href="http://www.sujin1688.com/e/action/ShowInfo.php?classid=34&amp;id=122" target="_blank">-如何找货</a>
+								<a href="http://www.sujin1688.com/e/action/ShowInfo.php?classid=34&amp;id=2335" target="_blank">-如何求购</a>
+							</li>
+							<li>
+								<h4>卖方指南</h4>
+								<a href="http://www.sujin1688.com/e/action/ShowInfo.php?classid=35&amp;id=2260" target="_blank">-如何报价</a>
+								<a href="http://www.sujin1688.com/e/action/ShowInfo.php?classid=35&amp;id=2348" target="_blank">-如何找买家</a>
+								<a href="http://www.sujin1688.com/e/action/ShowInfo.php?classid=35&amp;id=2350" target="_blank">-店铺管理</a>
+							</li>
+							<li>
+								<h4>买方指南</h4>
+								<a href="http://www.sujin1688.com/e/action/ShowInfo.php?classid=37&amp;id=137" target="_blank">-塑金交易规则</a>
+								<a href="http://www.sujin1688.com/e/action/ShowInfo.php?classid=37&amp;id=138" target="_blank">-塑金在线注册协议</a>
+								<a href="http://www.sujin1688.com/e/action/ShowInfo.php?classid=37&amp;id=2353" target="_blank">-如何成为会员</a>
+							</li>
+
+							<li>
+								<img class="wx" src="__PUBLIC__/Home/img/wx.png" alt="微信图" />
+							</li>
+
+						</ul>
+						<div class="copyright">
+							<a href="http://www.miitbeian.gov.cn/" target="_blank"> copyright© 塑金在线 www.sujin1688.com 粤ICP备17088510号
+								<!-- ICP经营许可证：粤B2-20160023 -->
+							</a>
+						</div>
+
+						<div class="copyright-2">
+							<img src="__PUBLIC__/Home/img/copy_02.jpg" alt="" />
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</footer>
+		<!-- footer end-->
+
+		<script src="__PUBLIC__/Home/js/config.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/Home/js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__PUBLIC__/Home/js/all.js" type="text/javascript" charset="utf-8"></script>
+		<!--[if lte IE 8]>
+			<script src="__PUBLIC__/Home/js/ie8.js" type="text/javascript" charset="utf-8"></script>
+		<![endif]-->
+
+		<script type="text/javascript">
+			
+			$(function() {
+
+				// 单项删除
+				shop.deleteElm(function(id) {
+					//alert(id)
+					$.info("数据删除成功！",1)
+					
+				});
+
+				// 选择删除
+				shop.deleteSelectElm(function(items) {
+
+					//alert(items)
+					$.info("数据删除成功！",1)
+				});
+				
+
+				// 订单跳转
+				$(document).on("click",".jiesuan",function(){
+					window.location.assign("order.html")
+
+				// 结算
+				$(".btn-js").click(function(){
+					location.assign("order-xx.html");
+
+				});
+			});
+			
+			});
+			
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,49 @@
+*{margin: 0px; padding: 0px;}
+a{text-decoration: none; }
+ul li,ol li{list-style: none;}
+body{font-size: 14px;background: #F5F9FC;color: #5e5e5e;}
+i{font-style: normal;}
+.fr{float: right;}
+.fl{float: left;}
+.ml{margin-left: 50px;}
+.clear{clear: both;}
+
+.sale_main{width: 100%;height: auto;min-width: 1300px;}
+.sale_list{width: 1100px;height: auto;margin:20px auto;background: #fff;}
+.sale_part{height: auto;padding: 30px 10px;}
+.sale_part_left{float: left;width: 50%;}
+.sale_part_left_one{width: 100%;height: auto;border: 1px solid #e3e3e3;}
+.sale_title{height: 40px;line-height: 40px;text-align: center;background: #f5f5f5;border-bottom: 1px solid #e3e3e3;position: relative;}
+.sale_times{position: absolute;right: 20px;font-weight: bold;}
+.sale_record{color: #000;height: 40px;line-height: 40px;}
+.sale_status,.sale_role,.sale_price,.sale_number,.sale_time{display: inline-block;width: 166px;float: left;padding: 0 5px;text-align: center;font-size: 13px;}
+.sale_content{height: auto;border-bottom: 1px solid #e3e3e3;border-top: 1px solid #e3e3e3;}
+.sale_item_status,.sale_item_role,.sale_item_price,.sale_item_number,.sale_item_time{display: inline-block;width: 166px;float: left;padding: 0 5px;text-align: center;font-size: 13px;color: #09A2E8;}
+.lab{height: 18px;line-height: 35px;padding: 4px 6px;text-align: center;background: #09A2E8;color: #fff;border-radius: 5px;}
+.lab2{height: 18px;line-height: 35px;padding: 4px 6px;text-align: center;background: #ff7300;color: #fff;border-radius: 5px;}
+.sale_li{border-bottom: 1px solid #e3e3e3;line-height: 35px;}
+.sale_li_one{display: inline-block;padding: 0 15px 0 0;float: left;text-align: right;background: #f5f5f5;border-right: 1px solid #e3e3e3;width: 120px;}
+.sale_li_two{margin-left: 15px;}
+.sale_part_right{width: 45%;float: right;}
+.sale_proname{font-size: 16px;color: #333;height: 30px;line-height: 30px;}
+.sale_icon{height: 30px;line-height: 30px;margin-top: 5px;}
+.sale_icon_img{float: left;margin-top: 5px;}
+.sale_icon_time{margin-top: 2px;margin-left: 15px;float: left;font-size: 15px;}
+.sale_cp{height: 30px;line-height: 30px;margin-top: 12px;}
+.sale_info{font-size: 18px;line-height: 40px;text-align: left;color: #666;background: #F4F4F4;padding-bottom: 20px;margin-top: 10px;}
+.sale_info_img{width: 47px;height: 47px;}
+.sale_info_one{height: 100px;border: 1px solid #f6f0e4;background: #fffbe7;margin-top: 20px;}
+.sale_info_one_price{margin-top: 40px;font-size: 16px; text-indent: 80px;}
+.sale_info_one_last{margin-top: 20px;font-size: 16px;text-indent: 80px;}
+.endicon{display: inline-block;position: relative; right: -300px;top: -360px;width: 120px;height: 120px;background: url("/skin/sjzx/img/sale_icon2.png") no-repeat;}
+.endicon2{display: inline-block;position: relative; right: -300px;top: -360px;width: 120px;height: 120px;background: url("/skin/sjzx/img/pai_icon.png") no-repeat;}
+.endicon3{display: inline-block;position: relative; right: -300px;top: -360px;width: 120px;height: 120px;background: url("/skin/sjzx/img/jpwait.png") no-repeat;}
+
+.button_chujia{height: 30px;line-height: 30px;background: #09A2E8;color: #fff;display: block;text-align: center;margin-top: 20px;}
+.sale_mb{height: 30px;line-height: 30px;font-size: 16px;margin-top: 10px;}
+.sale_way{line-height: 20px;height: 20px;margin: 15px 0;}
+.sale_way_ti,.sale_way_pei{display: inline-block;width: 20px;height: 20px;float: left;font-size: 12px;background: #f70;color: #fff;text-align: center;margin-right: 5px; }
+.sale_way_link{display: inline-block;float: left;border-bottom: 1px solid #333;height: 18px;line-height: 18px;color: #333;}
+.sale_way_link:hover{color: #3094ed;}
+.sale_contact{height: 30px;line-height: 30px;font-size: 16px;margin-top: 30px;}
+.sale_contact_way{height: 30px;line-height: 30px;text-align: center;font-size: 14px;}

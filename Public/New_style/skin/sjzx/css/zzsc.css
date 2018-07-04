@@ -1,0 +1,19 @@
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;border:0;}
+ul,ol,li{list-style:none;}
+input,button{margin:0;font-size:12px;vertical-align:middle;}
+body{font-size:14px;font-family:'微软雅黑'; color:#333; margin:0 auto; }
+table{border-collapse:collapse;border-spacing:0;}
+
+a{color:#333;text-decoration:none;}
+/* a:hover{color:#c00;} */
+
+.box-zzsc{ width:360px; position:relative;}
+.ctrl-panel{ position:absolute; right:10px; top:185px; z-index:1000;}
+.m-page{ display:block; width:32px; height:32px; text-align:center; background:#963; float:left; display:inline; margin-left:10px; line-height:32px; color:#fff; font-size:13px;}
+.m-page:hover{ text-decoration:none; color:#fff;}
+.focus{background:#000;}
+.con{ width:100%;}
+.scroll-wrap {OVERFLOW: hidden; WIDTH: 360px; POSITION: relative; HEIGHT: 222px;}
+.scroll_box_content {POSITION: absolute}
+.content_list {FLOAT: left; WIDTH: 360px; HEIGHT: 222px;px; cursor:pointer;}

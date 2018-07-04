@@ -1,0 +1,124 @@
+<include file="Default:header" />
+<include file="Myseller:seller_header" />
+<title>{$company_info['companyname']}</title>
+<style type="text/css">
+	    /*在线留言*/
+.liuyan{padding-top:10px;padding-left: 50px;}
+.liuyan_input{margin-top: 15px;}
+.liuyan_input_one{width: 100px;text-align: right;float: left;margin-top: 6px;margin-right: 6px;}
+.liuyan_input_two{border: 1px solid #ccc;width: 300px;padding: 8px 10px;color: #5e5e5e;}
+.liuyan_input_text{border: 1px solid #ccc;width: 300px;color: #5e5e5e;resize:none; width: 412px;height: 112px;}
+.liuyan_submit{background: #f08300;color: #fff;border-radius: 4px;padding: 10px 100px;border: none;cursor: pointer;margin-left: 106px;font-size: 15px;}
+</style>
+
+<div class="material_content">
+		<div class="material_quotation">
+		
+			<neq name="user_info['companybnimg']" value="">
+		     	<img width="100%" height="300" src="/e/member/Index/Tpsc/uploadimg/{$user_info['companybnimg']}"> 
+		     <else/>
+		    
+		    <img src="__PUBLIC__/New_style/skin/sjzx/images/dp1.jpg" width="100%" height="300">
+		    
+			</neq>
+		    
+		</div>
+		<div class="material_list">
+			<div class="material_list_left">
+				<div class="material_list_left_one">
+					<p class="material_list_liy">联系我们/Contact us</p>
+					<ul class="material_list_li">
+						<li class="material_list_lix" style="color:#AF1812"><img src="__PUBLIC__/New_style/skin/sjzx/icon/red.png">&nbsp;&nbsp;&nbsp;<a href="contact_way?user_id={$_GET['user_id']}">联系方式</a></li>
+
+						<neq name="login_user_id" value="">
+						<li class="material_list_liz"><img src="__PUBLIC__/New_style/skin/sjzx/icon/gray.png">&nbsp;&nbsp;&nbsp;<a href="javascript:;" class="line_word_click">在线留言</a></li>
+						</neq>
+					</ul>
+				</div>
+				<div class="material_list_left_two">
+
+					<div class="material_list_left_us">
+					<p class="material_list_p">联系我们/Contact us</p>
+					<p class="material_list_p1">公司：<?=$company_info[companyname]?></p>
+		 			<p class="material_list_p1">联系人：<?=$company_info[thecontact]?></p>
+					<p class="material_list_p1">电话：<?=$company_info[companyphone]?></p>
+					<!-- <p class="material_list_p1">手机：<?=$rt[Contactphone]?></p> -->
+					<p class="material_list_p1">经营理念：<?=$user_info[companyconcept]?></p>
+					<p class="material_list_p1">地址：<?=$company_info[companyhome]?></p>
+					<neq name="user_info['erweima']">
+           	 		微信扫一扫:<p><img width="100" height="100" src="/e/member/Index/Tpsc/uploadimg/{$user_info['erweima']}"></p>  
+   					</neq>		
+					</div>
+				</div>
+			</div>
+			<div class="material_list_right">
+				<div class="material_list_right_now">
+					<i><img src="__PUBLIC__/New_style/skin/sjzx/icon/right.png"></i>
+					<span>您现在的位置：联系我们 > 联系方式</span>
+				</div>
+				<div class="online">
+
+				    <p class="online_p">公司：<?=$company_info[companyname]?></p>
+					<p class="online_p">联系人：<?=$company_info[Thecontact]?></p>
+					<p class="online_p">电话：<?=$company_info[companyphone]?></p>
+
+					<p class="online_p">地址：<?=$company_info[companyhome]?></p>
+					<p class="online_p">经营理念：<?=$user_info[companyconcept]?></p>
+
+
+
+					<form action="line_word" method="post" class="line_word">
+			    	<input type="hidden" name="ltype" value="{$login_user_id}">
+		 				<div class="liuyan">
+						<div class="liuyan_input">
+							<span class="liuyan_input_one">姓名:&nbsp;</span>
+							<input type="text" class="liuyan_input_two" name="lname"/>
+						</div><div class="liuyan_input">
+							<span class="liuyan_input_one">电子邮箱:&nbsp;</span>
+							<input type="text" class="liuyan_input_two" name="lemail"/>
+              				<label id="email_msg" class="cue"></label>
+						</div><div class="liuyan_input">
+							<span class="liuyan_input_one">所在省份:&nbsp;</span>
+							<input type="text" class="liuyan_input_two" name="provinces" />
+						</div><div class="liuyan_input">
+							<span class="liuyan_input_one">所在城市:&nbsp;</span>
+							<input type="text" class="liuyan_input_two" name="city" />
+						</div>
+						<div class="liuyan_input">
+							<span class="liuyan_input_one">联系电话:&nbsp;</span>
+							<input type="text" class="liuyan_input_two" name="lphone"/>
+              				<label id="mobile_msg" class="cue"></label>
+						</div>
+						<div class="liuyan_input">
+							<span class="liuyan_input_one">留言内容:&nbsp;</span>
+							<textarea class="liuyan_input_text" name="ltext"></textarea>
+						</div>
+						<div class="liuyan_input">
+							<input type="hidden" name="userid" value="{$_GET['user_id']}">
+						</div>
+						<input type="hidden" name="username" value="{$company_info['companyname']}">
+						<div class="liuyan_input">
+							<input type="submit" value="留言" class="liuyan_submit"  id="bt"/>
+						</div>
+				</div>
+                </form>
+
+
+				</div>
+				
+			</div>
+		</div>
+	   
+	</div>
+<script type="text/javascript">
+	$('.line_word').hide();
+
+	$('.line_word_click').click(function(){
+
+			$('.line_word').show();
+			$('.online_p').hide();
+
+			$(this).prev().attr('src','__PUBLIC__/New_style/skin/sjzx/icon/red.png');
+			$('.material_list_lix img').attr('src','__PUBLIC__/New_style/skin/sjzx/icon/gray.png')
+	})
+</script>

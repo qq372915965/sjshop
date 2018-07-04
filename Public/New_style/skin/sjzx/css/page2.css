@@ -1,0 +1,10 @@
+/* 分页样式 */
+.page {clear: left;padding: 20px 0px;text-align: center; font-weight: normal;}
+div {margin: 0;padding: 0;}
+body, form, ul, li, ol, dl, dt, dd, p, h1, h2, h3, h4, h5, h6 {font-weight: normal;font-size: 12px;font-family: "Microsoft YaHei";color: rgb(51, 51, 51);margin: 0px;padding: 0px;}
+.page a {display: inline-block;margin: 0px 2px;padding: 3px 8px;min-width: 20px;height: 30px;line-height: 30px;border: solid 1px #cccccc;text-decoration: none;text-align: center;vertical-align: middle;font-weight: normal;}
+.page a:hover {border: solid 1px #0088dd;color: orange;}
+.page .on {display: inline-block;margin: 0px 2px;padding: 3px 8px;min-width: 20px;height: 30px;line-height: 30px;border: solid 1px #0088dd;text-align: center;background: #0088dd;color: #FFFFFF;vertical-align: middle;}
+a {text-decoration: none;color: #333;}
+.page_1{display: inline-block;} 
+.page_2{color: orange;} 

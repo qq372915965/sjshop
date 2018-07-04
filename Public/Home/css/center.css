@@ -1,0 +1,95 @@
+*{margin: 0px; padding: 0px;}
+a{text-decoration: none; }
+ul li,ol li{list-style: none;}
+i{font-style: normal;}
+body{font: 14px/1.5 '微软雅黑';background: #FAFAFA;color: #5e5e5e;}
+.fr{float: right;}
+.fl{float: left;}
+.ml{margin-left: 50px;}
+.clear{clear: both;}
+.clearfix {display: block;}
+.clearfix:before {display: none!important;}
+.clearfix:after {clear: both;}
+.clearfix:before, .clearfix:after {content: "";display: table;}
+
+.content{width: 1200px;height: auto;margin:0px auto;}
+.left{width: 184px;height: 800px;float: left;border:1px solid #c8c8c8;}
+.right{width: 1000px;height: 800px;float: right;}
+.user_index{border:1px solid #c9c9c9;width: 1000px;padding-left: 30px;padding-top: 20px;padding-bottom: 10px;background: #fff;}
+.user_wel{height: 30px;line-height: 30px;color: #aaa;}
+.user_icon{width: 24px;height: 20px;float: left;background: url(/skin/sjzx/images/gg.png);margin-top: 4px;margin-right: 5px;}
+.blue{color: #00a1e9;}
+.user_list{height: 40px;margin-top: 12px;}
+.you{height: 30px;line-height: 30px;float: left;margin-left: 30px;}
+.user_list_one{width: 895px;height: 30px;line-height: 30px;}
+.user_span{float: left;width: 225px;border-right: 1px dotted #ccc;}
+.user_span img{margin-top: 6px;float: left;margin-right: 5px;}
+.orange{color: #ff3300;}
+.user_span1{width: 225px;float: left;border-right: 1px dotted #ccc;}
+.pl{padding-left: 60px;}
+.user_list_two{clear: both;width: 800px;height: 30px;line-height: 30px;margin-left: 72px;padding-top: 10px;}
+.user_cg{border:1px solid #ccc;margin-top: 20px;background: #fff;}
+.user_my{height: 35px;line-height: 35px;padding-left: 20px;color: #00a1e9;border-bottom: 1px solid #ccc;font-size: 16px;}
+.line{font-size: 12px;}
+.user_table{width: 100%;text-align: center;table-layout: fixed;empty-cells: show;border-collapse: collapse;margin: 0 auto;}
+.user_table th{font-weight: normal;}
+.user_table td{height: 40px;line-height: 40px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.user_tr{height: 35px;background: #DCDCDC;font-size: 15px;}
+.user_common{height: 35px;background: #DCDCDC;font-size: 15px;}
+.user_info{height: 35px;line-height: 35px;padding-left: 20px;color: #00a1e9;font-size: 16px;}
+.motoperto{font-size: 18px;}
+.berbofor{ font-size: 14px; margin-left: 42px;}
+
+.head_huiyuan h2{font-size: 20px;}
+*{margin: 0;padding: 0;font-weight: normal;}
+a{text-decoration: none;}
+
+.header_1{width: 100%;height: 32px; font-size: 12px; color: #fff; border-bottom: 1px solid #d1d1d1;background: #111;min-width: 1300px;}
+.header_c{width: 1200px;height: 32px; margin: 0px auto; }
+.header_left{width: 40%; height: 32px;line-height: 32px; color: #636363;}
+.header_right{width: 40%; height: 32px; line-height: 32px; min-width: 442px;}
+.header_right a:hover{color: #ff6600;}
+.fl{float: left;}
+.fr{float: right;}
+
+.icon_x{ width: 20px; height: 15px; float: left; display: block; margin-top: 4px;}
+.shuxian{width: 10px;}
+
+.header_cart{width: 60px;}
+.header_cart span{color: red;}
+.header_logo{width: 100%;height:120px;min-width: 1200px;background: #fff;}
+.logo_c{width:1200px; height: 120px; margin: 0px auto; }
+.nav_left{width: 30%;height: 120px;float: left;}
+.nav_left .logo{width: 80px; height: 80px; float: left;margin-top: 20px;background: url(/skin/sjzx/img/index_logo.png);}
+.logo_text{width: 200px;height: 68px;float: left;margin-top: 27px;margin-left: 5px; border-left: 1px solid #eaeaea; padding-left: 5px;}
+.logo_text_s1{font-size: 24px;margin-top: 4px;color: #333333;}
+.logo_text_s2{color: #444444;margin-top: 14px;}
+
+.nav{width: 100%; height: 50px; background: #2d80f6;min-width: 1200px;}
+.nav_c{width: 1200px; height: 50px;margin: 0px auto; }
+.nav_cp{width: 160px; height: 50px; line-height: 50px;font-size: 20px; text-align: center;}
+.nav_cp a{color: #fff;}
+.nav_cp_2{width: 120px; height: 50px; line-height: 50px;  font-size: 15px; text-align: center;}
+.nav_cp_2 a{width: 120px; height: 50px;display: block;color: #fff;}
+.nav_cp_2 a:hover{background: #09a2e8;}
+:target {
+
+color: #00A2EF;
+  }
+.header_right a{color: #fff;}
+
+/* 模板迁移样式补充*/
+.supplement1{    
+	width: 1000px;
+    height: auto;
+    float: right;
+    background-color: #ffffff;
+    border: 1px solid #c9c9c9;
+    margin-bottom: 30px;
+    margin-right: 352px;
+    margin-right: 352px;
+}
+
+th{
+	text-align: center;
+}

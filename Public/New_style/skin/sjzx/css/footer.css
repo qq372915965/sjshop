@@ -1,0 +1,76 @@
+/* 尾部样式 */
+.footer{width: 100%; height: auto;background: #202125; margin:0px auto; color: #fff; min-width: 1300px;margin-top: 10px;}
+.footer a{ color: #fff;}
+.footer a:hover{ color: #2cae43;}
+.footer_top{width: 100%; height: 100px; border-bottom: 1px solid #666; margin: 0px auto; min-width: 1300px;}
+.footer_hezuo{width: 1200px;height: 100px;margin: 0px auto;}
+
+.footer_hezuo_z1{width: 21%;height: 100px;float: left;margin-left: 4%;}
+.footer_u1_img{margin-top: 25px;width: 30%;height: 50px;float: left;}
+.footer_u1_text{float: right;width: 70%;height:38px;margin-top: 30px;}
+.footer_u1_zp{font-size: 14px;}
+.clear{clear: both;}
+
+.footer_bottom{width: 100%; height:auto; min-width: 1200px;}
+.footer_zhinan{width: 1200px;;height: auto;margin: 0px auto;}
+.footer_copyright{text-align: center;color: #fff;}
+.footer_copytext{color: #999;}
+.footer_tac{text-align: center;padding-top: 20px;padding-bottom: 10px;}
+.footer_tac .pl5{padding-left: 5px;}
+.footer_u11{width: 20%; height:150px; float: left;margin-left: 60px;}
+/* .footer_u12{margin-left: 120px;}
+.footer_u13{margin-left: 50px;} */
+.footer_u11 img {
+    display: block;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.footer_u14 {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-family: 微软雅黑;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 40px;
+}
+.footer_u15 {
+    width: 180px;
+    height: auto;
+    margin-left: 45px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 微软雅黑;
+}
+.footer_u15 span {
+    display: block;
+    height: 20px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+.footer_u16 a {
+    color: #2cae43;
+}
+.footer_u17 {
+    width: 120px;
+    height: 30px;
+    margin-left: 45px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 4px;
+}
+/* .img_default{filter:alpha(opacity=50); 
+    -moz-opacity:0.8; 
+    opacity: 0.8;} */
+.position{background: #E9F2FB url(/skin/sjzx/image/title_bg.gif) repeat-x left top; color: #07519A;border: 1px solid #AACCEE;margin-bottom: 2px; border-bottom: none; min-width: 1200px;}
+.position td{line-height: 26px;padding-left: 5px;font-family: "宋体";font-size: 13px;color: #333;}
+/* .position tr{display: inline-block;} */
+.position td a{color: #07519A;}
+.position td a:hover{color: red;text-decoration: underline;}
+.fr{float: right;}
+.fl{float: left;}
+
+/* 友情链接 */
+.footer_link{height: auto;}
+.footer_link ul li{float: left;margin-left: 10px;width: 10%;height: 32px;}

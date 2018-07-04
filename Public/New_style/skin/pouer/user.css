@@ -1,0 +1,20 @@
+.shipping_address{margin-left:12px;margin-top:12px;}
+.shipping_address li{float:left;border:1px solid #e0e0e0;width:240px;height:140px;padding:20px;line-height:24px;margin-top:20px;margin-left:20px;}
+.spad_name{color:#333;font-size:16px;padding-bottom:10px;}
+.mr20{margin-right:20px;}
+.address_icon{background:url(/images/web/address.png) no-repeat -1px -1px;width:31px;height:32px;float:left;margin-left:100px;margin-top:45px;}
+.address_add{display: block;clear:both;text-align:center;padding-top:5px;}
+.add_icon_dz{cursor:pointer;}
+.shipping_address li.curr{border:1px solid #ff6700;}
+.shipping_address li.curr .dn{display:block;}
+.shipping_address li.curr .address_icon{background:url(/images/web/address.png) no-repeat -1px -34px;}
+
+.new_ph_text:focus{border:1px solid #1caaeb;}
+
+.popup_semg{float:left;width:90px;border:1px solid #dddddd;overflow:hidden;position:relative;margin-right:5px;}
+.popup_semg:focus{border:1px solid #0388cb;}
+.popup_semg label{position:absolute;right:0px;top:0px;background:url(/images/web/address.png) no-repeat -11px -69px #fff;height:20px;width:20px;height:30px; display:block;}
+.popup_semg select{width:120%;border:0 none;text-overflow:ellipsis;white-space:nowrap;cursor:pointer;box-sizing:border-box;-moz-appearance:none;padding:0 5px;line-height:32px;height:32px;max-width:120%;min-width:120px;overflow:hidden;}
+
+.popup_abtn{background:#ff6700;width:139px;height:30px;cursor:pointer;color:#fff;border:0 none;margin-left:10px;}
+.pop_c3{background:#c3c3c3;}

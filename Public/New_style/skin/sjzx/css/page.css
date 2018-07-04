@@ -1,0 +1,8 @@
+
+/* 分页样式 */
+.buy_page{width: 100%;height: 60px;margin-top: 15px;}
+.buy_page_list{width: 400px;height: 35px;line-height:35px;margin: 13px auto;}
+.buy_page_list a{border: 1px solid #d1d1d1;border-radius: 3px;display: inline-block;width: 40px;height: 24px;color: #5E5E5E; float: left; text-align: center;line-height: 24px; margin-left: 5px;}
+.buy_page_list a b{width: 40px;height: 24px;color: #5E5E5E; text-align: center;line-height: 24px; margin-left: 0px; float: none;border: none;display:inline;color: #F55D12;}
+.buy_page_list b{color: #F55D12;display: inline-block;float: left;font-weight: bold;line-height: 24px; text-align: center; border: 1px solid #F55D12;border-radius: 3px; margin-left: 5px; width: 40px;}
+.buy_page_list a:hover{color: #F55D12;border: 1px solid #F55D12; }

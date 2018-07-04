@@ -1,0 +1,86 @@
+*{margin: 0px; padding: 0px;}
+a{text-decoration: none; }
+ul li,ol li{list-style: none;}
+body{font-size: 14px;}
+.fr{float: right;}
+.fl{float: left;}
+.ml{margin-left: 50px;}
+.clear{clear: both;}
+
+body{background: #F5F9FC;color: #5e5e5e;}
+.line{width: 100%;height: auto;margin-top: 20px; padding-bottom: 30px;min-width: 1200px;}
+.line_main{width: 1200px;height: auto;margin:0px auto;}
+.line_main_left{width: 14%;height: auto;border: 1px solid #E5E6E8;float: left;background: #fff;}
+.line_main_p{font-size: 16px;padding-left:15px;padding-top: 15px;color: #09A2E8;font-weight: bold;}
+.line_main_ul{padding: 10px 0px;border-bottom: 1px solid #E5E6E8;}
+.line_main_ul li{margin-top: 10px;height: 25px;line-height: 25px;}
+.line_main_ul li a{color: #5e5e5e;padding-left: 32px;display: block;}
+.line_main_right{width: 85%;height: auto;border: 1px solid #E5E6E8;float: right;background: #fff;}
+.line_main_right_p{height: 35px;line-height: 35px;background: #09A2E8;padding-left: 3%;color: #fff;font-size: 16px;}
+.line_first{padding-left: 5%;padding-top: 20px;}
+.line_input{padding-top: 15px;padding-left:40px;height: 33px;}
+.line_input_one{width: 150px;text-align: right;float: left;margin-top:6px;}
+.line_input_zh{border: 1px solid #ccc;width: 300px;padding: 8px 10px; color: #5e5e5e;}
+.line_input_select{width: 170px;padding: 7px 10px; color: #5e5e5e;border: 1px solid #ccc;}
+.line_add{display: inline-block;color: #fff;background: #00a0e9;border-radius: 4px;padding: 8px 30px;margin-left: 30px;}
+.line_add:hover{text-decoration: none;background: #0099DD;}
+.line_lable{margin-top: 8px;}
+.line_submit{background: #f08300;color: #fff;border-radius: 4px;padding: 10px 133px;margin-left: 190px;margin-top:20px;border: 0;cursor: pointer;margin-bottom: 20px;}
+.line_submit:hover{text-decoration: none;color: #fff;background: #e27b00;}
+
+/*线路管理*/
+.line_management{height: 35px;line-height: 35px;background: #09A2E8;padding-left: 3%;color: #fff;font-size: 16px;}
+.line_search{padding: 30px 20px;border-bottom: 2px solid #FF6600;}
+.line_search_one{float: left;margin-right: 30px;}
+.line_text{padding: 6px 8px;border: 1px solid #ddd;height: 21px;}
+.line_search_button{display: inline-block;color: #fff;background: #f08300;border-radius: 4px;padding: 8px 30px;margin-left: 30px;}
+.line_search_addcart{display: inline-block;color: #fff;background: #00A0E9;border-radius: 4px;padding: 8px 30px;margin-left: 30px;}
+.line_search_button:hover{text-decoration: none;background: #E77E00; }
+.line_search_list{padding-left: 30px;border-bottom: 1px solid #ccc;}
+.line_search_list span{display: inline-block;height: 40px;line-height: 40px;font-size: 16px; text-align: center;}
+.line_search_address{display: inline-block;width: 45%;height: 40px;line-height: 40px;font-size: 16px;}
+.line_search_type{display: inline-block;width: 10%;height: 40px;line-height: 40px; text-align: center;font-size: 16px;}
+.line_search_time{display: inline-block;width: 15%;height: 40px;line-height: 40px; text-align: center;font-size: 16px;}
+.line_search_price{display: inline-block;width: 10%;height: 40px;line-height: 40px; text-align: center;font-size: 16px;}
+.line_search_cz{display: inline-block;width: 8%;height: 40px;line-height: 40px; text-align: center;font-size: 16px;}
+
+/*我报的价*/
+.line_quotation{height: 35px;line-height: 35px;background: #09A2E8;padding-left: 3%;color: #fff;font-size: 16px;}
+
+/*车辆管理*/
+.line_cart{height: 35px;line-height: 35px;background: #09A2E8;padding-left: 3%;color: #fff;font-size: 16px;}
+.line_quotation_ul{padding-left: 30px;padding-top: 30px;}
+.line_quotation_ul li{float: left;margin: 0 20px;border-right: 1px solid #dbdbdb;height: 20px;line-height: 20px;padding-right: 40px;}
+.line_quotation_ul li a{font-size: 16px;color: #5e5e5e;}
+.line_search_cart{display: inline-block;width: 20%;height: 40px;line-height: 40px;font-size: 16px;}
+.line_search_contact,.line_search_addss,.line_search_market,.line_search_status,.line_search_action{display: inline-block;width: 12%;height: 40px;line-height: 40px; text-align: center;font-size: 16px;}
+
+/*用户认证*/
+.line_driver{height: 35px;line-height: 35px;background: #09A2E8;padding-left: 3%;color: #fff;font-size: 16px;}
+.line_driver_input{padding: 30px 40px;}
+.line_driver_type{width: 120px;text-align: right;float: left;}
+.line_driver_ok{width: 100px;float: left;}
+.line_driver_list{padding: 15px 40px;position: relative;}
+.line_driver_name{width: 150px;text-align: right;float: left;margin-top: 6px;}
+.line_driver_text{width: 300px;padding: 8px 10px;border: 1px solid #ccc;}
+.line_driver_select{width: 103px;padding: 7px 10px; color: #5e5e5e;border: 1px solid #ccc;}
+.line_driver_detail{padding: 8px 10px;border: 1px solid #ccc;width: 300px;display: block;margin-top: 30px;margin-left: 120px;}
+.line_driver_credit{padding: 8px 10px;width: 220px;float: left;}
+.line_driver_button{border: 0 none;color: #fff;width: 80px;height: 36px;line-height: 36px;cursor: pointer;text-align: center;background: #f08300;}
+.line_driver_img{width: 200px;height: 120px;margin-top: 60px;margin-left: 120px;}
+.line_driver_hint{width: 55%;margin-top: 20px;margin-left: 120px;}
+.line_driver_submit{height: 36px;line-height: 36px;margin-top: 30px;margin-bottom: 30px;}
+.line_driver_submit_input{background: #f08300;color: #fff;border-radius: 4px;padding: 10px 133px;float: left;border: 0 none;margin-left: 180px;cursor: pointer;}
+.line_driver_submit_hint{color: red;margin-left: 20px;}
+.line_driver_submit_input:hover{text-decoration: none;color: #fff;background: #e27b00;}
+
+
+.product_iwrap {overflow: hidden;clear: both;border-bottom: 1px solid #ddd;}
+
+.reg_xx{width: 82%;height: auto;float: right;margin-right: 3%;}
+.reg_xx_t{width: 97.1%;height: 40px;background: #09a2e8;line-height: 40px;font-size: 18px;color: #fff;padding-left: 3%; }
+.reg_xx_b{width: 100%;height: auto;border: 1px solid #ccc; color: #5e5e5e; font-size: 14px; padding-bottom: 20px; background: #fff;}
+.log_u_text_wp {padding: 14px 0;padding-left: 60px;clear: both;position: relative;}
+.log_u_w100 {width: 102px;text-align: right;float: left;margin-top: 5px;}
+.log_zxd {border: 1px solid #ccc;padding: 6px 10px;width: 300px;}
+.log_release_line {background: #f08300;color: #fff;border-radius: 4px;padding: 9px 133px;transition: all 0.4s ease 0s; margin-left: 100px; border: 0;cursor: pointer;}

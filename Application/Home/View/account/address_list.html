@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+		<meta name="Keywords" content="" />
+		<meta name="Description" content="" />
+
+		<!--check css-->
+		<script src="__PUBLIC__/Home/js/modernizr-2.6.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--css3 prefix-->
+		<script src="__PUBLIC__/Home/js/prefix-css3.min.js" type="text/javascript" charset="utf-8"></script>
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lte IE 8]>
+			<script src="js/html5shiv.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/respond.min.js" type="text/javascript" charset="utf-8"></script>
+		<![endif]-->
+
+		<!--css-->
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/cstfont/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/all.css" />
+	</head>
+
+
+	<body >
+     <div class="invoice">
+        <div class="invoice-addttl">
+            <a class="btn btn-primary  rd-no" href="__CONTROLLER__/address_add?user_id=<?php echo $_GET['user_id']?>">新增收货地址</a>
+            <span class="text-999">你已经创建了<?= $count;?>个收货地址。</span>
+        </div>
+        <!--列表-->
+        <div class="invoice-selectlist">
+            <table class=" table table-bordered table-fixed text-center">
+                
+                <tr>
+                    <th class="table-1 text-center">收货人</th>
+                    <th class="table-2 text-center">所在地区</th>
+                    <th class="table-1-5 text-center">详细地址</th>
+                    <th class="table-1 text-center">邮编</th>
+                    <th class="table-1-5 text-center">电话/手机</th>
+                    <th class="table-2 text-center">操作</th>
+                </tr>
+                <foreach name='user_address' item='val'>
+                <tr>
+                    <td class="table-1"><?= $val['consignee']?></td>
+                    <td class="table-2 text-left"><?= $val['province'].'-'.$val['city'].'-'.$val['district']?></td>
+                    <td class="table-2 text-left"><?= $val['address']?></td>
+                    <td class="table-1"><?= $val['zipcode']?></td>
+                    <td class="table-1-5"><?= $val['mobile']?></td>
+                    <td class="table-2">
+                        <a href="__CONTROLLER__/address_add?address_id={$val['id']}&user_id={$val['user_id']}">修改</a>
+                        <a class="delete-btn" href="javascript:;" data-id=<?= $val['id']?> >删除</a>
+                        <?php if($val['status'] == 1){?>
+                            <span class="text-999">默认地址</span>
+
+                        <?php }else{?>
+                            <a class="setdefault-btn text-primary" data-id=<?= $val['id']?> href="javascript:;">设为默认</a>
+                        <?php }?>
+                    </td>
+                </tr>
+            </foreach>
+            </table>
+
+        </div>
+
+    </div>
+
+	
+<script src="__PUBLIC__/Home/js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="__PUBLIC__/Home/js/all.js" type="text/javascript" charset="utf-8"></script>
+<script src="__PUBLIC__/Home/js/config.js" type="text/javascript" charset="utf-8"></script>
+<script src="__PUBLIC__/Home/js/city.data-3.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+        $(function () {
+
+            // 设置模板页iframe的高度
+            iframe.setHeight();
+
+            // 删除数据
+            $(".delete-btn").on("click", function () {
+                $(this).confirm("是否要删除数据？",
+                    function () {
+                                var address_id = $(this).attr('data-id');
+                                $.ajax({
+                                    url:'__CONTROLLER__/address_del',
+                                    dataType:'json',
+                                    type:'post',
+                                    data:{'address_id':address_id},
+                                    success:function(data){
+                                        if(data > 0){
+                                            $.info("数据删除成功！", "success");
+                                            $(this).parents("tr").remove();
+                                        }
+                                    }
+                                })
+                        
+
+                    },
+                    function () {
+
+                    },{ maskbg: "message-mask-white" })
+            });
+
+            // 设为默认地址
+            $(".setdefault-btn").on("click", function () {
+                $(this).confirm("确认设为默认地址？",
+                    function () {
+                        var user_id = "<?php echo $_GET['user_id']?>";
+                        var address_id = $(this).attr('data-id');
+                        $.ajax({
+                            url:'__MODULE__/Cart/address_default',
+                            dataType:'json',
+                            type:'post',
+                            data:{"user_id":user_id,"address_id":address_id},
+                            success:function(data){
+                                $.info("设置成功", "danger");
+                                 location.reload();
+                            }
+                        })
+                    },
+                    function () {
+                        // cancel
+
+                    }, { maskbg:"message-mask-white"})
+            });
+
+        })
+    </script>
+	</body>
+
+</html>

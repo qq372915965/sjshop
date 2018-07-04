@@ -1,0 +1,134 @@
+.yinye {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999999;
+	
+	display: none;
+	
+
+	background: rgba(54, 54, 54, .3);
+}
+
+.alert {
+	position: absolute;
+	width: 350px;
+	height: 170px;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -175px;
+	border-radius: 8px;
+	background: #fff;
+}
+
+.yinye .close-btn{
+	
+	float:right;
+	clear: both;
+	margin-right: 10px;
+	font-size: 24px;
+	color:#777;
+	cursor: pointer;
+}
+
+
+.yinye h5{
+	
+			margin-top: 55px;
+			color:#777;
+			font-size: 18px;
+	text-align: center;
+	font-weight: 500;
+}
+
+.yinye .btns{
+	
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	bottom: 0;
+	border-top: 1px solid #e4e4e4;
+	
+}
+
+
+.yinye .btns .btn-l{
+	
+	
+	width: 50%;
+	height: 50px;
+	float: left;
+	text-align: center;
+
+	
+	
+}
+
+.yinye .btns .btn-r{
+	
+	width: 50%;
+	height: 50px;
+	float: right;
+	text-align: center;
+	background: none;
+
+	
+	
+}
+
+.yinye .btns  .btn{
+	
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	line-height: 50px;
+	border:none;
+	text-align: center;
+	background: none;
+	border-radius: 0;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.yinye .btns .btn-l .btn{
+	
+	color:blue;
+	
+	
+}
+
+.yinye .btns .btn-r .btn{
+	
+	color:#777;
+	
+	
+	
+}
+
+
+.yinye .btns .btn-l+.btn-r .btn{
+	
+	border-left: 1px solid #e4e4e4;
+	
+}
+
+
+/*认证提交按钮*/
+
+.yinye-rz .btn{
+	
+	padding: 4px 20px;
+	color:#fff;
+	border:1px solid rgb(255,102,0);
+	border-radius: 5px;
+	background: rgb(255,102,0);
+	box-shadow: 2px 2px 5px #ccc;
+	
+	cursor: pointer;
+	
+}
+

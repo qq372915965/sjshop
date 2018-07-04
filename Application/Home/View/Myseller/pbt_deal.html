@@ -1,0 +1,178 @@
+<include file="Default:header" />
+<include file="Myseller:seller_header" />
+<title>{$company_info['companyname']}</title>
+
+<div class="material_content">
+		<div class="clear"></div>
+		<div class="material_quotation">
+			 
+		     <neq name="user_info['companybnimg']" value="">
+		     	<img width="100%" height="300" src="/e/member/Index/Tpsc/uploadimg/{$user_info['companybnimg']}"> 
+		     <else/>
+		    
+		    <img src="/skin/sjzx/images/dp1.jpg" width="100%" height="300">
+		    
+			</neq>
+		</div>
+		
+
+			<div class="material_list">
+			<div class="material_list_left">
+				<!--模板引入-->
+				<include file="Myseller:part_url" />
+				
+				<div class="material_list_left_two">
+		
+					<div class="material_list_left_us">
+					<p class="material_list_p">联系我们/Contact us</p>
+					<p class="material_list_p1">公司：<?=$company_info[companyname]?></p>
+		 			<p class="material_list_p1">联系人：<?=$company_info[thecontact]?></p>
+					<p class="material_list_p1">电话：<?=$company_info[companyphone]?></p>
+					
+					<p class="material_list_p1">经营理念：<?=$user_info[companyconcept]?></p>
+					<p class="material_list_p1">地址：<?=$company_info[companyhome]?></p>	
+					<neq name="user_info['erweima']">
+           	 		微信扫一扫:<p><img width="100" height="100" src="/e/member/Index/Tpsc/uploadimg/{$user_info['erweima']}"></p>  
+   					</neq>
+					</div>
+				</div>
+			</div>
+		
+
+			<div class="material_list_right">
+				<div class="material_list_right_now">
+					<i><img src="__PUBLIC__/New_style/skin/sjzx/icon/right.png"></i>
+					<span>您现在的位置：报价 > 塑胶原料</span>
+				</div>
+				<div class="shop_table">
+					<table>
+						<tr class="alter">
+							<th style="width:100px;">品名</th>
+							<th style="width:120px;">厂商</th>
+							<th style="width:120px;">牌号</th>
+							<th style="width:120px;">分类</th>
+							<th style="width:100px;">价格(元)</th>
+							<th style="width:80px;">数量(吨)</th>
+							<th style="width:120px;">交货地</th>
+							<th style="width:120px;">操作</th>
+						</tr>
+                    	
+                    	
+						<foreach name="goods_info" item="val">
+						<tr class="alter">
+							
+							<td><a href="#" style="color:red"><?= $val['cinvname'];?></a></td>
+							<td><?= $val['vendor'];?></td>
+							<td><?= $val['cinvstd'];?></td>
+							<td style="line-height: 40px;height: 40px;overflow: hidden;">
+							<eq name="val['ark_type']" value="1">
+										现柜货
+							<else/>
+										船柜货
+							</eq>
+			              
+						    </td>
+							<td>￥<?= $val['fprice'];?></td>
+							<td><?= $val['fweight'];?></td>
+							<td style="line-height: 40px;height: 40px;overflow: hidden;"><?= $val['address']; ?></td>
+						    
+						    <td>
+						     <a target="_blank" href="__MODULE__/Chat/chat_line?user_ida={$login_user_id}&user_idb={$user_id}" style="color:red"><span>立即洽谈</span></a>
+                         <neq name="user_id" value="">
+			             	<a href = "javascript:void(0)" class="buy_want" data-id="{$val['id']}"><span class="supply_table_a">[投诉(<?= $val['plnum'];?>)]</span></a>
+			            </neq>
+
+						    </td>
+						
+						</tr>
+						
+                     <!--弹窗-->
+			<div id="faqbg"></div>
+			<div class="complaint" name="complaint{$val['id']}" style="display:none;" data-id="{$val['id']}">
+			<div id="faqdiv">
+			    <div class="bj_title">
+			      我要投诉<a href = "javascript:void(0)" class="close" ="close">X</a>
+			    </div>
+			    <div class="bj_list">
+			       <div class="bj_list_one">
+			        <h3  style="color:red">您正在对进行投诉：<?=$val[cpartnercode]?>(<?=$val[cinviame]?>-<?=$val[vendor]?>-<?=$val[cinvstd]?>)</h3>
+			       </div>
+			      
+			       <form action="complaint_goods" method="post"> 
+			          <input id="goodsid" name="goodsid" type="hidden"  value="<?=$val[id]?>">
+			          <input name="pid" type="hidden"  value="<?=$val[userid]?>">
+			          <input type="hidden" name="username" value="<?=$user_info['username']?>">
+			          <input id="company" name="company" type="hidden"  value="<?=$val[companyname]?>">
+			          <input name="cInvName" type="hidden" value="<?=$val[cinviame]?>">
+			          <input name="vendor" type="hidden" value="<?=$val[vendor]?>">
+			          <input name="cInvStd" type="hidden"  value="<?=$val[cinvstd]?>(原料)">
+			          <input name="classid" type="hidden" id="tobind" value="24">
+			        <div class="bj_list_two">
+			          投诉原因：
+			          <label><input name="tswhy" type="radio" value="价格不真实" />价格不真实 </label> 
+			          <label><input name="tswhy" type="radio" value="货量不真实" />货量不真实 </label> 
+			          <label><input name="tswhy" type="radio" value="交货期不真实" />交货期不真实 </label> 
+			          <label><input name="tswhy" type="radio" value="品质无保障" />品质无保障 </label> 
+			          <label><input name="tswhy" type="radio" value="其他原因" />其他原因 </label> 
+			        </div>
+			        <div class="bj_list_four">
+			          投诉内容补充：<textarea id="note" name="note"></textarea> 
+			        </div>
+			        <div class="bj_buy_btn">
+			          <span class="bj_gray">备注：1.投诉受理时间：周一至周五9:30-12:00,14:00-17:30 </span>
+			          <span class="bj_gray">2.恶意投诉将会被取消投诉权限</span>
+			         <input class="bj_buy_btn_save" type="submit" value="提交"/>
+			        </div> 
+			         
+			       </form> 
+			    </div>
+			 </div>
+			 </div> 
+
+			 <div id="fade" class="black_overlay"></div>
+</foreach>			 
+ <!--弹窗结束-->
+
+
+					
+					</table>
+				</div>
+			</div>
+		</div> 
+</div>
+
+<include file="Myseller:seller_footer" />
+
+
+<script type="text/javascript">
+	$('.j_lo_dj').click(function(){
+            $('.lg_wrap_login').addClass('curr');
+            $('.lg_dialog_mask').show();
+            $('.lg_regster').hide();
+            $('.lg_wgmm').hide();
+            $('.lg_login').show();
+
+        });
+
+	// 展示弹窗
+	$(".buy_want").click(function(){
+
+		 $("#faqbg").css({display:"block",height:$(document).height()});
+    	 var yscroll =document.documentElement.scrollTop;
+    	 $("#faqdiv").css("top","100px");
+         $("#faqdiv").css("display","block");
+         document.documentElement.scrollTop=0;
+
+		var g_id = $(this).attr('data-id');
+		var complaint="complaint"+g_id;
+    	$("div[name='"+complaint+"']").css("display","block");
+    	
+  	});
+
+	// 关闭弹窗
+  	$(".close").click(function(){
+    	$(".complaint").css("display","none");
+    	$("#faqbg").css("display","none");
+    	$("#faqdiv").css("display","none");
+  	})
+</script>

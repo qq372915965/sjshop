@@ -1,0 +1,41 @@
+#float-nav {top: 65px;position: fixed;z-index: 1000; _position:absolute; /*background-color:#FC9;  display: none;*/}
+#float-nav .header {height: 18px;background-color:#4169B2;background-position: 34px -95px;cursor: pointer;}
+#float-nav .content {width: 105px;}
+#float-nav .footer {height: 11px;background-color:#4169B2;background-position: 37px -146px;cursor: pointer; width: 105px; min-width: 105px; padding: 10px 0px 15px 0px;margin: 0px;}
+#float-nav .float-nav-wrap {width: 105px;margin-left: 18px;}
+.float-nav-wrap .part-one {width: 100%;background-color: rgb(245, 245, 245);padding-bottom: 3px;}
+#float-nav .content .floorItem {height: 24px;line-height: 24px;text-align: center; padding-top:6px;vertical-align: middle;overflow: hidden; /*background-color:#F90;*/ border-bottom:1px solid #D9E0EE;}
+#float-nav .content .floorItem {line-height: 24px;text-align: center;}
+#float-nav .content a { display: block;position: relative;cursor: pointer;overflow: hidden; text-decoration:none;}
+#float-nav .content a:hover{ text-decoration:none;}
+#float-nav .content .circle {display: block;float: left;margin: 2px 0px 0px 0px;height: 22px;line-height: 22px; color: #656565; /*border-radius: 10px; text-align: center;*/ width: 105px;}
+#float-nav .content .circle span {display: block;float: left;}
+#float-nav .content .floorKind {/*width:60px;*/ margin-left: 4px;}
+#float-nav .content .floorLevel {margin-left: 6px;width: 22px;}
+#float-nav .content .circle-current {background: none repeat scroll 0% 0% rgb(136, 136, 136)!important; color: rgb(255, 255, 255) !important;transition: all 0.2s ease-in 0s;}
+#float-nav .totop{height:22px; line-height:22px; background:url(../../../skin/sjzx/img/jiantou.png) no-repeat center 0px; border:1px solid #D9D9D9; border-top:none;}
+#float-nav .totop a{display:block;width:100%; height:100%;}
+#float-nav img{display: block;margin: 10px auto;width: 82px;height: 82px;}
+.module2{width: 1100px;height: auto;margin-top:20px;overflow: hidden;}
+/* #myAsk {
+    background-color: #FE5F01;
+    width: 26px;
+    top: 150px;
+    position: fixed;
+    z-index: 0;
+    _position: absolute;
+    border-radius: 0px 3px 3px 0px;
+    display: none;
+}
+#myAsk a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 14px;
+    display: block;
+    line-height: 16px;
+} */
+
+
+
+

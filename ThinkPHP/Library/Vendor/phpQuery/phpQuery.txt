@@ -1,0 +1,45 @@
+采集头条
+先看一实例，现在我要采集新浪网国内新闻的头条，代码如下：
+
+include 'phpQuery/phpQuery.php'; 
+phpQuery::newDocumentFile('http://news.sina.com.cn/china'); 
+echo pq(".blkTop h1:eq(0)")->html(); 
+简单的三行代码，就可以获取头条内容。首先在程序中包含phpQuery.php核心程序，然后调用读取目标网页，最后输出对应标签下的内容。
+
+pq()是一个功能强大的方法，跟jQuery的$()如出一辙，jQuery的选择器基本上都能使用在phpQuery上，只要把“.”变成“->”。如上例中，pq(".blkTop h1:eq(0)")抓取了页面class属性为blkTop的DIV元素，并找到该DIV内部的第一个h1标签，然后用html()方法获取h1标签里的内容（带html标签），也就是我们要获取的头条信息，如果使用text()方法，则只获取头条的文本内容。当然要使用好phpQuery，关键是要找对文档中对应内容的节点。
+
+采集文章列表
+下面再来看一个例子，获取helloweba.com网站的blog列表，请看代码：
+
+include 'phpQuery/phpQuery.php'; 
+phpQuery::newDocumentFile('http://www.helloweba.com/blog.html'); 
+$artlist = pq(".blog_li"); 
+foreach($artlist as $li){ 
+   echo pq($li)->find('h2')->html().""; 
+} 
+通过循环列表中的DIV，找出文章标题并输出，就是这么简单。
+
+解析XML文档
+假设现在有一个这样的test.xml文档：
+
+<?xml version="1.0" encoding="utf-8"?> 
+<root> 
+  <contact> 
+     <name>张三</name> 
+     <age>22</age> 
+  </contact> 
+  <contact> 
+     <name>王五</name> 
+     <age>18</age> 
+  </contact> 
+</root> 
+现在我要获取名字为张三的联系人的年龄，代码如下：
+
+include 'phpQuery/phpQuery.php'; 
+phpQuery::newDocumentFile('test.xml'); 
+echo pq('contact > age:eq(0)'); 
+结果输出：22
+
+像jQuery一样，精准查找文档节点，输出节点下的内容，解析一个XML文档就是这么简单。现在你不必为采集网站内容而使用那些头疼的正则算法、内容替换等繁琐的代码了，有了phpQuery，一切就变得轻松多了。
+
+项目官网地址：http://code.google.com/p/phpquery/

@@ -1,0 +1,493 @@
+<title>订单结算</title>
+<include file="Default:header" />		
+		<!-- content start-->
+		<section class="order">
+			<div class="container-12 ">
+				<div class="row">
+
+					<div class="order-addr container-12  clearfix ">
+
+						<!--左边-->
+						<div class="order-attr-l  width-1">
+							<h5 class="text-center ttl">收货地址:</h5>
+						</div>
+
+						<!--右边-->
+						<div class="order-attr-r width-8">
+							<!--地址列表-->
+							<div class="addrlist width-10  radio-btn">
+								<foreach name="user_address" item="v">
+
+								<div class="item">
+
+									<div class="radio radio-btn-item <?php if($v['status'] ==1){echo 'active';}?> " data-id="<?=$v['id']?>">
+										<span class="iconfont icon-radio"></span>
+										<span data-field="name"><?= $v['consignee']?></span>
+										<span data-field="addr"><?= $v['province'].'-'.$v['city'].'-'.$v['district'] ?>  </span>
+										<span data-field="addrdtl"><?=$v['address']?></span>
+										<span data-field="zipcode"><?=$v['zipcode']?></span>
+										<span data-field="phone"><?=$v['mobile']?></span>
+
+										<span data-field="df" data-value="<?= $v['status']?>" class="set df pull-right ">已设为默认</span>
+									</div>
+
+									<span class="edit pull-right">修改</span>
+								</div>
+                    			</foreach>
+								<!--使用新地址-->
+								<div class="newaddr">
+									<div class="checkbox  ">
+										<label>
+											 <input  class="ck" type="checkbox" name="add-address" id="" value=""  />
+											<span>使用新地址</span> 
+										</label>
+									</div>
+
+								</div>
+
+								<div class="form2 form-horizontal  width-7 v-hide" novalidate="novalidate">
+									<div class="form-group vd-box">
+										<label class="col-xs-2 control-label" for="re_goods">收货人:</label>
+										<div class="col-xs-6">
+											<input class="form-control rd-no vd-item" value="" name="consignee" vd-req vd-req-msg="收货人不能为空" type="text" placeholder="输入收货人" id="re_goods" />
+											<span class="vd-req "></span>
+										</div>
+									</div>
+
+									<div class="form-group vd-box">
+										<label class="col-xs-2 control-label" for="addr">所在地区:</label>
+
+										<div class="col-xs-6 tree-address-big ">
+											<input class="form-control rd-no vd-item tree-address-btn" name="addr" vd-req vd-req-msg="所在地区不能为空" type="text" placeholder="输入所在地区" id="addr" />
+											<div class="tree-address tab-big">
+												<ul class="tree-address-ttl tab-ttl clearfix">
+													<li class="tab-item active" data-target=".address1">省</li>
+													<li class="tab-item" data-target=".address2">市</li>
+													<li class="tab-item" data-target=".address3">区</li>
+												</ul>
+												<div class="tab-content">
+													<ul class="tree-address-1 tab-content-item active clearfix address1">
+
+													</ul>
+													<ul class="tree-address-2 tab-content-item clearfix address2">
+
+													</ul>
+
+													<ul class="tree-address-3 tab-content-item clearfix address3">
+
+													</ul>
+												</div>
+
+											</div>
+											<span class="vd-req "></span>
+										</div>
+
+									</div>
+
+									<div class="form-group vd-box">
+										<label class="col-xs-2 control-label" for="addrdtl">详细地址:</label>
+										<div class="col-xs-6">
+											<textarea class=" form-control rd-no vd-item" name="detaddr" vd-req vd-req-msg="详细地址不能为空" placeholder="输入详细地址" id="addrdtl"></textarea>
+											<span class="vd-req "></span>
+										</div>
+									</div>
+
+									<div class="form-group vd-box">
+										<label class="col-xs-2 control-label" for="zipcode">邮编:</label>
+										<div class="col-xs-6">
+											<input class="form-control rd-no vd-item" type="text" name="zipcode" vd-req vd-req-msg="邮编不能为空" placeholder="输入邮编" id="zipcode" />
+											<span class="vd-req "></span>
+										</div>
+									</div>
+
+									<div class="form-group vd-box">
+										<label class="col-xs-2 control-label" for="phone">手机:</label>
+										<div class="col-xs-6">
+											<input class="form-control rd-no vd-item" type="text" name="phone" vd-pattern="^1\d{10}$" vd-pattern-msg="手机格式不对" maxlength="11" vd-req vd-req-msg="手机不能为空" placeholder="输入手机号码" id="phone" />
+											<span class="vd-req "></span>
+											<span class="vd-pattern"></span>
+										</div>
+									</div>
+
+									<div class="form-group  relative">
+
+										<div class="col-xs-offset-2 col-xs-6">
+											<div class="checkbox">
+												<label>
+										 			<input type="checkbox"  class="vd-item" name="df"  value="" vd-ck  vd-ck-not vd-ck-true="1" vd-ck-false="0" />
+										 		设为默认收货地址
+										 	</label>
+											</div>
+										</div>
+
+										<span class="remark">设置后系统将在下单时自动选中该收货地址</span>
+									</div>
+
+									<div class="form-group">
+										<div class="col-xs-offset-2 col-xs-6">
+											<button class="btn   btn-primary rd-no vd-btn"> 确认收货信息</button>
+
+										</div>
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<!--第一次新增地址-->
+							<div class="form form-horizontal  width-7 v-hide" novalidate="novalidate">
+								<div class="form-group vd-box">
+									<label class="col-xs-2 control-label" for="re_goods">收货人:</label>
+									<div class="col-xs-6">
+										<input class="form-control rd-no vd-item" name="consignee" vd-req vd-req-msg="收货人不能为空" type="text" placeholder="输入收货人" id="re_goods" />
+										<span class="vd-req "></span>
+									</div>
+								</div>
+
+								<div class="form-group vd-box">
+									<label class="col-xs-2 control-label" for="addr">所在地区:</label>
+
+									<div class="col-xs-6 tree-address-big ">
+										<input class="form-control rd-no vd-item tree-address-btn" name="addr" vd-req vd-req-msg="所在地区不能为空" type="text" placeholder="输入所在地区" id="addr" />
+										<div class="tree-address tab-big">
+											<ul class="tree-address-ttl tab-ttl clearfix">
+												<li class="tab-item active" data-target=".address1">省</li>
+												<li class="tab-item" data-target=".address2">市</li>
+												<li class="tab-item" data-target=".address3">区</li>
+											</ul>
+											<div class="tab-content">
+												<ul class="tree-address-1 tab-content-item active clearfix address1">
+
+												</ul>
+												<ul class="tree-address-2 tab-content-item clearfix address2">
+
+												</ul>
+
+												<ul class="tree-address-3 tab-content-item clearfix address3">
+
+												</ul>
+											</div>
+
+										</div>
+										<span class="vd-req "></span>
+									</div>
+
+								</div>
+
+								<div class="form-group vd-box">
+									<label class="col-xs-2 control-label" for="re_goods">详细地址:</label>
+									<div class="col-xs-6">
+										<textarea class=" form-control rd-no vd-item" name="detaddr" vd-req vd-req-msg="详细地址不能为空" placeholder="输入详细地址"></textarea>
+										<span class="vd-req "></span>
+									</div>
+								</div>
+
+								<div class="form-group vd-box">
+									<label class="col-xs-2 control-label" for="zipcode">邮编:</label>
+									<div class="col-xs-6">
+										<input class="form-control rd-no vd-item" type="text" name="detaddr" vd-req vd-req-msg="邮编不能为空" placeholder="输入邮编" id="zipcode" />
+										<span class="vd-req "></span>
+									</div>
+								</div>
+
+								<div class="form-group vd-box">
+									<label class="col-xs-2 control-label" for="phone">手机:</label>
+									<div class="col-xs-6">
+										<input class="form-control rd-no vd-item" type="text" name="phone" vd-pattern="^1\d{10}$" vd-pattern-msg="手机格式不对" maxlength="11" vd-req vd-req-msg="手机不能为空" placeholder="输入手机号码" id="phone" />
+										<span class="vd-req "></span>
+										<span class="vd-pattern"></span>
+									</div>
+								</div>
+
+								<div class="form-group  relative">
+
+									<div class="col-xs-offset-2 col-xs-6">
+										<div class="checkbox">
+											<label>
+										 		<input type="checkbox"  class="vd-item" name="df"  value="" vd-ck  vd-ck-not vd-ck-true="1" vd-ck-false="0" />
+										 		设为默认收货地址
+										 	</label>
+										</div>
+									</div>
+
+									<span class="remark">设置后系统将在下单时自动选中该收货地址</span>
+								</div>
+
+								<div class="form-group">
+									<div class="col-xs-offset-2 col-xs-6">
+										<button class="btn   btn-primary rd-no vd-btn"> 确认订单信息</button>
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<!--修改地址-->
+							<div class="form-edit form-horizontal  width-7 v-hide" novalidate="novalidate">
+								<div class="form-group vd-box">
+									<label class="col-xs-2 control-label" for="re_goods2">收货人:</label>
+									<div class="col-xs-6">
+										<input class="form-control rd-no vd-item" name="name" vd-req vd-req-msg="收货人不能为空" type="text" placeholder="输入收货人" id="re_goods2" />
+										<span class="vd-req "></span>
+									</div>
+								</div>
+
+								<div class="form-group vd-box">
+									<label class="col-xs-2 control-label" for="addr2">所在地区:</label>
+
+									<div class="col-xs-6 tree-address-big ">
+										<input class="form-control rd-no vd-item tree-address-btn" name="addr" vd-req vd-req-msg="所在地区不能为空" type="text" placeholder="输入所在地区" id="addr" />
+										<div class="tree-address tab-big">
+											<ul class="tree-address-ttl tab-ttl clearfix">
+												<li class="tab-item active" data-target=".address1">省</li>
+												<li class="tab-item" data-target=".address2">市</li>
+												<li class="tab-item" data-target=".address3">区</li>
+											</ul>
+											<div class="tab-content">
+												<ul class="tree-address-1 tab-content-item active clearfix address1">
+
+												</ul>
+												<ul class="tree-address-2 tab-content-item clearfix address2">
+
+												</ul>
+
+												<ul class="tree-address-3 tab-content-item clearfix address3">
+
+												</ul>
+											</div>
+
+										</div>
+										<span class="vd-req "></span>
+									</div>
+
+								</div>
+
+								<div class="form-group vd-box">
+									<label class="col-xs-2 control-label" for="addrdtl2">详细地址:</label>
+									<div class="col-xs-6">
+										<textarea class=" form-control rd-no vd-item" name="addrdtl" vd-req vd-req-msg="详细地址不能为空" placeholder="输入详细地址" id="addrdtl2"></textarea>
+										<span class="vd-req "></span>
+									</div>
+								</div>
+
+								<div class="form-group vd-box">
+									<label class="col-xs-2 control-label" for="zipcode2">邮编:</label>
+									<div class="col-xs-6">
+										<input class="form-control rd-no vd-item" type="text" name="zipcode" vd-req vd-req-msg="邮编不能为空" placeholder="输入邮编" id="zipcode2" />
+										<span class="vd-req "></span>
+									</div>
+								</div>
+
+								<div class="form-group vd-box">
+									<label class="col-xs-2 control-label" for="phone2">手机:</label>
+									<div class="col-xs-6">
+										<input class="form-control rd-no vd-item" name="phone" type="text" vd-pattern="^1\d{10}$" vd-pattern-msg="手机格式不对" maxlength="11" vd-req vd-req-msg="手机不能为空" placeholder="输入手机号码" id="phone2" />
+										<span class="vd-req "></span>
+										<span class="vd-pattern"></span>
+									</div>
+								</div>
+
+								<div class="form-group  relative">
+
+									<div class="col-xs-offset-2 col-xs-6 vd-box">
+										<div class="checkbox">
+											<label>
+										 		<input type="checkbox"  class="vd-item" name="df"  value="" vd-ck  vd-ck-not vd-ck-true="1" vd-ck-false="0" />
+										 		设为默认收货地址
+										 	</label>
+										</div>
+									</div>
+
+									<span class="remark">设置后系统将在下单时自动选中该收货地址</span>
+								</div>
+
+								<div class="form-group">
+									<div class="col-xs-offset-2 col-xs-6">
+										<button class="btn   btn-primary rd-no vd-btn"> 确认收货信息</button>
+
+										<button class="btn   btn-warning rd-no cancel"> 取消</button>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+
+					<!--订单列表-->
+					<div class="order-list">
+						<!--订单标题-->
+						<div class="order-list-ttl container-12">
+							<h4>卖家：<?php echo $res[0]['companyname']?></h4>
+						</div>
+						<!--订单信息-->
+						<div class="order-list-info container-12 clearfix">
+							<div class="left width-1">
+								<h5>订单:</h5>
+							</div>
+							<!--订单内容 -->
+							<div class="right width-9">
+								<!--top-->
+								<div class="head  clearfix">
+									<div class="width-3">
+										货品信息
+									</div>
+									<div class="width-2">
+										单价(元)
+									</div>
+									<div class="width-2">
+										数量
+									</div>
+									<div class="width-2">
+										金额(元)
+									</div>
+									<div class="width-1">
+										运费(元)
+									</div>
+								</div>
+								<!--content-->
+								<foreach name="res" item="v">
+								<div class="item clearfix">
+									<div class="width-3 clearfix">
+										<p hidden="hidden" class="goods_id"><?=$v['goods_id']?></p>
+										<img src="<?= $v['goods_picture']?>" alt=" 订单图片" />
+										<h5 class="ellipsis"><?=$v['goods_name']?> </h5>
+									</div>
+									<div class="width-2">
+										<span class="iconfont icon-rmb1 text-danger"></span><?= $v['goods_price']?>
+									</div>
+									<div class="width-2">
+										<?=$v['goods_number']?>
+									</div>
+									<div class="width-2">
+										<?=$v['goods_number'] * $v['goods_price']?>.00
+									</div>
+									<div class="width-1">
+										<input class="form-control rd-no input-xs-x freight" type="number" value="20" min='1'/>
+										<!--查看运费-->
+										<div class="selectyf">
+											查看运费说明<span class="glyphicon glyphicon-triangle-bottom text-999"></span>
+											<div class="descyf">
+												提交订单前，请与卖家协商并确认运费后，录入订单再提交。
+											</div>
+										</div>
+									</div>
+								</div>
+                    		</foreach>
+								<!-- bottom-->
+								<div class="bottom clearfix">
+
+									<div class=" width-5 form-horizontal">
+										<label class="col-xs-3 control-label" for="">给卖家留言:</label>
+										<div class="col-xs-9 ">
+											<input class="form-control rd-no input-xs-x order_remark" type="text" placeholder="给卖家留言" />
+										</div>
+
+									</div>
+									<div class=" width-4 pull-right ">
+										<p>运费总计：<strong class="text-danger total_postage"><?php echo $total_postage;?>.00</strong></p>
+										<p>货品总金额：<strong class="text-danger total_goods"><?php echo $total_goods?>.00</strong></p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<!--支付方式-->
+						<div class="order-list-pay container-12">
+							<div class="item clearfix">
+								<h5 class="ttl pull-left">交易方式:</h5>
+								<ul class="right pull-left clearfix radio-btn order-list-pay-1">
+									<li class="active radio-btn-item " data-type='1'>线<span class="text-primary">上</span>支付
+										<span class="iconfont icon-youxiajiaogouxuan"></span>
+									</li>
+									<li class="radio-btn-item" data-type='0'>线<span class="text-danger">下</span>支付
+										<span class="iconfont icon-youxiajiaogouxuan"></span>
+									</li>
+								</ul>
+							</div>
+
+							<div class="item clearfix">
+								<h5 class="ttl pull-left">配送方式:</h5>
+								<ul class="right pull-left clearfix radio-btn order-list-pay-2">
+									<li class="active radio-btn-item" data-type='1'>委托配送
+										<span class="iconfont icon-youxiajiaogouxuan"></span>
+										<span class="iconfont icon-youxiajiaogouxuan"></span>
+										<span class="iconfont icon-bangzhu "></span>
+										<div class="help v-hide">
+											买卖双方确定货物到达时间，如有延期，卖家应及时通过塑金在线平台以短信或微信形式通知买家。 货物在途风险由卖家承担。买家收到货物，谨慎验货后方可确定收货。
+										</div>
+									</li>
+									<li class=" radio-btn-item" data-type='0'>自提
+										<span class="iconfont icon-youxiajiaogouxuan"></span>
+										<span class="iconfont icon-bangzhu "></span>
+										<div class="help v-hide">
+											由于提货时的谨慎验货，自提货物一经出仓，在途运输风险由买方承担。
+										</div>
+									</li>
+								</ul>
+							</div>
+
+							<div class="item clearfix">
+								<h5 class="ttl pull-left">发票类型:</h5>
+								<ul class="right pull-left clearfix radio-btn order-list-invoice-2">
+									<li class="active radio-btn-item" data-type='1'>增值税普通发票
+										<span class="iconfont icon-youxiajiaogouxuan"></span>
+									</li>
+									<li class=" radio-btn-item" data-type='2'>增值税专用发票
+										<span class="iconfont icon-youxiajiaogouxuan"></span>
+										
+									</li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+
+					<!--总计-->
+					<div class="order-total container-12 clearfix">
+						<!-- <div class="order-total-l pull-left width-5">
+							<span class="zj">总计:</span>
+							<span class="type">货品种类:
+						<span class="text-danger">1</span> 种
+							</span>
+
+							<span class="type">数量总计:
+						<span class="text-danger">2</span> 件
+							</span>
+						</div> -->
+						<div class="order-total-r pull-right width-5">
+							<p>运费总计：<strong class="text-danger order_freight"><?php echo $total_postage;?>.00</strong></p>
+							<p>货品总金额：<strong class="text-danger"><?php echo $total_goods?>.00</strong></p>
+							<p class="count">
+								货品总金额：<strong class="text-danger order_total"><?php echo $total_goods + $total_postage?>.00</strong>(含运费)
+							</p>
+						</div>
+					</div>
+
+					<!--提交订单-->
+					<div class="order-submit  container-12 clearfix">
+
+						<div class="order-submit-r pull-right">
+							<label>总付金额(含运费):</label>
+							<strong class="text-danger totalnum"><?php echo $total_goods + $total_postage?>.00</strong>
+							<input type="button" name="" class="btn btn-primary btn-lg rd-no order_submit"   value="提交订单" />
+
+						</div>
+
+					</div>
+
+		</section>
+		<!-- content end-->
+<include file="Default:footer" />
+<script type="text/javascript">
+			var user_id = '<?php echo $user_id?>';// 用户sj_id;
+			var cont = "__CONTROLLER__";
+			var module = '__MODULE__';
+
+</script>
+<script src="__PUBLIC__/Home/js/order_commit.js" type="text/javascript" charset="utf-8"></script>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+		<meta name="Keywords" content="" />
+		<meta name="Description" content="" />
+
+		<!--check css-->
+		<script src="__PUBLIC__/Home/js/modernizr-2.6.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--css3 prefix-->
+		<script src="__PUBLIC__/Home/js/prefix-css3.min.js" type="text/javascript" charset="utf-8"></script>
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lte IE 8]>
+			<script src="js/html5shiv.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/respond.min.js" type="text/javascript" charset="utf-8"></script>
+		<![endif]-->
+
+		<!--css-->
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/cstfont/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/all.css" />
+	</head>
+
+<section class="invoicedtl">
+			<!--标题-->
+			<h4 class="invoicedtl-ttl">开票详情</h4>
+
+			<!--开票详情内容-->
+			<div class="invoicedtl-cont">
+				<!--内容-->
+				<div class="item-list  clearfix">
+					<table class="table-fixed table table-bordered ">
+						<thead>
+							<tr>
+								<th class="table-8 clearfix">
+									<div class="width-4 clearfix">
+										货品
+									</div>
+
+									<div class="width-2 clearfix">
+										单价(元/吨)
+									</div>
+
+									<div class="width-2 clearfix">
+										数量
+									</div>
+									<div class="width-2 clearfix">
+										运费
+									</div>
+								</th>
+
+								<th class="table-2 text-center">
+									总金额(元)
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="table-8 clearfix">
+					<foreach name="order_info" item="val">
+
+									<!--订单每一项-->
+									<div class="table-item clearfix">
+										<div class="width-4 clearfix">
+											<img src="/sjshop/Public/Home/img/index_logo.png" alt="图片" />
+											<h4 class="ellipsis"><?= $val['goods_name']?></h4>
+										</div>
+
+										<div class="width-2 clearfix">
+											<?= $val['goods_price']?>
+										</div>
+
+										<div class="width-2 clearfix">
+											<?= $val['goods_num']?>
+										</div>
+										<div class="width-2 clearfix">
+											<?= $val['postage']?>
+										</div>
+
+									</div>
+									
+					</foreach>
+								</td>
+
+								<td class="table-2 op  text-center">
+
+									<span class="text-danger"><?= $total?>.00</span>
+								</td>
+
+							</tr>
+						</tbody>
+					</table>
+
+				</div>
+
+			</div>
+
+			<!--订单列表-->
+			<div class="invoicedtl-list buyinfo-tb-cont">
+
+				<div class="item" data-order-id="1342342424291">
+
+					<!--头部-->
+					<div class="item-ttl">
+						<label>订单号：</label>
+						<span><?= $invoice_info[0]['order_sn']?></span>
+						<!--<label class="suylabel">卖家：</label>
+							<span>上海塑胶贸易有限公司(原东莞鸿润创业)</span>-->
+
+					</div>
+
+					<!--内容-->
+					<div class="item-list  clearfix">
+
+						<table class="table-fixed table table-bordered ">
+							<thead>
+								<tr>
+									<td>
+										时间
+									</td>
+
+									<td>
+										票样
+									</td>
+
+									<td>
+										票额
+									</td>
+								</tr>
+							</thead>
+							<tbody>
+								<foreach name="invoice_info" item="val">
+
+								<tr>
+									<td class="table-3 text-center">
+										<?= date('Y-m-d H:i:s',$val['addtime'])?>
+									</td>
+									<td class="table-4 clearfix">
+										<img src="<?= $val['invoice_pic']?>" alt="图片" />
+									</td>
+
+									<td class="table-3 text-center">
+										<?= $val['invoice_money']?>
+									</td>
+
+								</tr>
+								
+								</foreach>
+							</tbody>
+							<tfoot>
+								 <tr>
+								 	<td class="totalttl" >
+								 		合计:
+								 	</td>
+								 	<td colspan="2">
+								 		<span class="lab">应付总金额:</span>
+								 		<span><?= $total?>.00</span>
+								 		
+								 		<span class="lab">已付金额:</span>
+								 		<span><?= $open_t ? $open_t : 0?>.00</span>
+								 		
+								 		<span class="lab">未付额度:</span>
+								 		<span><?= $total - $open_t?>.00</span>
+								 		
+								 	</td>
+								 </tr>
+							</tfoot>
+						</table>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<script src="__PUBLIC__/Home/js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="__PUBLIC__/Home/js/all.js" type="text/javascript" charset="utf-8"></script>
+<script src="__PUBLIC__/Home/js/config.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+			$(function() {
+
+				//  买卖家中心 设置模板页iframe的高度
+				iframe.setHeight();
+
+			})
+</script>

@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<?php
+foreach ($datacssall as $value){
+	echo '<link rel="stylesheet" type="text/css" href="__PUBLIC__'.$value.'">'.PHP_EOL;
+}
+?>
+<?php
+foreach ($datacss as $value){
+	echo '<link rel="stylesheet" type="text/css" href="__PUBLIC__'.$value.'">'.PHP_EOL;
+}
+?>
+<script type="text/javascript" src="__PUBLIC__/New_style/skin/sjzx/js/jquery-1.11.0.min.js"></script>
+
+
+<title><?php echo $title ?></title>  
+
+<style type="text/css">
+    .add_back{
+        width: 122px;
+        background: #09a2e8;
+    }
+</style>
+
+</head>
+<body >
+<div class="head">
+    <div class="storage_head_main">
+        <div class="storage_head_main_left">
+            <script>
+                  document.write('<script src="/e/member/login/loginjs2.php?t='+Math.random()+'"><'+'/script>');
+            </script>
+        </div>
+
+         <div class="storage_head_main_right">
+           <a href="/e/member/msg/AddMsg/?enews=AddMsg" class="storage_head_member">我要报价&nbsp;</a>
+             |&nbsp;
+           <!-- <a href="" class="storage_head_member">我的收藏&nbsp;</a>
+             |&nbsp;
+            <a href="/e/member/chat/index/chat_index.php" class="storage_head_member">购物车&nbsp;<span style="color:#ff6600">
+
+          </span>&nbsp;</a>
+             |&nbsp; -->
+            <a href="/e/action/ListInfo/?classid=43" class="storage_head_member">关于我们&nbsp;</a>
+             |&nbsp;
+           <span>客服热线：0769-87139333</span>
+        </div>
+    </div>
+</div>
+{:W('Default/websearch')} 
+<div class="nav">
+    <div class="nav_list">
+        <ul style="width:1100px;">
+            <li style="width:110px;"><a href="/">首页</a></li>
+            <li style="width:110px;"><a href="/sjshop/index.php/Home/Baojialist/baojialist_dlxh">大陆现货</a></li>
+            <li style="width:110px;"><a href="/sjshop/index.php/Home/Baojialist/baojialist_xgxh">香港现货</a></li>
+            <li style="width:110px;"><a href="/sjshop/index.php/Home/Baojialist/baojialist_xgqh">香港船货</a></li>
+			<li style="width:110px;"><a href="/sjshop/index.php/Home/Baojialist/baojialist_xgh">现柜货</a></li>
+            <li style="width:110px;"><a href="/sjshop/index.php/Home/Baojialist/baojialist_cgh">船柜货</a></li>
+            <li style="width:110px;"><a href="/sjshop/index.php/Home/Baojialist/baojialist_gx">改性塑胶</a></li>
+            <li style="width:110px;"><a href="/sjshop/index.php/Home/Baojialist/baojialist_hb">环保再生</a></li>
+            <li style="width:110px;"><a href="/sjshop/index.php/Home/Baojialist/baojialist_zj">塑料助剂</a></li>
+			<li style="width:110px;"><a href="__MODULE__/Baojialist/baojialist_wxb">物性表</a></li>
+      </ul>
+    </div>  
+</div>
+
+<script type="text/javascript">
+    var title = [];
+    $('.nav_list').find('a').each(function(){
+
+         title.push($(this).text());
+    })
+    for (var i = 0; i < title.length; i++) {
+        if(title[i] == "{$title}"){
+           
+            $('.nav_list ul li').eq(i).addClass('add_back');
+        }
+    }
+</script>
+
+
+
+
+
+
+
+
+

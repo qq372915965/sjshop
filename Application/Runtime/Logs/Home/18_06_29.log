@@ -1,0 +1,1808 @@
+[ 2018-06-29T17:28:41+08:00 ] ::1 /sjshop/index.php/Home/Chat/chat_line?user_ida=&user_idb=3682
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\liuzp\web\sjdb\sjshop\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: sjshopuserid D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\LoginssoController.class.php 第 35 行.
+
+[ 2018-06-29T17:40:32+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_dlxh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005000s ]
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010001s ]
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:40:36+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataController.class.php 第 424 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0080s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut , fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product WHERE SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:3.1192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-29T17:40:36+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvName&123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0040s ]
+SQL: 
+		   SELECT cInvName,count(*) from 
+           (select cInvName,userid from scn_ecms_inventoryexisting_dlxhbj_product group by cInvName ,userid order by cInvName ASC)
+          as tabA group by cInvName ORDER by count(*) desc limit 0,11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:40:36+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvName_more&123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0040s ]
+SQL: 
+		   SELECT cInvName,count(*) from 
+           (select cInvName,userid from scn_ecms_inventoryexisting_dlxhbj_product group by cInvName ,userid order by cInvName ASC)
+          as tabA group by cInvName ORDER by count(*) desc limit 11,100;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:40:36+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0040s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:40:36+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_count
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataController.class.php 第 381 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scn_ecms_inventoryexisting_dlxhbj_product` WHERE ( second=0 and status=0 and baojia=1 and validity=0 and userfen=1 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 ) LIMIT 1   [ RunTime:0.1850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:40:36+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0060s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:40:36+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0050s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0060s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:40:36+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0040s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:40:36+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:40:36+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0050s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:40:36+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:40:37+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0040s ]
+SQL: SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc  limit 11,300;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:40:37+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:45:03+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'POM'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:45:03+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_count
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataController.class.php 第 381 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scn_ecms_inventoryexisting_dlxhbj_product` WHERE ( second=0 and status=0 and baojia=1 and validity=0 and userfen=1 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 and cInvName='POM' ) LIMIT 1   [ RunTime:0.1140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:45:03+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'POM'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:45:03+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'POM'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:45:03+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataController.class.php 第 424 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where cInvName='POM' 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:45:03+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0020s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'POM' and vendor = '美国杜邦'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:45:04+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'POM' and vendor = '美国杜邦'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:45:04+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0060s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0060s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'POM' and vendor = '美国杜邦'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:45:04+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0020s ]
+SQL: SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'POM' and vendor = '美国杜邦' and cInvStd = '500P'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc  limit 11,300;
+		 [ RunTime:0.0620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:45:04+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'POM' and vendor = '美国杜邦' and cInvStd = '500P'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:45:04+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0040s ]
+SQL: 
+		   		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'POM' and vendor = '美国杜邦' and cInvStd = '500P'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:45:06+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'POM' and vendor = '深圳杜邦'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:45:06+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0020s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'POM' and vendor = '深圳杜邦'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:45:06+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataController.class.php 第 424 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0050s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where cInvName='POM' and vendor='深圳杜邦' 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:45:06+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_count
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataController.class.php 第 381 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scn_ecms_inventoryexisting_dlxhbj_product` WHERE ( second=0 and status=0 and baojia=1 and validity=0 and userfen=1 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 and cInvName='POM' and vendor='深圳杜邦' ) LIMIT 1   [ RunTime:0.1330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:45:06+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'POM' and vendor = '深圳杜邦'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-06-29T17:45:06+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0040s ]
+SQL: 
+		   		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'POM' and vendor = '深圳杜邦' and cInvStd = '500P'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:45:07+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'POM' and vendor = '深圳杜邦' and cInvStd = '500P'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc  limit 11,300;
+		 [ RunTime:0.0590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:45:07+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0020s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'POM' and vendor = '深圳杜邦' and cInvStd = '500P'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:45:08+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0020s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '常平'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.3330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:45:10+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '常平'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.3300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:45:14+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '常平'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.3300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:45:16+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '东莞' and companyhome not regexp '樟木头|黄江|常平' ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.4740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:45:18+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '浙江'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:45:23+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '浙江'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:45:25+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '余姚'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:45:27+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '浙江' and companyhome not regexp '余姚' ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:45:29+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0020s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '昆山'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:45:32+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '昆山'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:45:37+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '江苏' and companyhome not regexp '太仓|昆山' ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:45:39+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '太仓'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:45:42+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '太仓'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:45:43+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '太仓'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:45:58+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '广州'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:46:00+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '广州'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:46:01+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '广州'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:46:02+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0020s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '广州'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:46:05+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0020s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '佛山'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:46:06+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '佛山'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:46:09+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '广州'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:46:13+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where ( companyhome regexp '浙江'  ) 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:46:27+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataController.class.php 第 424 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0020s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where cInvName='ABS' 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:46:27+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:46:27+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:46:27+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_count
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataController.class.php 第 381 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scn_ecms_inventoryexisting_dlxhbj_product` WHERE ( second=0 and status=0 and baojia=1 and validity=0 and userfen=1 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 and cInvName='ABS' ) LIMIT 1   [ RunTime:0.1390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:46:27+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0070s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0090s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:46:27+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:46:27+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:46:27+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0040s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:46:27+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:46:27+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0050s ]
+SQL: SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc  limit 11,300;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:46:27+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:46:30+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'PP'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:46:30+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'PP'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:46:30+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataController.class.php 第 424 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut, fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product where cInvName='PP' 
+					and SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 
+					ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.2910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:46:30+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'PP'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:46:30+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_count
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataController.class.php 第 381 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scn_ecms_inventoryexisting_dlxhbj_product` WHERE ( second=0 and status=0 and baojia=1 and validity=0 and userfen=1 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 and cInvName='PP' ) LIMIT 1   [ RunTime:0.1720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:46:30+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0050s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'PP' and vendor = '中石化茂名'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:46:31+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0050s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'PP' and vendor = '中石化茂名'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-29T17:46:31+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'PP' and vendor = '中石化茂名'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:46:31+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'PP' and vendor = '中石化茂名' and cInvStd = 'EPS30R'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:46:31+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0020s ]
+SQL: SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'PP' and vendor = '中石化茂名' and cInvStd = 'EPS30R'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc  limit 11,300;
+		 [ RunTime:0.0590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-29T17:46:31+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'PP' and vendor = '中石化茂名' and cInvStd = 'EPS30R'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

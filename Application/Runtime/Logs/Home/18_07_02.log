@@ -1,0 +1,2722 @@
+[ 2018-07-02T09:25:46+08:00 ] ::1 /sjshop/index.php/Home/Chat/news_lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\liuzp\web\sjdb\sjshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.1180s ]
+
+[ 2018-07-02T09:25:59+08:00 ] ::1 /sjshop/index.php/Home/Chat/news_lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\liuzp\web\sjdb\sjshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0030s ]
+
+[ 2018-07-02T09:27:15+08:00 ] ::1 /sjshop/index.php/Home/Chat/news_lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\liuzp\web\sjdb\sjshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0030s ]
+
+[ 2018-07-02T09:27:19+08:00 ] ::1 /sjshop/index.php/Home/Chat/news_lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\liuzp\web\sjdb\sjshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0060s ]
+
+[ 2018-07-02T09:27:59+08:00 ] ::1 /sjshop/index.php/Home/Chat/news_lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\liuzp\web\sjdb\sjshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0030s ]
+
+[ 2018-07-02T09:29:12+08:00 ] ::1 /sjshop/index.php/Home/Chat/news_lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\liuzp\web\sjdb\sjshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0030s ]
+
+[ 2018-07-02T09:29:16+08:00 ] ::1 /sjshop/index.php/Home/Chat/news_lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\liuzp\web\sjdb\sjshop\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0040s ]
+
+[ 2018-07-02T09:44:20+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.3470s ]
+ERR: Think\Controller:dispalay方法不存在！
+
+[ 2018-07-02T09:44:43+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.011001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.011001s ]
+
+[ 2018-07-02T09:47:34+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_dlxh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006001s ]
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.119007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.119007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.129008s ]
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.120007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.120007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014001s ]
+
+[ 2018-07-02T09:47:36+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvName&123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.1950s ]
+SQL: 
+		   SELECT cInvName,count(*) from 
+           (select cInvName,userid from scn_ecms_inventoryexisting_dlxhbj_product group by cInvName ,userid order by cInvName ASC)
+          as tabA group by cInvName ORDER by count(*) desc limit 0,11;
+		 [ RunTime:0.9821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T09:47:41+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataController.class.php 第 424 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0040s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut , fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product WHERE SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:5.8923s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-02T09:47:42+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_count
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataController.class.php 第 381 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scn_ecms_inventoryexisting_dlxhbj_product` WHERE ( second=0 and status=0 and baojia=1 and validity=0 and userfen=1 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 ) LIMIT 1   [ RunTime:0.2560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T09:47:42+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0050s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.1380s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T09:47:42+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T09:47:42+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvName_more&123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0050s ]
+SQL: 
+		   SELECT cInvName,count(*) from 
+           (select cInvName,userid from scn_ecms_inventoryexisting_dlxhbj_product group by cInvName ,userid order by cInvName ASC)
+          as tabA group by cInvName ORDER by count(*) desc limit 11,100;
+		 [ RunTime:0.1340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T09:47:42+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T09:47:42+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0020s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T09:47:43+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T09:47:43+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-07-02T09:47:43+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0020s ]
+SQL: SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc  limit 11,300;
+		 [ RunTime:0.0600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T09:47:43+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T09:47:43+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T09:50:45+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T10:17:21+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T10:18:05+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T10:18:06+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T10:18:06+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T10:18:06+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T10:18:07+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T10:18:07+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T10:19:19+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T10:20:35+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T10:23:31+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006001s ]
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 177 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 177 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 184 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 184 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 184 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 184 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 187 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 188 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 189 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 190 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 190 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 195 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 196 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 199 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 200 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 205 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 208 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008001s ]
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T10:23:31+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]e/member/company/uploadimgzs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+ERR: 非法操作:[!--news.url--]e
+
+[ 2018-07-02T10:25:54+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004001s ]
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001000s ]
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 186 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 186 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 196 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 197 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 198 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 199 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 199 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 202 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 204 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 205 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 208 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 209 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 214 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010001s ]
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T10:25:54+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]skin/sjzx/css/hotspot.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+ERR: 非法操作:[!--news.url--]skin
+
+[ 2018-07-02T10:25:55+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]skin/sjzx/css/header.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0070s ]
+ERR: 非法操作:[!--news.url--]skin
+
+[ 2018-07-02T10:25:55+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]skin/sjzx/css/gx.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0050s ]
+ERR: 非法操作:[!--news.url--]skin
+
+[ 2018-07-02T10:25:55+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]skin/sjzx/css/home.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+ERR: 非法操作:[!--news.url--]skin
+
+[ 2018-07-02T10:25:55+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]skin/sjzx/css/base.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+ERR: 非法操作:[!--news.url--]skin
+
+[ 2018-07-02T10:25:55+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]skin/sjzx/css/footer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+ERR: 非法操作:[!--news.url--]skin
+
+[ 2018-07-02T10:25:55+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]skin/sjzx/css/home2.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+ERR: 非法操作:[!--news.url--]skin
+
+[ 2018-07-02T10:25:55+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]skin/sjzx/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+ERR: 非法操作:[!--news.url--]skin
+
+[ 2018-07-02T10:25:55+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]skin/sjzx/css/page3.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+ERR: 非法操作:[!--news.url--]skin
+
+[ 2018-07-02T10:25:55+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]e/member/company/uploadimgzs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+ERR: 非法操作:[!--news.url--]e
+
+[ 2018-07-02T10:25:55+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]skin/sjzx/css/hotspot.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0050s ]
+ERR: 非法操作:[!--news.url--]skin
+
+[ 2018-07-02T10:25:55+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]skin/sjzx/css/footer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+ERR: 非法操作:[!--news.url--]skin
+
+[ 2018-07-02T10:25:55+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]skin/sjzx/css/header.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+ERR: 非法操作:[!--news.url--]skin
+
+[ 2018-07-02T10:25:55+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]skin/sjzx/css/gx.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+ERR: 非法操作:[!--news.url--]skin
+
+[ 2018-07-02T10:25:55+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]skin/sjzx/css/base.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+ERR: 非法操作:[!--news.url--]skin
+
+[ 2018-07-02T10:25:55+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]skin/sjzx/css/home.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+ERR: 非法操作:[!--news.url--]skin
+
+[ 2018-07-02T10:26:38+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006001s ]
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 186 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 186 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 196 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 197 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 198 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 199 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 199 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 202 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 204 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 205 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 208 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 209 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 214 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010001s ]
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T10:26:38+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]e/member/company/uploadimgzs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+ERR: 非法操作:[!--news.url--]e
+
+[ 2018-07-02T10:35:16+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvName&123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0110s ]
+SQL: 
+		   SELECT cInvName,count(*) from 
+           (select cInvName,userid from scn_ecms_inventoryexisting_dlxhbj_product group by cInvName ,userid order by cInvName ASC)
+          as tabA group by cInvName ORDER by count(*) desc limit 0,11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T10:35:19+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0100s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataController.class.php 第 424 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0040s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut , fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product WHERE SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:3.4952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-02T10:35:20+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0050s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-02T10:35:20+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0070s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-02T10:35:20+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0050s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-02T10:35:20+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvName_more&123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0050s ]
+SQL: 
+		   SELECT cInvName,count(*) from 
+           (select cInvName,userid from scn_ecms_inventoryexisting_dlxhbj_product group by cInvName ,userid order by cInvName ASC)
+          as tabA group by cInvName ORDER by count(*) desc limit 11,100;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T10:35:20+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_count
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataController.class.php 第 381 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scn_ecms_inventoryexisting_dlxhbj_product` WHERE ( second=0 and status=0 and baojia=1 and validity=0 and userfen=1 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 ) LIMIT 1   [ RunTime:0.1330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T10:35:20+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T10:35:20+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0020s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T10:35:20+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0060s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T10:35:20+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T10:35:20+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T10:35:20+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc  limit 11,300;
+		 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T11:08:38+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005000s ]
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 186 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 186 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 196 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 197 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 198 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 199 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 199 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 202 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 204 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 205 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 208 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 209 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 214 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008000s ]
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T11:08:38+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]e/member/company/uploadimgzs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0080s ]
+ERR: 非法操作:[!--news.url--]e
+
+[ 2018-07-02T11:09:07+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005000s ]
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 186 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 186 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 196 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 197 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 198 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 199 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 199 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 202 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 204 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 205 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 208 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 209 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 214 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011001s ]
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T11:09:07+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]e/member/company/uploadimgzs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+ERR: 非法操作:[!--news.url--]e
+
+[ 2018-07-02T11:15:49+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008000s ]
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 186 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 186 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 193 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 196 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 197 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 198 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 199 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 199 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 202 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 204 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 205 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 208 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 209 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 214 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011000s ]
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T11:15:49+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]e/member/company/uploadimgzs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0050s ]
+ERR: 非法操作:[!--news.url--]e
+
+[ 2018-07-02T14:07:37+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007000s ]
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 168 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 168 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 175 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 175 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 175 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 175 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 178 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 179 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 180 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 181 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 181 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 184 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 186 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 187 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 190 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 191 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 196 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 199 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T14:07:37+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]e/member/company/uploadimgzs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0060s ]
+ERR: 非法操作:[!--news.url--]e
+
+[ 2018-07-02T14:10:33+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_gx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007001s ]
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 168 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 168 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 175 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 175 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 175 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 175 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 178 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 179 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 180 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 181 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 181 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 184 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 186 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 187 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 190 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 191 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 196 行.
+NOTIC: [8] Undefined variable: data_s D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\03a8200c759ddd6d04c623bf4dd166f7.php 第 199 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010001s ]
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T14:10:33+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/[!--news.url--]e/member/company/uploadimgzs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0060s ]
+ERR: 非法操作:[!--news.url--]e
+
+[ 2018-07-02T14:40:22+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_dlxh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009001s ]
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014001s ]
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T14:40:28+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataController.class.php 第 424 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0090s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut , fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product WHERE SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:2.9922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-07-02T14:40:28+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0040s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T14:40:28+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_count
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataController.class.php 第 381 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scn_ecms_inventoryexisting_dlxhbj_product` WHERE ( second=0 and status=0 and baojia=1 and validity=0 and userfen=1 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 ) LIMIT 1   [ RunTime:0.1250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T14:40:28+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvName&123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,count(*) from 
+           (select cInvName,userid from scn_ecms_inventoryexisting_dlxhbj_product group by cInvName ,userid order by cInvName ASC)
+          as tabA group by cInvName ORDER by count(*) desc limit 0,11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T14:40:28+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvName_more&123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0020s ]
+SQL: 
+		   SELECT cInvName,count(*) from 
+           (select cInvName,userid from scn_ecms_inventoryexisting_dlxhbj_product group by cInvName ,userid order by cInvName ASC)
+          as tabA group by cInvName ORDER by count(*) desc limit 11,100;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T14:40:28+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T14:40:28+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T14:40:28+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T14:40:28+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0020s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T14:40:28+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T14:40:28+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-07-02T14:40:28+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T14:40:28+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc  limit 11,300;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:03+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_dlxh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004001s ]
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007001s ]
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T15:20:03+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0130s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:03+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvName_more&123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,count(*) from 
+           (select cInvName,userid from scn_ecms_inventoryexisting_dlxhbj_product group by cInvName ,userid order by cInvName ASC)
+          as tabA group by cInvName ORDER by count(*) desc limit 11,100;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:03+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0070s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:03+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvName&123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,count(*) from 
+           (select cInvName,userid from scn_ecms_inventoryexisting_dlxhbj_product group by cInvName ,userid order by cInvName ASC)
+          as tabA group by cInvName ORDER by count(*) desc limit 0,11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-07-02T15:20:03+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia_count
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataController.class.php 第 381 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scn_ecms_inventoryexisting_dlxhbj_product` WHERE ( second=0 and status=0 and baojia=1 and validity=0 and userfen=1 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 ) LIMIT 1   [ RunTime:0.1430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:06+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_saerch_baojia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataController.class.php 第 424 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut , fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					SECOND,userfen,STATUS,baojia,validity,fprice 
+					FROM scn_ecms_inventoryexisting_dlxhbj_product WHERE SECOND=0 AND userfen=1 AND STATUS=0 AND baojia=1 AND validity=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 ORDER BY id desc )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:2.4461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:06+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_vendor_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:06+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0040s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T15:20:06+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-02T15:20:06+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_cInvStd_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:06+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0070s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-07-02T15:20:06+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0020s ]
+SQL: SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc  limit 11,300;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:06+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdata/ajax_list_address_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0040s ]
+SQL: 
+		   		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T15:20:56+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_cgh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005001s ]
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007001s ]
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:57+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_xgh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005000s ]
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007001s ]
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:57+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdatagh/ajax_list_cInvName&123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0060s ]
+SQL: 
+		   SELECT cInvName,count(*) from 
+           (select cInvName,userid from scn_ecms_inventoryexisting_dlxhbj_product group by cInvName ,userid order by cInvName ASC)
+          as tabA group by cInvName ORDER by count(*) desc limit 0,11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:57+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdatagh/ajax_saerch_baojia_count
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0050s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataghController.class.php 第 379 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ark_product` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scn_ark_product` WHERE ( ark_type=1 and second=0 and status=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:57+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdatagh/ajax_saerch_baojia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0040s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8] Undefined variable: cInvStd D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataghController.class.php 第 422 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ark_product` [ RunTime:0.0040s ]
+SQL: SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,
+					COUNT(*) AS prconut , fprice 
+					FROM (SELECT id, companyreferred,thecontact,companyname, contactphone,cinvname,cinvstd,
+					vendor,companyhome,address,truetime,baojiacount,userid,companyconcept,ark_type
+					,STATUS,fprice 
+					FROM scn_ark_product WHERE ark_type=1 and second=0 AND STATUS=0 and (UNIX_TIMESTAMP(NOW())-truetime)<15*24*3600 ORDER BY fprice ASC )
+					 AS tabA  
+					GROUP BY cinvname,cinvstd,vendor,address ORDER BY prconut DESC limit 0,200 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:58+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdatagh/ajax_list_cInvName_more&123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_product` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,count(*) from 
+           (select cInvName,userid from scn_ecms_inventoryexisting_dlxhbj_product group by cInvName ,userid order by cInvName ASC)
+          as tabA group by cInvName ORDER by count(*) desc limit 11,100;
+		 [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:58+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdatagh/ajax_list_vendor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0050s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:58+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdatagh/ajax_list_vendor_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: cInvName D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataghController.class.php 第 113 行.
+NOTIC: [8] Undefined variable: cInvName D:\liuzp\web\sjdb\sjshop\Application\Home\Controller\AjaxdataghController.class.php 第 115 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = ''
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T15:20:58+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdatagh/ajax_list_vendor_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,count(*) from 
+           (select cInvName,vendor,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS'
+		   group by cInvName,vendor ,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T15:20:58+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdatagh/ajax_list_cInvStd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0030s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:58+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdatagh/ajax_list_cInvStd_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0040s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 11,300;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-07-02T15:20:58+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdatagh/ajax_list_cInvStd_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0050s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,count(*) from 
+           (select cInvName,vendor,cInvStd,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美'
+		   group by cInvName,vendor,cInvStd,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T15:20:58+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdatagh/ajax_list_address_one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 1;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:58+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdatagh/ajax_list_address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0030s ]
+SQL: 
+		   SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc limit 11;
+		 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-02T15:20:58+08:00 ] ::1 /sjshop/index.php?s=/Home/Ajaxdatagh/ajax_list_address_more
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+NOTIC: [8192] Function eregi() is deprecated D:\liuzp\web\sjdb\sjshop\Application\Home\Model\CheckModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `scn_ecms_inventoryexisting_dlxhbj_xinghao` [ RunTime:0.0040s ]
+SQL: SELECT cInvName,vendor,cInvStd,address,count(*) from 
+           (select cInvName,vendor,cInvStd,address,userid from scn_ecms_inventoryexisting_dlxhbj_product 
+		   where cInvName = 'ABS' and vendor = '台湾奇美' and cInvStd = 'PA-757'
+		   group by cInvName,vendor,cInvStd,address,userid order by cInvName ASC)
+          as tabA group by cInvName,vendor,cInvStd,address ORDER by count(*) desc  limit 11,300;
+		 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-02T15:20:58+08:00 ] ::1 /sjshop/index.php/Home/Baojialist/baojialist_cgh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004000s ]
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+NOTIC: [8] Undefined variable: date_word D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\0a87b5f98cc5053165fcb7eb52114b3a.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008000s ]
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+NOTIC: [8] Undefined variable: r_url D:\liuzp\web\sjdb\sjshop\Application\Runtime\Cache\Home\7953644226af88071427d0956f020739.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

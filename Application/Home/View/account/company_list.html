@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+		<meta name="Keywords" content="" />
+		<meta name="Description" content="" />
+
+		<!--check css-->
+		<script src="__PUBLIC__/Home/js/modernizr-2.6.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--css3 prefix-->
+		<script src="__PUBLIC__/Home/js/prefix-css3.min.js" type="text/javascript" charset="utf-8"></script>
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lte IE 8]>
+			<script src="js/html5shiv.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/respond.min.js" type="text/javascript" charset="utf-8"></script>
+		<![endif]-->
+
+		<!--css-->
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/cstfont/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/all.css" />
+	</head>
+
+
+	<body >
+    <div class="invoice">
+        <h4 class="invoice-ttl">基本信息</h4>
+
+
+        <div class="form form-horizontal invoice-address" novalidate="novalidate">
+            <div class="form-group vd-box">
+                <label class="col-xs-2 control-label" for="username">用户名:</label>
+                <div class="col-xs-6">
+                    <input class="form-control rd-no vd-item" name="username" vd-req vd-req-msg="用户名不能为空" type="text" placeholder="输入用户名" id="username" value="{$data['username']}" />
+                    <input type="hidden" name="user_id" value="<?php echo $_GET['user_id'];?>">
+                    <span class="vd-req "></span>
+                </div>
+            </div>
+
+            <div class="form-group vd-box">
+                <label class="col-xs-2 control-label" for="email">邮箱:</label>
+                <div class="col-xs-6">
+                    <input class="form-control rd-no vd-item" name="email" vd-req vd-req-msg="邮箱不能为空"
+                           vd-pattern="^(\w-*\.*)+@(\w-?)+(\.\w{2,})+$" vd-pattern-msg="邮箱格式不对"
+                           type="text" placeholder="输入邮箱" id="email" value="{$data['email']}" />
+                    <span class="vd-req "></span>
+                    <span class="vd-pattern"></span>
+                </div>
+            </div>
+
+            <div class="form-group vd-box">
+                <label class="col-xs-2 control-label" for="enterprise">企业名称:</label>
+                <div class="col-xs-6">
+                    <input class="form-control rd-no vd-item" name="company_name" vd-req vd-req-msg="企业名称不能为空" type="text" placeholder="输入企业名称" id="enterprise" value="{$data['company_name']}" />
+                    <span class="vd-req "></span>
+                </div>
+            </div>
+
+            <div class="form-group vd-box">
+                <label class="col-xs-2 control-label" for="addr">企业地区:</label>
+
+                <div class="col-xs-6 tree-address-big ">
+                    <input class="form-control rd-no vd-item tree-address-btn" name="region" vd-req vd-req-msg="所在地区不能为空" type="text" placeholder="输入所在地区" id="addr" value="{$data['region']}" />
+                    <div class="tree-address tab-big">
+                        <ul class="tree-address-ttl tab-ttl clearfix">
+                            <li class="tab-item active" data-target=".address1">省</li>
+                            <li class="tab-item" data-target=".address2">市</li>
+                            <li class="tab-item" data-target=".address3">区</li>
+                        </ul>
+                        <div class="tab-content">
+                            <ul class="tree-address-1 tab-content-item active clearfix address1"></ul>
+                            <ul class="tree-address-2 tab-content-item clearfix address2"></ul>
+
+                            <ul class="tree-address-3 tab-content-item clearfix address3"></ul>
+                        </div>
+
+                    </div>
+                    <span class="vd-req "></span>
+                </div>
+
+            </div>
+
+            <div class="form-group vd-box">
+                <label class="col-xs-2 control-label" for="re_goods">详细地址:</label>
+                <div class="col-xs-6">
+                    <textarea class=" form-control rd-no vd-item" name="detailed_address" vd-req vd-req-msg="详细地址不能为空" placeholder="输入详细地址"><?= $data['detailed_address']?>
+                    </textarea>
+                    <span class="vd-req "></span>
+                </div>
+            </div>
+
+
+            <div class="form-group vd-box">
+                <label class="col-xs-2 control-label" for="daibiao">法定代表人:</label>
+                <div class="col-xs-6">
+                    <input class="form-control rd-no vd-item" type="text" name="legal_person" vd-req vd-req-msg="法定代表人不能为空" placeholder="输入法定代表人" id="daibiao" value="{$data['legal_person']}" />
+                    <span class="vd-req "></span>
+                </div>
+            </div>
+
+
+            <div class="form-group vd-box">
+                <label class="col-xs-2 control-label" for="banktype">开户银行:</label>
+                <div class="col-xs-6">
+                    <input class="form-control rd-no vd-item" type="text" name="open_bank" vd-req vd-req-msg="开户银行不能为空" placeholder="输入开户银行" id="banktype" value="{$data['open_bank']}" />
+                    <span class="vd-req "></span>
+                </div>
+            </div>
+
+
+            <div class="form-group vd-box">
+                <label class="col-xs-2 control-label" for="banktuser">户名:</label>
+                <div class="col-xs-6">
+                    <input class="form-control rd-no vd-item" type="text" name="bank_name" vd-req vd-req-msg="户名不能为空" placeholder="输入户名" id="banktuser" value="{$data['bank_name']}" />
+                    <span class="vd-req "></span>
+                </div>
+            </div>
+
+            <div class="form-group vd-box">
+                <label class="col-xs-2 control-label" for="bankaccount">银行账户:</label>
+                <div class="col-xs-6">
+                    <input class="form-control rd-no vd-item" type="text" name="bank_id" vd-req vd-req-msg="银行账户不能为空" placeholder="输入银行账户" id="bankaccount" value="{$data['bank_id']}" />
+                    <span class="vd-req "></span>
+                </div>
+            </div>
+
+            <div class="form-group vd-box">
+                <label class="col-xs-2 control-label" for="username">你的真实姓名:</label>
+                <div class="col-xs-6">
+                    <input class="form-control rd-no vd-item" type="text" name="real_name" vd-req vd-req-msg="真实姓名不能为空" placeholder="输入真实姓名" id="username" value="{$data['real_name']}" />
+                    <span class="vd-req "></span>
+                </div>
+            </div>
+
+
+            <div class="form-group vd-box">
+                <label class="col-xs-2 control-label" for="qq">QQ号:</label>
+                <div class="col-xs-6">
+                    <input class="form-control rd-no vd-item" type="text" name="qq_number" value="{$data['qq_number']}" vd-req vd-req-msg="QQ号不能为空" placeholder="输入QQ号" id="qq" />
+                    <span class="vd-req "></span>
+                </div>
+            </div>
+
+            <div class="form-group vd-box">
+                <label class="col-xs-2 control-label" for="phone">手机号码:</label>
+                <div class="col-xs-6">
+                    <input class="form-control rd-no vd-item" type="text" vd-pattern="^1\d{10}$" vd-pattern-msg="手机格式不对" maxlength="11" vd-req vd-req-msg="手机不能为空" placeholder="输入手机号码" id="phone" name="phone" value="{$data['phone']}" />
+                    <span class="vd-req "></span>
+                    <span class="vd-pattern"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-xs-offset-2 col-xs-6">
+                    <button class="btn   btn-primary rd-no vd-btn">保存</button>
+                
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+	
+<script src="__PUBLIC__/Home/js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="__PUBLIC__/Home/js/all.js" type="text/javascript" charset="utf-8"></script>
+<script src="__PUBLIC__/Home/js/config.js" type="text/javascript" charset="utf-8"></script>
+<script src="__PUBLIC__/Home/js/city.data-3.js" type="text/javascript" charset="utf-8"></script>
+
+
+<script type="text/javascript">
+			 $(function () {
+
+            // 设置模板页iframe的高度
+            iframe.setHeight();
+
+            // 三联地址
+            treeSelectAddress.init();
+
+            // 添加地址
+            var vd1 = vd.create(".form");
+            vd1.init();
+            $(".form .vd-btn").on("click", function () {
+
+                var $this = this;
+                // 是否验证成功
+                vd1.isSuccess(function (obj) {
+                    vd1.disabled($(vd1.formName).find(".vd-item")); //禁用
+                    vd1.disabled($this); //禁用
+                    
+                    var user_id = $('input[name=user_id]').val();
+                    $($this).text("提交正在中...");
+                    $.ajax({
+                        url:'__CONTROLLER__/company_list',
+                        dataType:'JSON',
+                        type:'post',
+                        data:{'obj':obj,'user_id':user_id},
+                        success:function(data){
+                            if(data == 1){
+                                 alert('添加成功');
+                            }else{
+                                alert('修改成功');
+                            }
+                        window.location.assign('company_list.html?user_id='+user_id);
+
+                        }
+
+                    })
+                    iframe.setHeight();
+
+                }, function (obj) {
+                    //alert(obj.errorMsg)
+                    obj.el.focus();
+                    // 设置模板页iframe的高度
+                    iframe.setHeight();
+
+                });
+            });
+
+
+        })
+		</script>
+	</body>
+</script>
+</html>

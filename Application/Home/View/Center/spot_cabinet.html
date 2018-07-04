@@ -1,0 +1,505 @@
+<include file="Center:personage_center" />
+  <div class="feel_weel baojia-list supplement1">
+          <ul class="baojia-list-ttl">
+            <li>
+              <a href="hongkong_goods">
+                大陆现货
+              </a>
+            </li>
+
+            <li>
+              <a href="modified_plastic">
+                香港现货
+              </a>
+            </li>
+
+            <li>
+              <a  href="hongkong_cargo">
+                香港船货
+              </a>
+            </li>
+                     
+             <li>
+              <a  href="modified_plastic">
+                改性塑料
+              </a>
+            </li>
+
+            <li>
+              <a  href="environmental">
+                环保再生
+              </a>
+            </li>
+
+             <li>
+              <a  href="plastic_auxiliaries">
+                塑料助剂
+              </a>
+            </li>
+
+            <li class="active">
+              <a  href="spot_cabinet">
+                现柜货
+              </a>
+            </li>
+
+            <li>
+              <a  href="ship_cabinet">
+                船柜货
+              </a>
+            </li>
+          </ul>
+
+          <div class="clr"></div>
+
+          <!--内容部分-->
+          <div class="baojia-list-cont">
+
+            <div class="ttl">
+              <h4><?php echo  date("Y-m-d"); ?> 现柜货供应列表
+                <span> [共<span class="text-danger2"></span>个报价 有效报价<span class="text-danger3"></span>个]</span>
+                </h4>
+
+              <!--品名 状态列表-->
+              <div class="ttl2">
+                <ul class="p1" id="p1">
+                  <li><label for="">品名:</label></li>
+                  <li class="item active">
+                    <a href="javascript:;">全部</a>
+                  </li>
+                
+
+                </ul>
+                <div class="clr"></div>
+
+                <ul class="p2">
+                  <li><label for="">状态:</label></li>
+                  <li class="item active">
+                    <a href="javascript:;">全部</a>
+                  </li>
+                  <li class="item">
+                    <a href="javascript:;">上架</a>
+                  </li>
+                 
+                  <li class="item">
+                    <a href="javascript:;">已下架</a>
+                  </li>
+
+                </ul>
+                <div class="clr"></div>
+              </div>
+
+              <!--分页标题-->
+              <div class="paging">
+
+                <div class="fl">
+
+                  <input class="all-select all-btn " type="button" value="全选" />
+                  <input class="all-save all-btn" type="button" value="批量保存" />
+                  <input class="all-sp all-btn" type="button" value="批量上架" />
+                  <input class="all-xj all-btn" type="button" value="批量下架" />
+                  <input class="all-del all-btn text-danger" type="button" value="批量删除" />
+
+                  <label for="">批量更改有效期:</label>
+                  <a class="set-date" href="javascript:;">1</a>
+                  <a class="set-date" href="javascript:;">2</a>
+                  <a class="set-date" href="javascript:;">3</a>
+                  <a class="set-date" href="javascript:;">4</a>
+                  <a class="set-date" href="javascript:;">5</a>
+                  <a class="set-date" href="javascript:;">6</a>
+                  <a class="set-date" href="javascript:;">7</a>
+                  <a class="reset-date" href="javascript:;">重置</a>
+                </div>
+                <div class="fr">
+                  <!-- <label for="fr-a">列表</label> -->
+                  <input class="txt" type="text" name="fr-a" id="fr-a" value="" />
+                  <input class="select all-btn" type="button" value="查询" />
+                  <input class="chepan all-btn" type="button" value="批量撤盘" />
+                </div>
+                <div class="clr"></div>
+              </div>
+
+              <!--table-->
+              <table>
+                <thead>
+                  <tr>
+
+                    <th colspan="3">发盘信息</th>
+                    <th>价格(元)</th>
+                    <th>有效期(天)</th>
+                    <th>数量(吨)</th>
+                    <th>交货时间</th>
+                    <th>交货地</th>
+                    <th>联系人</th>                    
+                    <th colspan="3">操作 </th>
+                  </tr>
+                </thead>
+
+                <tbody id = "baojia_data_list">
+
+
+
+                </tbody>
+                 
+              </table>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      
+
+
+
+
+<script type="text/javascript">
+var value1 = "<?php echo $_COOKIE['coqacmluserid'] ;?>";
+var value2 = '';
+var value3 = '';
+var value4 = '';
+var value5 = '';
+var mod = "__MODULE__";
+$(function(){
+  //在与服务器通讯较慢时给用户提示信息 
+    $("#baojia_data_list").html('<tr><td>加载中</td></tr>'); 
+    //向服务器发送请求(get、post) 
+     $.post(mod+"/Baojialistgh/baojia_list",
+   {userid:value1,key2:value2,key3:value3,key3:value4},
+   function(data){ 
+      $("#baojia_data_list").html(data); 
+    }).error(function(){ 
+      //当服务器出现异常时 
+      $("#baojia_data_list").html('<tr><td>数据异常</td></tr>') 
+    })
+    baojia_list_count(value1);
+    baojia_list_count2(value1); 
+})
+
+
+
+  // 批量保存
+        $(".paging").on("click",".all-save",function(){
+          var $arrs=$(".baojia-list-cont table .item input[type=checkbox]:checked");
+          if($arrs.length<=0){
+            alert("你还没有选择数据！");
+            return;
+          }
+          if(confirm("是否批量保存数据？")){
+            var list=[];
+            var i=1;
+            var x=1;
+            var y=1;
+            $arrs.each(function(){
+            var p=$(this).parents(".item");
+            var obj={};
+            obj.id=$(this).attr("data-id");
+            obj.fprice=$(".fprice",p).val();  
+            obj.valid_day=$(".date",p).val(); 
+            obj.fweight=$(".fweight",p).val();
+            obj.thecontact=$(".thecontact",p).val();
+            if(obj.fweight<0.1){
+              return i=0;
+            }
+            if(obj.fprice<1000){
+              return x=0;
+            }
+            if(obj.thecontact == ''){
+               return y=0;
+            } 
+              list.push(obj);
+            });
+            
+           
+            if(i==0){
+              alert("数量不能低于0.1");
+              return;
+            }
+            if(x==0){
+              alert("请检查价格是否错误");
+              return;
+            }
+            if(y==0){
+              alert("联系人不能为空");
+              return;
+            }
+            
+                 $.post(mod+"/Baojialistgh/baojia_list_save",
+               {data:JSON.stringify(list)},
+               function(data){ 
+                alert('批量保存成功');
+                window.location.reload();
+                $("#baojia_data_list").html(data); 
+              }).error(function(){ 
+                //当服务器出现异常时 
+                alert('数据异常');
+              }) 
+            
+          }
+        });
+        
+        //批量上架
+    
+        $(".paging").on("click",".all-sp",function(){
+          var $arrs=$(".baojia-list-cont table .item input[type=checkbox]:checked");
+          if($arrs.length<=0){
+            alert("你还没有选择数据！");
+            return;
+          }
+          var obj={};
+          if(confirm("是否批量上架数据？")){
+            var list=[];
+            var i=1;
+            var x=1;
+            var y=1;
+            $arrs.each(function(){
+            var p=$(this).parents(".item");
+            var obj={};
+            obj.id=$(this).attr("data-id");
+            obj.fprice=$(".fprice",p).val();  
+            obj.valid_day=$(".date",p).val(); 
+            obj.fweight=$(".fweight",p).val();
+            obj.thecontact=$(".thecontact",p).val();
+            if(obj.fweight<0.1){
+              return i=0;
+            }
+            if(obj.fprice<1000){
+              return x=0;
+            }
+            if(obj.thecontact == ''){
+               return y=0;
+            } 
+              list.push(obj);
+            });
+            
+         
+            if(i==0){
+              alert("数量不能低于0.1");
+              return;
+            }
+            if(x==0){
+              alert("请检查价格是否错误");
+              return;
+            }
+            if(y==0){
+              alert("联系人不能为空");
+              return;
+            }
+        
+            
+            $.post(mod+"/Baojialistgh/baojia_list_save/status/0",
+                {data:JSON.stringify(list)},
+                      function(data){ 
+                      alert('批量上架成功');
+                      window.location.reload();
+                      $("#baojia_data_list").html(data); 
+              }).error(function(){ 
+                //当服务器出现异常时 
+                alert('数据异常');
+              }) 
+            
+          }
+        });
+
+
+      //批量下架
+    
+        $(".paging").on("click",".all-xj",function(){
+          var $arrs=$(".baojia-list-cont table .item input[type=checkbox]:checked");
+          if($arrs.length<=0){
+            alert("你还没有选择数据！");
+            return;
+          }
+          var obj={};
+          if(confirm("是否批量下架数据？")){
+            var list=[];
+            var i=1;
+            var x=1;
+            $arrs.each(function(){
+            var p=$(this).parents(".item");
+            var obj={};
+            obj.id=$(this).attr("data-id");
+            obj.fprice=$(".fprice",p).val();  
+            obj.valid_day=$(".date",p).val(); 
+            obj.fweight=$(".fweight",p).val();
+            obj.thecontact=$(".thecontact",p).val();    
+              list.push(obj);
+            });            
+                 $.post(mod+"/Baojialistgh/baojia_list_save/status/1",
+               {data:JSON.stringify(list)},
+               function(data){ 
+                alert('批量下架成功');
+                window.location.reload();
+                $("#baojia_data_list").html(data); 
+              }).error(function(){ 
+                //当服务器出现异常时 
+                alert('数据异常');
+              }) 
+            
+          }
+        });
+
+         
+      //批量删除
+    
+        $(".paging").on("click",".all-del",function(){
+          var $arrs=$(".baojia-list-cont table .item input[type=checkbox]:checked");
+          if($arrs.length<=0){
+            alert("你还没有选择数据！");
+            return;
+          }
+          var obj={};
+          if(confirm("是否批量删除数据？")){
+            var list=[];
+            var i=1;
+            var x=1;
+            $arrs.each(function(){
+            var p=$(this).parents(".item");
+            var obj={};
+            obj.id=$(this).attr("data-id");
+            obj.fprice=$(".fprice",p).val();  
+            obj.valid_day=$(".date",p).val(); 
+            obj.fweight=$(".fweight",p).val();
+            obj.thecontact=$(".thecontact",p).val();    
+              list.push(obj);
+            });            
+                 $.post(mod+"/Baojialistgh/baojia_list_save/status/3",
+               {data:JSON.stringify(list)},
+               function(data){ 
+                alert('批量删除成功');
+                window.location.reload();
+                $("#baojia_data_list").html(data); 
+              }).error(function(){ 
+                //当服务器出现异常时 
+                alert('数据异常');
+              }) 
+            
+          }
+        });
+  
+        
+        //数据查询
+        $(".paging").on("click",".select",function(){
+          var value1 = "<?php echo $_COOKIE['coqacmluserid'] ;?>";
+          var value2=document.getElementById('fr-a').value;
+          if(value2==""){
+            alert("查询不能为空！");
+            return;
+          }
+          //在与服务器通讯较慢时给用户提示信息 
+            $("#baojia_data_list").html('<tr><td>加载中</td></tr>'); 
+            //向服务器发送请求(get、post) 
+             $.post(mod+"/Baojialistgh/baojia_list_search",
+           {userid:value1,keyword:value2},
+           function(data){ 
+              $("#baojia_data_list").html(data); 
+            }).error(function(){ 
+              //当服务器出现异常时 
+              $("#baojia_data_list").html('<tr><td>数据异常</td></tr>') 
+            }) 
+        });
+
+        // 品名与状态全局变量
+        var select_all_1="全部";
+        var select_all_2="全部";
+        //品名查询
+        $(".p1").on("click","li.item",function(){
+          select_all_1=$(this).find("a").text();
+          $(this).addClass("active").siblings().removeClass("active");
+          var value1 = "<?php echo $_COOKIE['coqacmluserid'] ;?>";
+
+          //在与服务器通讯较慢时给用户提示信息 
+            $("#baojia_data_list").html('<tr><td>加载中</td></tr>'); 
+            //向服务器发送请求(get、post) 
+             $.post(mod+"/Baojialistgh/baojia_list_cinvname",
+           {userid:value1,cinvname:select_all_1,status:select_all_2},
+           function(data){ 
+              $("#baojia_data_list").html(data); 
+            }).error(function(){ 
+              //当服务器出现异常时 
+              $("#baojia_data_list").html('<tr><td>数据异常</td></tr>') 
+            }) 
+        });
+
+        //状态查询
+        $(".p2").on("click","li.item",function(){
+          select_all_2=$(this).find("a").text();
+          $(this).addClass("active").siblings().removeClass("active");
+          var value1 = "<?php echo $_COOKIE['coqacmluserid'] ;?>";
+          //在与服务器通讯较慢时给用户提示信息 
+            $("#baojia_data_list").html('<tr><td>加载中</td></tr>'); 
+            //向服务器发送请求(get、post) 
+             $.post(mod+"/Baojialistgh/baojia_list_cinvname",
+           {userid:value1,cinvname:select_all_1,status:select_all_2},
+           function(data){ 
+              $("#baojia_data_list").html(data); 
+            }).error(function(){ 
+              //当服务器出现异常时 
+              $("#baojia_data_list").html('<tr><td>数据异常</td></tr>') 
+            }) 
+        });
+
+                //报价统计     
+        function baojia_list_count(value1){
+          $(".text-danger2").text('0'); 
+            $.post(mod+"/Baojialistgh/baojia_list_count",{userid:value1},function(data){ 
+            $(".text-danger2").text(data);
+            }).error(function(){ 
+              $(".text-danger2").text('-1') 
+            })
+
+        }
+        function baojia_list_count2(value1){
+          $(".text-danger3").text('0'); 
+            $.post(mod+"/Baojialistgh/baojia_list_count2",{userid:value1},function(data){ 
+            $(".text-danger3").text(data);
+            }).error(function(){ 
+              $(".text-danger3").text('-1') 
+            })
+
+        }
+            
+//批量撤盘
+
+  $(".chepan").on("click", function() {
+    
+    var $arrs = $(".baojia-list-cont table .item input[type=checkbox]:checked");
+    if($arrs.length <= 0) {
+      alert("你还没有选择数据！");
+      return;
+    }
+    if(confirm("是否要撤盘数据？")) {
+      
+
+      $arrs.each(function() {
+        var $p = $(this).parents(".item");
+        
+      $p.find("input").not(".l1").val("");
+        
+      });
+
+     
+    
+    }
+  });
+
+
+  $(document).ready(function(){
+  //在与服务器通讯较慢时给用户提示信息 
+    $("#p1").html('<li><label for="">品名:</label></li><li class="item active"><a href="javascript:;">全部</a></li><li class="list_sty">加载中</li>');
+
+    //品名
+    //向服务器发送请求(get、post) 
+    $.get(mod+"/Ajaxcinvname/ajax_xgh_cInvName/userid/<?php echo $userid;?>",'123',function(data){ 
+      $("#p1").html(data); 
+    }).error(function(){ 
+      //当服务器出现异常时 
+      $("#p1").html('<li><label for="">品名:</label></li><li class="item active"><a href="javascript:;">全部</a></li><li class="list_sty">数据异常</li>') 
+    })
+})
+
+</script>
+<script src="__PUBLIC__/Home/js/baojia-list_gh.js"></script>    
+<!--- 个人中心列表   --->
+  </div>

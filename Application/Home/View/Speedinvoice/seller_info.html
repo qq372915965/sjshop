@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+		<meta name="Keywords" content="" />
+		<meta name="Description" content="" />
+
+		<!--check css-->
+		<script src="__PUBLIC__/Home/js/modernizr-2.6.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--css3 prefix-->
+		<script src="__PUBLIC__/Home/js/prefix-css3.min.js" type="text/javascript" charset="utf-8"></script>
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lte IE 8]>
+			<script src="js/html5shiv.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/respond.min.js" type="text/javascript" charset="utf-8"></script>
+		<![endif]-->
+
+		<!--css-->
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/cstfont/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/all.css" />
+	</head>
+
+<section class="invoicedtl">
+			<!--标题-->
+			<h4 class="invoicedtl-ttl">开票详情</h4>
+
+			<!--开票详情内容-->
+			<div class="invoicedtl-cont">
+				<!--内容-->
+				<div class="item-list  clearfix">
+					<table class="table-fixed table table-bordered ">
+						<thead>
+							<tr>
+								<th class="table-8 clearfix">
+									<div class="width-4 clearfix">
+										货品
+									</div>
+
+									<div class="width-2 clearfix">
+										单价(元/吨)
+									</div>
+
+									<div class="width-2 clearfix">
+										数量
+									</div>
+									<div class="width-2 clearfix">
+										运费
+									</div>
+								</th>
+
+								<th class="table-2 text-center">
+									总金额(元)
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="table-8 clearfix">
+					<foreach name="order_info" item="val">
+
+									<!--订单每一项-->
+									<div class="table-item clearfix">
+										<div class="width-4 clearfix">
+											<img src="/sjshop/Public/Home/img/index_logo.png" alt="图片" />
+											<h4 class="ellipsis"><?= $val['goods_name']?></h4>
+										</div>
+
+										<div class="width-2 clearfix">
+											<?= $val['goods_price']?>
+										</div>
+
+										<div class="width-2 clearfix">
+											<?= $val['goods_num']?>
+										</div>
+										<div class="width-2 clearfix">
+											<?= $val['postage']?>
+										</div>
+
+									</div>
+									
+					</foreach>
+								</td>
+
+								<td class="table-2 op  text-center">
+
+									<span class="text-danger"><?= $total?>.00</span>
+								</td>
+
+							</tr>
+						</tbody>
+					</table>
+
+				</div>
+
+			</div>
+
+			<!--订单列表-->
+			<div class="invoicedtl-list buyinfo-tb-cont">
+
+				<div class="item" data-order-id="1342342424291">
+
+					<!--头部-->
+					<div class="item-ttl">
+						<label>订单号：</label>
+						<span class="order_sn"><?= $invoice_info[0]['order_sn']?></span>
+						
+
+						<!--<label class="suylabel">卖家：</label>
+							<span>上海塑胶贸易有限公司(原东莞鸿润创业)</span>-->
+
+					</div>
+
+					<!--内容-->
+					<!--内容-->
+					<div class="item-list  clearfix">
+
+						<table class="table-fixed table table-bordered ">
+							<thead>
+								<tr>
+									<td>
+										时间
+									</td>
+
+									<td>
+										票样
+									</td>
+
+									<td>
+										票额
+									</td>
+									<td>
+										操作
+									</td>
+								</tr>
+							</thead>
+							<tbody>
+								<foreach name="invoice_info" item="val">
+
+								<tr>
+									<td class="table-3 text-center">
+										<?= date('Y-m-d H:i:s',$val['addtime'])?>
+									</td>
+									<td class="table-4 clearfix">
+										<img src="<?= $val['invoice_pic']?>" alt="图片" />
+									</td>
+
+									<td class="table-3 text-center invoice_money">
+										<?= $val['invoice_money']?>
+									</td>
+										<td>
+                                    <span class="text-primary" data-id="<?= $val['id']?>" data-target=".invoice-box" data-toggle="modal" data-backdrop="false">修改</span>
+										
+									</td>
+								</tr>
+								
+								</foreach>
+							</tbody>
+							<tfoot>
+								 <tr>
+								 	<td class="totalttl" >
+								 		合计:
+								 	</td>
+								 	<td colspan="3">
+								 		<span class="lab">总额度:</span>
+								 		<span><?= $total?>.00</span>
+								 		
+								 		<span class="lab">已开票额度:</span>
+								 		<span><?= $open_t ? $open_t : 0?>.00</span>
+								 		
+								 		<span class="lab">剩余额度:</span>
+								 		<span class="open_t"><?= $total - $open_t?>.00</span>
+								 		
+								 	</td>
+								 </tr>
+							</tfoot>
+						</table>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="invoice-box modal  fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">修改水单</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form class=" form-horizontal" novalidate="novalidate">
+
+                            <div class="form-group progress-box  relative">
+                                <label class="col-xs-3 control-label" for="invoice-ttl">票样:</label>
+                                <div class="col-xs-8 padding-l-no">
+                                    <img class="invoice-box-img" src="" alt="水单图" />
+
+                                    <!-- 点击提交按钮-->
+                                    <a class="up-btn" name="up" id="up" href="javascript:">上传图片</a>
+                                    <input class=" fileUp v-hide-text-index" type="file" name="" id="fileUp" value="" />
+                                    <input type="hidden" name="invoice_id" value=" ">
+                                    <input type="hidden" name="former_money" value=" ">
+                                    <!--进度条-->
+                                    <div class="progress-all v-hide" style="margin-top:5px;">
+                                        <div class="progress-now"></div>
+                                        <div class="progress-num">0%</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-xs-3 control-label" for="invoice-num">票额:</label>
+                                <div class="col-xs-8 padding-l-no">
+                                    <input class=" form-control rd-no" type="text" name="money" id="invoice-num" value="" placeholder="20000.00" />
+                                </div>
+                            </div>
+
+
+                        </form>
+                    </div>
+                    <div class="modal-footer text-center">
+                        <input class="btn btn-primary rd-no edit_memo" type="button" value="保存修改" />
+                        <input class="btn btn-danger rd-no" data-dismiss="modal" type="button" value="关闭" />
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+		</section>
+
+		<script src="__PUBLIC__/Home/js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="__PUBLIC__/Home/js/all.js" type="text/javascript" charset="utf-8"></script>
+<script src="__PUBLIC__/Home/js/config.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+        $(function () {
+
+            //  买卖家中心 设置模板页iframe的高度
+
+            iframe.setHeight();
+            /***文件上传  start***/
+            $(".file-txt").focus(function () {
+                $(this).blur();
+            });
+
+            $("#up").on("click", function (e) {
+
+                e.stopPropagation();
+                e.preventDefault();
+                var p = $(this).parents(".progress-box");
+
+                // 点击文件上传框
+                $(".fileUp", p).click();
+
+            });
+
+            // 文件上传框值变化
+            $(".fileUp").change(function () {
+
+                fileupff(this);
+
+            });
+            var fileupff = function (obj) {
+
+                var $img = $(obj).parents(".progress-box").find(".img");
+                var $propress = $(obj).parents(".progress-box").find(".progress-all");
+                $propress.show();
+                iframe.setHeight();
+
+                // 是否支持html5 文件上传
+                if (typeof obj.files === "undefined") {
+                    alert("不支持html5 文件上传,请升级你的浏览器  \n not support html5 ");
+                    return;
+                }
+
+                var file = obj.files[0];
+
+                h5File.upload({
+                    data: file, //选择的文件
+                    url: "__MODULE__/public/upload_img", //上传网址
+                    outTime: 30000,
+                    el: $(obj), //当前element
+                    size: 300 * 1000000, //1m=1000000
+                    contentType: false,
+                    seccess: function (data) {
+                        $propress.hide();
+                        var url = data;
+                        $(".invoice-box-img").attr("src", url);
+                        iframe.setHeight();
+                    }, //成功回调
+                    error: function () {
+                        $propress.hide();
+                        // 发布删掉
+                        var url = "images/板块图片2.png";
+                        $(".invoice-box-img").attr("src", url);
+                        $img.show();
+                        iframe.setHeight();
+                        //alert("上传发生错误")
+                    } //错误回调
+
+                }); //调用上传接口
+
+
+            };
+            /***文件上传 end***/
+
+            // 查出发票
+            $('.invoice-box').on('show.bs.modal', function (e) {
+                var srcObj = e.relatedTarget; // 点击对象
+                var invoice_id = $(srcObj).attr('data-id');
+                 var p=$(srcObj).parents("tr");
+                 var _imgsrc=$("img",p).attr("src");
+           		 var meny=$(".invoice_money",p).text();
+                		
+                $('.invoice-box-img').attr('src',_imgsrc);
+                $('#invoice-num').attr('value',$.trim(meny));
+               $("input[name='invoice_id']").attr('value',invoice_id);
+               $("input[name='former_money']").attr('value',meny);
+                		
+            
+            });
+
+            // 修改发票
+            $('.edit_memo').click(function(){
+            	var not_tot = $('.open_t').text();
+            	var datas = {};
+            	datas['invoice_pic'] = $('.invoice-box-img').attr('src');
+            	datas['invoice_money'] = $("input[name='money']").val();
+            	datas['id'] =  $("input[name='invoice_id']").val();
+            	var total = Number($("input[name='former_money']").val()) + Number(not_tot);
+            	if(Number(datas['invoice_money']) > Number(total)){
+            		alert('开票金额不能大于剩余金额');
+            		return;
+            	}
+            	$.ajax({
+            		url:'__CONTROLLER__/edit_invoice',
+            		dataType:'json',
+            		type:'post',
+            		data:{data:datas},
+            		success:function(data){
+            			if(data > 0){
+
+            			   location.reload(); 
+            			}	
+            		}
+            	})
+            })
+
+        })
+</script>

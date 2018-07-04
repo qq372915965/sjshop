@@ -1,0 +1,74 @@
+/*轮播*/
+a{text-decoration:none;}
+.pages li{list-style-type:none;width:10px;height:10px;border-radius:10px;background-color:white}
+.pages li:hover{box-shadow:0 0 5px 2px white}
+.pages li.active{background-color:orange;box-shadow:0 0 5px 2px orange}
+.pages{position:absolute;z-index:999}
+.pages.horizontal{left:50%;transform:translateX(-50%);bottom:5px}
+.pages.horizontal li{display:inline-block;margin-right:10px}
+.pages.horizontal li:last-child{margin-right:0}
+.pages.vertical{right:5px;top:50%;transform:translateY(-50%)}
+.pages.vertical li{margin-bottom:10px}
+.pages.vertical li:last-child{margin-bottom:0}
+/*轮播结束*/
+
+.comterfer{width: 100%; height: 500px;position: relative;}
+.comterfer .comterfer_left{width: 45%; height: 1px;background-color: #cccccc;float: left;margin-top:10px; }
+.comterfer .comterfer_right{width: 45%; height: 1px;background-color: #cccccc;float: right; margin-top:10px; }
+.comterfer .comzong{width: 100%;height: 20px; margin-top: 50px; text-align: center;}
+.naver{width: 56%; height: 480px;margin:0 auto; min-width: 1033px;}
+.nav_berllr{width: 100%; height: 60px; margin-top: 20px;}
+.nav_berllr .nertet{width: 20%; height: 60px;float: left; margin-left: 14%;}
+.nav_berllr .nertet span{float: right;}
+.nav_berllr .nertet ul li{float: left; font-size: 12px; margin-left: 20px;}
+
+/*放大效果*/
+ .nertet_img img,.nertet_right_img img,.nav_hader img,.nav_hader_right img,.nav_footer_nertet_img img,.nav_footer_nertet_right_img img{    cursor: pointer;  transition: all 0.6s;   }  
+ .nertet_img img:hover ,.nertet_right_img img:hover,.nav_hader img:hover,.nav_hader_right img:hover,.nav_footer_nertet_img img:hover,.nav_footer_nertet_right_img img:hover{   transform: scale(1.2);   }  
+
+/*放大效果结束*/
+
+.nav_berllr .nertet_img{width: 10%;height: 60px;  float: left;margin-left: 3%;}
+.nav_berllr .nertet_right_img{width: 10%;height: 60px;  float: left; margin-left: 6%;}
+.nav_berllr .nertet_right_img img{float: right;}
+
+.nav_berllr .nertet_right{width: 20%;height: 60px; float: right; margin-right: 15%;}
+.nav_berllr .nertet_right span{float: left;}
+.nav_berllr .nertet_right ul li{float: left; font-size: 12px; margin-left: 20px;}
+
+.nav_hader{width: 35%; height: 60px;  margin-top: 11%; float: left;  margin-left:-5px;}
+.nav_hader img{float: right; margin-top: -42px;}
+.nav_hader span{float: left; margin-left: 52%;}
+.nav_hader ul li{float: left; font-size: 12px; margin-left: 20px;}
+
+.conter{/*width: 27%;*/ height: 280px; margin:0 auto;}
+.nav_hader_right{width: 38%; height: 60px;  float: right; margin-top: -17%; margin-right: -3%;}
+.nav_hader_right img{float: left;}
+.nav_hader_right span{float: left;}
+.nav_hader_right ul li{float: left; font-size: 12px; margin-left: 20px;}
+
+.nav_footer{width: 100%; height: 60px;}
+.nav_footer_nertet{width: 30%; height: 60px; float: left; margin-left: 5%;}
+.nav_footer_nertet span{float: right;}
+.nav_footer_nertet ul li{float: left; font-size: 12px; margin-left: 20px;}
+
+.nav_footer_nertet_img{width: 10%;height: 60px;  float: left;margin-left: 2%;}
+.nav_footer_nertet_right_img{width: 10%;height: 60px;  float: left; margin-left: 11%;}
+.nav_footer_nertet_right{width: 20%;height: 60px; float: right; margin-right: 8%;}
+.nav_footer_nertet_right span{float: left;}
+.nav_footer_nertet_right ul li{float: left; font-size: 12px; margin-left: 20px;}
+.bovertuercool{width: 100%; height: 343px; }
+.bovertuercool .comzong{width: 100%;height: 20px; margin-top: 50px; text-align: center;}
+.bovertuercool .comterfer_left{width: 45%; height: 1px;background-color: #cccccc;float: left;margin-top:10px; }
+.bovertuercool .comterfer_right{width: 45%; height: 1px;background-color: #cccccc;float: right; margin-top:10px; }
+
+.bovertuercool_fooer{width: 50%;height: 262px;margin:0 auto; margin-top: 20px;min-width: 992px;}
+
+.brand a{display: block;float: left;margin: 5px;width: 120px;height: 120px;text-align: center;position: relative;}
+.brand img{width: 120px;height: 120px;}
+.brand .info{display: none;background-color: #f0f0f0;color: #369242;font-size: 12px;}
+.vertical .info{width: 0;height: 120px;margin: 0 auto;}
+.horizontal img{position: absolute;top: 0;left: 0;}
+.horizontal .info{width:120px;height: 0;top: 120px;position: absolute;left: 0;}
+.sujincc{background: url(/skin/sjzx/icon/SuJinCC.png) no-repeat center top;width: 68%; height: 283px;margin: 0 auto; margin-top: 25px;}
+.sujincc p{text-align: center; margin-top: 20px; font-size: 12px;}

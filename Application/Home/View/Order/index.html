@@ -1,0 +1,130 @@
+<include file="Default:header" />
+<title>买卖家中心</title>
+
+	<body class="admin-bg">
+
+		<!-- content start-->
+		<section class="admin container-12 clearfix">
+			<!--左边菜单-->
+			<div class="admin-l">
+				<div class="admin-l-scroll">
+
+					<div class="admin-l-item">
+						<h4 class="ttl">买家中心</h4>
+						<ul class="list">
+							<li class="active">
+								<a href="Order/order_tab?user_id={$user_id}" class="tab-menu order-menu">买家订单</a>
+							</li>
+							<li>
+								<a href="Order/contract?user_id={$user_id}" class="tab-menu contract-2-menu">买家合同</a>
+							</li>
+							<li>
+								<a href="Invoice/buyer_invoice?user_id={$user_id}" class="tab-menu">发票管理</a>
+							</li>
+							
+							<li>
+								<a href="Memo/memo_list?user_id={$user_id}" class="tab-menu">水单管理</a>
+							</li>
+							<li>
+								<a href="Order/view_fast_contract_list?user_id={$user_id}" class="tab-menu">查看快速合同</a>
+							</li>
+							<li>
+								<a href="Speedinvoice/buyer_invoice?user_id={$user_id}" class="tab-menu">快速生成-发票管理</a>
+							</li>
+							<li>
+								<a href="Speedmemo/memo_list?user_id={$user_id}" class="tab-menu">快速生成-水单管理</a>
+							</li>
+						</ul>
+
+					</div>
+					<div class="admin-l-item">
+						<h4 class="ttl">卖家中心</h4>
+						<ul class="list">
+							<li>
+								<a href="Order/seller_order_tab?shop_id={$user_id}" class="tab-menu">卖家订单</a>
+							</li>
+							<li>
+								<a href="Order/seller_contract?shop_id={$user_id}" class="tab-menu contract-1-menu">卖家合同</a>
+							</li>
+							<li>
+								<a href="Invoice/seller_invoice?shop_id={$user_id}" class="tab-menu">发票管理</a>
+							</li>
+							
+							<li>
+								<a href="Memo/memo_seller?shop_id={$user_id}" class="tab-menu">水单管理</a>
+							</li>
+
+							<li>
+								<a href="Writeoff/writeoff_list?shop_id={$user_id}" class="tab-menu">购销合同</a>
+							</li>
+
+							<li>
+								<a href="Writeoff/thirdparty_affirm?shop_id={$user_id}" class="tab-menu">三方合同</a>
+							</li>
+
+							<li>
+								<a href="Order/fast_contract_list?shop_id={$user_id}" class="tab-menu">快速生成合同</a>
+							</li>
+							<li>
+								<a href="Speedinvoice/seller_invoice?shop_id={$user_id}" class="tab-menu">快速生成-发票管理</a>
+							</li>
+							<li>
+								<a href="Speedmemo/memo_seller?shop_id={$user_id}" class="tab-menu">快速生成-水单管理</a>
+							</li>
+						</ul>
+
+					</div>
+
+				</div>
+
+			</div>
+			<!--右边子页面内容-->
+			<div class="admin-r">
+				<switch name="contract">
+					<case value="1">
+						<iframe id="parent_window" class="parent-window" src="Order/seller_contract?shop_id={$user_id}"></iframe>
+					</case>
+					<case value="2">
+						<iframe id="parent_window" class="parent-window" src="Order/contract?user_id={$user_id}"></iframe>
+					</case>
+					<default/><iframe id="parent_window" class="parent-window" src="Order/order_tab?user_id={$user_id}"></iframe>
+				</switch>
+			</div>
+		</section>
+		<!-- content end-->
+
+		<include file="Default:footer" />
+
+		<script>
+			//验证登录
+			$.post("{:U('verify_login')}", {user_id: {$user_id}}, function(data){
+				if(data.code == -1){
+					window.location.href = "/e/member/login";
+				}
+			});
+
+			$('.tab-menu').on('click', function(){
+				//验证登录
+				$.post("{:U('verify_login')}", {user_id: {$user_id}}, function(data){
+					if(data.code == -1){
+						window.location.href = "/e/member/login";
+					}
+				});
+
+				$('.tab-menu').parent().removeClass('active');
+				$(this).parent().addClass('active');
+			});
+
+			if({$contract} == 2){
+				$('.order-menu').parent().removeClass('active');
+				$('.contract-2-menu').parent().addClass('active');
+			}
+
+			if({$contract} == 1){
+				$('.order-menu').parent().removeClass('active');
+				$('.contract-1-menu').parent().addClass('active');		
+			}
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,714 @@
+[ 2018-03-28T10:19:49+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: post D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant post - assumed 'post' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Illegal string offset 'username' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] file_get_contents(): Filename cannot be empty D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery.php 第 409 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-03-28T10:20:44+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant post - assumed 'post' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Illegal string offset 'username' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] file_get_contents(): Filename cannot be empty D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery.php 第 409 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:21:16+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant post - assumed 'post' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Illegal string offset 'username' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] file_get_contents(): Filename cannot be empty D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery.php 第 409 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-28T10:22:13+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant post - assumed 'post' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Illegal string offset 'username' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] file_get_contents(): Filename cannot be empty D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery.php 第 409 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:22:14+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: post D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant post - assumed 'post' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Illegal string offset 'username' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] file_get_contents(): Filename cannot be empty D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery.php 第 409 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:22:15+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant post - assumed 'post' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Illegal string offset 'username' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] file_get_contents(): Filename cannot be empty D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery.php 第 409 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:22:15+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant post - assumed 'post' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Illegal string offset 'username' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] file_get_contents(): Filename cannot be empty D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery.php 第 409 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:22:41+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 85 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 86 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 87 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 89 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 3843 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 3843 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:23:16+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:23:19+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-03-28T10:31:32+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] mb_convert_encoding() expects parameter 1 to be string, array given D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 123 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-03-28T10:31:44+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] mb_convert_encoding() expects parameter 1 to be string, array given D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 123 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:31:52+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] mb_convert_encoding() expects parameter 1 to be string, array given D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 123 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:32:10+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-03-28T10:34:28+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:36:48+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-03-28T10:37:05+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 85 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 86 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 87 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 89 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 3843 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 3843 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-03-28T10:37:35+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 85 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 86 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 87 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 89 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 3843 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 3843 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:37:42+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:37:57+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 85 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 86 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 87 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 89 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 3843 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 3843 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:38:05+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-03-28T10:38:44+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:38:46+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:38:47+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:39:59+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:40:11+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:40:22+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 85 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 86 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 87 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 89 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 3843 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 3843 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:40:31+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-03-28T10:42:15+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [8] Use of undefined constant GBK - assumed 'GBK' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:42:17+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [8] Use of undefined constant GBK - assumed 'GBK' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:42:34+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [8] Use of undefined constant GBK - assumed 'GBK' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:42:44+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 85 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 86 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 87 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 89 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 3843 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 3843 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [8] Use of undefined constant GBK - assumed 'GBK' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 61 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-03-28T10:43:02+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant GBK - assumed 'GBK' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 60 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 85 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 86 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 87 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 89 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 3843 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 3843 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:43:17+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant GBK - assumed 'GBK' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 60 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 85 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 86 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 87 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 88 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 89 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 3843 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 3843 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:43:30+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant GBK - assumed 'GBK' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 60 行.
+NOTIC: [2] DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 14 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 15 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 182 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 183 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 184 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 185 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 186 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 816 D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery\DOMDocumentWrapper.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-28T10:44:42+08:00 ] ::1 /PHPExcelTest/web/index.php/Home/index/post_print
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: post D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant post - assumed 'post' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [2] Illegal string offset 'username' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant GBK - assumed 'GBK' D:\liuzp\web\sjdb\PHPExcelTest\web\Application\Home\Controller\IndexController.class.php 第 60 行.
+NOTIC: [2] file_get_contents(): Filename cannot be empty D:\liuzp\web\sjdb\PHPExcelTest\web\ThinkPHP\Library\Vendor\phpQuery\phpQuery.php 第 409 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

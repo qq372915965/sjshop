@@ -1,0 +1,29 @@
+.head{width: 100%;height: 30px; background-color: #27c; margin: 0px auto;background: inherit;background-color: rgba(40, 40, 40, 1); min-width: 1146px;}
+ .head a:hover,#u238 a:hover{color: blue;}
+ .head-left{width: 50%; height:30px; float: left;margin-left: 40px;}
+ .head-left form{display:block; float:right; font-size:13px; font-weight:400; margin-top:5px;}
+ .head-left form input{float:left;} 
+ .head-right{width: 40%; height:30px; float: left;margin-left: 50px;}
+ .head-left a{color: #DFB449;}
+/*  .head-left div a:hover{color: blue;} */
+ .head-left .hd_font a{color:#f1f1f1;}
+ .head-left .hd_font a:hover{color:blue;}  
+ .head-right a{color: #A9B0AA;}
+.u230{text-align: left;}
+#u231{ margin-left:75px; margin-top:7px; width: 127px;height: 16px;font-style: normal;color: #FFFFFF; float:left;}
+.ax_default{font-size: 13px;}
+#u232{width: 71px;height: 16px;margin-left: 10px; float: left; margin-top: 7px;}
+#u233{width: 40px;height: 16px; margin-left: 10px;float: left; margin-top: 7px;}
+#u234{width: 53px;height: 16px; margin-left: 150px; float: left; margin-top: 7px;}
+#u235{width: 40px;height: 16px; margin-left: 10px; float: left; margin-top: 7px;}
+#u236{width: 53px;height: 16px; margin-left: 10px; float: left; margin-top: 7px;}
+#u237{width: 118px;height: 19px; margin-left: 10px; float: left; margin-top: 5px; background: inherit;background-color: rgba(224, 183, 71, 1); line-height: 19px;}
+#u238 a{color: #ffffff;}
+
+
+  .footer{width: 100%; height: 60px; background-color: #F7F7F7;min-width: 1200px;}
+  .footer_nav{width: 58%; height: 60px;margin: 0 auto; margin-top: 25px;min-width: 892px; text-align: center;}
+  .footer_feel{width: 60%;height: 60px; line-height: 60px; margin: 0 auto;}
+  .footer_nav ul{list-style: none; }
+  .footer_nav ul li{float: left; margin-left: 12px;}
+  .footer_nav ul li a{color: #5e5e5e;}

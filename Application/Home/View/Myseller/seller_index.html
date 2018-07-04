@@ -1,0 +1,310 @@
+<include file="Default:header" />
+<include file="Myseller:seller_header" />
+<title>{$companyname}</title>
+<style type="text/css">
+.nav_coomt{float: left;}
+.commttr_btott{width: 220px;height: 220px;float: left; margin-left:8%;margin-top: 10px; line-height: 18px; border: 1px solid #ccc}
+.commttr_btott span{margin-top: 5px;}
+#content{ width:500px; height:170px; margin:10px auto;}
+#imgbox-loading {position: absolute;top: 0;left: 0;	cursor: pointer;display: none;z-index: 90;}
+#imgbox-loading div {background: #FFF;width: 100%;height : 100%;}
+#imgbox-overlay {position: absolute;top: 0;	left: 0;width: 100%;height: 100%;background: #000;display: none;z-index: 80;}
+.imgbox-wrap {position: absolute;top: 0;left: 0;background: #FFF;display: none;	z-index: 90;}
+.imgbox-img {padding: 0;margin: 0;border: none;width: 100%;	height: 100%;vertical-align: top;}
+.imgbox-title {	padding-top: 10px;font-size: 11px;text-align: center;font-family: Arial;color: #333;display: none;}
+.imgbox-bg-wrap {position: absolute;padding: 0;margin: 0;display: none;}
+.imgbox-bg {position: absolute;width: 20px;	height: 20px;}
+.product_img{width: 279px;}
+</style>
+
+<div class="shop_content"  id="content">
+
+<section id="rt-showcase-surround" style="width:1200px;margin:0 auto;">
+    <div id="rt-showcase" class="slider-container rt-overlay-dark">
+        <div class="rt-container slider-container">
+            <div class="rt-grid-12 rt-alpha rt-omega">
+           
+                <div class="csslider1 autoplay" style="margin-top:10px;">
+                    <input name="cs_anchor1" autocomplete="off" id="cs_slide1_0" type="radio" class="cs_anchor slide" >
+                    <input name="cs_anchor1" autocomplete="off" id="cs_slide1_1" type="radio" class="cs_anchor slide" >
+                    <input name="cs_anchor1" autocomplete="off" id="cs_slide1_2" type="radio" class="cs_anchor slide" >
+                    <input name="cs_anchor1" autocomplete="off" id="cs_play1" type="radio" class="cs_anchor" checked>
+                    <input name="cs_anchor1" autocomplete="off" id="cs_pause1" type="radio" class="cs_anchor" >
+                    <ul>
+                  
+                        <div style="width: 100%; visibility: hidden; font-size: 0px; line-height: 0;">
+                         	<neq name="img['companybnimg']" value="">
+                            	<img src="/e/member/Index/Tpsc/uploadimg/<?php echo $img['companybnimg'];?>" width="100%" height="300"/>
+                           <else/>
+                           		<img src="/skin/sjzx/images/dp1.jpg" width="100%" height="300"/>
+                            </neq>
+                       
+                        </div>
+                        <li class="num0 img">
+                            
+                           
+                          <neq name="img['companybnimg']" value="">
+                            	<img src="/e/member/Index/Tpsc/uploadimg/<?php echo $img['companybnimg'];?>" width="100%" height="300"/>
+                           <else/>
+                           		<img src="/skin/sjzx/images/dp1.jpg" width="100%" height="300"/>
+                            </neq>
+                        <li class="num1 img">
+                            
+                           <neq name="img['companybnimg2']" value="">
+                            	<img src="/e/member/Index/Tpsc/uploadimg/<?php echo $img['companybnimg2'];?>" width="100%" height="300"/>
+                           <else/>
+                           		<img src="/skin/sjzx/images/dp1.jpg" width="100%" height="300"/>
+                            </neq>
+                           
+                        </li>
+                        <li class="num2 img">
+                            
+                           <neq name="img['companybnimg3']" value="">
+                            	<img src="/e/member/Index/Tpsc/uploadimg/<?php echo $img['companybnimg3'];?>" width="100%" height="300"/>
+                           <else/>
+                           		<img src="/skin/sjzx/images/dp1.jpg" width="100%" height="300"/>
+                            </neq>
+                           
+                        </li>
+                    </ul>
+                    <div class="cs_bullets">
+                        <label class="num0" for="cs_slide1_0">
+                        </label>
+                        <label class="num1" for="cs_slide1_1">
+                        </label>
+                        <label class="num2" for="cs_slide1_2">
+                        </label>
+                    </div> 
+                    
+                </div>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</section>  
+<!--产品展示 -->
+<div class="product_display">
+			<div class="product_title">
+				<span class="ft18">产品展示</span>
+				<i class="ft14">Product Display</i>
+			</div>
+			
+
+		   <neq name="img['shopimage1']" value="">
+		    	<div class="product_img">
+		        <a id="example2" href="/e/member/Index/Tpscimg/uploadimg/<?php echo $img['shopimage1']; ?>" target="view_window">
+				<img src="/e/member/Index/Tpscimg/uploadimg/<?php echo $img['shopimage1']; ?>" width="279" height="160">
+				</a>
+				<p>  {$img['shopjs1']}</p>
+			</div>
+
+		   <else/>
+		    <div class="product_img">
+		       <a id="example2" href="/skin/sjzx/image/u7029.jpg" target="view_window">
+				<img src="/skin/sjzx/image/u7029.jpg" width="279" height="160">
+			   </a>
+				</div>
+		     </neq>
+
+		     <neq name="img['shopimage2']" value="">
+		    	<div class="product_img">
+		        <a id="example2" href="/e/member/Index/Tpscimg/uploadimg/<?php echo $img['shopimage2']; ?>" target="view_window">
+				<img src="/e/member/Index/Tpscimg/uploadimg/<?php echo $img['shopimage2']; ?>" width="279" height="160">
+				</a>
+				<p>  {$img['shopjs2']}</p>
+			</div>
+
+		   <else/>
+		    <div class="product_img">
+		       <a id="example2" href="/skin/sjzx/image/u7029.jpg" target="view_window">
+				<img src="/skin/sjzx/image/u7029.jpg" width="279" height="160">
+			   </a>
+				</div>
+		     </neq>
+			
+		     <neq name="img['shopimage3']" value="">
+		    	<div class="product_img">
+		        <a id="example2" href="/e/member/Index/Tpscimg/uploadimg/<?php echo $img['shopimage3']; ?>" target="view_window">
+				<img src="/e/member/Index/Tpscimg/uploadimg/<?php echo $img['shopimage3']; ?>" width="279" height="160">
+				</a>
+				<p>  {$img['shopjs3']}</p>
+			</div>
+
+		   <else/>
+		    <div class="product_img">
+		       <a id="example2" href="/skin/sjzx/image/u7029.jpg" target="view_window">
+				<img src="/skin/sjzx/image/u7029.jpg" width="279" height="160">
+			   </a>
+				</div>
+		     </neq>
+
+
+		    <neq name="img['shopimage4']" value="">
+		    	<div class="product_img">
+		        <a id="example2" href="/e/member/Index/Tpscimg/uploadimg/<?php echo $img['shopimage4']; ?>" target="view_window">
+				<img src="/e/member/Index/Tpscimg/uploadimg/<?php echo $img['shopimage4']; ?>" width="279" height="160">
+				</a>
+				<p>  {$img['shopjs4']}</p>
+			</div>
+
+		   <else/>
+		    <div class="product_img">
+		       <a id="example2" href="/skin/sjzx/image/u7029.jpg" target="view_window">
+				<img src="/skin/sjzx/image/u7029.jpg" width="279" height="160">
+			   </a>
+				</div>
+		     </neq>
+		</div>
+	
+		<!-- 新闻中心 -->
+
+		<div class="product_list">
+			<div class="product_left">
+				<div class="product_title">
+					<span class="ft18">新闻中心</span>
+					<i class="ft14">News Center</i>
+					<a href="mnewsliebiao.php?userid=<?=$addur[userid]?>" class="ft12">更多</a>
+				</div>
+				<eq name="news_center['title']" value="">
+
+                    <div class="chuanhuo_td" style="padding:10px;">没有相关信息！</div>
+                <else/>
+		
+				<div class="product_info">
+					<span>
+						<img src="/skin/sjzx/image/fk.png" width="13" height="13">
+						<a href="#" title="{$news_center['title']}" class="black">{$news_center['title']}</a> 
+					</span>
+
+				</div>
+
+			</eq>
+			</div>
+			
+
+			<div class="product_right">
+				<div class="product_company">
+					<div class="product_title">
+						<span class="ft18">资质证书</span>
+						<!-- <i class="ft14">Company Profile</i>
+						<a href="/e/space/about.php?userid=<?=$addur[userid]?>" class="ft12">更多</a> -->
+					</div>
+					
+					<neq name="certificate['uscard']" value="">
+					    <div class="company_js">
+					    <a id="example2" href="/e/member/company/uploadimgzs/{$certificate['uscard']}" target="view_window">
+	                    <img width="320" height="300" src="/e/member/company/uploadimgzs/{$certificate['uscard']}"> 
+	                    </a>
+	                    </div>
+                	</neq>
+				  
+
+
+				    <neq name="certificate['yylicense']" value="">
+					    <div class="company_js">
+					    <a id="example2" href="/e/member/company/uploadimgzs/{$certificate['yylicense']}" target="view_window">
+	                    <img width="320" height="300" src="/e/member/company/uploadimgzs/{$certificate['yylicense']}"> 
+	                    </a>
+	                    </div>
+                	
+                	<else/>
+				    
+				   			<div style="padding:10px;">您还未添加任何信息！</div>
+				    
+				   </neq>  
+				  
+
+				</div>
+				<div class="product_us">
+					<div class="product_title">
+						<span class="ft18">其他证书</span>
+					<!-- 	<i class="ft14">Contact Us</i> -->
+					</div>
+		
+
+					
+
+					 <ul class="nav_coomt">
+						 <li class="commttr_btott">
+						  <neq name="img['zshuimg1']" value="">
+				         	<a id="example2" href="/e/member/Index/Tpscimgzs/uploadimg/{$img['zshuimg1']}" target="view_window">
+						 	<img src="/e/member/Index/Tpscimgzs/uploadimg/{$img['zshuimg1']}" width="220" height="160">
+						 	</a>
+						 <div style="width: 220px;height: 55px;">&nbsp;&nbsp;{$img['zsjies1']}</div>
+						</neq>
+						 </li>
+
+						<li class="commttr_btott">
+						  <neq name="img['zshuimg2']" value="">
+				         	<a id="example2" href="/e/member/Index/Tpscimgzs/uploadimg/{$img['zshuimg2']}" target="view_window">
+						 	<img src="/e/member/Index/Tpscimgzs/uploadimg/{$img['zshuimg2']}" width="220" height="160">
+						 	</a>
+							 <div style="width: 220px;height: 55px;">&nbsp;&nbsp;{$img['zsjies1']}</div>
+						 </neq>
+						</li>
+
+						 <li class="commttr_btott">
+						  <neq name="img['zshuimg3']" value="">
+				         	<a id="example2" href="/e/member/Index/Tpscimgzs/uploadimg/{$img['zshuimg3']}" target="view_window">
+						 	<img src="/e/member/Index/Tpscimgzs/uploadimg/{$img['zshuimg3']}" width="220" height="160">
+						 	</a>
+							 <div style="width: 220px;height: 55px;">&nbsp;&nbsp;{$img['zsjies1']}</div>
+						 </neq>
+						</li>
+
+						 <li class="commttr_btott">
+						  <neq name="img['zshuimg3']" value="">
+				         	<a id="example2" href="/e/member/Index/Tpscimgzs/uploadimg/{$img['zshuimg4']}" target="view_window">
+						 	<img src="/e/member/Index/Tpscimgzs/uploadimg/{$img['zshuimg4']}" width="220" height="160">
+						 	</a>
+							 <div style="width: 220px;height: 55px;">&nbsp;&nbsp;{$img['zsjies4']}</div>
+						 </neq>
+						</li>
+                     </ul>
+				</div>
+
+			</div>
+
+		</div> 	
+</div>
+<include file="Myseller:seller_footer" />
+
+  <script type="text/javascript">
+    function AddFavorite(sURL, sTitle) {   
+    	try  {    
+     window.external.addFavorite(sURL, sTitle);   
+     }  
+      catch (e)   
+      {     
+      	try    {      
+     window.sidebar.addPanel(sTitle, sURL, "");    
+      }     
+      catch (e)     
+      {       
+      alert("加入收藏失败，请使用Ctrl+D进行添加");     
+     }   
+    } 
+   } 
+    //设为首页 <a onclick="SetHome(this,window.location)">设为首页</a>
+     function SetHome(obj,vrl){     
+     	try{        
+     		obj.style.behavior='url(#default#homepage)';
+     		obj.setHomePage(vrl);     
+     	}     
+     	catch(e){         
+     		if(window.netscape) {             
+     	try {                 
+     		netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");             }             
+     	catch (e) {                 
+     		alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");            
+     		 }            
+     		 var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);             
+     		 prefs.setCharPref('browser.startup.homepage',vrl);        
+     		   }    
+     		  } 
+     		} 
+
+  </script>
+
+

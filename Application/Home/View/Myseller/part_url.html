@@ -1,0 +1,22 @@
+<div class="material_list_left_one">
+<p class="material_list_liy">报价/<span style="font-size:12px;">Quotation</span></p>
+<ul class="material_list_li">
+<li class="material_list_lix"><img src="__PUBLIC__/New_style/skin/sjzx/icon/gray.png">&nbsp;&nbsp;&nbsp;<a href="seller_spot?user_id={$user_id}">大陆现货</a></li>
+<li class="material_list_lix"><img src="__PUBLIC__/New_style/skin/sjzx/icon/gray.png">&nbsp;&nbsp;&nbsp;<a href="hongkong_spot?user_id={$user_id}">香港现货</a></li>
+<li class="material_list_lix"><img src="__PUBLIC__/New_style/skin/sjzx/icon/gray.png">&nbsp;&nbsp;&nbsp;<a href="hongkong_cargo?user_id={$user_id}">香港船货</a></li>
+<li class="material_list_lix"><img src="__PUBLIC__/New_style/skin/sjzx/icon/gray.png">&nbsp;&nbsp;&nbsp;<a href="modified_plastic?user_id={$user_id}">改性塑胶</a></li>
+<li class="material_list_lix"><img src="__PUBLIC__/New_style/skin/sjzx/icon/gray.png">&nbsp;&nbsp;&nbsp;<a href="environmental_recycle?user_id={$user_id}">环保再生</a></li>
+<li class="material_list_lix"><img src="__PUBLIC__/New_style/skin/sjzx/icon/gray.png">&nbsp;&nbsp;&nbsp;<a href="plastic_aids?user_id={$user_id}">塑料助剂</a></li>
+<li class="material_list_lix" style="border-bottom:none;"><img src="__PUBLIC__/New_style/skin/sjzx/icon/gray.png">&nbsp;&nbsp;&nbsp;<a href="pbt_deal?user_id={$user_id}">柜货交易</a></li>
+</ul>
+</div>
+
+<script type="text/javascript">
+	// 点击选中变颜色
+	var type = "{$type}" -1;
+	if(type < 6){
+		$('.material_list_li li a').eq(type).css('color','red');
+		$('.material_list_li li img').eq(type).attr("src","__PUBLIC__/New_style/skin/sjzx/icon/red.png");
+	}
+	
+</script>

@@ -1,0 +1,295 @@
+<include file="Default:header" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/bs-date/css/bootstrap-datetimepicker.min.css" />
+	<title>生成合同</title>
+		<div class="contract container-12">
+
+			<form class="contract-content" novalidate="novalidate">
+				
+				<!--标题-->
+				<h4 class="contract-content-ttl">购销合同</h4>
+				
+				<!--供方-->
+			
+				<div class="item">
+					<strong>合同编号</strong>
+					<input type="text" style="width: 200px;margin-right: 20px;" id="a1" placeholder="自动生成" readonly="readonly" value="{$writeoff_info.contract_number}" class="add-input" param-name="contract_number"/>
+					<strong>签约地</strong>
+					<input type="text" style="width: 100px;" id="a1" placeholder="" value="{$writeoff_info.signed_at}" class="add-input" param-name="signed_at"/>
+				</div>
+
+				<div class="item">
+					<label>甲方（需方）：</label>
+					<input type="text" style="width: 300px;" class="add-input" value="{$writeoff_info.company_name_a}" param-name="company_name_a"/>
+				</div>
+
+				<div class="item">
+					<label>乙方（供方）：</label>
+					<input type="text" style="width: 300px;" class="add-input" value="{$writeoff_info.company_name_b}" param-name="company_name_b"/>
+				</div>
+
+				<div class="item">
+				<label>甲方与乙方下列物品的买卖协商一致，特订立本协议以期共同遵守。</label>
+				</div>
+				<!--需方-->
+
+				<div class="item">
+				<strong>一、产品名称、型号、数量、金额：</strong>
+				</div>
+
+
+				<!--表格-->
+				<table class="table table-fixed table-bordered table-hover" cellspacing="" cellpadding="">
+					<tbody>
+						<!--头部-->
+						<tr>
+							<th>商品名称</th>
+							<th>产品型号</th>
+							<th>数量</th>
+							<th>单价(元)/吨</th>
+							<th>总金额 含税</th>
+							<th>品牌</th>
+							<th>产地</th>
+						</tr>
+
+						<!--内容-->
+						<volist name="goods_info" id="goods">
+						<tr>
+							<td>{$goods.goods_name.0}</td>
+							<td>{$goods.goods_name.2}</td>
+							<td>{$goods.goods_num}</td>
+							<td>{$goods.goods_price}</td>
+							<td>{$goods.total_price}</td>
+							<td>{$goods.goods_name.1}</td>
+							<td>{$goods.goods_name.1}</td>
+						</tr>
+						</volist>
+					</tbody>
+
+					<tfoot>
+						<tr>
+							<td class="text-right" colspan="1">
+								<strong>合计（含运费）：</strong>
+							</td>
+							<td class="text-left" style="text-align: left;" colspan="6">
+								<span>￥{$total}.00</span>
+							</td>
+						</tr>
+					</tfoot>
+
+				</table>
+
+				<!--1-->
+				<div class="item one">
+					<strong>二、产品的质量标准：</strong>
+					<div class="radio">
+						<label>
+							
+							按甲方指定供应商出厂检验标准执行。
+						</label>
+					</div>
+				</div>
+
+				<!--2-->
+				<div class="item one">
+					<strong>三、供货方式：</strong>
+					<div class="radio">
+						<label>
+							一次性或分批供货，甲方每批取货应提前两个工作日以书面订单形式将所需货物的名称、规格型号、数量通知乙方，按乙方确认后的数量和交货日期履行。
+						</label>
+					</div>
+				</div>
+
+				<!--3-->
+				<div class="item one">
+					<strong>四、交货地点、方式及运费承担：</strong>
+					<div class="radio">
+						<label>
+							1、交货地点：甲方指定地址<input type="text" style="width: 200px;margin-right: 20px;" id="a1" placeholder="" value="{$writeoff_info.trading_site}" class="add-input" param-name="trading_site"/>若甲方指定地点有变更请及时通知乙方。
+						</label>
+					</div>
+					<div class="radio">
+						
+						<label>2、运费由<input type="text" style="width: 100px;" class="add-input" param-name="freight" value="{$writeoff_info.freight}" />方承担。</label>
+					</div>
+				</div>
+
+				<!--4-->
+				<div class="item four">
+					<strong>五、包装要求：按照乙方公司产品包装规范予以包装。</strong>
+				</div>
+
+				<div class="item one">
+					<strong>六、产品的验收：</strong>
+					<div class="radio">
+						<label>
+							<input type="text" style="width: 800px;" class="add-input" param-name="product_check" value="{$writeoff_info.product_check}" placeholder="乙方货到xxx，装卸入库由xxx验货入库，入库单交乙方，并由乙方抄送甲方。"/>
+						</label>
+					</div>
+				</div>
+
+				<div class="item four">
+					<strong>七、结算方式及期限 ：</strong>
+					<div class="form-ground">
+						<label>1，付款方式：
+							<input type="text" style="width: 300px;" class="add-input" param-name="payment_method" value="{$writeoff_info.payment_method}" />
+						</label>
+
+					</div>
+					<div class="form-ground">
+						<label>2，乙方收款账号为：</label>
+						<div class="radio">
+							账户名称：
+						<label>
+							<input type="text" style="width: 300px;" class="add-input" param-name="account_title" value="{$writeoff_info.account_title}" />
+							
+						</label>
+					</div>
+					</div>
+					<div class="form-ground">
+						<label>账    号：
+							<input type="text" style="width: 300px;" class="add-input" param-name="account" value="{$writeoff_info.account}" />
+						</label>
+					</div>
+					<div class="form-ground">
+						<label>开户银行：
+							<input type="text" style="width: 300px;" class="add-input" param-name="open_bank" value="{$writeoff_info.open_bank}" />
+						</label>
+					</div>
+
+					<div class="form-ground">
+						<label>税   号：
+							<input type="text" style="width: 300px;" class="add-input" param-name="duty_number" value="{$writeoff_info.duty_number}" />
+						</label>
+					</div>
+				</div>
+
+				<div class="item one">
+					<strong>八、违约责任：</strong>
+					<div class="radio">
+						<label>
+							本合同系双方真实意思的表示，双方均应自觉遵守，若一方违约，应向非违约方赔偿损失。
+						</label>
+					</div>
+				</div>
+
+				<div class="item one">
+					<strong>九、合同纠纷的解决：</strong>
+					<div class="radio">
+						<label>
+							合同在履行过程中发生争议，由双方当事人协商解决也可由当地工商行政管理部门调解；协商或调解不成的，均可向原告所在地法院起诉。
+						</label>
+					</div>
+				</div>
+
+
+				<div class="item four">
+					<strong>十、本合同一式两份，甲、乙双方各执一份，自双方代表签字盖章之日起生效。</strong>
+				
+
+				</div>
+				<!--5-->
+				<div class="item five">
+
+					<div class="form-ground">
+						<label>甲方盖章：
+							<input type="text" style="width: 200px;" />
+						</label>
+						<label>乙方盖章：
+							<input type="text" style="width: 200px;" />
+						</label>
+						
+					</div>
+					<div class="form-ground">
+						<span style="margin-left: 130px;">(盖章)</span>
+						<span style="margin-left: 260px;">(盖章)</span>
+						
+					</div>
+
+					<div class="form-ground clearfix">
+						<div class="qianyue-date">签约时间：
+							<input type="text" style="text-align: center;" class="add-input datetimepicker" param-name="a_date" value="{$writeoff_info.a_date}" />
+							<!-- <input type="text" style="width: 60px;" class="add-input" param-name="a_contract_month"/>月
+							<input type="text" style="width: 60px;" class="add-input" param-name="a_contract_day"/>日 -->
+						</div>
+
+						<div class="qianyue-date">签约时间：
+							<input type="text" style="text-align: center;" class="add-input datetimepicker" param-name="b_date" value="{$writeoff_info.b_date}" />
+							<!-- <input type="text" style="width: 60px; text-align: center;" class="add-input" param-name="b_contract_month"/>月
+							<input type="text" style="width: 60px;text-align: center;" class="add-input" param-name="b_contract_day"/>日 -->
+						</div>
+
+					</div>
+				</div>
+			
+				<div class=" contract-content-submit text-center">
+					<input class="btn btn-primary add-contract-btn rd-no" type="button" name="" id="" value="生成合同" />
+				</div>
+
+			</form>
+
+		</div>
+
+		</div>
+		<include file="Default:footer" />
+
+		<script src="__PUBLIC__/Home/css/bs-date/js/bootstrap-datetimepicker-ch.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			// 区分确认还是 修改
+			var is_affirm = "{$writeoff_info.status}";
+			var edit = "<?php echo $_GET['edit']?>";
+			if(is_affirm == 0){
+				$('.add-contract-btn').attr('value','确认合同');
+			}
+			if(is_affirm == 1){
+				$('.add-contract-btn').attr('value','已确认');
+				$('.add-contract-btn').attr('disabled','true');
+			}
+			var opt = {};
+			opt['order_sn'] = "{$user_id.order_sn}";
+			opt['a_id'] = "{$user_id.shop_id}";
+			// 区分确认还是修改
+			var edit = "<?php echo $_GET['edit']?>";
+			
+			if("{$writeoff_info.id}"){
+				opt['id'] = "{$writeoff_info.id}";	
+			}
+			
+			$('.add-input').on('change', function(){
+				var param_name = $(this).attr('param-name');
+				if(!param_name){
+					alert('请填写数据');
+				}
+				opt[param_name] = $(this).val();
+			});
+
+
+
+			$('.add-contract-btn').on('click', function(){
+				if(is_affirm == 0){
+					$.post("affirm_contract", opt, function(data){
+						if(data > 0){
+							alert('确认成功');
+							window.location.href = "__CONTROLLER__/writeoff_add?contract_number="+opt.order_sn;
+						}
+					});
+
+				}
+				if(edit == 'edit'){
+					$.post("writeoff_add", opt, function(data){
+						if(data > 0){
+							window.location.href = "__CONTROLLER__/writeoff_add?contract_number="+opt.order_sn+"&edit=edit";
+						}else{
+							alert('乙方不存在');
+						}
+					});
+				}
+				
+			});
+
+			$('.datetimepicker').datetimepicker({
+				format: "yyyy-mm-dd",
+				showMeridian: true,
+				autoclose: true,
+				todayBtn: true
+			});
+		</script>

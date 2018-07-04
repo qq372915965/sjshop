@@ -1,0 +1,201 @@
+<include file="Default:header" />
+	<title>取消交易</title>
+	<body>
+		<section class="order-cancel">
+
+			<!--表单-->
+			<div class="order-cancel-form ">
+				<h4 class="transttl clearfix">申请取消交易</h4>
+
+				<div class="transform form-horizontal">
+					<div class="form-group clearfix vd-box">
+						<label class="col-xs-3 control-label" for="">交易取消原因：</label>
+						<div class="col-xs-9 padding-l-no">
+							<textarea class="form-control rd-no2  vd-item " name="content" vd-req vd-req-msg="交易取消原因不能为空！" placeholder="输入交易取消原因"></textarea>
+							<span class="vd-req"></span>
+						</div>
+					</div>
+
+					<div class="form-group clearfix vd-box progress-box">
+						<label class="col-xs-3 control-label" for="">上传附件：</label>
+						<div class="col-xs-6 padding-l-no">
+							<input class="form-control rd-no vd-item file-txt" type="text" name="file" id="" vd-req vd-req-msg="附件不能为空！" value="" placeholder="上传附件" />
+							<span class="vd-req"></span>
+							
+						</div>
+						<!--<div class="width-1 padding-lr-no">
+							<button class="btn btn-default rd-no" type="button">浏览</button>
+						</div>-->
+						<div class="width-1  padding-lr-no margin-l">
+
+							<!-- 点击提交按钮-->
+							<input class="btn btn-default rd-no" type="button" name="up" id="up" value="上传" />
+							<input class=" fileUp v-hide-text-index" type="file" name="" id="fileUp" value="" />
+							
+
+						</div>
+						<!--进度条-->
+						<div class="progress-all v-hide clearfix">
+							<div class="progress-now"></div>
+							<div class="progress-num">0%</div>
+						</div>
+						<div class="text-center">
+							<img class="img v-hide" src="" alt="" />
+						</div>
+						
+					</div>
+
+				</div>
+
+			</div>
+
+			<!--列表-->
+			<div class="order-cancel-list">
+				<table class="table table-fixed">
+					<tr>
+						<th class="col-xs-4">货品</th>
+						<th class="col-xs-2">单价(元/吨)</th>
+						<th class="col-xs-2">数量</th>
+						<th class="col-xs-2">运费</th>
+						<th class="col-xs-2">货品总价</th>
+					</tr>
+					<volist name="orderInfo.goods" id='g'>
+					<tr>
+						<td class="col-xs-4">
+							<img src="{$g.img.img_url}" alt="商品图片" />
+							<h5>{$g.goods_name}</h5>
+						</td>
+						<td class="col-xs-2">
+							{$g.goods_price}
+						</td>
+						<td class="col-xs-2">
+							{$g.goods_num}
+						</td>
+						<td class="col-xs-2">
+							{$g.total_freight}
+						</td>
+						<td class="col-xs-2">
+							￥<span>{$g.total_price}</span>
+						</td>
+					</tr>
+					</volist>
+				</table>
+
+				<!--提交按钮-->
+				<div class="text-center">
+					<input class="submit-btn vd-btn" type="button" name="" id="" value="提交" />
+				</div>
+
+			</div>
+
+		</section>
+
+		<include file="Default:footer" />
+
+		<script type="text/javascript">
+			$(function() {
+
+				//  买卖家中心 设置模板页iframe的高度
+				iframe.setHeight();
+				// 初始化验证对象
+				var vd1 = vd.create(".order-cancel");
+				vd1.init();
+				$(".vd-btn").on("click", function() {
+
+					// 是否验证成功
+					vd1.isSuccess(function(obj) {
+						var user_id = "{$orderInfo.user_id}";
+						obj['order_sn'] = "{$orderInfo.order_sn}";
+
+						$.post('save_transaction_cancel', obj, function(data){
+							if(data.status == 1){
+								alert(data.message);
+								window.lacation.href = "__MODULE__/Order?user_id="+user_id+"";
+							}else{
+								alert(data.message);
+							}
+						});
+					}, function(obj) {
+
+						obj.el.focus();
+
+					});
+				});
+
+				/***文件上传  start***/  
+				$(".file-txt").focus(function(){
+					$(this).blur();
+				});
+				
+				$("#up").on("click", function(e) {
+					
+					e.stopPropagation();
+					e.preventDefault();
+					var p = $(this).parents(".progress-box");
+					
+					// 点击文件上传框
+					$(".fileUp", p).click();
+
+				}); 
+				
+				// 文件上传框值变化
+				$(".fileUp").change(function() {
+					
+					fileupff(this);
+					
+				});
+				
+				var fileupff = function(obj) {
+
+					var $img = $(obj).parents(".progress-box").find(".img");
+					var $propress = $(obj).parents(".progress-box").find(".progress-all");
+					$propress.show();
+					iframe.setHeight();
+					
+					// 是否支持html5 文件上传
+					if(typeof obj.files==="undefined"){
+						alert("不支持html5 文件上传,请升级你的浏览器  \n not support html5 ");
+						return ;
+					}
+					
+					var file = obj.files[0];
+					
+					h5File.upload({
+						data: file, //选择的文件
+						url: "__MODULE__/Public/upload_img", //上传网址
+						outTime: 30000,
+						el: $(obj), //当前element
+						size: 300*1000000, //1m=1000000
+						seccess: function(data) {
+
+							$propress.hide();
+							var url = data;
+							$img.attr("src", url)
+							$(".file-txt").val(url);
+							vd1.check(); // 重新检测验证
+							iframe.setHeight();
+
+						}, //成功回调
+						error: function() {
+
+							$propress.hide();
+							// 发布删掉
+							// var url = "images/板块图片2.png";
+							// $img.show();
+							// $img.attr("src", url)
+							// $(".file-txt").val(url);
+							// vd1.check(); // 重新检测验证
+							// iframe.setHeight();
+							//alert("上传发生错误")
+						} //错误回调
+
+					}); //调用上传接口
+
+				};
+				/***文件上传 end***/  
+			
+			});
+		</script>
+	</body>
+
+</html>

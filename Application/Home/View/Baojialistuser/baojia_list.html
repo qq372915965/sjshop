@@ -1,0 +1,93 @@
+						<?php
+ 						$i = 0;
+						?>
+						<foreach name="data_list" item="value">
+									<!--每一项-->
+									<tr class="item">
+										<td class="l1-box" colspan="3">
+											<input class="l1 a" type="checkbox" name="" id=""  data-id={$value.id} />
+											<div class="ttl l1">
+												<a href="javascript:;">
+												 <?php
+												 $i++;
+												 if($value['status'] == 1){
+													echo '<span class="text-danger">已下架</span>';
+												 }
+                                                 ?>												 
+													
+													{$value.cinvname}/
+													{$value.vendor}/
+													{$value.cinvstd}
+
+												</a>
+
+											</div>
+
+											<input class="l1 b dtl-btn" type="button" name="" id="" value="详情" />
+										</td>
+
+										<td class="overflow">
+											<input class="txt fprice" type="text" name="" id="" value="{$value.fprice}" />
+										</td>
+										<td class="overflow">
+											<input class="txt date" type="text" name="" id="" value="{$value.valid_day}" />
+										</td>
+										<td class="overflow">
+											<input class="txt fweight" type="text" name="" id="" value="{$value.fweight}" />
+										</td>
+
+										<td class="overflow">
+											<?php
+											  if($value['userfen'] == 1 ){
+											    echo "现货";
+											  }
+                                            ?>											
+										</td>
+
+										<td class="overflow">
+											{$value.address}
+										</td>
+										<td class="overflow">
+										    <input class="txt thecontact" type="text" name="" id="" value="{$value.thecontact}" />
+											
+										</td>										
+
+
+										<td class="op" colspan="3">
+											<a class="save" href="javascript:;">保存</a>
+											<?php
+												 $i++;
+												 if($value['status'] == 0){
+													echo '<a class="sapan" href="javascript:;">下架</a>';
+												 }else{
+												 	echo '<a class="up" href="javascript:;">上架</a>';
+												 }
+                                            ?>	
+											<!-- <a class="sapan" href="javascript:;">下架</a> -->
+											<a class="edit" href="/e/member/Index/AddMsg/modify.php?action=edit&id={$value.id}">修改</a>
+											<a class="del" href="javascript:;">删除</a>
+											<!-- <a class="others" href="/e/action/gongying_zx.php?cInvName={$value.cinvname}&vendor={$value.vendor}&cInvStd={$value.cinvstd}&address={$value.address}&paixu=truetime%20desc" target="_blank">其他供应商报价</a> -->
+										</td>
+									</tr>
+									<!--详情-->
+									<tr class="dtl">
+										<td colspan="12">
+											<p>
+                                                发盘信息：{$value.cinvname}/{$value.vendor}/{$value.cinvstd}；
+												交易类别：<?php if($value['userfen']==1){echo "国内贸易";}?>； 
+												等级标准：<?php if($value['second']==0){echo "正牌";}else{echo "副牌";}?>；
+												原厂包装标准：{$value.pack}；
+												包装袋材质：{$value.pack2}；
+												装运描述：{$value.g_type}； 原厂质量检验证书(COA)：<?php if($value['cert']==0){echo "不提供";}else{echo "提供";}?>； 
+												最低交易量： <?php if($value['sl_low']==0){echo "不限";}else{echo $value['sl_low'];}?> ；
+												票据类别：{$value.piaoju}；
+
+											</p>
+										</td>
+
+									</tr>									
+																		
+                     </foreach>
+
+
+	

@@ -1,0 +1,52 @@
+*{margin: 0px; padding: 0px;}
+a{text-decoration: none; }
+ul li,ol li{list-style: none;}
+i{font-style: normal;}
+body{font-size: 14px; font-family: "微软雅黑"; font-weight: normal;background: #f8f8f8;}
+.fr{float: right;}
+.fl{float: left;}
+.clear{clear: both;}
+
+.wrap{width: 1100px;margin:15px auto;height: auto;}
+.lpart{width: 760px;height: auto;float: left;border-bottom: 1px solid #e6e6e8;}
+.lpart_position{padding:15px;color: #999;}
+.lpart_position a{color: #999;}
+.lpart_list{height: 32px;line-height: 32px;border: 1px solid #e6e6e8;padding-right: 10px;background-color: #fff;}
+.lpart_list_left{float: left;}
+.lpart_list_left a:hover{color: #f03;text-decoration: underline;}
+.lpart_list_left a{color: #494949;margin-left: 15px;font-size: 14px;}
+.lpart_list_right a{color: #09A2E8;}
+.lpart_list_right{float: right;}
+.lpart_list_pic{background: url(../images/info.png);width: 16px;height: 16px;float: right;margin-top: 9px;margin-left: 5px;}
+.lpart_info{height: auto;border-left: 1px solid #e6e6e8;border-right: 1px solid #e6e6e8; }
+.lpart_info_ul{padding: 15px;border-bottom: 1px solid #e6e6e8;float: left;background-color: #fff;}
+.lpart_info_li{width: 300px;height: 165px;float: left;position: relative;}
+.lpart_info_span{display: block;position: absolute;bottom: 0;left: 0;height: 35px;line-height: 35px;color: #fff;width: 100%;text-indent: 10px;box-sizing: border-box;background: #3D3D3D;overflow: hidden;}
+.lpart_info_lis{width: 415px;float: right;padding-left: 12px;}
+.lpart_info_a1{color: #09A2E8;font-size: 16px;height: 25px;line-height: 25px;display: inline-block;float: left;width: 320px;overflow: hidden;}
+.lpart_info_a2{color: #09A2E8;font-size: 14px;}
+.lpart_info_p1{width: 415px;height: 25px;line-height: 25px;}
+.lpart_info_p1 i{float: right;color: #494949;}
+.lpart_info_time{float: right;color: #494949;display: inline-block;}
+.lpart_info_p2{line-height: 2em;text-indent:2em;color: #494949;width: 415px;height: 120px;overflow: hidden;}
+.buy_page{width: 100%;height: 60px;margin-top: 15px;}
+.buy_page_list{width: 62%;height: 35px;line-height:35px;margin: 13px auto;}
+.buy_page_index{cursor: default;color: #DEDEDE;border: 1px solid #DEDEDE;border-radius: 3px;display: inline-block;width: 40px;height: 24px;line-height: 24px;text-align: center;}
+.buy_page_pre{cursor: default;color: #DEDEDE;border: 1px solid #DEDEDE;border-radius: 3px;display: inline-block;width: 52px;height: 24px;line-height: 24px;text-align: center;}
+.buy_page_one{border: 1px solid #F55D12;border-radius: 3px;display: inline-block;width: 30px;height: 24px;line-height: 24px;text-align: center;color: #F55D12;}
+.buy_page_number{display: inline-block;width: 30px;height: 24px;line-height: 24px;text-align: center;border: 1px solid #DEDEDE;border-radius: 3px;color: #5E5E5E;}
+.buy_page_next{display: inline-block;width: 52px;height: 24px;line-height: 24px;text-align: center;border: 1px solid #DEDEDE;border-radius: 3px;color: #5E5E5E;font-size: 12px;}
+.buy_page_end{display: inline-block;width: 40px;height: 24px;line-height: 24px;text-align: center;border: 1px solid #DEDEDE;border-radius: 3px;color: #5E5E5E;}
+.buy_page_list a:hover{color: #F55D12;border: 1px solid #F55D12; }
+.rpart{width: 320px;height: auto;float: right;}
+.rpart_title{height: 32px;line-height: 32px;border: 1px solid #E6E6E8;padding-left: 10px;color: #ff6600;font-size: 16px;background: #fff;}
+.rpart_ul{padding: 10px;width: 298px;border-left: 1px solid #E6E6E8;border-right: 1px solid #E6E6E8;background: #fff;}
+.rpart_ul_li{height: 25px;line-height: 25px;padding-bottom: 5px;}
+.rpart_ul_li a{float: left;color: #09A2E8;display: inline-block;width: 200px;height: 25px;overflow: hidden;}
+.rpart_ul_li span{float: right;color: #999;}
+.rpart_title span{float: left;}
+.rpart_title img{float: left;margin-top: 6px;margin-left: 6px;}
+.rpart_title_hot{padding: 10px;width: 298px;border-left: 1px solid #E6E6E8;border-right: 1px solid #E6E6E8;border-bottom: 1px solid #E6E6E8;background: #fff;float: left;}
+.rpart_title_hot li{width: 300px;float: left;}
+.rpart_title_hot li a{color: #999;margin-right: 10px;}
+.rpart_title_pic{width: 320px;height: 470px;margin-top: 20px;float: left;}
