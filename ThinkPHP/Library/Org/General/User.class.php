@@ -15,7 +15,7 @@ class User
 
 	//获取用户公司详情
 	public static function get_company_info($user_id){
-		$m = M('shop_company');
+		$m = M('scn_ecms_thecompany');
 
 		$opt['userid'] = $user_id;
 		$result = $m->where($opt)->find();

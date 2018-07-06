@@ -1,7 +1,7 @@
-<include file="Default:header" />
+<include file="Center:personage_center"/>
 <title>改性塑胶</title>
-<link href="/e/space/template/commonty/css/ceter.min.css" rel="stylesheet" media="screen">
-<link href="__PUBLIC__/Home/css/modified_plastic.css">
+<!-- <link href="/e/space/template/commonty/css/ceter.min.css" rel="stylesheet" media="screen"> -->
+<!-- <link href="__PUBLIC__/Home/css/modified_plastic.css"> -->
 <div class="neir_index">
   <div class="left_wel">
     <div class="feel_weel" id="onn_2">
@@ -25,7 +25,6 @@
         </ul>
       </div>
 
-    <form name="sendmsg" id="sendmsg">
       <div class="input_xianhuo" id="gsgs">
         <div class="input_xianhuo_kuang">
           <div class="input_jiaoyigs">
@@ -36,7 +35,7 @@
 
           <div class="input_jiaoyigs">  
             <b>*</b><span>品名：</span>
-            <select class="sl_style goodsname" name="goodsname" id="cInvName" onchange="on_change()">
+            <select class="sl_style goodsname add-input" name="goodsname" id="cInvName" onchange="on_change()" param-name="goodsname">
               <option value="">请选择</option>
               <optgroup label="常用品名">
                 <volist name="common_goods" id="c">
@@ -54,24 +53,26 @@
 
           <div class="input_jiaoyigs">  
             <b>*</b><span>生产商：</span>
-            <div class="cert2">自产<input type="radio" name="vendor2" class="cert vendor2" value="0" style="margin-left:12px;" onclick="change_1()"/></div>
-            <div class="cert2">其他生产企业<input type="radio" name="vendor2" class="cert vendor2" value="1" style="margin-left:12px;" onclick="change_2()" /></div>
-            <div id="con_1" style="display:none;">
+            <div class="cert2">自产<input type="radio" name="vendor2" class="cert vendor2 add-input" value="0" style="margin-left:12px;" onclick="change_1()" param-name="vendor2"/></div>
+            <div class="cert2">其他生产企业<input type="radio" name="vendor2" class="cert vendor2 add-input" value="1" style="margin-left:12px;" onclick="change_2()" param-name="vendor2"/></div>
+            <div id="con_1" style="display: none">
+              <select name='outvendor' style='margin-left:20px;height:28px;' class='sl_style1 outvendor add-input' id='change_select' onchange='change_3()' param-name='outvendor'></select>
             </div>
           </div>
 
           <div class="input_jiaoyigs">  
             <b>*</b><span>牌号：</span>
-            <div class="sl_style1" style="float:left;" id="outstd">
+            <div class="sl_style1" style="float:left;" >
+              <select class='sl_style outstd add-input' id="outstd" name='outstd' param-name='outstd' style='margin-top:-2px;'></select>
             </div>
             <span><a href="javascript:;" onclick='window.open("/e/member/IndexAdd/add_std/","ewindex","height=500, width=600,top=100,left=200,toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no");'>申请添加新牌号</a></span>
           </div>
 
           <div class="input_jiaoyigs">   
             <b>*</b><span>可对比牌号：</span>
-            <select class="sl_style" name="vendor" id="vendor" onclick="vendor_select()">
+            <select class="sl_style add-input" name="vendor" id="vendor" onclick="vendor_select()" param-name="vendor">
             </select>  
-            <select class="sl_style" name="model" id="cInvStd" style="margin-left:10px;">
+            <select class="sl_style add-input" name="model" id="cInvStd" style="margin-left:10px;" param-name="model">
             </select>
           </div>
 
@@ -82,7 +83,7 @@
 
           <div class="input_jiaoyigs">   
             <b>*</b><span> 基材：</span>
-            <select class="sl_style" name="Basematerial">
+            <select class="sl_style add-input" name="Basematerial" param-name="Basematerial">
               <option value="">请选择</option>
               <option value="正牌新料">正牌新料</option>
               <option value="再生塑料">再生塑料</option>
@@ -92,18 +93,18 @@
 
           <div class="input_jiaoyigs">
             <b>*</b><span>主要辅料及比例：</span>
-            <select class="sl_style" name="Supplementarymaterial">
+            <select class="sl_style add-input" name="Supplementarymaterial" param-name="Supplementarymaterial">
               <option value="">请选择</option>
               <option value="玻璃纤维">玻璃纤维</option>
               <option value="阻燃剂">阻燃剂</option>
               <option value="增韧剂">增韧剂</option>
             </select>
-            <input type="text" name="proportion" style="width:50px; height:24px; margin-left:20px; margin-right:10px;" class="sl_style" maxlength="5" />%
+            <input type="text" name="proportion add-input" style="width:50px; height:24px; margin-left:20px; margin-right:10px;" class="sl_style add-input" maxlength="5" param-name="proportion"/>%
           </div>             
 
           <div class="input_jiaoyigs">
             <b>*</b><span>等级：</span>
-            <select class="sl_style" name="level">
+            <select class="sl_style add-input" name="level" param-name="level">
               <option value="">请选择</option>
               <option value="注塑级">注塑级</option>
               <option value="高流动级">高流动级</option>
@@ -158,17 +159,17 @@
 
           <div class="input_jiaoyigs">
             <b>*</b><span>颜色：</span>
-            <input type="text" name="color"  placeholder="本色" value="本色" onblur="ckfWeight()" style="width:78px;" class="sl_style1" maxlength="5" />
+            <input type="text" name="color"  placeholder="本色" value="本色" style="width:78px;" class="sl_style1 add-input color" maxlength="5" param-name="color"/>
           </div>
 
           <div class="input_jiaoyigs">
             <b>*</b><span>特性：</span>
-            <input type="text" name="features" style="width:350px" class="sl_style1" maxlength="20" />
+            <input type="text" name="features" style="width:350px" class="sl_style1 add-input" maxlength="20" param-name="features"/>
           </div>
 
           <div class="input_jiaoyigs">
             <b>&nbsp;</b><span>产品关键字：</span>
-            <input type="text" name="keywords" class="sl_style1" style="margin-left:3px" maxlength="5" />
+            <input type="text" name="keywords" class="sl_style1 add-input" style="margin-left:3px" maxlength="5" param-name="keywords"/>
           </div>
 
           <div class="input_jiaoyigs" style="height:200px;">
@@ -177,7 +178,7 @@
               <div class="form-group clearfix vd-box progress-box">
                 <!-- <label class="col-xs-3 control-label" for="">上传附件：</label> -->
                 <div class="col-xs-4 padding-l-no">
-                  <input class=" rd-no vd-item file-txt-1" type="text" name="file" id="" vd-req vd-req-msg="附件不能为空！" value="" placeholder="图片1" />
+                  <input class=" rd-no vd-item file-txt-1" type="text" name="file" id="" vd-req vd-req-msg="附件不能为空！" value="" placeholder="图片1"/>
                   <span class="vd-req"></span>
                 </div>
                 <div class="width-1  padding-lr-no margin-l">
@@ -193,7 +194,7 @@
               <div class="form-group clearfix vd-box progress-box">
                 <!-- <label class="col-xs-3 control-label" for="">上传附件：</label> -->
                 <div class="col-xs-4 padding-l-no">
-                  <input class=" rd-no vd-item file-txt-2" type="text" name="file" id="" vd-req vd-req-msg="附件不能为空！" value="" placeholder="图片2" />
+                  <input class=" rd-no vd-item file-txt-2" type="text" name="file" id="" vd-req vd-req-msg="附件不能为空！" value="" placeholder="图片2"/>
                   <span class="vd-req"></span>
                 </div>
                 <div class="width-1  padding-lr-no margin-l">
@@ -209,7 +210,7 @@
               <div class="form-group clearfix vd-box progress-box">
                 <!-- <label class="col-xs-3 control-label" for="">上传附件：</label> -->
                 <div class="col-xs-4 padding-l-no">
-                  <input class=" rd-no vd-item file-txt-3" type="text" name="file" id="" vd-req vd-req-msg="附件不能为空！" value="" placeholder="图片3" />
+                  <input class=" rd-no vd-item file-txt-3" type="text" name="file" id="" vd-req vd-req-msg="附件不能为空！" value="" placeholder="图片3"/>
                   <span class="vd-req"></span>
                 </div>
                 <div class="width-1  padding-lr-no margin-l">
@@ -226,7 +227,7 @@
 
           <div class="input_jiaoyigs">
             <b>&nbsp;</b><span>用户案例：</span>
-            <input type="text" name="usecase" class="sl_style1" maxlength="12" />
+            <input type="text" name="usecase" class="sl_style1 add-input" maxlength="12" param-name="gx_case"/>
             (如比亚迪汽车座椅等用料，不超过12个字符)
           </div>
           <div class="input_jiaoyigs" style="height:170px;margin-top:15px;">
@@ -234,7 +235,7 @@
             <div class="form-group clearfix vd-box progress-box">
                 <!-- <label class="col-xs-3 control-label" for="">上传附件：</label> -->
                 <div class="col-xs-4 padding-l-no">
-                  <input class=" rd-no vd-item file-txt-4" type="text" name="file" id="" vd-req vd-req-msg="附件不能为空！" value="" placeholder="案例图片" />
+                  <input class=" rd-no vd-item file-txt-4" type="text" name="file" id="" vd-req vd-req-msg="附件不能为空！" value="" placeholder="案例图片"/>
                   <span class="vd-req"></span>
                 </div>
                 <div class="width-1  padding-lr-no margin-l">
@@ -250,7 +251,8 @@
 
           <div class="input_jiaoyigs">
            <b>&nbsp;</b><span>认证：</span>
-           <select class="sl_style" name="certification">
+           <select class="sl_style add-input" name="certification" param-name="certification">
+            <option value="">请选择</option>
             <option value="FDA">FDA</option>
             <option value="MSDS">MSDS</option>
             <option value="RoHS">RoHS</option>
@@ -263,7 +265,7 @@
          <div class="form-group clearfix vd-box progress-box">
             <!-- <label class="col-xs-3 control-label" for="">上传附件：</label> -->
             <div class="col-xs-4 padding-l-no">
-              <input class=" rd-no vd-item file-txt-5" type="text" name="file" id="" vd-req vd-req-msg="附件不能为空！" value="" placeholder="认证图片" />
+              <input class=" rd-no vd-item file-txt-5" type="text" name="file" id="" vd-req vd-req-msg="附件不能为空！" value="" placeholder="认证图片"/>
               <span class="vd-req"></span>
             </div>
             <div class="width-1  padding-lr-no margin-l">
@@ -280,25 +282,29 @@
 
        <div class="input_jiaoyigs">
          <b>&nbsp;</b><span>允许试用量：</span>
-         <input type="text" name="thetrial" class="sl_style1" value="5" maxlength="5" />(单位：公斤，不允许试用，请填0)
+         <input type="text" name="thetrial" class="sl_style1 add-input thetrial" value="5" maxlength="5" param-name="thetrial"/>(单位：公斤，不允许试用，请填0)
        </div>
 
        <div class="input_jiaoyigs">
          <b>*</b><span  style="width:158px;">出厂价（含17%增值税）：</span>
-         <input type="text" name="Exfactoryprice" class="sl_style1" maxlength="15" onblur="ckfPrice()" id="fPrice" />(元/吨)
+         <input type="text" name="Exfactoryprice" class="sl_style1 add-input" maxlength="15" onblur="ckfPrice()" id="fPrice" param-name="Exfactoryprice"/>(元/吨)
          <span id="cktext5"></span> 
        </div>
 
      </div>
 
-     <input type="button" value="发  布" class="fabu_sj" onclick="gx_click()" />
-   </div></form>
+     <input type="button" value="发  布" class="fabu_sj save-btn"/>
+   </div>
  </div>
 </div>
 </div>
 
 <script src="__PUBLIC__/Home/js/all.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
+  var change_info = {};
+  change_info['color'] = $('.color').val();
+  change_info['thetrial'] = $('.thetrial').val();
+
   function change_1(){
     $('#con_1').hide();
   }
@@ -313,7 +319,15 @@
     opt.vendor = $('#change_select').val();
 
     $.post("grade", opt, function(data){
-      $('#outstd').append(data);
+      if(data){
+        var option = "<option value=''>请选择</option>"
+        for(var i = 0; i<data.length; i++){
+          var list = data[i];
+          option = option + "<option value='"+list.cinvstd+"'>"+list.cinvstd+"</option>";
+        }
+      }
+
+      $('#outstd').html(option);
     });
   }
 
@@ -323,7 +337,14 @@
     
     $.post("other_manufacturers", opt, function(data){
       if(data){
-        $('#con_1').append(data);
+        var option = "<option value=''>请选择</option>"
+        for(var i = 0; i<data.length; i++){
+          var list = data[i];
+          option = option + "<option value='"+list.id+"'>"+list.vendor+"</option>";
+        }
+
+        // $('#con_1').hide();
+        $('#change_select').html(option);
       }
     });
 
@@ -647,5 +668,30 @@
 
     }); //调用上传接口
   };
+
+  $('.add-input').on('change', function(){
+    var param_name = $(this).attr('param-name');
+    change_info[param_name] = $(this).val();
+  });
+
+  $('.save-btn').on('click', function(){
+    change_info['userid'] = "{$user_info.userid}";
+    change_info['username'] = "{$user_info.username}";
+    change_info['companyid'] = "{$user_info.id}";
+    change_info['companyname'] = "{$user_info.companyname}";
+    change_info['pictureurl'] = $('.file-txt-1').val();
+    change_info['pictureurl2'] = $('.file-txt-2').val();
+    change_info['pictureurl3'] = $('.file-txt-3').val();
+    change_info['pictureurl4'] = $('.file-txt-4').val();
+    change_info['pictureurl5'] = $('.file-txt-5').val();
+
+    $.post("save_modified_plastic", change_info, function(data){
+      if(data.status == 1){
+        alert(data.message);
+      }else{
+        alert(data.message);
+      }
+    });
+  });
 
 </script>

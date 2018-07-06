@@ -1,8 +1,6 @@
 <?php if (!defined('THINK_PATH')) exit(); echo W('Default/webheader');?> 
 
 
-<link rel="stylesheet" type="text/css" href="/sjshop/Public/New_style/skin/sjzx/css/supply.css">
-
 <!--显示电话号码-->
 <link rel="stylesheet" type="text/css" href="/sjshop/Public/New_style/skin/sjzx/css/phone/showphone.css" />
 <!--显示电话号码icon-->

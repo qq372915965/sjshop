@@ -316,9 +316,64 @@ class MysellerController extends Controller {
     }
 
 
-    // 商品详情页
-    public function goods_details()
+    // 改性塑胶详情页
+    public function goods_details_gx()
     {
-        echo 'hello world';
+        // 商品信息 以及 多个商品
+        $goods_info = $this->modified_product->where('id='.$_GET['id'])->find();
+        $goods_list = $this->modified_product->where('userid='.$goods_info['userid'])->limit(8)->select();
+        // 物性比对数据表 查询
+        $where['cInvName'] = $goods_info['goodsname'];
+        $where['vendor'] = $goods_info['vendor'];
+        $where['cInvStd'] = $goods_info['model'];
+
+        $where_two['cInvName'] = $goods_info['goodsname'];
+        $where_two['vendor'] = $goods_info['outvendor'];
+        $where_two['cInvStd'] = $goods_info['outstd'];
+        $physical_goods = M('scn_ecms_property')->where($where)->find();
+        $physical_goods_two = M('scn_ecms_property')->where($where_two)->find();
+
+        $this->assign('physical_goods',$physical_goods);
+        $this->assign('physical_goods_two',$physical_goods_two);
+        $this->assign('goods_list',$goods_list);
+        $this->assign('goods_info',$goods_info);
+        $this->display();
     }
-}
+
+
+    // 申请试用填写
+    public function add_apply_for()
+    {
+        if(empty($_POST['mobile'])){
+            echo "<script>alert('手机不能为空');history.back();</script>";
+            exit;
+        }
+        if(empty($_POST['goodsnumber'])){
+            echo "<script>alert('数量不能为空');history.back();</script>";
+            exit;
+        }
+        if(empty($_POST['address'])) {
+            echo "<script>alert('地址不能为空');history.back();</script>";
+            exit;
+        }
+
+        if(empty($_POST['instructions'])) {
+            echo "<script>alert('说明不能为空');history.back();</script>";
+            exit;
+        }
+        $_POST['userid'] = $this->login_user_id;
+        $_POST['truetime'] = time();
+        $res = M('scn_ecms_trial')->add($_POST);
+        if($res){
+            echo "<script>alert('申请试用成功！');history.back();</script>";
+        }else{
+            echo "<script>alert('申请失败!');history.back();</script>";
+        }
+    }
+
+    // 环保再生详情页面
+    public function environment_datails()
+    {
+        $this->display();
+    } 
+} 

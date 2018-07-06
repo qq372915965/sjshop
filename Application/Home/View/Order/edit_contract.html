@@ -178,7 +178,7 @@
 					</div>
 					<div class="form-ground">
 						<label>银行账户：
-							<input type="text" style="width: 300px;" class="add-input" value="{$contractInfo.account_number}" param-name="account_number"/>
+							<input type="number" style="width: 300px;" class="add-input" value="{$contractInfo.account_number}" param-name="account_number"/>
 						</label>
 					</div>
 
@@ -283,6 +283,7 @@
 			$("input[name='rd-2'][value="+payment+"]").attr('checked', true);
 
 			$('.datetimepicker').datetimepicker({
+				minView: "month",
 				format: "yyyy-mm-dd",
 				showMeridian: true,
 				autoclose: true,

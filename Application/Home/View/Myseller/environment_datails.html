@@ -1,0 +1,994 @@
+<include file="Default:header" />
+<link href="__PUBLIC__/New_style/skin/chat/css/form.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/New_style/skin/sjzx/css/detail.css" rel="stylesheet" type="text/css" />
+<title>详情</title>
+<style type="text/css">
+  .bj_title{height: 35px;background: #e6e6e6;font-size: 14px;color: #666;line-height: 35px;padding-left: 10px;font-weight: bold;}
+.bj_list{padding:10px;}
+.bj_list_one,.bj_list_two{line-height: 30px;color: #666;margin-bottom: 10px;}
+.bj_list_two span{color: #ff6600;}
+.bj_list_three input{border: 1px solid #ddd;line-height: 22px;width: 90px;padding: 5px;}
+.bj_list_four textarea{resize:none;border: 1px solid #dedede;width: 405px;height: 80px;padding: 5px;margin-top: 20px;}
+.bj_buy_btn{padding-top: 20px;}
+.bj_gray{color: #aaa;}
+.bj_buy_btn_save{border: 0 none;background: #1caaeb;color: #fff;width: 220px;height: 30px;cursor: pointer;float: left; margin-left: 162px; margin-top: 0px;}
+.close{float:right;margin-right:10px;}
+.closele{float:right;margin-right:10px;}
+.Thetrial_a{width: 100%;}
+.Thetrial_one{width: 100%; height: 30px;margin-top: 10px;}
+.bj_buy_btn_save{border: 0 none;background: #1caaeb;color: #fff;width: 220px;height: 30px;cursor: pointer;float: left; margin-left: 162px; margin-top: 0px;}
+</style>
+
+<section class="orderdtl">
+      <!--标题-->
+      <div class="orderdtl-ttl container-12 ">
+        <h4><?php echo $goods_info['companyname']?></h4>
+      </div>
+      <nav class="orderdtl-nav">
+        <ul class="container-12 clearfix">
+          <li>
+            <a href="__MODULE__/Myseller/seller_index?user_id={$goods_info['userid']}">店铺首页</a>
+          </li>
+          <li>
+            <a href="__MODULE__/Myseller/about_we?user_id={$goods_info['userid']}">关于公司</a>
+          </li>
+          <li>
+            <a href="__MODULE__/Myseller/contact_way?user_id={$goods_info['userid']}">联系我们</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="container-12 clearfix">
+        <!--标题-->
+        <h4 class="orderdtl-ttl goods_id" goods-id="<?php echo $value['id']?>"><?php echo $goods_info['goodsname'].'-'.$goods_info['outvendor'].'-'.$goods_info['outstd']?></h4>
+
+        <!--左边-->
+        <div class="orderdtl-l jqzoom" data-size="4">
+          <!--大图-->
+          <div class=" jqzoom-img">
+            <img class="orderdtl-l-img" src="/e/member/company/uploadimgzs/{$goods_info['pictureurl']}" alt="大图" />
+          </div>
+          <div class=" jqzoom-content">
+            <div class="jqzoom-content-wrap">
+              <!-- 左右按钮 -->
+              <button class="left-btn" type="button">
+              <span class="glyphicon glyphicon-menu-left"></span>
+            </button>
+
+              <button class="right-btn" type="button">
+              <span class="glyphicon glyphicon-menu-right"></span>
+            </button>
+              <!--小图列表-->
+              <ul class="orderdtl-l-list clearfix jqzoom-content-imgs ">
+
+                <li class="active"><img src="/e/member/company/uploadimgzs/{$goods_info['pictureurl']}" alt="小图" /></li>
+                <li><img src="/e/member/company/uploadimgzs/{$goods_info['pictureurl2']}" alt="小图" /></li>
+                <li><img src="/e/member/company/uploadimgzs/{$goods_info['pictureurl3']}" alt="小图" /></li>
+                <li><img src="/e/member/company/uploadimgzs/{$goods_info['pictureurl4']}" alt="小图" /></li>
+                <li><img src="/e/member/company/uploadimgzs/{$goods_info['pictureurl5']}" alt="小图" /></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--右边-->
+        <div class="orderdtl-r">
+          <div class="orderdtl-r-1">
+            <ul>
+              <li class="bg">
+                <label for="">可对比：</label>
+                <!-- <span class="iconfont icon-rmb1"></span> -->
+                <strong><?= $goods_info['vendor'];?>  <?= $goods_info['model'];?></strong>
+                <span class="not"></span>
+
+              </li>
+              <li class="bg">
+                <label for="">基材：</label>
+                <span>><?= $goods_info['basematerial']?></span>
+              </li>
+              <li>
+                <label for="">主要辅料及比例：</label>
+                <span><?= $goods_info['supplementarymaterial']?><?= $goods_info['proportion']?>%</span>
+              </li>
+              <li>
+                <label for="">认证：</label>
+                <span><?php echo $goods_info['certification']?></span>
+              </li>
+              <li>
+                <label for="">等级：</label>
+                <span><?php echo $goods_info['level']?></span>
+              </li>
+
+              <li>
+                <label for="">特性：</label>
+                <span><?php echo $goods_info['features']?></span>
+              </li>
+
+              <li>
+                <label for="">用户案例：</label>
+                <span><?php echo $goods_info['gx_case']?></span>
+              </li>
+
+              <li>
+                <label for="">出厂价：</label>
+                <span><?php echo $goods_info['exfactoryprice']?></span>
+              </li>
+
+              <li>
+                <label for="">可试用：</label>
+                <span><?php echo $goods_info['thetrial']?></span>
+              </li>
+            </ul>
+
+          </div>
+          <!--购买-->
+          <div class="orderdtl-r-2">
+            <a href="__MODULE__/Chat/chat_line?user_ida={$login_user_id}&user_idb={$goods_info['userid']}" class="btn btn-negotiate " type="button">立即洽谈</a>
+            <neq name="login_user_id" value="">
+            <button class="btn btn-buy supply_table_a" type="button">申请试用</button>
+            </neq>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!--试用表格-->
+        <div id="faqbg"></div>
+        <div id="faqdiv" style="display:none; height: 450px;">
+        <div class="bj_title">
+            我要试用<a href = "javascript:void(0)" class="close">X</a>
+        </div>
+        <div class="Thetrial_a">
+        <div class="Thetrial_one">
+        <h3 style="margin-left:20px;"><span style="width:90px;display:inline-block;">试用产品：</span><span><?= $goods_info['goodsname']?> / <?= $goods_info['vendor'];?>/<?= $goods_info['outstd'];?></span></h3>
+        </div>
+        <div class="Thetrial_one">
+        <h3 style="margin-left:20px;"><span style="width:90px;display:inline-block;">供&nbsp;应&nbsp;商：</span><span><?= $goods_info['companyname']?></span></h3>
+        </div>
+
+      <form action="add_apply_for" method="post"> 
+           <input name="goodsid" type="hidden" value="<?=$goods_info[id]?>">
+           <input name="goodsname" type="hidden" value="<?=$goods_info[goodsname]?>">
+           <input name="vendor" type="hidden" value="<?=$goods_info[vendor]?>">
+           <input name="outstd" type="hidden" value="<?=$goods_info[outstd]?>">
+           <input name="pid" type="hidden" value="<?=$goods_info[userid]?>">
+           <input name="pusername" type="hidden" value="<?=$goods_info[username]?>">
+           <input name="category" type="hidden" value="改性塑胶">
+            <div class="Thetrial_one">
+            <h3 style="margin-left:20px;"><span style="width:90px;display:inline-block;">手机号码：</span><span><input name="mobile" type="text"  style="width:260px; height:30px;border:1px solid #ccc;"></span></h3>
+            </div>
+            <div class="Thetrial_one">
+            <h3 style="margin-left:20px;"><span style="width:90px;display:inline-block;">试用数量：</span><span><input name="goodsnumber" type="text"  value="5" style="width:100px; height:30px;border:1px solid #ccc;"></span></h3>
+            </div>
+            <div class="Thetrial_one">
+            <h3 style="margin-left:20px;"><span style="width:90px;display:inline-block;">寄送地址：</span><span><input name="address" type="text"  value="" style="width:260px; height:30px;border:1px solid #ccc;"></span></h3>
+            </div>
+
+            <div class="bj_list_four">
+              <span style="width:90px;display:inline-block;margin-left: 35px;margin-top: 50px;float: left;">其他说明：</span><textarea id="note" name="instructions"></textarea> 
+            </div>
+            <div class="bj_buy_btn">
+             <input class="bj_buy_btn_save" type="submit" value="提交"/>
+            </div> 
+          <!--  <input class="bj_buy_btn_save" type="button" value="提交" onClick="saveUserInfo()"> -->
+      </form> 
+    </div>
+ </div>
+
+
+      <!--物性表对比-->
+          <div class="wuxing">
+      <div class="wuxing_hd" style="font-size:20px;text-align:center;">物性比对数据表</div>
+      <div class="wuxing_bd" align="center">
+
+        <table width="50%" border="1" align="center" cellpadding="2" cellspacing="0" bordercolorlight="#dddddd" bordercolordark="white" class="ch_table_2" style="font-size:12px;">
+        <thead>
+          <tr>
+            <th colspan="5" style="font-size:20px;">厂商</th>
+            <th><?= $goods_info['outvendor'];?></th>
+            <th><?= $goods_info['vendor'];?></th>
+          </tr>
+          <tr>
+            <th colspan="5" style="font-size:20px;">牌号</th>
+            <th><?= $goods_info['outstd'];?></th>
+            <th><?= $goods_info['model'];?></th>
+          </tr>
+        </thead>
+                    <tbody>
+                      <tr class="td02" bgcolor="#eeeeee"> 
+                        <td align="center" width="10%">大类</td>
+    <td align="center" width="15%">小类</td>
+    <td align="center" width="15%">测试条件</td>
+    <td align="center" width="15%">测试方法</td>
+    <td align="center" width="15%">单位</td>
+    <td align="center" width="15%">数值/描述</td>
+    <td align="center" width="15%">数值/描述</td>
+                      </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="16">机械性能</td>
+    <td align="center" rowspan="1">拉伸强度(引张强度)
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    ASTM D638/ISO 527
+    </td>
+    <td align="center">
+    kg/cm²(MPa)[Lb/in2]
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['strength']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['strength']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">断裂伸长率
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    ASTM D638/ISO 527
+    </td>
+    <td align="center">
+    %
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['elongation']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['elongation']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">拉伸模量
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    ASTM D638/ISO 527
+    </td>
+    <td align="center">
+    kg/cm²(MPa)[Lb/in2]
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['modulus']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['modulus']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">拉伸屈服伸长率(延伸率)
+    </td>
+    <td align="center">&nbsp;  </td>
+    <td align="center">
+    ASTM D638/ISO 527
+    </td>
+    <td align="center">
+    %
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['yield']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['yield']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">拉伸断裂伸长率(延伸率)
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    ASTM D638/ISO 527
+    </td>
+    <td align="center">
+    %
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['rupture']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['rupture']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">弯曲模量(弯曲弹性率)
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    ASTM D790/ISO 178
+    </td>
+    <td align="center">
+    kg/cm²(MPa)[Lb/in2]
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['curve']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['curve']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">弯曲强度
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    ASTM D790/ISO 178
+    </td>
+    <td align="center">
+    kg/cm²(MPa)[Lb/in2]
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['curve_strength']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['curve_strength']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">洛氏硬度
+    </td>
+    <td align="center">&nbsp;    </td>
+    <td align="center">
+    ASTM D785
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    <?php echo $physical_goods_two['hardness']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['hardness']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="4">IZOD 缺口冲击强度 
+    </td>
+    <td align="center">
+    1/4" 23℃    
+    </td>
+    <td align="center">
+    ASTM D256/ISO 179
+    </td>
+    <td align="center">
+    kg·cm/cm(J/M)ft·lb/in
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['IZOD']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['IZOD']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center">
+    1/4" -30℃   
+    </td>
+    <td align="center">
+    ASTM D256/ISO 179
+    </td>
+    <td align="center"> 
+    kg·cm/cm(J/M)ft·lb/in
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['IZOD2']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['IZOD2']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center">
+    1/8" 23℃   
+    </td>
+    <td align="center">
+    ASTM D256/ISO 179
+    </td>
+    <td align="center">
+    kg·cm/cm(J/M)ft·lb/in
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['IZOD3']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['IZOD3']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center">
+    1/8" -30℃   
+    </td>
+    <td align="center">
+    ASTM D256/ISO 179
+    </td>
+    <td align="center">
+    kg·cm/cm(J/M)ft·lb/in
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['IZOD4']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['IZOD4']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="4">Charpy冲击强度
+    </td>
+    <td align="center">
+    23℃ （缺口）   
+    </td>
+    <td align="center">
+    ASTM D256/ISO 179
+    </td>
+    <td align="center">
+    kg·cm/cm(J/M)ft·lb/in
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['Charpy']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['Charpy']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center">
+    -30℃（缺口）  
+    </td>
+    <td align="center">
+    ASTM D256/ISO 179
+    </td>
+    <td align="center">
+    kg·cm/cm(J/M)ft·lb/in
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['Charpy2']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['Charpy2']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center">
+    23℃（无缺口）  
+    </td>
+    <td align="center">
+    ASTM D256/ISO 179
+    </td>
+    <td align="center">
+    kg·cm/cm(J/M)ft·lb/in
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['Charpy3']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['Charpy3']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center"> 
+    -30℃（无缺口）    
+    </td>
+    <td align="center">
+    ASTM D256/ISO 179
+    </td>
+    <td align="center">
+    kg·cm/cm(J/M)ft·lb/in
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['Charpy4']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['Charpy4']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF">   
+    <td align="center" rowspan="5">物性性能</td>
+    <td align="center" rowspan="1">比重（密度）
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    ASTM D792/ISO 1183
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    <?php echo $physical_goods_two['proportion']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['proportion']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">成型收缩率
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    ASTM D955
+    </td>
+    <td align="center">
+    %
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['shrinkage']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['shrinkage']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="2">熔融指数（流动系数）
+    </td>
+    <td align="center">
+    200℃/5kg   
+    </td>
+    <td align="center">
+    ASTM D1238/ISO 1133
+    </td>
+    <td align="center">
+    g/10min
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['flow']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['flow']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center">
+    220℃/10kg    
+    </td>
+    <td align="center">
+    ASTM D1238/ISO 1133
+    </td>
+    <td align="center">
+    g/10min
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['flow2']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['flow2']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">吸水率 23℃/24H
+    </td>
+    <td align="center">&nbsp;    </td>
+    <td align="center">
+    ASTM D570/ISO 62
+    </td>
+    <td align="center">
+    %
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['water_absorption']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['water_absorption']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="6">热性能</td>  
+    <td align="center" rowspan="2">热变形温度
+    </td>
+    <td align="center">
+    退火   
+    </td>
+    <td align="center">
+    ASTM D648/ISO 75
+    </td>
+    <td align="center">
+    ℃（℉）
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['deformation']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['deformation']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center">
+    未退火    
+    </td>
+    <td align="center">
+    ASTM D648/ISO 75
+    </td>
+    <td align="center">
+    ℃（℉）
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['deformation2']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['deformation2']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">维卡软化点
+    </td>
+    <td align="center">&nbsp;   </td>
+    <td align="center">
+    ASTM D1525/ISO R306
+    </td>
+    <td align="center">
+    ℃（℉）
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['Wica']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['Wica']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">熔点
+    </td>
+    <td align="center">&nbsp;    </td>
+    <td align="center">
+    -
+    </td>
+    <td align="center">
+    ℃（℉）
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['Melting_point']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['Melting_point']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">燃烧性（率）
+    </td>
+    <td align="center">&nbsp;    </td>
+    <td align="center">
+    UL94
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    <?php echo $physical_goods_two['combustibility']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['combustibility']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">线性膨胀系数
+    </td>
+    <td align="center">&nbsp;    </td>
+    <td align="center">
+    ASTM D696/ISO 11359
+    </td>
+    <td align="center">
+    mm/mm.℃
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['swell']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['swell']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="11">加工条件</td>
+    <td align="center" rowspan="1">干燥条件
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    <?php echo $physical_goods_two['conditions']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['conditions']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="4">加工温度
+    </td>
+    <td align="center">
+    射嘴   
+    </td>
+    <td align="center">&nbsp; </td>
+    <td align="center">
+    ℃
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['nozzle']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['nozzle']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center">
+    料筒前段    
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    ℃
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['befor']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['befor']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center">
+    料筒中段   
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    ℃
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['midpiece']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['midpiece']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center">
+    料筒后段   
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    ℃
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['after']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['after']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">熔体温度
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    ℃
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['Melt']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['Melt']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">模具温度
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    ℃
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['Mold']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['Mold']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="3">压力
+    </td>
+    <td align="center">
+    注塑压力   
+    </td>
+    <td align="center">&nbsp;
+    </td>
+    <td align="center">
+    Mpa
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['Injection']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['Injection']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center">
+    保压压力   
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    Mpa
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['holding']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['holding']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center">
+    背压   
+    </td>
+    <td align="center">&nbsp; </td>
+    <td align="center">
+    Mpa
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['backpressure']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['backpressure']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">螺杆转速
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    rpm
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['speed']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['speed']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="4">其他</td>
+    <td align="center" rowspan="1">备注
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    <?php echo $physical_goods_two['note']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['note']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">颜色
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp; 
+    </td>
+    <td align="center">
+    <?php echo $physical_goods_two['color']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['color']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">特性
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    <?php echo $physical_goods_two['features']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['features']?>
+    </td>
+  </tr>
+
+  <tr bgcolor="#FFFFFF"> 
+    <td align="center" rowspan="1">用途
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">
+    <?php echo $physical_goods_two['useto']?>
+    &nbsp;<?php echo $physical_goods_two['use2']?>
+    </td>
+    <td align="center">
+    <?php echo $physical_goods['useto']?>
+    &nbsp;<?php echo $physical_goods['use2']?>
+    </td>
+  </tr>
+</tbody>
+</table>
+      </div>
+    </div>
+      <!--物性表对比结束-->
+
+
+      <!--商品列表-->
+      <div class="orderdtl-list container-12  clearfix">
+        <ul class="clearfix">
+
+          <foreach name="goods_list" item="val">
+          <li>
+            <a href="goods_details_gx?id={$val['id']}">
+              <img src="/e/member/company/uploadimgzs/{$val['pictureurl']}" alt="商品图片" />
+              <p class="text-danger  p1">￥<span><?php echo $val['exfactoryprice']?></span></p>
+              <p class="ellipsis p2"><?php echo $val['goodsname'].'-'.$val['outvendor'].'-'.$val['outstd']?></p>
+              <p class="text-999 ellipsis"><?php echo $val['companyname']?></p>
+            </a>
+
+          </li>
+        </foreach>
+        </ul>
+        <!--更多-->
+      </div>
+    </section>
+      <script type="text/javascript">
+        $(function() {
+          // 缩列图
+          jqzoom.init();
+        })
+
+        // 展示弹窗
+  $(".supply_table_a").click(function(){
+
+     $("#faqbg").css({display:"block",height:$(document).height()});
+       var yscroll =document.documentElement.scrollTop;
+       $("#faqdiv").css("top","100px");
+         $("#faqdiv").css("display","block");
+         document.documentElement.scrollTop=0;
+
+   
+      $("#faqdiv").css("display","block");
+      
+    });
+
+  // 关闭弹窗
+    $(".close").click(function(){
+      $(".complaint").css("display","none");
+      $("#faqbg").css("display","none");
+      $("#faqdiv").css("display","none");
+    })
+
+
+      </script>
+<include file="Default:footer" />

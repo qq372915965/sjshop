@@ -148,14 +148,14 @@
        <ul class="hb_list clearfix">
           <li class="hb_list_left">
            
-      <a href="/e/action/Showgx.php?id=<?php echo $data_s['id'] ;?>" onclick='visitor_gx(this)' class='visitor'><img src="/e/member/company/uploadimgzs/<?php echo $data_s['pictureurl'] ;?>" width="80" height="80"></a>
+      <a href="__MODULE__/Myseller/goods_details_gx?id={$data_s['id']}" class='visitor'><img src="/e/member/company/uploadimgzs/<?php echo $data_s['pictureurl'] ;?>" width="80" height="80"></a>
                         
 
                        
           </li>
           <li class="hb_list_middle">
              <div class="hb_middle">
-               <a target="_blank" href="/e/action/Showgx.php?id=<?php echo $data_s['id'] ;?>" class="hb_black visitor" onclick='visitor_gx(this)'><?php echo $data_s['goodsname'] ;?> <?php echo $data_s['outvendor'] ;?> <?php echo $data_s['outstd'] ;?></a>
+               <a target="_blank" href="__MODULE__/Myseller/goods_details_gx?id={$data_s['id']}" class="hb_black visitor"><?php echo $data_s['goodsname'] ;?> <?php echo $data_s['outvendor'] ;?> <?php echo $data_s['outstd'] ;?></a>
              </div>
              <div class="hb_middlea">
                等级：<span class="hb_common"><?php echo $data_s['level'] ;?>&nbsp;</span>

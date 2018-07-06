@@ -178,7 +178,7 @@
 					</div>
 					<div class="form-ground">
 						<label>银行账户：
-							<input type="text" style="width: 300px;" class="add-input" param-name="account_number"/>
+							<input type="number" style="width: 300px;" class="add-input" param-name="account_number"/>
 						</label>
 					</div>
 
@@ -256,6 +256,7 @@
 			var opt = {};
 			opt['order_sn'] = "{$orderInfo.order_sn}";
 			opt['shop_id'] = "{$orderInfo.shop_id}";
+			opt['user_id'] = "{$orderInfo.user_id}";
 
 			$('.add-input').on('change', function(){
 				var param_name = $(this).attr('param-name');
@@ -278,6 +279,7 @@
 			});
 
 			$('.datetimepicker').datetimepicker({
+				minView: "month",
 				format: "yyyy-mm-dd",
 				showMeridian: true,
 				autoclose: true,

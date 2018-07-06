@@ -175,7 +175,7 @@
 					</div>
 					<div class="form-ground">
 						<label>银行账户：
-							<input type="text" style="width: 300px;" class="add-input" param-name="account_number"/>
+							<input type="number" style="width: 300px;" class="add-input" param-name="account_number"/>
 						</label>
 					</div>
 
@@ -337,6 +337,10 @@
 				if(!opt['delivery'] || !opt['payment']){
 					alert('未选交货方式及支付方式');return false;
 				}
+
+				if(!opt.user_id || !opt.username){
+					alert('请填写买家后点击右边添加按钮');return false;
+				}
 				
 				$.post("__MODULE__/FastContract/save_add_fast_contract", {contract_info: opt, goods_info: goodsInfo}, function(data){
 					if(data.status == 1){
@@ -349,6 +353,7 @@
 			});
 
 			$('.datetimepicker').datetimepicker({
+				minView: "month",
 				format: "yyyy-mm-dd",
 				showMeridian: true,
 				autoclose: true,

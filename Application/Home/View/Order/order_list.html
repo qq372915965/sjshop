@@ -131,6 +131,13 @@
 													<a class="text-999" href="javascript:;">查看发票</a>
 												</case>
 											</switch>
+											<switch name="v.order_status">
+												<case value="0|101|102|109">
+													<neq name="v.contract_type" value="3">
+														<a href="__MODULE__/Tripartite/add_contract?order_sn={$v.order_sn}" target="_blank">生成三方合同</a>
+													</neq>
+												</case>
+											</switch>
 											<switch name="v.contract_type">
 												<case value="1|2">
 													<a class="text-999" href="view_contract?order_sn={$v.order_sn}" target="_blank">查看合同</a>

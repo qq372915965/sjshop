@@ -1,8 +1,8 @@
-<include file="Default:header" />
+<include file="Center:personage_center" />
 <title>塑料助剂</title>
-<link href="/e/space/template/commonty/css/ceter.min.css" rel="stylesheet" media="screen">
+<!-- <link href="/e/space/template/commonty/css/ceter.min.css" rel="stylesheet" media="screen"> -->
 <link href="__PUBLIC__/Home/css/plastic_additives.css" rel="stylesheet" media="screen">
-
+<body onload="setup();promptinfo();">
 <div class="neir_index">
  <div class="left_wel">
    <div class="feel_weel">
@@ -36,22 +36,28 @@
 
        <div class="input_jiaoyigs">  
          <b>*</b><span>品类：</span>
+          <select class="sl_style add-input" name="cInvName" id="cInvName" onchange="on_change()" param-name="cInvName">
+            <option value="">请选择</option>
+            <optgroup label="常用品类" style="color:rgb(0, 73, 165)"></optgroup>
+            <volist name="common_goods" id="c">
+              <option value="{$c.name}">{$c.name}</option>
+            </volist>
+          </select>
          <span style="width:200px;height30px;line-height:30px; margin-top:5px;"><a href='#' onclick="window.open('/e/member/IndexAdd/add_std/index3.php','newindex','height=500, width=600,top=100,left=200,toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no');">如没有所需类别，请申请>></a></span>
        </div>  
 
        <div class="input_jiaoyigs">  
          <b>*</b><span>生产商：</span>
-         <input type="radio" name="vendor2" class="cert" checked="checked" value="0" onclick="change_1()" id="vendor_1" /><div class="cert2">自产</div>
-         <input type="radio" name="vendor2" class="cert" value="1" style="margin-left:12px;" onclick="change_2()" id="vendor_2"/><div class="cert2">其他生产企业</div>
+         <input type="radio" name="vendor2" class="cert add-input" value="0" onclick="change_1()" id="vendor_1" param-name="vendor2"/><div class="cert2">自产</div>
+         <input type="radio" name="vendor2" class="cert add-input" value="1" style="margin-left:12px;" onclick="change_2()" id="vendor_2" param-name="vendor2"/><div class="cert2">其他生产企业</div>
          <div id="con_1" style="display:none;">
-          <div id="vendor"></div>
+          <select name='vendor' style='margin-left:20px;height:28px;' class='sl_style1 vendor add-input' id='change_select' onchange='vendor_change()' param-name='vendor'></select>
         </div>
       </div>   
       <!-- 自产跟其他生产商 -->
       <div class="input_jiaoyigs" id="seach_u10">  
         <b>*</b><span> 牌号：</span>  
-        <select class='sl_style' name='cInvStd' id='cInvStd' style='margin-top:3px;'>
-          <option value="0">请选择</option>
+        <select class='sl_style add-input' name='cInvStd' id='cInvStd' style='margin-top:3px;' param-name="cInvStd">
         </select>
         <span><a href='#' onclick="window.open('/e/member/IndexAdd/add_std/index2.php','newindex','height=500, width=600,top=100,left=200,toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no');">添加新牌号</a></span> 
       </div>
@@ -59,53 +65,53 @@
       <div class="input_jiaoyigs" style="height:200px;">
        <b>&nbsp;</b><span>样品图片：</span>
        <div style="width:60%;float:left; height:200px;">
-         <div style="width:180px;height:240px;float:left;">
-           <span style="float:none;margin-left:0px;">图片1：</span>
-           <div style="width:100%;height:30px;display:none;"><input type="text" name="textfield" value="" style="height:24px; width:156px;margin-left:10px;" id="textfield" readonly></div>
-           <div style="width:100%;height:30px;margin-top:5px;margin-bottom:5px;" id="up_btn">
-             <input class="sl_style" type="file" name="file" id="file" style="width:110px;" onchange="document.getElementById('textfield').value=this.value">
-             <input class="file-btn" type="button" name="button" value="上传" style="width:40px;height:28px;background:#ff6600;margin-left:10px;border:none;color:#fff;float:left;" onclick="UpladFile()">
-           </div>
-           <div id="preview" style="width:160px;height:100px;">
-             <img src="/skin/pouer/nopic.jpg" width="160" height="100">
-           </div>
-           <div style="width:100%;height:30px;position: relative;float:left;">
-             <div style="float:left;width:50px;text-align:center;"><a href="#" onclick="open_1();">查看</a></div>
-             <div style="float:left;width:50px;text-align:center;"><a href="#" onclick="del_1();">删除</a></div>
-           </div>
-         </div>
+         <div class="form-group clearfix vd-box progress-box">
+            <!-- <label class="col-xs-3 control-label" for="">上传附件：</label> -->
+            <div class="col-xs-4 padding-l-no">
+              <input class=" rd-no vd-item file-txt-1" type="text" name="file" id="" vd-req vd-req-msg="附件不能为空！" value="" placeholder="图片1"/>
+              <span class="vd-req"></span>
+            </div>
+            <div class="width-1  padding-lr-no margin-l">
+              <!-- 点击提交按钮-->
+              <input class="btn btn-default rd-no" type="button" name="up" id="up-1" value="上传" />
+              <input class="fileUp-1 v-hide-text-index" type="file" name="" id="fileUp-1" value="" />
+            </div>
+            <div class="text-center">
+              <img class="img-1 v-hide" style="width: 160px;height: 100px;" src="" alt="" />
+            </div>
+          </div>
 
-         <div style="width:180px;height:240px;float:left;">
-           <span style="float:none;margin-left:0px;">图片2：</span>
-           <div style="width:100%;height:30px;display:none;"><input type="text" name="textfield" value="" style="height:24px; width:156px;margin-left:10px;" id="textfield2" readonly></div>
-           <div style="width:100%;height:30px;margin-top:5px;margin-bottom:5px;" id="up_btn">
-             <input class="sl_style" type="file" name="file2" id="file2" style="width:110px;" onchange="document.getElementById('textfield2').value=this.value">
-             <input class="file-btn" type="button" name="button" value="上传" style="width:40px;height:28px;background:#ff6600;margin-left:10px;border:none;color:#fff;float:left;" onclick="UpladFile2()">
-           </div>
-           <div id="preview2" style="width:160px;height:100px;">
-             <img src="/skin/pouer/nopic.jpg" width="160" height="100">
-           </div>
-           <div style="width:100%;height:30px;position: relative;float:left;">
-             <div style="float:left;width:50px;text-align:center;"><a href="#" onclick="open_2();">查看</a></div>
-             <div style="float:left;width:50px;text-align:center;"><a href="#" onclick="del_2();">删除</a></div>
-           </div>
-         </div>
+         <div class="form-group clearfix vd-box progress-box">
+            <!-- <label class="col-xs-3 control-label" for="">上传附件：</label> -->
+            <div class="col-xs-4 padding-l-no">
+              <input class=" rd-no vd-item file-txt-2" type="text" name="file" id="" vd-req vd-req-msg="附件不能为空！" value="" placeholder="图片2"/>
+              <span class="vd-req"></span>
+            </div>
+            <div class="width-1  padding-lr-no margin-l">
+              <!-- 点击提交按钮-->
+              <input class="btn btn-default rd-no" type="button" name="up" id="up-2" value="上传" />
+              <input class="fileUp-2 v-hide-text-index" type="file" name="" id="fileUp-2" value="" />
+            </div>
+            <div class="text-center">
+              <img class="img-2 v-hide" style="width: 160px;height: 100px;" src="" alt="" />
+            </div>
+          </div>
 
-         <div style="height:240px;float:left;">
-           <span style="float:none;margin-left:0px;">图片3：</span>
-           <div style="width:100%;height:30px;display:none;"><input type="text" name="textfield" value="" style="height:24px; width:156px;margin-left:10px;" id="textfield3" readonly></div>
-           <div style="width:100%;height:30px;margin-top:5px;margin-bottom:5px;" id="up_btn">
-             <input class="sl_style" type="file" name="file3" id="file3" style="width:110px;" onchange="document.getElementById('textfield3').value=this.value">
-             <input class="file-btn" type="button" name="button" value="上传" style="width:40px;height:28px;background:#ff6600;margin-left:10px;border:none;color:#fff;float:left;" onclick="UpladFile3()">
-           </div>
-           <div id="preview3" style="width:160px;height:100px;">
-             <img src="/skin/pouer/nopic.jpg" width="160" height="100">
-           </div>
-           <div style="width:100%;height:30px;position: relative;float:left;">
-             <div style="float:left;width:50px;text-align:center;"><a href="#" onclick="open_3();">查看</a></div>
-             <div style="float:left;width:50px;text-align:center;"><a href="#" onclick="del_3();">删除</a></div>
-           </div>
-         </div>
+         <div class="form-group clearfix vd-box progress-box">
+            <!-- <label class="col-xs-3 control-label" for="">上传附件：</label> -->
+            <div class="col-xs-4 padding-l-no">
+              <input class=" rd-no vd-item file-txt-3" type="text" name="file" id="" vd-req vd-req-msg="附件不能为空！" value="" placeholder="图片3"/>
+              <span class="vd-req"></span>
+            </div>
+            <div class="width-1  padding-lr-no margin-l">
+              <!-- 点击提交按钮-->
+              <input class="btn btn-default rd-no" type="button" name="up" id="up-3" value="上传" />
+              <input class="fileUp-3 v-hide-text-index" type="file" name="" id="fileUp-3" value="" />
+            </div>
+            <div class="text-center">
+              <img class="img-3 v-hide" style="width: 160px;height: 100px;" src="" alt="" />
+            </div>
+          </div>
 
        </div>
      </div>
@@ -117,7 +123,7 @@
 
     <div class="input_jiaoyigs">
       <b>*</b><span>允许试用数量：</span>
-      <input type="text" name="trial"  placeholder="请输入数量"  class="nav_choose fl" value="0" maxlength="5" />
+      <input type="text" name="trial"  placeholder="请输入数量"  class="nav_choose fl add-input trial" value="0" maxlength="5" param-name="trial"/>
       <span style="width:260px;">(单位：公斤，不允许试用，请填0)</span>
       <span id="cktext6"></span> 
     </div>
@@ -127,137 +133,261 @@
       <select class="select" style="height:28px;">
         <option>中国大陆</option>
       </select>&nbsp;&nbsp;
-      <select class="select" name="province" id="s1" style="height:28px;">
+      <select class="select add-input" name="province" id="s1" style="height:28px;" param-name="province">
         <option></option>
       </select>
-      <select class="select" name="city" id="s2" style="height:28px;">
+      <select class="select add-input" name="city" id="s2" style="height:28px;" param-name="city">
         <option></option>
       </select> 
+      <select class="select add-input" name="area" id="s3" style="height:28px;" param-name="area">
+        <option></option>
+      </select>
     </div>  
 
     <div  class="input_jiaoyigs">   
       <b>*</b><span>商业票据：</span>
-      <input type="radio" name="piaoju" class="cert" checked="checked" value="0" /><div class="cert2">17%增值税发票</div>
-      <input type="radio" name="piaoju" class="cert" value="1" style="margin-left:12px;" /><div class="cert2">其他商业票据(供应方确定)</div>
+      <input type="radio" name="piaoju" class="cert add-input" value="0" param-name="piaoju"/><div class="cert2">17%增值税发票</div>
+      <input type="radio" name="piaoju" class="cert add-input" value="1" param-name="piaoju" style="margin-left:12px;" /><div class="cert2">其他商业票据(供应方确定)</div>
     </div>
 
     <div class="input_jiaoyigs">
       <b>*</b><span>单价：</span>
-      <input type="text" name="fPrice"  placeholder="请输入单价"  class="nav_choose fl" maxlength="15" id="grade_input" onblur="ckfPrice()" />
+      <input type="text" name="fPrice"  placeholder="请输入单价"  class="nav_choose fl add-input" maxlength="15" id="grade_input" onblur="ckfPrice()" param-name="fPrice"/>
       <span style="width:60px;">(元/公斤)</span>
       <span id="cktext5"></span> 
     </div>
 
     <div  class="input_jiaoyigs">   
       <b>*</b><span> 有效期：</span>
-      <input name="yxq" onclick="laydate()" id="class_input" onblur="ckdValidDate()"  class="nav_choose" readonly="readonly"> 
+      <input name="yxq" onclick="laydate()" id="class_input"  class="nav_choose add-input" readonly="readonly" param-name="yxq"> 
     </div>
   </div>  
-  <input type="button" value="发  布" class="fabu_sj" onclick="zj_click()"/>
+  <input type="button" value="发  布" class="fabu_sj save-btn" />
 </div>
 </div>
 </div>
 </div>
 
-<script type="text/javascript" src="/skin/sjzx/js/posted.js"></script>
-<script type="text/javascript" src="/skin/sjzx/js/ajaxupload_zj.js"></script>
+<!-- <script type="text/javascript" src="/skin/sjzx/js/posted.js"></script> -->
+<!-- <script type="text/javascript" src="/skin/sjzx/js/ajaxupload_zj.js"></script> -->
+<script src="/e/space/template/commonty/js/dizi.min.js?v=1.1"></script>
+<script src="__PUBLIC__/Home/js/all.js" type="text/javascript" charset="utf-8"></script>
 <script>
+  var change_info = {};
+  change_info.trial = $('.trial').val();
+
   function change_2(){
-    document.getElementById("con_1").style.display = 'block' ;
-    var xmlhttp;
-    if (window.XMLHttpRequest){
-      xmlhttp=new XMLHttpRequest();
-    }else{
-      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-    }
-    xmlhttp.onreadystatechange=function(){
-      if (xmlhttp.readyState==4 && xmlhttp.status==200){
-        document.getElementById("vendor").innerHTML=xmlhttp.responseText;
-      }
-    }
-    var bb=encodeURI(form1.cInvName.value);
-    xmlhttp.open("get","result_zj.php?cInvName="+bb,true);
-    xmlhttp.send();
+    $('#con_1').show();
   }
 
   function change_1(){
-    document.getElementById("con_1").style.display = 'none' ;  
-    var xmlhttp;
-    if (window.XMLHttpRequest){
-      xmlhttp=new XMLHttpRequest();
-    }else{
-      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-    }
-    xmlhttp.onreadystatechange=function(){
-      if (xmlhttp.readyState==4 && xmlhttp.status==200){
-        document.getElementById("seach_u10").innerHTML=xmlhttp.responseText;
-      }
-    }
-    var bb=encodeURI(form1.cInvName.value);
-    xmlhttp.open("get","result.php?cInvName="+bb,true);
-    xmlhttp.send();
+    $('#con_1').hide();
   }
 
   function on_change(){ 
-    var xmlhttp;
-    if (window.XMLHttpRequest){
-      xmlhttp=new XMLHttpRequest();
-    }else{
-      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-    }
-    xmlhttp.onreadystatechange=function(){
-      if (xmlhttp.readyState==4 && xmlhttp.status==200){
-        document.getElementById("seach_u10").innerHTML=xmlhttp.responseText;
+    var opt = {};
+    opt.cInvName = $('#cInvName').val();
+    
+    $.post("other_additives_manufacturers", opt, function(data){
+      if(data){
+        var option = "<option value=''>请选择</option>";
+        for(var i = 0; i<data.length; i++){
+          var list = data[i];
+          option = option + "<option value='"+list.companyname+"'>"+list.companyname+"</option>";
+        }
+
+        // $('#con_1').hide();
+        $('#change_select').html(option);
       }
-    }
-    var bb=encodeURI(form1.cInvName.value);
-    xmlhttp.open("get","result.php?cInvName="+bb,true);
-    xmlhttp.send();
+    });
   }
 
   function vendor_change(){ 
-    var xmlhttp;
-    if (window.XMLHttpRequest){
-      xmlhttp=new XMLHttpRequest();
-    }else{
-      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-    }
-    xmlhttp.onreadystatechange=function(){
-      if (xmlhttp.readyState==4 && xmlhttp.status==200){
-        document.getElementById("seach_u10").innerHTML=xmlhttp.responseText;
+    var opt = {};
+    opt.cInvName = $('#cInvName').val();
+    opt.companyname = $('#change_select').val();
+
+    $.post("get_additives_grade", opt, function(data){
+      if(data){
+        var option = "<option value=''>请选择</option>";
+        for(var i = 0; i<data.length; i++){
+          var list = data[i];
+          option = option + "<option value='"+list.cinvstd+"'>"+list.cinvstd+"</option>";
+        }
       }
-    }
-    var aa=encodeURI(form1.cInvName.value);
-    var bb=encodeURI(form1.vendor.value);
-    xmlhttp.open("get","result2.php?cInvName="+aa+"&companyname="+bb,true);
-    xmlhttp.send();
+
+      $('#cInvStd').html(option);
+    });
   }
 
   function open_wx(){
-    var aa=form1.cInvName.value;
-    var bb=form1.vendor2.value;
-    var cc=form1.vendor.value;
-    var dd=form1.cInvStd.value;
-    if(aa==0){
+    var cInvName = $('#cInvName').val();
+    var vendor2 = $('#vendor2').val();
+    var vendor = $('.vendor').val();
+    var cInvStd = $('#cinvstd').val();
+    if(!cInvName){
       alert("请选择品名");
       return;
     }
-    if(bb==1){
-      if(cc==0){
-        alert("请选择生产商");
-        return;
-      }
+
+    if(vendor2 == 1 && !vendor){
+      alert("请选择生产商");
+      return;
     }
-    if(dd==0){
+
+    if(cInvStd == 0){
       alert("请选择牌号");
       return;
     }
-    if(bb==0){
-      window.open("/e/member/IndexAdd/add_std/index2.php?cInvName="+aa+"&vendor="+bb+"&cInvStd="+dd,'newindex','height=500, width=600,top=100,left=200,toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no');
+
+    if(vendor2 == 0){
+      window.open("/e/member/IndexAdd/add_std/index2.php?cInvName="+cInvName+"&vendor="+vendor+"&cInvStd="+cInvStd,'newindex','height=500, width=600,top=100,left=200,toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no');
     }else{
-      window.open("/e/member/IndexAdd/add_std/index2.php?cInvName="+aa+"&vendor="+cc+"&cInvStd="+dd,'newindex','height=500, width=600,top=100,left=200,toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no');
+      window.open("/e/member/IndexAdd/add_std/index2.php?cInvName="+cInvName+"&vendor="+vendor+"&cInvStd="+cInvStd,'newindex','height=500, width=600,top=100,left=200,toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no');
     }
   }
+
+  $("#up-1").on("click", function (e) {
+    e.stopPropagation();
+    e.preventDefault();
+
+    // 点击文件上传框
+    $(".fileUp-1").click();
+  });
+
+  // 文件上传框值变化
+  $(".fileUp-1").change(function () {
+    fileupff1(this);
+  });
+
+  var fileupff1 = function (obj) {
+    // 是否支持html5 文件上传
+    if (typeof obj.files === "undefined") {
+        alert("不支持html5 文件上传,请升级你的浏览器  \n not support html5 ");
+        return;
+    }
+
+    var file = obj.files[0];
+
+    h5File.upload({
+        data: file, //选择的文件
+        url: "__MODULE__/Public/upload_img", //上传网址
+        outTime: 30000,
+        el: $(obj), //当前element
+        size: 300 * 1000000, //1m=1000000
+        contentType: false,
+        seccess: function (data) {
+            var url = data;
+            $('.img-1').attr("src", url);$('.img-1').show();
+            $(".file-txt-1").val(url);
+        }, //成功回调
+        error: function () {
+        } //错误回调
+
+    }); //调用上传接口
+  };
+
+  $("#up-2").on("click", function (e) {
+    e.stopPropagation();
+    e.preventDefault();
+
+    // 点击文件上传框
+    $(".fileUp-2").click();
+  });
+
+  // 文件上传框值变化
+  $(".fileUp-2").change(function () {
+    fileupff1(this);
+  });
+
+  var fileupff2 = function (obj) {
+    // 是否支持html5 文件上传
+    if (typeof obj.files === "undefined") {
+        alert("不支持html5 文件上传,请升级你的浏览器  \n not support html5 ");
+        return;
+    }
+
+    var file = obj.files[0];
+
+    h5File.upload({
+        data: file, //选择的文件
+        url: "__MODULE__/Public/upload_img", //上传网址
+        outTime: 30000,
+        el: $(obj), //当前element
+        size: 300 * 1000000, //1m=1000000
+        contentType: false,
+        seccess: function (data) {
+            var url = data;
+            $('.img-2').attr("src", url);$('.img-2').show();
+            $(".file-txt-2").val(url);
+        }, //成功回调
+        error: function () {
+        } //错误回调
+
+    }); //调用上传接口
+  };
+
+  $("#up-3").on("click", function (e) {
+    e.stopPropagation();
+    e.preventDefault();
+
+    // 点击文件上传框
+    $(".fileUp-3").click();
+  });
+
+  // 文件上传框值变化
+  $(".fileUp-3").change(function () {
+    fileupff1(this);
+  });
+
+  var fileupff3 = function (obj) {
+    // 是否支持html5 文件上传
+    if (typeof obj.files === "undefined") {
+        alert("不支持html5 文件上传,请升级你的浏览器  \n not support html5 ");
+        return;
+    }
+
+    var file = obj.files[0];
+
+    h5File.upload({
+        data: file, //选择的文件
+        url: "__MODULE__/Public/upload_img", //上传网址
+        outTime: 30000,
+        el: $(obj), //当前element
+        size: 300 * 1000000, //1m=1000000
+        contentType: false,
+        seccess: function (data) {
+            var url = data;
+            $('.img-3').attr("src", url);$('.img-3').show();
+            $(".file-txt-3").val(url);
+        }, //成功回调
+        error: function () {
+        } //错误回调
+
+    }); //调用上传接口
+  };
+
+  $('.add-input').on('change', function(){
+    var param_name = $(this).attr('param-name');
+    change_info[param_name] = $(this).val();
+  });
+
+  $('.save-btn').on('click', function(){
+    change_info.userid = "{$user_info.userid}";
+    change_info.companyid = "{$user_info.id}";
+    change_info.companyname = "{$user_info.companyname}";
+    change_info.pictureurl = $('.file-txt-1').val();
+    change_info.pictureurl2 = $('.file-txt-2').val();
+    change_info.pictureurl3 = $('.file-txt-3').val();
+
+    $.post("save_plastic_additives", change_info, function(data){
+      if(data.status == 1){
+        alert(data.message);
+      }else{
+        alert(data.message);
+      }
+    });
+  });
 
   //检验交易公司
   function ckcompany(){

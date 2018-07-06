@@ -1,7 +1,9 @@
-<include file="Default:header" />
+<include file="Center:personage_center" />
 <title>货柜报价</title>
-<link href="/e/space/template/commonty/css/ceter.min.css" rel="stylesheet" media="screen">
+<!-- <link href="/e/space/template/commonty/css/ceter.min.css" rel="stylesheet" media="screen"> -->
 <link href="__PUBLIC__/Home/css/counter_price.css" rel="stylesheet" media="screen"> 
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/bs-date/css/bootstrap-datetimepicker.min.css" />
+<body onload="setup();promptinfo();">
 <div class="neir_index">
  <div class="left_wel">
   <div class="feel_weel">
@@ -33,7 +35,8 @@
 
        <div class="input_jiaoyigs">  
         <b>*</b><span style='width:158px;'> 交易类别：</span>  
-        <select class="sl_style" name="ark_1" onchange="clickmet()" id="select_lb">
+        <select class="sl_style add-input" name="ark_1" onchange="clickmet()" id="select_lb" param-name="ark_type">
+          <option value="">请选择</option>
           <option value="1">现柜货</option>
           <option value="2">船柜货</option>
         </select>
@@ -43,6 +46,7 @@
       <div class="input_jiaoyigs">  
         <b>*</b><span style='width:158px;'> 结算方式：</span>  
         <select class="sl_style" name="ark_2">
+          <option value="">请选择</option>
           <option value="B2B">B2B</option>
           <option value="C2C">C2C</option>
         </select>
@@ -86,29 +90,32 @@
 
   <div  class="input_jiaoyigs">   
     <b>*</b><span> 装运描述：</span>
-    <select name="ark_3" class="g_type" style="height:28px;">
-      <option>柜货</option>
+    <select name="ark_3" class="g_type add-input" style="height:28px;" param-name="g_type">
+      <option value="">请选择</option>
+      <option value="柜货">柜货</option>
     </select>
   </div>
 
   <div  class="input_jiaoyigs">   
     <b>*</b><span> 货柜尺寸：</span>
-    <select name="ark_4" class="g_type" style="height:28px;">
-      <option>20尺</option>
-      <option>40尺</option>
+    <select name="ark_4" class="g_type add-input" style="height:28px;" param-name="ark_size">
+      <option value="">请选择</option>
+      <option value="20尺">20尺</option>
+      <option value="40尺">40尺</option>
     </select>
   </div>
 
   <div  class="input_jiaoyigs">   
     <b>*</b><span style="width:158px;">每柜装运重量：</span>
-    <input type="text" name="ark_5" placeholder="请输入数量" id="ark_5" onblur="ckfWeight2()" class="nav_choose" maxlength="15" style="height:28px;" />
+    <input type="text" name="ark_5" placeholder="请输入数量" id="ark_5" onblur="ckfWeight2()" class="nav_choose add-input" maxlength="15" style="height:28px;" param-name="ark_weight"/>
     <span style="width:50px;">吨</span> 
     <span id="cktext0"></span>  
   </div>
 
   <div  class="input_jiaoyigs">   
     <b>*</b><span> 货柜数量：</span>
-    <select name="ark_6" class="g_type" style="height:28px;">
+    <select name="ark_6" class="g_type add-input" style="height:28px;" param-name="ark_num">
+      <option value="">请选择</option>
       <option value="1">1个柜</option>
       <option value="2">2个柜</option>
       <option value="3">3个柜</option>
@@ -126,128 +133,140 @@
 
   <div  class="input_jiaoyigs">   
     <b>*</b><span style="width:158px;">供应数量：</span>
-    <input type="text" name="ark_7" placeholder="请输入数量" id="major_input" onblur="ckfWeight()" class="nav_choose" maxlength="15" style="height:28px;"/>
+    <input type="text" name="ark_7" placeholder="请输入数量" id="major_input" onblur="ckfWeight()" class="nav_choose add-input" maxlength="15" style="height:28px;" param-name="fWeight"/>
     <span style="width:50px;">吨</span> 
     <span id="cktext6"></span>  
   </div>  
 
   <div  class="input_jiaoyigs">   
     <b>&nbsp;</b><span> 等级标准：</span>
-    <input type="radio" name="ark_8" class="cert" checked="checked" value="0" /><div class="cert2">正牌</div>
-    <input type="radio" name="ark_8" class="cert" value="1" style="margin-left:12px;"/><div class="cert2">二级品</div>
+    <input type="radio" name="ark_8" class="cert add-input" value="0" param-name="second"/><div class="cert2">正牌</div>
+    <input type="radio" name="ark_8" class="cert add-input" value="1" style="margin-left:12px;" param-name="second"/><div class="cert2">二级品</div>
     （指各大石化企业生产的二级品,又称等外品(OFF GRADE)，在前台如“PA-757(2)”显示）
   </div>
 
   <div  class="input_jiaoyigs">   
     <b>&nbsp;</b><span> 原厂质量检验证书(COA)：</span>
-    <input type="radio" name="ark_9" class="cert" checked="checked" value="0" /><div class="cert2">不提供</div>
-    <input type="radio" name="ark_9" class="cert" value="1" style="margin-left:12px;"/><div class="cert2">提供</div>
+    <input type="radio" name="ark_9" class="cert add-input" value="0" param-name="cert"/><div class="cert2">不提供</div>
+    <input type="radio" name="ark_9" class="cert add-input" value="1" style="margin-left:12px;" param-name="cert"/><div class="cert2">提供</div>
   </div>
 
   <div  class="input_jiaoyigs">   
     <b>&nbsp;</b><span> 包装袋材质：</span>
-    <select name="ark_10" class="pack2" style="height:28px;">
-      <option>纸袋</option>
-      <option>胶袋</option>
-      <option>编织袋</option>
+    <select name="ark_10" class="pack2 add-input" style="height:28px;" param-name="pack">
+      <option value="">请选择</option>
+      <option value="纸袋">纸袋</option>
+      <option value="胶袋">胶袋</option>
+      <option value="编织袋">编织袋</option>
     </select>
   </div> 
 
   <div  class="input_jiaoyigs" style="height:70px;">   
     <b>*</b><span> 交货地：</span>
     <div>
-      <input type="radio" name="choose" class="cert" checked="checked" value="0" />
+      <input type="radio" name="choose" class="cert add-input" value="0" param-name="choose"/>
       <span style="width:55px;">地区</span>
       <select class="select" style="height:28px;">
         <option>中国大陆</option>
       </select>&nbsp;&nbsp;
-      <select class="select" name="province" id="s1" style="height:28px;">
+      <select class="select add-input" name="province" id="s1" style="height:28px;" param-name="province">
         <option></option>
       </select>
-      <select class="select" name="city" id="s2" style="height:28px;">
+      <select class="select add-input" name="city" id="s2" style="height:28px;" param-name="city">
         <option></option>
       </select>
-      <select class="select" name="area" id="s3" style="height:28px;">
+      <select class="select add-input" name="area" id="s3" style="height:28px;" param-name="area">
         <option></option>
       </select>
     </div>
     <div style="margin-left:195px; margin-top:5px;">
-      <input type="radio" name="choose" class="cert" value="1" onclick="on_click()" />
+      <input type="radio" name="choose" class="cert add-input" value="1" onclick="on_click()" param-name="choose"/>
       <span style="width:55px;"> 仓库：</span>
-      <span id="seach_u10" style="width:600px;">
-        <select class="select" name="warehouse"  style="height:28px;float:left;margin-top:3px;">
+      <span id="seach_u10" style="width: 600px; display: none;">
+        <select class="select warehouse" style="margin-top: 3px; height: 28px; float: left;" name="company_name" onchange="on_change()">
           <option>请选择</option>
+          <option value="塑金仓储有限公司">塑金仓储有限公司</option>
         </select>
-        <span style="width:100px;" id="seach_u10_2"></span>
-        
-      </span> 
+        <span style="width: 450px; display: none;" id="seach_u10_2">
+          <select class="select cangku" style="margin-top: 3px; height: 28px; float: left;" onchange="on_change2()" name="cangku">
+            <option>请选择</option>
+            <option value="第1仓">第1仓</option>
+            <option value="第2仓">第2仓</option>
+            <option value="第3仓">第3仓</option>
+          </select>
+          <span style="width: 300px; display: none;" id="seach_u10_3">
+            广东省 东莞市 樟木头镇
+          </span>
+      </span></span> 
     </div> 
   </div> 
 
   <div  class="input_jiaoyigs">   
     <b>&nbsp;</b><span> 允许最低交易量：</span>
-    <input type="text" name="ark_11" class="nav_choose"  value="0" style="width:150px;height:28px;" maxlength="5"/>
+    <input type="text" name="ark_11" class="nav_choose add-input sl_low" value="0" style="width:150px;height:28px;" maxlength="5" param-name="sl_low"/>
     <span style="width:100px;">吨(0表示不限)</span> 
     <span id="cktext6"></span>  
   </div>
 
   <div  class="input_jiaoyigs">   
     <b>&nbsp;</b><span> 商业票据：</span>
-    <select name="ark_12" class="pack" style="height:28px;">
-      <option>其他商业票据</option>
-      <option>17%增值税发票</option>
+    <select name="ark_12" class="pack add-input" style="height:28px;" param-name="piaoju">
+      <option value="">请选择</option>
+      <option value="其他商业票据">其他商业票据</option>
+      <option value="17%增值税发票">17%增值税发票</option>
     </select>
     （供应方确定）
   </div>
 
   <div class="input_jiaoyigs">   
     <b>*</b><span style="width:158px;">供应单价：</span>
-    <input type="text" name="ark_13" placeholder="请输入价格" id="grade_input" onblur="ckfPrice()" class="nav_choose" maxlength="15" style="height:28px;"/>
+    <input type="text" name="ark_13" placeholder="请输入价格" id="grade_input" onblur="ckfPrice()" class="nav_choose add-input" maxlength="15" style="height:28px;" param-name="fPrice"/>
     <span style="width:50px;">元/吨</span> 
     <span id="cktext5"></span> 
   </div>  
 
   <div  class="input_jiaoyigs">   
     <b>*</b><span style="width:158px;"> 配送方式：</span>
-    <select name="ark_14" class="nav_ps">
-      <option>物流</option>
-      <option>自提</option>
+    <select name="ark_14" class="nav_ps add-input" param-name="delivery">
+      <option value="">请选择</option>
+      <option value="物流">物流</option>
+      <option value="自提">自提</option>
     </select>
   </div>
 
   <div  class='input_jiaoyigs'>   
     <b>*</b><span>交货日期：</span>
-    <input name='ark_16' onclick='laydate()' id='class_input' onblur='ckdValidDate()'  class='nav_choose' readonly='readonly'>
+    <input name='ark_16' class='nav_choose add-input datetimepicker' readonly='readonly' param-name="time">
   </div>
 
   <div  class='input_jiaoyigs' id="select_17" style="display:none;">   
     <b>*</b><span>免仓期：</span>
-    <input type="radio" name="ark_17" class="valid_day" checked="checked" value="7" /><div class="valid_day2">7天</div>
-    <input type="radio" name="ark_17" class="valid_day" value="14" style="margin-left:12px;" /><div class="valid_day2">14天</div>
-    <input type="radio" name="ark_17" class="valid_day" value="21" style="margin-left:12px;" /><div class="valid_day2">21天</div>
-    <input type="radio" name="ark_17" class="valid_day" value="100"  style="margin-left:12px;"/><div class="valid_day2">其他</div>
-    <input type="text" name="ark_18" class="nav_choose" value="1" style="height:28px;margin-left:5px;width: 80px;padding:0px 5px;"/>
+    <input type="radio" name="ark_17" class="valid_day add-input" value="7" param-name="ark_17"/><div class="valid_day2">7天</div>
+    <input type="radio" name="ark_17" class="valid_day add-input" value="14" style="margin-left:12px;" param-name="ark_17"/><div class="valid_day2">14天</div>
+    <input type="radio" name="ark_17" class="valid_day add-input" value="21" style="margin-left:12px;" param-name="ark_17"/><div class="valid_day2">21天</div>
+    <input type="radio" name="ark_17" class="valid_day add-input" value="100"  style="margin-left:12px;" param-name="ark_17"/><div class="valid_day2">其他</div>
+    <input type="text" name="ark_18" class="nav_choose add-input" value="1" style="height:28px;margin-left:5px;width: 80px;padding:0px 5px;" param-name="ark_18"/>
   </div>
 
   <div  class='input_jiaoyigs' id="select_19">   
     <b>*</b><span>尾仓期：</span>
-    <input name='ark_19' onclick='laydate()' id='class_input' onblur='ckdValidDate()'  class='nav_choose' readonly='readonly'>
+    <input name='ark_19' class='nav_choose datetimepicker' readonly='readonly'>
   </div>  
 
   <div  class="input_jiaoyigs">   
     <b>&nbsp;</b><span> 有效期：</span>
-    <input type="radio" name="ark_15" class="valid_day" checked="checked" value="1" /><div class="valid_day2">1天</div>
-    <input type="radio" name="ark_15" class="valid_day" value="2" style="margin-left:12px;"/><div class="valid_day2">2天</div>
-    <input type="radio" name="ark_15" class="valid_day" value="3" style="margin-left:12px;"/><div class="valid_day2">3天</div>
-    <input type="radio" name="ark_15" class="valid_day" value="4" style="margin-left:12px;"/><div class="valid_day2">4天</div>
-    <input type="radio" name="ark_15" class="valid_day" value="5" style="margin-left:12px;"/><div class="valid_day2">5天</div>
-    <input type="radio" name="ark_15" class="valid_day" value="6" style="margin-left:12px;"/><div class="valid_day2">6天</div>
-    <input type="radio" name="ark_15" class="valid_day" value="7" style="margin-left:12px;"fv/><div class="valid_day2">7天</div>
+    <input type="radio" name="ark_15" class="valid_day add-input" value="1" param-name="valid_day"/><div class="valid_day2">1天</div>
+    <input type="radio" name="ark_15" class="valid_day add-input" value="2" style="margin-left:12px;" param-name="valid_day"/><div class="valid_day2">2天</div>
+    <input type="radio" name="ark_15" class="valid_day add-input" value="3" style="margin-left:12px;" param-name="valid_day"/><div class="valid_day2">3天</div>
+    <input type="radio" name="ark_15" class="valid_day add-input" value="4" style="margin-left:12px;" param-name="valid_day"/><div class="valid_day2">4天</div>
+    <input type="radio" name="ark_15" class="valid_day add-input" value="5" style="margin-left:12px;" param-name="valid_day"/><div class="valid_day2">5天</div>
+    <input type="radio" name="ark_15" class="valid_day add-input" value="6" style="margin-left:12px;" param-name="valid_day"/><div class="valid_day2">6天</div>
+    <input type="radio" name="ark_15" class="valid_day add-input" value="7" style="margin-left:12px;" param-name="valid_day"/><div class="valid_day2">7天</div>
   </div>
 
 </div>  
 
-<input type="button" name="submit" value="发  布" id="upload" class="fabu_sj" onclick="gh_click()" />  
+<input type="button" name="submit" value="发  布" id="upload" class="fabu_sj save-btn" />  
 
 </div>
 
@@ -256,66 +275,33 @@
 </div>
 
 <script type="text/javascript" src="/skin/sjzx/js/cst_compete.js"></script>
-<script type="text/javascript" src="/skin/sjzx/js/posted.js"></script>
+<script src="__PUBLIC__/Home/css/bs-date/js/bootstrap-datetimepicker-ch.js" type="text/javascript" charset="utf-8"></script>
+<!-- <script type="text/javascript" src="/skin/sjzx/js/posted.js"></script> -->
+<script src="/e/space/template/commonty/js/dizi.min.js?v=1.1"></script>
 <script>
+  var change_info = {};
+  change_info.sl_low = $('.sl_low').val();
+
   function on_click(){ 
-    var xmlhttp;
-    if (window.XMLHttpRequest){
-      xmlhttp=new XMLHttpRequest();
-    }else{
-      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-    }
-    xmlhttp.onreadystatechange=function(){
-      if (xmlhttp.readyState==4 && xmlhttp.status==200){
-        document.getElementById("seach_u10").innerHTML=xmlhttp.responseText;
-      }
-    }
-    xmlhttp.open("get","result2.php",true);
-    xmlhttp.send();
+    $('#seach_u10').show();
   }
 
   function on_change(){ 
-    var xmlhttp;
-    if (window.XMLHttpRequest){
-      xmlhttp=new XMLHttpRequest();
-    }else{
-      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-    }
-    xmlhttp.onreadystatechange=function(){
-      if (xmlhttp.readyState==4 && xmlhttp.status==200){
-        document.getElementById("seach_u10_2").innerHTML=xmlhttp.responseText;
-      }
-    }
-    var bb=form1.warehouse.value;
-    xmlhttp.open("get","result.php?companyname="+bb,true);
-    xmlhttp.send();
+    $('#seach_u10_2').show();
   }
 
   function on_change2(){ 
-    var xmlhttp;
-    if (window.XMLHttpRequest){
-      xmlhttp=new XMLHttpRequest();
-    }else{
-      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-    }
-    xmlhttp.onreadystatechange=function(){
-      if (xmlhttp.readyState==4 && xmlhttp.status==200){
-        document.getElementById("seach_u10_3").innerHTML=xmlhttp.responseText;
-      }
-    }
-    var bb=form1.cangku.value;
-    xmlhttp.open("get","result3.php?cangku="+bb,true);
-    xmlhttp.send();
+    $('#seach_u10_3').show();
   }
 
   function clickmet(){
     var select_lb = $("#select_lb option:selected").val();
     if(select_lb=="1"){
-      $("#select_19").css("display","block");
-      $("#select_17").css("display","none");
+      $("#select_19").show();
+      $("#select_17").hide();
     }else if(select_lb=="2"){
-      $("#select_17").css("display","block");
-      $("#select_19").css("display","none");
+      $("#select_17").show();
+      $("#select_19").hide();
     }
   }
 
@@ -411,4 +397,35 @@
       }      
     }
   }
+
+  $('.datetimepicker').datetimepicker({
+    minView: "month",
+    format: "yyyy-mm-dd",
+    showMeridian: true,
+    autoclose: true,
+    todayBtn: true
+  });
+
+  $('.add-input').on('change', function(){
+    var param_name = $(this).attr('param-name');
+    change_info[param_name] = $(this).val();
+  });
+
+  $('.save-btn').on('click', function(){
+    change_info.userid = "{$user_info.userid}";
+    change_info.username = "{$user_info.username}";
+    change_info.companyid = "{$user_info.id}";
+    change_info.companyname = "{$user_info.companyname}";
+    change_info.cInvName = $('#cinvname').val();
+    change_info.vendor = $('#vendor').val();
+    change_info.cInvStd = $('#cinvstd').val();
+
+    $.post("save_counter_price", change_info, function(data){
+      if(data.status == 1){
+        alert(data.message);
+      }else{
+        alert(data.message);
+      }
+    });
+  });
 </script>

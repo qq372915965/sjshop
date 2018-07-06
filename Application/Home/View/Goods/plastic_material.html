@@ -1,7 +1,8 @@
-<include file="Default:header"/>
+<include file="Center:personage_center"/>
 <title>塑胶原料</title>
-<link href="/e/space/template/commonty/css/ceter.min.css" rel="stylesheet" media="screen">
+<!-- <link href="/e/space/template/commonty/css/ceter.min.css" rel="stylesheet" media="screen"> -->
 <link href="__PUBLIC__/Home/css/plastic_material.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/bs-date/css/bootstrap-datetimepicker.min.css" />
 <body onload="setup();promptinfo();">
 <div class="neir_index">
   <div class="left_wel">
@@ -76,7 +77,7 @@
 							<input class="autocomplete rd-no" type="text" data-src="/skin/sjzx/json/json.json" id="cinvstd"/>
 							<ul class="autocomplete-content"></ul>
         		</div>
-            <span style="width:200px;">(如果没有您发布的牌号，<a href="/e/member/Index/wuxing/add.php" style="color:#06C;">请申请</a>)</span>
+            <span style="width:200px;">(如果没有您发布的牌号，<a href="__MODULE__/Brand/plastic_material_brand" style="color:#06C;" target="_blank">请申请</a>)</span>
             <span id="cktext4"></span>   
           </div>
 
@@ -150,7 +151,7 @@
                     <span style="width: 300px; display: none;" id="seach_u10_3">
                       广东省 深圳市 福田区 海鹰大厦28E
                     </span>
-              	</span> 
+              	</span></span>
               </div> 
             </div>
 
@@ -299,7 +300,7 @@
 
             <div  class="input_jiaoyigs">   
               <b>*</b><span style="width:158px;">尾仓期(含香港仓库)：</span>
-              <input name="dValidDate" onclick="laydate()" id="class_input" onblur="ckdValidDate()"  class="nav_choose add-input" readonly="readonly" param-name="dValidDate"> 
+              <input name="dValidDate" id="class_input" onblur="ckdValidDate()"  class="nav_choose add-input datetimepicker" readonly="readonly" param-name="dValidDate"> 
             </div>  
 
             <div class="input_jiaoyigs">   
@@ -321,7 +322,7 @@
 
             <div  class="input_jiaoyigs">   
               <b>&nbsp;</b><span>有效期截止日期：</span>
-              <input name="valid_day" onclick="laydate()" id="class_input" onblur="ckdValidDate()"  class="nav_choose add-input" readonly="readonly" param-name="valid_day">
+              <input name="valid_day" id="class_input" onblur="ckdValidDate()"  class="nav_choose add-input datetimepicker" readonly="readonly" param-name="valid_day">
             </div>
           </div>
 
@@ -438,6 +439,7 @@
 <script type="text/javascript" src="/skin/sjzx/js/cst_compete.js"></script>
 <!-- <script type="text/javascript" src="/skin/sjzx/js/posted.js"></script> -->
 <script src="/e/space/template/commonty/js/dizi.min.js?v=1.0"></script>
+<script src="__PUBLIC__/Home/css/bs-date/js/bootstrap-datetimepicker-ch.js" type="text/javascript" charset="utf-8"></script>
 
 <script type="text/javascript">
   var opt = {};
@@ -446,6 +448,14 @@
   opt.userid = "{$user_info.userid}";
   opt.pack = $("input[name='pack']").val();
   opt.sl_low = $("input[name='sl_low']").val();
+
+  $('.datetimepicker').datetimepicker({
+    minView: "month",
+    format: "yyyy-mm-dd",
+    showMeridian: true,
+    autoclose: true,
+    todayBtn: true
+  });
 
   //获取表单数据
   $('.add-input').on('change', function(){
@@ -459,7 +469,7 @@
     opt.vendor = $('#vendor').val();
     opt.cInvStd = $('#cinvstd').val();
 
-    $.post("save_plastic_material", opt, function(data){console.log(data);
+    $.post("save_plastic_material", opt, function(data){
       if(data.status == 1){
         alert(data.message);
       }else{
